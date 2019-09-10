@@ -3,5 +3,7 @@ title: "Your Title Here"
 author: "Don Francisco"
 date: "8/27/2019"
 output: word_document
+csl: bioinformatics.csl
+bibliography: references.bib
 ---
 
