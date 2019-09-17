@@ -1,9 +1,22 @@
 ---
-title: "Your Title Here"
+title: "Sanger Sequencing Report"
 author: "Kory Melton"
-date: "9/9/2019"
+date: "9/16/2019"
 output: word_document
 csl: bioinformatics.csl
 bibliography: references.bib
 ---
 
+# Background
+
+Previous work has looked at the microbial biogeography of university campuses and found high diversity [@ross2015microbial].
+
+# Methods
+
+I used the MAFFT [@katoh2002mafft] multiple sequence aligner to align the trimmed 16S sequences.
+
+# Results
+
+# Discussion
+
+# Sources Cited
