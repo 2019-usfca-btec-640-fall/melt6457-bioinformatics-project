@@ -45,11 +45,54 @@ I used two approaches (Maximum Likelihood and Bayesian) to make phylogenetic inf
 
 ## BLAST
 
-All sequences rated very good, average, or poor were used to search for BLAST matches in NCBI's GenBank database [@benson2000genbank]. All BLAST searches were done using the highly similar sequences (megablast) algorithm.
+All sequences rated very good, average, or poor were used to search for BLAST matches in NCBI's GenBank database [@benson2000genbank]. All BLAST searches were done using the highly similar sequences (megablast) algorithm. All matches were selected by choosing which species was most represented at the top of the list. 
 
 # Results
 
-## Sequences
+## Sequences and Alignments
+
+| Locus 	| Original Filename   	| Corrected Filename             	| Usability 	| Length after Trimming 	| Number of Corrected Bases 	|
+|-------	|---------------------	|--------------------------------	|-----------	|-----------------------	|---------------------------	|
+| 16S   	| AFM3_27f_C01.ab1    	| AFM3_27f_C01_KM_cleaned.ab1    	| useable   	| 613                   	| 3                         	|
+| 16S   	| P_1_27f_G04.ab1     	| P_1_27f_G04_KM_cleaned.ab1     	| useable   	| 797                   	| 0                         	|
+| 16S   	| MCU17_27f_B08.ab1   	| MCU17_27f_B08_KM_cleaned.ab1   	| useable   	| 653                   	| 1                         	|
+| 16S   	| AF5_27f_E06.ab1     	| AF5_27f_E06_KM_cleaned.ab1     	| useable   	| 404                   	| 1                         	|
+| 16S   	| EM1-9_27F_C05.ab1   	| EM1-9_27f_C05_KM_cleaned.ab1   	| useable   	| 608                   	| 5                         	|
+| 16S   	| MCU12_27f_F07.ab1   	| MCU12_27f_F07_KM_cleanedab1.   	| useable   	| 695                   	| 0                         	|
+| 16S   	| PC4A_27f_C10.ab1    	| PC4A_27f_C10_KM_trimmed.ab1    	| useable   	| 562                   	| 1                         	|
+| 16S   	| PC3A_27f_A10.ab1    	| PC3A_27f_A10_KM_trimmed.ab1    	| useable   	| 241                   	| 0                         	|
+| 16S   	| CVC1B_27f_B03.ab1   	| CVC1B_27f_B03_KM_trimmed.ab1   	| useable   	| 461                   	| 0                         	|
+| 16S   	| SB3_27f_C06.ab1     	| SB3_27f_C06_KM_trimmed.ab1     	| useable   	| 147                   	| 0                         	|
+| 16S   	| P3_27f_C08.ab1      	| P3_27f_C08_KM_trimmed.ab1      	| useable   	| 467                   	| 1                         	|
+| 16S   	| CVC7A_27f_E02.ab1   	| CVC7A_27f_E02_KM_trimmed.ab1   	| useable   	| 621                   	| 1                         	|
+| 16S   	| CSB3B_27f_F10.ab1   	| CSB3B_27f_F10_KM_trimmed.ab1   	| useable   	| 239                   	| 0                         	|
+| 16S   	| CLS6_27f_F04.ab1    	| CLS6_27f_F04_KM_trimmed.ab1    	| useable   	| 516                   	| 0                         	|
+| 16S   	| FL2A_27f_A09.ab1    	| FL2A_27f_A09_KM_trimmed.ab1    	| useable   	| 383                   	| 0                         	|
+| 16S   	| Cntrl_2_27f_D05.ab1 	| Cntrl_2_27f_D05_KM_trimmed.ab1 	| useable   	| 410                   	| 0                         	|
+| 16S   	| I5_27f_D10.ab1      	| I5_27f_D10_KM_trimmed.ab1      	| useable   	| 268                   	| 0                         	|
+| 16S   	| 16A_C_27f_F03.ab1   	| 16A_C_27f_F03_KM_trimmed.ab1   	| useable   	| 672                   	| 0                         	|
+| 16S   	| M3_2_27f_B01.ab1    	| M3_2_27f_B01_KM_trimmed.ab1    	| useable   	| 258                   	| 0                         	|
+| 16S   	| 3A-B_27f_B04.ab1    	| 3A-B_27f_B04_KM_trimmed.ab1    	| useable   	| 836                   	| 1                         	|
+| 16S   	| CLS2_27f_B04.ab1    	| CLS2_27f_B04_KM_trimmed.ab1    	| useable   	| 246                   	| 0                         	|
+| 16S   	| PC1B_27f_A06.ab1    	| PC1B_27f_A06_KM_trimmed.ab1    	| useable   	| 907                   	| 0                         	|
+| 16S   	| CLS1_27f_E04.ab1    	| CLS1_27f_E04_KM_unusable.ab1   	| unusable  	| 271                   	| 0                         	|
+| 16S   	| UE3B_27f_G09.ab1    	| UE3B_27f_G09_KM_unusable.ab1   	| unusable  	| 685                   	| 0                         	|
+| 16S   	| EN_27f_F02.ab1      	| EN_27f_F02_KM_unusable.ab1     	| unusable  	| 492                   	| 0                         	|
+| 16S   	| I6_27f_C10.ab1      	| I6_27f_C10_KM_unusable.ab1     	| unusable  	| 746                   	| 0                         	|
+| 16S   	| CSB3A_27f_E10.ab1   	| CSB3A_27f_E10_KM_unusable.ab1  	| unusable  	| 733                   	| 0                         	|
+| 16S   	| M2_2_27f_D01.ab1    	| M2_2_27f_D01_KM_unusable.ab1   	| unusable  	| 269                   	| 0                         	|
+| 16S   	| EVM3_27f_C08.ab1    	| EVM3_27f_C08_KM_unusable.ab1   	| unusable  	| 455                   	| 0                         	|
+| 16S   	| D6_27f_B09.ab1      	| D6_27f_B09_KM_unusable.ab1     	| unusable  	| 317                   	| 0                         	|
+| 16S   	| D3_27f_G08.ab1      	| D3_27f_G08_KM_unusable.ab1     	| unusable  	| 608                   	| 0                         	|
+| 16S   	| CVCWA_27f_A02.ab1   	| CVCWA_27f_A02_KM_unusable.ab1  	| unusable  	| 386                   	| 0                         	|
+| 16S   	| b1b_27f_B02.ab1     	| b1b_27f_B02_KM_unusable.ab1    	| unusable  	| 267                   	| 0                         	|
+| 16S   	| IF3_27f_E07.ab1     	| IF3_27f_E07_KM_unusable.ab1    	| unusable  	| 5                     	| 0                         	|
+| 16S   	| EVN_27f_A02.ab1     	| EVN_27f_A02_KM_unusable.ab1    	| unusable  	| 5                     	| 0                         	|
+| 16S   	| EVM2_27f_G01.ab1    	| EVM2_27f_G01_KM_unusable.ab1   	| unusable  	| 5                     	| 0                         	|
+| 16S   	| E1_27f_B02.ab1      	| E1_27f_B02_KM_unusable.ab1     	| unusable  	| 5                     	| 0                         	|
+| 16S   	| D1_27f_E08.ab1      	| D1_27f_E08_KM_unusable.ab1     	| unusable  	| 5                     	| 0                         	|
+| 16S   	| CLS5_27f_A05.ab1    	| CLS5_27f_A05_KM_unusable.ab1   	| unusable  	| 5                     	| 0                         	|
+| 16S   	| APP1_27f_G09.ab1    	| APP1_27f_G09_KM_unusable.ab1   	| unusable  	| 5                     	| 0                         	|
 
 ## Phylogenies
 
@@ -75,7 +118,6 @@ All sequences rated very good, average, or poor were used to search for BLAST ma
                     -confident in bacteria
     -- 3A-B_27f_B04: confident in pseudomonas sp.
     -- CLS2_27f_B04: relatively few hits (8)
-    -- 
 -->
 
 | Sequence        	| Description                                   	| Percent Identity (%) 	| Query Cover (%) 	| Accession  	| E-value 	|
