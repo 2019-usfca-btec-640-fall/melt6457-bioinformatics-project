@@ -41,7 +41,11 @@ I used the MAFFT [@katoh2002mafft] multiple sequence aligner to align the trimme
 
 ## Phylogeny
 
+I used two approaches (Maximum Likelihood and Bayesian) to make phylogenetic inferences of the six very good sequences. I created a Maximum Likelihood phylogeny using the PhyML algorithm [@guindon2009estimating]. I built a Bayesian phylogeny using the MrBayes 3.6.2 algorithm [@huelsenbeck2001mrbayes].
+
 ## BLAST
+
+All sequences rated very good, average, or poor were used to search for BLAST matches in NCBI's GenBank database [@benson2000genbank].
 
 # Results
 
