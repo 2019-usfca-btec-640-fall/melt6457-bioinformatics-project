@@ -29,7 +29,7 @@ I was given 40 sequences of 16S ranging from 5-1,310 bases long in ab1 format. T
         -- Mr Bayes
 -->
 
-I used Geneious Prime (v 2019.2.1) to trim, clean, asses the quality of sequences, create a multiple sequence alignment from trimmed reads
+
 
 ## Sequence Cleaning
 
@@ -37,11 +37,17 @@ I used Geneious Prime (v 2019.2.1) to trim, clean, and assess the quality of seq
 
 ## Sequence Alignment
 
-I used the MAFFT [@katoh2002mafft] multiple sequence aligner to align the trimmed, very good 16S sequences. The 6 sequences were aligned with a 16S sequence from *Thermus aquaticus*
+I used the MAFFT [@katoh2002mafft] multiple sequence aligner to align the trimmed, very good 16S sequences. The MAFFT settings used were scoring matrix of 200PAM / k=12, gap open penalty of 1.53, and offset value of0.123. The six sequences were aligned with a 16S sequence from *Thermus aquaticus*. 
 
 ## Phylogeny
 
-I used two approaches (Maximum Likelihood and Bayesian) to make phylogenetic inferences of the six very good sequences. I created a Maximum Likelihood phylogeny using the PhyML algorithm [@guindon2009estimating]. I built a Bayesian phylogeny using the MrBayes 3.6.2 algorithm [@huelsenbeck2001mrbayes].
+I used two approaches (Maximum Likelihood and Bayesian) to make phylogenetic inferences of the six very good sequences. 
+
+### Maximum Likelihood
+I created a Maximum Likelihood phylogeny using the PhyML algorithm [@guindon2009estimating]. This analysis was ran with General Time Reversible (GTR) substitution model, 100 bootstraps, Gamma and Invariants model, four substitution rate categories, and optimized for topology/length/rate. A 16S sequence from *Thermus aquaticus* was used as an outgroup.
+
+### Bayesian
+I built a Bayesian phylogeny using the MrBayes 3.6.2 algorithm [@huelsenbeck2001mrbayes]. This analysis was ran with General Time Reversible (GTR) model, invgamma rate variation, chain length of 1,100,000, 4 heated chains, heated chain temperature of 0.2, subsampling frequency of 200, burn-in length of 100,000, random seed of 23,107, and unconstrained branch lengths with GammaDir(1, 0.1, 1, 1). A 16S sequence from *Thermus aquaticus* was used as an outgroup.
 
 ## BLAST
 
