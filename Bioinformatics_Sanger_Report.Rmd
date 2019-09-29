@@ -45,13 +45,63 @@ I used two approaches (Maximum Likelihood and Bayesian) to make phylogenetic inf
 
 ## BLAST
 
-All sequences rated very good, average, or poor were used to search for BLAST matches in NCBI's GenBank database [@benson2000genbank].
+All sequences rated very good, average, or poor were used to search for BLAST matches in NCBI's GenBank database [@benson2000genbank]. All BLAST searches were done using the highly similar sequences (megablast) algorithm.
 
 # Results
 
-| A 	| B 	| C 	|
-|---	|---	|---	|
-| 1 	| 2 	| 3 	|
+## Sequences
+
+## Phylogenies
+
+## BLAST Results
+
+<!-- Notes on BLAST
+    -- AFM3_27f_C01: definitely staphylococcus sp.
+                     best hit was capitis, but was mixed with    epidermidis
+    -- PC4A_27f_C10: confident in neisseria sp.
+                    - perflava
+                    - flavescens
+                    - subflava
+    -- PC3A_27f_C10: confident in neisseria sp.
+                    - perflava
+                    -subflava
+    -- CVC1B_27f_B03: confident in bacteria
+                    -pantoea
+                    -gamma proteobacterium
+    -- CSB3B_27f_F10: confident in enterobacteriaceae
+                    -klebsiella sp.
+                    -raoultella sp.
+    -- CLS6_27f_F04: relatively few hits (8)
+                    -confident in bacteria
+    -- 3A-B_27f_B04: confident in pseudomonas sp.
+    -- CLS2_27f_B04: relatively few hits (8)
+    -- 
+-->
+
+| Sequence        	| Description                                   	| Percent Identity (%) 	| Query Cover (%) 	| Accession  	| E-value 	|
+|-----------------	|-----------------------------------------------	|----------------------	|-----------------	|------------	|---------	|
+| AFM3_27f_C01    	| Staphylococcus capitis partial                	| 99.51                	| 100             	| LT978442.1 	| 0.0     	|
+| P_1_27f_G04     	| Staphylococcus hominis strain WS1-7           	| 100.00               	| 100             	| MN448417.1 	| 0.0     	|
+| MCU17_27f_B08   	| Staphylococcus epidermidis strain 15          	| 99.85                	| 100             	| MK465356.1 	| 0.0     	|
+| AF5_27f_E06     	| Staphylococcus hominis strain WS3-1           	| 99.75                	| 100             	| MN448433.1 	| 0.0     	|
+| EM1-9_27f_C05   	| Bacillus licheniformis strain XIXJ053         	| 99.18                	| 100             	| MH801084.1 	| 0.0     	|
+| MCU12_27f_F07   	| Brevundimonas vesicularis strain A33          	| 100.00               	| 100             	| MN252083.1 	| 0.0     	|
+| PC4A_27f_C10    	| Neisseria perflava strain 17-P17              	| 99.82                	| 100             	| MF374824.1 	| 0.0     	|
+| PC3A_27f_A10    	| Neisseria perflava strain 17-P17              	| 99.59                	| 100             	| MF374824.1 	| 1e-119  	|
+| CVC1B_27f_B03   	| Pantoea sp. strain ST18.17/028                	| 100.00               	| 100             	| MK875130.1 	| 0.0     	|
+| SB3_27f_C06     	| Stapholococcus epidermidis strain IBK-11      	| 100.00               	| 100             	| MN428237.1 	| 3e-69   	|
+| P3_27f_C08      	| Bacillus licheniformis strain Xuyi_293_3      	| 98.93                	| 100             	| MN309987.1 	| 0.0     	|
+| CVC7A_27f_B03   	| Enterobacteriaceae bacterium X6/SB50          	| 98.87                	| 100             	| LC007901.1 	| 0.0     	|
+| CSB3B_27f_F10   	| Klebsiella granulomatis strain 2-7-8          	| 100.00               	| 99              	| JF91986.1  	| 4e-119  	|
+| CLS6_27f_F04    	| Uncultured bacterium partial                  	| 100.00               	| 91              	| FM162220.1 	| 5e-17   	|
+| FL2A_27f_A09    	| Steptococcus salivarius strain JF             	| 98.96                	| 100             	| CP014144.1 	| 0.0     	|
+| Cntrl_2_27f_D05 	| Escherichia coli stain NCTC9040               	| 97.80                	| 100             	| LR134247.1 	| 0.00    	|
+| I5_27f_D10      	| Pseudomonas sp. strain 273                    	| 94.12                	| 100             	| MK681820.1 	| 3e-111  	|
+| 16A_C_27f_F03   	| Escherichia coli strain SJA92                 	| 92.12                	| 100             	| MN147836.1 	| 0.0     	|
+| M3_2_27f_B01    	| Bacillus licheniformis strain FMB2-2          	| 96.86                	| 98              	| KP992871.1 	| 1e-115  	|
+| 3A-B_27f_B04    	| Pseudomonas sp. m8                            	| 83.46                	| 33              	| DQ219815.1 	| 6e-58   	|
+| CLS2_27f_B04    	| Uncultured Paenibacillus sp. clone R7SP1T1H06 	| 94.63                	| 98              	| HQ018234.1 	| 2e-103  	|
+| PC1B_27f_A06    	| Neisseria sp. strain CMUL044                  	| 85.55                	| 96              	| MK258031.1 	| 4e-168  	|
 
 
 # Discussion
