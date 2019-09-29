@@ -9,11 +9,39 @@ bibliography: references.bib
 
 # Background
 
+<!-- Example Citation
 Previous work has looked at the microbial biogeography of university campuses and found high diversity [@ross2015microbial].
+End of Example Citation -->
+I was given 40 sequences of 16S ranging from 5-1,310 bases long in ab1 format. The primary aims of this analysis were to assess sequence usability, quality, and length for the 16S sequences. After cleaning the data, BLAST matches were found against NCBI's GenBank and phylogenetic BLAH
+
+
 
 # Methods
 
-I used the MAFFT [@katoh2002mafft] multiple sequence aligner to align the trimmed 16S sequences.
+<!-- Bulleted list of what was conducted
+    -- Clean/Trim Sequences
+    -- Sequence usability
+        -- Geneious Prime
+    -- BLAST
+    -- Alignment (MAFFT)
+    -- Phylogenies
+        -- PhyML
+        -- Mr Bayes
+-->
+
+I used Geneious Prime (v 2019.2.1) to trim, clean, asses the quality of sequences, create a multiple sequence alignment from trimmed reads
+
+## Sequence Cleaning
+
+I used Geneious Prime (v 2019.2.1) to trim, clean, and assess the quality of sequences. Sequences ends were trimmed to reduce low quality on the ends of sequences. Trimming was done conservatively. Bases were trimmed if they contained any baseline contamination, low peaks, messy peaks, or if the peaks began to span multiple nucleotide positions with only one clear peak. After trimming, I assessed the usability of the sequences, separating them into four groups: very good, average, poor, and unuseable. Very good sequences had long stretches (more than 100 base pairs) of high quality reads. Very good sequences were cleaned to change any internally miscalled bases and add associated ambiguity codes. Average sequences had mostly high quality reads without long stretches. Poor sequences had some high quality reads, but overall looked messy. Unuseable sequences were either very short (5 base pairs), or had multiple peaks throughout the sequence. 
+
+## Sequence Alignment
+
+I used the MAFFT [@katoh2002mafft] multiple sequence aligner to align the trimmed, very good 16S sequences. The 6 sequences were aligned with a 16S sequence from *Thermus aquaticus*
+
+## Phylogeny
+
+## BLAST
 
 # Results
 
