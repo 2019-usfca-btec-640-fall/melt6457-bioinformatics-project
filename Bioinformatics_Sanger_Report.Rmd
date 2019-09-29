@@ -9,9 +9,11 @@ bibliography: references.bib
 
 # Background
 
-<!-- Example Citation
+<!-- Example Citation from Professor Zimmerman
+
 Previous work has looked at the microbial biogeography of university campuses and found high diversity [@ross2015microbial].
-End of Example Citation -->
+
+-->
 I was given 40 sequences of 16S ranging from 5-1,310 bases long in ab1 format. The primary aims of this analysis were to assess sequence usability, quality, and length for the 16S sequences. After cleaning the data, BLAST matches were found against NCBI's GenBank and phylogenetic BLAH
 
 
@@ -19,6 +21,7 @@ I was given 40 sequences of 16S ranging from 5-1,310 bases long in ab1 format. T
 # Methods
 
 <!-- Bulleted list of what was conducted
+
     -- Clean/Trim Sequences
     -- Sequence usability
         -- Geneious Prime
@@ -27,9 +30,10 @@ I was given 40 sequences of 16S ranging from 5-1,310 bases long in ab1 format. T
     -- Phylogenies
         -- PhyML
         -- Mr Bayes
+        
 -->
 
-
+I sorted each of the 40 sequences into two categories: useable and unusable. The useable sequences were trimmed and cleaned and sorted further into very good and acceptable. The very good sequences were aligned and used to create two phylogenies. The acceptable sequences were matched to the BLAST nucleotide database. 
 
 ## Sequence Cleaning
 
@@ -105,6 +109,7 @@ All sequences rated very good, average, or poor were used to search for BLAST ma
 ## BLAST Results
 
 <!-- Notes on BLAST
+
     -- AFM3_27f_C01: definitely staphylococcus sp.
                      best hit was capitis, but was mixed with    epidermidis
     -- PC4A_27f_C10: confident in neisseria sp.
@@ -124,6 +129,8 @@ All sequences rated very good, average, or poor were used to search for BLAST ma
                     -confident in bacteria
     -- 3A-B_27f_B04: confident in pseudomonas sp.
     -- CLS2_27f_B04: relatively few hits (8)
+    -- All others matched with relatively strong confidence
+    
 -->
 
 | Sequence        	| Description                                   	| Percent Identity (%) 	| Query Cover (%) 	| Accession  	| E-value 	|
@@ -150,6 +157,20 @@ All sequences rated very good, average, or poor were used to search for BLAST ma
 | 3A-B_27f_B04    	| Pseudomonas sp. m8                            	| 83.46                	| 33              	| DQ219815.1 	| 6e-58   	|
 | CLS2_27f_B04    	| Uncultured Paenibacillus sp. clone R7SP1T1H06 	| 94.63                	| 98              	| HQ018234.1 	| 2e-103  	|
 | PC1B_27f_A06    	| Neisseria sp. strain CMUL044                  	| 85.55                	| 96              	| MK258031.1 	| 4e-168  	|
+| CLS1_27f_E04  	| Sequencing Failed 	|
+| UE3B_27f_G09  	| Sequencing Failed 	|
+| EN_27f_F02    	| Sequencing Failed 	|
+| I6_27f_C10    	| Sequencing Failed 	|
+| CSB3A_27f_E10 	| Sequencing Failed 	|
+| M2_2_27f_D01  	| Sequencing Failed 	|
+| EVM3_27f_C08  	| Sequencing Failed 	|
+| D6_27f_B09    	| Sequencing Failed 	|
+| D3_27f_G08    	| Sequencing Failed 	|
+| CVCWA_27f_A02 	| Sequencing Failed 	|
+| b1b_27f_B02   	| Sequencing Failed 	|
+| IF3_27f_E07   	| Sequencing Failed 	|
+| EVN_27f_A02   	| Sequencing Failed 	|
+| EVM2_27f_G01  	| Sequencing Failed 	|
 
 
 # Discussion
