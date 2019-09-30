@@ -16,8 +16,6 @@ Previous work has looked at the microbial biogeography of university campuses an
 -->
 I was given 40 sequences of 16S ranging from 5-1,310 bases long in ab1 format. The primary aims of this analysis were to assess sequence usability, quality, and length for the 16S sequences. After cleaning the data, BLAST matches were found against NCBI's GenBank and phylogenetic BLAH
 
-
-
 # Methods
 
 <!-- Bulleted list of what was conducted
@@ -37,7 +35,7 @@ I sorted each of the 40 sequences into two categories: useable and unusable. The
 
 ## Sequence Cleaning
 
-I used Geneious Prime (v 2019.2.1) to trim, clean, and assess the quality of sequences. Sequences ends were trimmed to reduce low quality on the ends of sequences. Trimming was done conservatively. Bases were trimmed if they contained any baseline contamination, low peaks, messy peaks, or if the peaks began to span multiple nucleotide positions with only one clear peak. After trimming, I assessed the usability of the sequences, separating them into four groups: very good, average, poor, and unuseable. Very good sequences had long stretches (more than 100 base pairs) of high quality reads. Very good sequences were cleaned to change any internally miscalled bases and add associated ambiguity codes. Average sequences had mostly high quality reads without long stretches. Poor sequences had some high quality reads, but overall looked messy. Unuseable sequences were either very short (5 base pairs), or had multiple peaks throughout the sequence. 
+I used Geneious Prime (v 2019.2.1) to trim, clean, and assess the quality of sequences. Sequences ends were trimmed to reduce low quality on the ends of sequences. Trimming was done conservatively. Bases were trimmed if they contained any baseline contamination, low peaks, messy peaks, or if the peaks began to span multiple nucleotide positions with only one clear peak. After trimming, I assessed the usability of the sequences, separating them into three groups: very good, acceptable, and unusable. Very good sequences had long stretches (more than 100 base pairs) of high quality reads. Very good sequences were cleaned to change any internally miscalled bases and add associated ambiguity codes. Acceptable sequences had mostly high quality reads without long stretches. Poor sequences had some high quality reads, but overall looked messy. Unuseable sequences were either very short (5 base pairs), or had multiple peaks throughout the sequence. 
 
 ## Sequence Alignment
 
@@ -58,6 +56,7 @@ I built a Bayesian phylogeny using the MrBayes 3.6.2 algorithm [@huelsenbeck2001
 All sequences rated very good, average, or poor were used to search for BLAST matches in NCBI's GenBank database [@benson2000genbank]. All BLAST searches were done using the highly similar sequences (megablast) algorithm. All matches were selected by choosing which species was most represented at the top of the list. 
 
 # Results
+
 
 ## Sequences and Alignments
 
@@ -172,7 +171,8 @@ All sequences rated very good, average, or poor were used to search for BLAST ma
 | EVN_27f_A02   	| Sequencing Failed 	|
 | EVM2_27f_G01  	| Sequencing Failed 	|
 
-
 # Discussion
+
+<!-- NEED TO FLESH OUT -->
 
 # Sources Cited
