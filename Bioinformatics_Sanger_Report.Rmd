@@ -116,11 +116,11 @@ I found that P_1_27f_G04, AF5_27f_E06, AFM3_27f_C01, MCU17_27f_B08, and EM1-9_27
 
 ![](data/images/phylogenies/PhyML_phylogeny.png)
 
-**Figure 1.** Maximum Likelihood phylogeny of very good sequences using PhyML algorithm. *Thermus aquaticus* was set as an outgroup.
+**Figure 1.** Maximum Likelihood phylogeny of very good sequences using the PhyML algorithm [@guindon2009estimating]. *Thermus aquaticus* was set as an outgroup.
 
 ![](data/images/phylogenies/MrBayes_phylogeny.png)
 
-**Figure 2.** Bayesian phylogeny of very good sequences using MrBayes algorithm. *Thermus aquaticus* was set as an outgroup.
+**Figure 2.** Bayesian phylogeny of very good sequences using the MrBayes algorithm [@huelsenbeck2001mrbayes]. *Thermus aquaticus* was set as an outgroup.
 
 
 ## BLAST Results
@@ -150,8 +150,8 @@ I found that P_1_27f_G04, AF5_27f_E06, AFM3_27f_C01, MCU17_27f_B08, and EM1-9_27
     
 -->
 
-I matched the 22 very good and acceptable sequences to the BLAST database. I found strong matches for 16 of the samples with 5 samples from *Staphylococcus spp.*, three *Neisseria perflava*, two *E. coli*. All matches to these samples were Bacteria. Only one sample, 3A-B_27f_B04 had a query cover below 90%. Every percent identity was above 80%. OtherThis analysis can be seen below in Table 2. 
-
+I matched the 22 very good and acceptable sequences to the BLAST database. I found strong matches for 16 of the samples with 5 samples from the genus *Staphylococcus*, three from the genus *Neisseria perflava*, and two *E. coli*. All matches to these samples were bacterial with 7 *Firmicutes* and 6 *Proteobacteria*. Only one sample, 3A-B_27f_B04 had a query cover below 90%. Every percent identity was above 80%. This analysis can be seen below in Table 2. 
+  
 | Sequence        	| Description                                   	| Percent Identity (%) 	| Query Cover (%) 	| Accession  	| E-value 	|
 |-----------------	|-----------------------------------------------	|----------------------	|-----------------	|------------	|---------	|
 | AFM3_27f_C01    	| Staphylococcus capitis partial                	| 99.51                	| 100             	| LT978442.1 	| 0.0     	|
@@ -203,12 +203,12 @@ There are a few possible reasons for the unuseable sequences in this group of 40
 
 ## BLAST
 
-AFM3_27f_C01 is likely to be in the genus *Staphylococcus*, however the specific species could not be identified with high confidence. The top hit on BLAST was *Staphylococcus capitis*, while *Staphylococcus epidermidis* was also highly prevalent. PC4A_27f_C10 is likely to be in the genus *Neisseria*, but the species could not be identified with high confidence. The species *perflava*, *flavescens*, and *subflava* were all highly rated matches on BLAST. CVC1B_27f_B03 is likely a gram-negative bacterium and could either be in the genus *Pantoea* or the class Gammaproteobacteria. CSB3B_27f_F10 is likely to be in the family Enterobacteriaceae, falling under the *Klebsiella* or *Raoultella* genus. CLS6_27f_F04 and CLS2_27f_B04 both had relatively few matches (only 8) in the GenBank database. 3A-B_27f_B04 was highly likely to be a *Pseudomonas sp.*. All other analyzed sequences were matched with strong confidence.
+AFM3_27f_C01 is likely to be in the genus *Staphylococcus*, however the specific species could not be identified with high confidence. The top hit on BLAST was *Staphylococcus capitis*, while *Staphylococcus epidermidis* was also highly prevalent. PC4A_27f_C10 is likely to be in the genus *Neisseria*, but the species could not be identified with high confidence. The species *perflava*, *flavescens*, and *subflava* were all highly rated matches on BLAST. CVC1B_27f_B03 is likely a gram-negative bacterium and could either be in the genus *Pantoea* or the class Gammaproteobacteria. CSB3B_27f_F10 is likely to be in the family Enterobacteriaceae, falling under the *Klebsiella* or *Raoultella* genus. CLS6_27f_F04 and CLS2_27f_B04 both had relatively few matches (only 8) in the GenBank database. 3A-B_27f_B04 was highly likely to be a *Pseudomonas sp.*. All other analyzed sequences were matched with strong confidence. Further sequencing and phylogentic inferences should be used to strengthen the identifications of all of the BLAST matches.
 
 ## Phylogenetic Context
 
 Based on phylogenetic and BLAST results I inferred the identity of the top six sequences with strong confidence. AFM3_27f_C01, MCU17_27f_G04, P_1_27f_G04 and AF5_27f_E06 were grouped together in a monophyletic clade in both trees. BLAST analysis matched all of these sequences with different species of *Staphylococcus*. In total, this provides strong evidence to suggest these are closely related species of *Staphylococcus*. In addition, P_1_27f_G04 and AF5_27f_E06 were grouped together in both phylogenies and BLAST results matched two different strains of *Staphylococcus hominis*. AFM3_27f_C01 and MCU17_27f_B08 also grouped together in both phylogenies with BLAST results matching *S. capitis* and *S. epidermidis* respectively. These matching results indicate two species *Staphylococcus* which are more related to each other than *Staphylococcus hominis*. 
 
-The other two sequences added to the phylogenies are more distantly related with BLAST matches outside of *Staphylococcus*. It is likely the *Brevundimonas* genus is a more recent common ancestor to *Staphylococcus* than the *Bacillus* genus. In fact, previous work shows *Staphylococcus* and *Bacillus* are both *Firmicutes* while *Brevundimonas* is a *Gammaproteobacteria* [@costa2012phylogeny]. Future work should be done to resolve a larger phylogeny with the other bacterial sequences in the larger dataset these 40 sequences were pulled from, especially with other *Firmicutes*. An additional tree with *Gammaprotobacteria* would also be very informative.
+The other two sequences added to the phylogenies are more distantly related with BLAST matches outside of *Staphylococcus*. It is likely the *Brevundimonas* genus is a more recent common ancestor to *Staphylococcus* than the *Bacillus* genus. In fact, previous work shows *Staphylococcus* and *Bacillus* are both *Firmicutes* while *Brevundimonas* is a *Gammaproteobacteria* [@costa2012phylogeny]. Future work should be done to resolve a larger phylogeny with the other bacterial sequences in the larger dataset these 40 sequences were pulled from, especially with other *Firmicutes*. An additional tree with *proteobacteria* would also be very informative for the other samples in this dataset. 
 
 # Sources Cited
