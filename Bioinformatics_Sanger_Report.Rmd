@@ -14,7 +14,7 @@ bibliography: references.bib
 Previous work has looked at the microbial biogeography of university campuses and found high diversity [@ross2015microbial].
 
 -->
-I was given 40 sequences of 16S ranging from 5-1,310 bases long in ab1 format derived via Sanger sanquencing. The primary aims of this analysis were to assess sequence usability, quality, and length for the 16S sequences and place them in phylogenetic context. After cleaning the data, BLAST matches were found against NCBI's GenBank and phylogenetic trees were developed through Maximum Likelihood and Bayesian approaches. The sequences were cleaned conservatively, especially for phylogentic inference, to ensure the integrity of the data. BLAST matches were found for 22 of the 40 sequences. All of the sequences I analyzed were likely to come from the domain Bacteria. I inferred a monophyletic clade of *Staphylococcus* sequences and possibly identified taxa of at least six sequences from the dataset with strong confidence. The six strongest inferences were *Firmicutes* and *Gammaprotobacteria*. 
+I was given 40 sequences of 16S ranging from 5-1,310 bases long in ab1 format derived via Sanger sanquencing. The primary aims of this analysis were to assess sequence usability, quality, and length for the 16S sequences, then place them in phylogenetic context. After cleaning the data, BLAST matches were found against NCBI's GenBank and phylogenetic trees were developed through Maximum Likelihood and Bayesian approaches.  The sequences were cleaned conservatively, especially for phylogentic inference, to ensure the integrity of the data. BLAST matches were found for 22 of the 40 sequences. All of the sequences I analyzed were likely to come from the domain Bacteria. I inferred a monophyletic clade of *Staphylococcus* sequences and possibly identified taxa of at least six sequences from the dataset with strong confidence. The six strongest inferences were *Firmicutes* and *Gammaprotobacteria*. 
 
 # Methods
 
@@ -197,7 +197,7 @@ I matched the 22 very good and acceptable sequences to the BLAST database. I fou
 
 ## Overview of Findings
 
-Of the 40 sequences I was given, 18  were unusable, 16 were acceptable, and 6 were very good high quality reads. The unusable sequences resulted from a variety of reasons including: insufficient template, template contamination, and camera blockage. All 22 of the acceptable and high quality reads had BLAST matches with the GenBank database. All samples were bacterial with 7 *Firmicutes* and 6 *Proteobacteria*. Both the Maximum Likelihood and Bayesian approach produced the same phylogeny, providing strong evidence the correct relationships were identified for the 6 very strong sequences. In addition, the sequences with BLAST matches to *Staphylococcus* species grouped together in a monophyletic clade. 
+Of the 40 sequences I was given, 18  were unusable, 16 were acceptable, and 6 were very good high quality reads. The unusable sequences resulted from a variety of reasons including: insufficient template, template contamination, and camera blockage. All 22 of the acceptable and high quality reads had BLAST matches with the GenBank database. All samples were bacterial with 7 *Firmicutes* and 6 *Proteobacteria*. Both the Maximum Likelihood and Bayesian approach produced the same phylogeny, providing strong evidence the correct relationships were identified for the 6 very strong sequences. In addition, the sequences with BLAST matches to *Staphylococcus* species grouped together in a monophyletic clade.
 
 ## Unuseable Sequences
 
