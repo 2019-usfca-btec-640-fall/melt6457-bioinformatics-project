@@ -1,7 +1,7 @@
 ---
 title: "Sequence analysis and phylogentic context of Firmicutes and Gammaprotobacteria"
 author: "Kory Melton"
-date: "9/30/2019"
+date: "10/21/2019"
 output: word_document
 csl: bioinformatics.csl
 bibliography: references.bib
@@ -14,7 +14,7 @@ bibliography: references.bib
 Previous work has looked at the microbial biogeography of university campuses and found high diversity [@ross2015microbial].
 
 -->
-I was given 40 sequences of 16S ranging from 5-1,310 bases long in ab1 format. The primary aims of this analysis were to assess sequence usability, quality, and length for the 16S sequences. After cleaning the data, BLAST matches were found against NCBI's GenBank and phylogenetic trees were developed through Maximum Likelihood and Bayesian approaches. The sequences were cleaned conservatively, especially for phylogentic inference, to ensure the integrity of the data. BLAST matches were found for 22 of the 40 sequences. All of the sequences I analyzed were likely to come from the domain Bacteria. I inferred a monophyletic clade of *Staphylococcus* sequences and possibly identified taxa of at least six sequences from the dataset with strong confidence. The six strongest inferences were *Firmicutes* and *Gammaprotobacteria*.
+I was given 40 sequences of 16S ranging from 5-1,310 bases long in ab1 format derived via Sanger sanquencing. The primary aims of this analysis were to assess sequence usability, quality, and length for the 16S sequences and place them in phylogenetic context. After cleaning the data, BLAST matches were found against NCBI's GenBank and phylogenetic trees were developed through Maximum Likelihood and Bayesian approaches. The sequences were cleaned conservatively, especially for phylogentic inference, to ensure the integrity of the data. BLAST matches were found for 22 of the 40 sequences. All of the sequences I analyzed were likely to come from the domain Bacteria. I inferred a monophyletic clade of *Staphylococcus* sequences and possibly identified taxa of at least six sequences from the dataset with strong confidence. The six strongest inferences were *Firmicutes* and *Gammaprotobacteria*. 
 
 # Methods
 
@@ -31,35 +31,33 @@ I was given 40 sequences of 16S ranging from 5-1,310 bases long in ab1 format. T
         
 -->
 
-I sorted each of the 40 sequences into two categories: useable and unusable. The useable sequences were trimmed and cleaned and sorted further into very good and acceptable. The very good sequences were aligned and used to create two phylogenies. The acceptable sequences were matched to the BLAST nucleotide database. 
+I sorted each of the 40 sequences into two categories: useable and unusable. The useable sequences were trimmed and cleaned and sorted further into very good and acceptable. The very good sequences were aligned and used to create two phylogenies. Both the very good and acceptable sequences were matched to the BLAST nucleotide database. 
 
 All data files are in the data folder of this project. The raw data files are contained in raw_data and were not altered during this analysis. Once sequences are analyzed and changed the new files are in sequence_data. The multiple sequence alignment and the geneious files for PhyML and MrBayes alignments are contained in the alignments folder. Both trees are saved as png images in the images folder.
 
 ## Sequence Cleaning
 
-I used Geneious Prime (v 2019.2.1) [@kearse2012geneious] to trim, clean, and assess the quality of sequences. Sequences ends were trimmed to reduce low quality on the ends of sequences. Trimming was done conservatively. Bases were trimmed if they contained any baseline contamination, low peaks, messy peaks, or if the peaks began to span multiple nucleotide positions with only one clear peak. After trimming, I assessed the usability of the sequences, separating them into three groups: very good, acceptable, and unusable. Very good sequences had long stretches (more than 100 base pairs) of high quality reads. Very good sequences were cleaned to change any internally miscalled bases and add associated ambiguity codes. Acceptable sequences had mostly high quality reads without long stretches. Poor sequences had some high quality reads, but overall looked messy. Unuseable sequences were either very short (5 base pairs), or had multiple peaks throughout the sequence. 
+I used Geneious Prime (v 2019.2.1) [@kearse2012geneious] to trim, clean, and assess the quality of sequences. I trimmed both ends of the sequences to reduce low quality, common to the ends of Sanger sequences. I conducted the trimming conservatively to have higher confidence in downstream analyses. I trimmed bases if they contained any baseline contamination, low peaks, messy peaks, or if the peaks began to span multiple nucleotide positions with only one clear peak. After trimming, I assessed the usability of the sequences, separating them into three groups: very good, acceptable, and unusable. Very good sequences had long stretches (more than 100 base pairs) of high quality reads. I inspected the entirety of the very good sequences to catch any internally miscalled bases and add associated ambiguity codes. Acceptable sequences had mostly high quality reads without long stretches. Poor sequences had some high quality reads, but overall looked messy. Unuseable sequences were either very short (5 base pairs), or had multiple peaks throughout the sequence. 
 
 ## Sequence Alignment
 
-I used the MAFFT [@katoh2002mafft] multiple sequence aligner to align the trimmed, very good 16S sequences. The MAFFT settings used were scoring matrix of 200PAM / k=12, gap open penalty of 1.53, and offset value of 0.123. The six sequences were aligned with a 16S sequence from *Thermus aquaticus*. 
+I used the MAFFT [@katoh2002mafft] multiple sequence aligner to align the trimmed, very good 16S sequences. The MAFFT settings used were scoring matrix of 200PAM / k=12, gap open penalty of 1.53, and offset value of 0.123. I aligned the six very good sequences with a 16S sequence from *Thermus aquaticus* with accension code NR_025900.1 [@saul1993phylogeny]. 
 
 ## Phylogeny
 
 I used two approaches (Maximum Likelihood and Bayesian) to make phylogenetic inferences of the six very good sequences. 
 
 ### Maximum Likelihood
-I created a Maximum Likelihood phylogeny using the PhyML algorithm [@guindon2009estimating]. This analysis was ran with General Time Reversible (GTR) substitution model, 100 bootstraps, Gamma and Invariants model, four substitution rate categories, and optimized for topology/length/rate. A 16S sequence from *Thermus aquaticus* was used as an outgroup.
+I created a Maximum Likelihood phylogeny using the PhyML algorithm [@guindon2009estimating]. This analysis was ran with General Time Reversible (GTR) substitution model, 100 bootstraps, Gamma and Invariants model, four substitution rate categories, and optimized for topology/length/rate. I used the 16S sequence from *Thermus aquaticus* as an outgroup.
 
 ### Bayesian
-I built a Bayesian phylogeny using the MrBayes 3.6.2 algorithm [@huelsenbeck2001mrbayes]. This analysis was ran with General Time Reversible (GTR) model, invgamma rate variation, chain length of 1,100,000, 4 heated chains, heated chain temperature of 0.2, subsampling frequency of 200, burn-in length of 100,000, random seed of 23,107, and unconstrained branch lengths with GammaDir(1, 0.1, 1, 1). A 16S sequence from *Thermus aquaticus* was used as an outgroup.
+I built a Bayesian phylogeny using the MrBayes 3.6.2 algorithm [@huelsenbeck2001mrbayes]. This analysis was ran with General Time Reversible (GTR) model, invgamma rate variation, chain length of 1,100,000, 4 heated chains, heated chain temperature of 0.2, subsampling frequency of 200, burn-in length of 100,000, random seed of 23,107, and unconstrained branch lengths with GammaDir(1, 0.1, 1, 1). I used the 16S sequence from *Thermus aquaticus* as an outgroup.
 
 ## BLAST
 
-All sequences rated very good, average, or poor were used to search for BLAST matches in NCBI's GenBank database [@benson2000genbank]. All BLAST searches were done using the highly similar sequences (megablast) algorithm. All matches were selected by choosing which species was most represented at the top of the list. 
+All sequences rated very good, average, or poor were used to search for BLAST matches in NCBI's GenBank database [@benson2000genbank]. More specifically, I searched the (nr/nt) database in GenBank. All BLAST searches were done using the highly similar sequences (megablast) algorithm. All matches were selected by choosing which species was most represented at the top of the results list.
 
 # Results
-
-
 
 ## Sequences and Alignments
 
@@ -197,9 +195,11 @@ I matched the 22 very good and acceptable sequences to the BLAST database. I fou
 
 # Discussion
 
-## Sequences
+## Overview of Findings
 
-### Unuseable Sequences
+Of the 40 sequences I was given, 18  were unusable, 16 were acceptable, and 6 were very good high quality reads. The unusable sequences resulted from a variety of reasons including: insufficient template, template contamination, and camera blockage. All 22 of the acceptable and high quality reads had BLAST matches with the GenBank database. All samples were bacterial with 7 *Firmicutes* and 6 *Proteobacteria*. Both the Maximum Likelihood and Bayesian approach produced the same phylogeny, providing strong evidence the correct relationships were identified for the 6 very strong sequences. In addition, the sequences with BLAST matches to *Staphylococcus* species grouped together in a monophyletic clade. 
+
+## Unuseable Sequences
 
 There are a few possible reasons for the unuseable sequences in this group of 40 sequences. The 5 sequences in table 1 with only 5 base pairs did not have one element necessary for Sanger sequencing. The most likely cause is insufficient template. The sequences from b1b_27f_B02, UE3B_27f_G09, D6_27f_B09, and D6_27f_B09 had multiple peaks throughout suggesting there was template contamination in the sample. CVCWA_27f_A02 had messy and low peaks which might be due to poor quality template. D3_27f_G08, CLS1_27f_E04, UE3B_27f_G09, and M2_2_27f_D01 had sharp high-intensity spikes mixed throughout the sequence. One possible cause for this is a blockage of the camera used to sequence the sample, causing light to scatter. EVM3_27f_C08 had messy peaks which spanned multiple nucleotides suggesting poor template. I6_27f_C10 and EN_27f_F02_KM had a repeated pattern every 20-30 base pairs suggesting the sample was ran through PCR without template.
 
