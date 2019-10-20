@@ -63,7 +63,7 @@ All sequences rated very good, average, or poor were used to search for BLAST ma
 
 ## Sequences and Alignments
 
-Of the 40 sequences provided 22 were useable with 16 acceptable for BLAST analysis and 6 good enough to place into a phylogeny. The longest sequence was 907 base pairs after trimming while the shortest was  147. Seven sequences were total fails producing only 5 N's after sanger sequencing. Another 11 had messy sequences throughout with frequent unidentifiable bases scattered throughout the middle of the sequence. All of the 40 sequences were located in 16S. Table 1 below summarizes the sequence files including original filename, corrected filename, usability, length after trimming, and the number of corrected bases after trimming.
+Of the 40 sequences provided 22 were useable with 16 acceptable for BLAST analysis and 6 good enough to place into a phylogeny. The longest sequence was 907 base pairs after trimming while the shortest was  147. Seven sequences were total fails producing only 5 N's after Sanger sequencing. Another 11 had messy sequences throughout with frequent unidentifiable bases scattered throughout the middle of the sequence. All of the 40 sequences were located in 16S. Table 1 below summarizes the sequence files including original filename, corrected filename, usability, length after trimming, and the number of corrected bases after trimming.
 
 | Locus 	| Original Filename   	| Corrected Filename             	| Usability 	| Length after Trimming 	| Number of Corrected Bases 	|
 |-------	|---------------------	|--------------------------------	|-----------	|-----------------------	|---------------------------	|
@@ -197,9 +197,11 @@ I matched the 22 very good and acceptable sequences to the BLAST database. I fou
 
 # Discussion
 
-## Unuseable Sequences
+## Sequences
 
-There are a few possible reasons for the unuseable sequences in this group of 40 sequences. The 5 sequences in table 1 with only 5 base pairs did not have one element necessary for sanger sequencing. The most likely cause is insufficient template. The sequences from b1b_27f_B02, UE3B_27f_G09, D6_27f_B09, and D6_27f_B09 had multiple peaks throughout suggesting there was template contamination in the sample. CVCWA_27f_A02 had messy and low peaks which might be due to poor quality template. D3_27f_G08, CLS1_27f_E04, UE3B_27f_G09, and M2_2_27f_D01 had sharp high-intensity spikes mixed throughout the sequence. One possible cause for this is a blockage of the camera used to sequence the sample, causing light to scatter. EVM3_27f_C08 had messy peaks which spanned multiple nucleotides suggesting poor template. I6_27f_C10 and EN_27f_F02_KM had a repeated pattern every 20-30 base pairs suggesting the sample was ran through PCR without template.
+### Unuseable Sequences
+
+There are a few possible reasons for the unuseable sequences in this group of 40 sequences. The 5 sequences in table 1 with only 5 base pairs did not have one element necessary for Sanger sequencing. The most likely cause is insufficient template. The sequences from b1b_27f_B02, UE3B_27f_G09, D6_27f_B09, and D6_27f_B09 had multiple peaks throughout suggesting there was template contamination in the sample. CVCWA_27f_A02 had messy and low peaks which might be due to poor quality template. D3_27f_G08, CLS1_27f_E04, UE3B_27f_G09, and M2_2_27f_D01 had sharp high-intensity spikes mixed throughout the sequence. One possible cause for this is a blockage of the camera used to sequence the sample, causing light to scatter. EVM3_27f_C08 had messy peaks which spanned multiple nucleotides suggesting poor template. I6_27f_C10 and EN_27f_F02_KM had a repeated pattern every 20-30 base pairs suggesting the sample was ran through PCR without template.
 
 ## BLAST
 
