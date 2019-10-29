@@ -24,5 +24,5 @@ rawdata_metadata <- downloadRawSequenceData(
 # csv file
 
 write.csv(
-	rawdata_metadata,
-	"/data/rawdata_metadata.csv")
+        rawdata_metadata,
+        "/data/rawdata_metadata.csv")
