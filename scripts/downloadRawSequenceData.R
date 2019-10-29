@@ -1,5 +1,5 @@
-## Function downloads the metadata for various sequencing data products and downloads the ##
-## raw data files ##
+## Function downloads the metadata for various sequencing data #
+## products and downloads the raw data files ##
 
 downloadRawSequenceData <- function(dpid="", targetGene="16S", sites="all", startYrMo="YYYY-MM", endYrMo="YYYY-MM", 
                                     outdir="", checkFileSize=TRUE, download=TRUE) {
