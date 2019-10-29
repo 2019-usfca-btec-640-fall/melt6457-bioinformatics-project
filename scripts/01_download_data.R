@@ -12,13 +12,13 @@ source("scripts/downloadRawSequenceData.R")
 # UNDE site and put it in the /data directory
 
 rawdata_metadata <- downloadRawSequenceData(
-	dpid = "DP1.10108.001",
-	sites = "UNDE",
-	targetGene = "16S",
-	startYrMo = NA,
-	endYrMo = NA,
-	checkFileSize = FALSE,
-	outdir = "/data")
+        dpid = "DP1.10108.001",
+        sites = "UNDE",
+        targetGene = "16S",
+        startYrMo = NA,
+        endYrMo = NA,
+        checkFileSize = FALSE,
+        outdir = "/data")
 
 # write out the metadata for all the samples to a
 # csv file
