@@ -15,5 +15,8 @@
 
 for file in /data/trimmed-fasta/*.fasta
 do
-	blastn -db /blast-db/nt -num_threads 4 -outfmt '10 sscinames std' -out output/blast_results.csv -max_target_seqs 1 -negative_gilist /blast-db/2018-09-19_environmental_sequence.gi -query $file
+	#touch /data/blast-results/$(basename -s .subsampled.trimmed.fasta $file).blast_results.csv
+	blastn -db /blast-db/nt -num_threads 4 -outfmt '10 sscinames std' -out /data/blast-results/$(basename -s .subsampled.trim.fasta $file).blast_result.csv -max_target_seqs 1 -negative_gilist /blast-db/2018-09-19_environmental_sequence.gi -query $file
 done
+
+cat /data/blast-results/*.csv > output/blast_results.csv
