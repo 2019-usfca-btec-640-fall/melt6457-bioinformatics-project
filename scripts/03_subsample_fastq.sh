@@ -7,8 +7,11 @@
 for file in /data/raw-fastq-files/*.fastq
 do
 	# use echo to print out progress of script
-	echo $file
+	echo "$file"
+	
+	# save outputfile to make shellcheck happy
+	outputfile=/data/subsampled-fastq/"$(basename -s .fastq "$file")".subsampled.fastq
 
 	# randomly subsampled .5% of the fastq files
-	paste - - - - < "$file" | awk 'BEGIN{srand(1234)}{if(rand() < 0.005) print $0}' | tr '\t' '\n' > /data/subsampled-fastq/"$(basename -s .fastq "$file")".subsampled.fastq
+	paste - - - - < "$file" | awk 'BEGIN{srand(1234)}{if(rand() < 0.005) print $0}' | tr '\t' '\n' > "$outputfile"
 done

@@ -7,6 +7,6 @@
 
 for file in /data/trimmed-fastq/*.fastq
 do
-	echo $file
-	bioawk -c fastx '{print ">"$name"\n"$seq}' $file > /data/trimmed-fasta/$(basename -s .fastq $file).fasta
+	echo "$file"
+	bioawk -c fastx '{print ">"$name"\n"$seq}' "$file" > /data/trimmed-fasta/"$(basename -s .fastq "$file")".fasta
 done

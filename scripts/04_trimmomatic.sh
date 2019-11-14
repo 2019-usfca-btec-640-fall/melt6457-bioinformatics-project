@@ -8,5 +8,5 @@ for file in /data/subsampled-fastq/*.fastq
 do
 	# use echo to test file
 	# echo $file
-	TrimmomaticSE -threads 4 -phred33 $file /data/trimmed-fastq/$(basename -s .fastq $file).trim.fastq LEADING:5 TRAILING:5 SLIDINGWINDOW:8:25 MINLEN:200
+	TrimmomaticSE -threads 4 -phred33 "$file" /data/trimmed-fastq/"$(basename -s .fastq "$file")".trim.fastq LEADING:5 TRAILING:5 SLIDINGWINDOW:8:25 MINLEN:200
 done
