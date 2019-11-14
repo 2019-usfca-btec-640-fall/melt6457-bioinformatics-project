@@ -10,5 +10,5 @@ do
 	echo $file
 
 	# randomly subsampled .5% of the fastq files
-	paste - - - - < $file | awk 'BEGIN{srand(1234)}{if(rand() < 0.005) print $0}' | tr '\t' '\n' > /data/subsampled-fastq/$(basename -s .fastq $file).subsampled.fastq
+	paste - - - - < "$file" | awk 'BEGIN{srand(1234)}{if(rand() < 0.005) print $0}' | tr '\t' '\n' > /data/subsampled-fastq/"$(basename -s .fastq "$file")".subsampled.fastq
 done
