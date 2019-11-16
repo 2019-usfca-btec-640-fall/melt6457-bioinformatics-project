@@ -13,7 +13,6 @@
 ##################################################
 
 ############# RAW FASTQ FILES ####################
-cd /data/raw-fastq-files
 
 # Samples per file commented out to supress output
 #for file in /data/raw-fastq-files/*.fastq
@@ -22,12 +21,11 @@ cd /data/raw-fastq-files
 #done
 
 printf "\nNumber of fastq files: "
-find ./*.fastq | wc -l
+find /data/raw-fastq-files/*.fastq | wc -l
 printf "\n"
 
 
 ############ SUBSAMPLED FASTQ FILES ##############
-cd /data/subsampled-fastq
 
 # Samples per file commented out to supress output
 #echo "\n Samples per File"
@@ -37,7 +35,7 @@ cd /data/subsampled-fastq
 #done
 
 printf "\nNumer of subsampled files: "
-find ./*.fastq | wc -l
+find /data/subsampled-fastq/*.fastq | wc -l
 printf "\n"
 
 ############# TRIMMED FASTQ FILES ################
