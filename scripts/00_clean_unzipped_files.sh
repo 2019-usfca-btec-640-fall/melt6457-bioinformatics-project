@@ -1,12 +1,15 @@
 #!/bin/bash
 
-# A script to move all fastq files to a folder
-# named /data/raw-fastq-files
-# NOTE THIS WILL DELETE THE FILES IN THAT DIRECTORY!!
+##################################################################################
+# A script to move all fastq files to a folder named /data/raw-fastq-files
+# 	NOTE THIS WILL DELETE THE FILES IN THAT DIRECTORY!!
+#
+# Kory Melton
+# November 16th, 2019
+# kmelton@dons.usfca.edu
+##################################################################################
 
-# for loop to go through each folder in
-# /data/unzipped-messy/hpc/home/minardsmitha/NEON
-
+# remove all raw-fastq files
 rm /data/raw-fastq-files/*.fastq
 
 # change into the NEON directory
