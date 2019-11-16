@@ -13,7 +13,7 @@
 rm /data/raw-fastq-files/*.fastq
 
 # change into the NEON directory
-cd /data/unzipped-messy/hpc/home/minardsmitha/NEON
+cd /data/unzipped-messy/hpc/home/minardsmitha/NEON || 'return'
 
 # copy for each directory with fastq files
 cp 16S_Feb5-2018_BF462/RAW_FASTQ/RAW_Upload_to_BOX/*.fastq /data/raw-fastq-files
