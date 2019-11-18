@@ -1,5 +1,5 @@
 ---
-title: 'Your Title Here'
+title: 'Presence of plant pathogen *Ralstonia solanacearum* at UNDE NEON Site'
 author: "Kory Melton"
 date: "November 18th, 2019"
 output: word_document
@@ -26,15 +26,15 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Microscopic organisms are among the oldest and most prevalent lifeforms on earth. Accordingly, they play a vital role in the health of ecosystems by affecting processes like carbon dioxide and nitrogen cycling [@martiny]. As the worlds climate changes over time understanding how microbes influence the dynamics of ecosystems will be necessary to preserve the environment. Currently, the impacts of climate change on the biogeochemical cycling of microbes are not well understood [@barnard]. However, some research suggests microbes may be able to mediate carbon-cycle feedbacks to climate warming [@zhou]. 
 
-Due to their importance in the function and stability of ecosystems, the biodiversity of microorganisms is vital to the overall diversity of macroscopic organisms. Typically the first objective of many ecological research projects is to determine the which organisms are present and their biogeography [@zimmerman]. Previous research suggests the distribution of microbes is heterogenuous and spatially-structured [@maron]. Thus, accurate sampling of a wide variety of plots is necessary to understanding how microbes influence a large ecosystem. 
+Due to their importance in the function and stability of ecosystems, the biodiversity of microorganisms is vital to the overall diversity of macroscopic organisms. Typically the first objective of many ecological research projects is to determine the which organisms are present and their bio-geography [@zimmerman]. Previous research suggests the distribution of microbes is heterogeneous and spatially-structured [@maron]. Thus, accurate sampling of a wide variety of plots is necessary to understanding how microbes influence a large ecosystem. 
 
-For the microbial community, identifying distint species is particularly difficult [@koeppel]. Recent advances in molecular biology, including high-throughput sequencing has allowed for genetic identification of microbial species without culturing them. Many researchers use amplicon sequencing of the 16S rRNA gene as a biomarker for the microbial community [@tringe]. 
+For the microbial community, identifying distinct species is particularly difficult [@koeppel]. Recent advances in molecular biology, including high-throughput sequencing has allowed for genetic identification of microbial species without culturing them. Many researchers use amplicon sequencing of the 16S rRNA gene as a bio-marker for the microbial community [@tringe]. 
 
 <!--Overview of NEON -> My site including UNDERC (300 words)-700 -->
 <!--ACTUAL: 166 words-->
 
 The National Science Foundation (NSF) funded National Ecological Observation Network (NEON) was designed to answer how the ecosystem and it's components respond to changes in climate? [@keller] To this aim NEON collects microbial samples in soil from a number of sites across the United States. I will investigate the UNDE site, near the Great Lakes in Michigan.
-The UNDE site is managed by the University of Notre Dame Environmental Research Center (UNDERC). The property has a second-growth Northern mesic forest and Evergreen forests. The dominant species are red and sugar maple (*Acer rubrum* and *A. saccharum*), aspen (*Populus tremuloides*), paper birch (*Betula papyrifera*), balsam fir (*Abies balsamea*), cedar (*Thuja occidentalis*), and black spruce (*Picea mariana*). In addition to the deciduous and mixed forests the site has woody wetlands dominated by thickes of alder (*Alnus incana*).
+The UNDE site is managed by the University of Notre Dame Environmental Research Center (UNDERC). The property has a second-growth Northern mesic forest and Evergreen forests. The dominant species are red and sugar maple (*Acer rubrum* and *A. saccharum*), aspen (*Populus tremuloides*), paper birch (*Betula papyrifera*), balsam fir (*Abies balsamea*), cedar (*Thuja occidentalis*), and black spruce (*Picea mariana*). In addition to the deciduous and mixed forests the site has woody wetlands dominated by thicks of alder (*Alnus incana*).
 
 The climate is generally humid, cool, and wet with no true dry season and receives approximately 114 inches of snow annually. The soil families include coarse, loamy, mixed, superactive, frigid, argic fragiaquods.
 
@@ -44,10 +44,11 @@ Before the land was donated to the Notre Dame University in the 1930s, region-wi
 
 The objective of this study is to determine which microbes are present at the UNDE site, using the 16S barcode sequence, and how this changes over time. This information provides insight into how these ecosystems respond to climate change and their overall health and function.
 
-The data collected by NEON will be processed for quality control, subsampled, trimmed, converted to fasta format and compared to NCBI's nucleotide database using the BLAST algorithm. The matches to the nucleotide database will be used to make inferences on the type of microbial organisms present.
+The UNDE site has 1192 samples containing sequencing data from soil microbes. The data collected by NEON will be processed for quality control, sub-sampled, trimmed, converted to fasta format and compared to NCBI's nucleotide database using the BLAST algorithm. The matches to the nucleotide database will be used to make inferences on the type of microbial organisms present.
 
 <!--Major findings (150 words)-1050 -->
 
+The data set contained a large number of high quality sequences. I found *Ralstonia solanacearum* was the most frequent BLAST match with a few matches with a query cover of 100%. The finding of *Ralstonia solanacearum* is important because this could indicate a soil-borne plant pathogen on the UNDE site.
 
 # Methods
 <!--TARGET: 500 words -1550 total -->
@@ -66,7 +67,9 @@ In the lab, DNA is extracted and the samples are prepared for high-throughput se
 
 <!-- Overview/general outline of analysis approach -->
 <!-- 84 words -->
-I downloaded all unique 16S files for the UNDE site from the NEON database. Then, I checked each files quality using fastqc. I subsampled each file to make the dataset computationally tractable. I trimmed each file in order to capture high quality reads and converted the fastq files to fasta files. Next, I compared each fasta file to a nucleotide database to make inferences on which microorganisms were present in the samples from the UNDE site. Finally, I used those BLAST results to BLANK!!! FILL THIS IN!!!!
+I downloaded all unique 16S files for the UNDE site from the NEON database. Then, I checked each files quality using fastqc. I sub-sampled each file to make the dataset computationally tractable. I trimmed each file in order to capture high quality reads and converted the fastq files to fasta files. Next, I compared each fasta file to a nucleotide database to make inferences on which microorganisms were present in the samples from the UNDE site. 
+
+Finally, I used those BLAST results to BLANK!!! FILL THIS IN!!!!
 
 ### Downloading Data
 
@@ -78,33 +81,64 @@ I downloaded all unique files for the target gene 16S from the NEON database for
 <!-- 28 words -->
 I extracted the R1 files from their zipped folders. Then, I ran fastqc on each file to assess their quality and identify any problematic files [@fastqc]. 
 
-### Subsampling
+### Sub-sampling
 
 <!-- 28 words -->
-I randomly subsampled 0.5% of the sequences in each file to make the data computationally tractable. For this, I used the srand function and the random seed 1234.
+I randomly sub-sampled 0.5% of the sequences in each file to make the data computationally tractable. For this, I used the srand function and the random seed 1234.
 
 ### Trimming
 
 <!-- 54 words -->
-I trimmed the subsampled files using TrimmomaticSE [@trimmomatic]. I used four threads, phred33 base quality encoding, a minimum quality threshold of 5 for both leading and trailing bases, and a minimum length of two-hundred base pairs. Addtionally, I implemented a sliding window with window size eight and required quality of twenty-five.
+I trimmed the sub-sampled files using TrimmomaticSE [@trimmomatic]. I used four threads, phred33 base quality encoding, a minimum quality threshold of 5 for both leading and trailing bases, and a minimum length of two-hundred base pairs. Additionally, I implemented a sliding window with window size eight and required quality of twenty-five.
 
 ### BLAST
 
 <!-- 80 words -->
-I used bioawk (https://github.com/lh3/bioawk) to convert the subsampled, trimmed fastq files to fasta files for downstream BLAST analyses. I compared each fasta file to the GenBank's nucleotide database [@benson2000genbank]. I used the BLASTN algorithm, which uses a nucleotide query sequence to search the nucleotide database [@blastn]. I used four threads, the '10 sscinames std' format, and returned one match for each sequence. I excluded 2018-09-19_environmental_sequence.gi to reduce the number of uncultured or environmental matches.
+I used bioawk (https://github.com/lh3/bioawk) to convert the sub-sampled, trimmed fastq files to fasta files for downstream BLAST analyses. I compared each fasta file to the GenBank's nucleotide database [@benson2000genbank]. I used the BLASTN algorithm, which uses a nucleotide query sequence to search the nucleotide database [@blastn]. I used four threads, the '10 sscinames std' format, and returned one match for each sequence. I excluded 2018-09-19_environmental_sequence.gi to reduce the number of uncultured or environmental matches.
 
 ### Analyzing Blast Data
 
-WRITE OUT WHAT I DID AFTER I DO IT
+I analyzed the BLAST matches found for each sequence using the seventh bash script in the pipeline. First, I found the 5 BLAST matches which occured most frequently throughout the dataset. Then, I found the top match for each file with a query cover of 100% to include only high quality matches. 
 
 # Results
 <!-- 600 words 2150 total -->
 
-## Subsections are ok in the results section too
+## Sequence Counts and Quality
+
+The data set included 1192 fastq files with a range of sequences per file. The maximum number of sequences in a file was 413,851 sequences, while the minimum number of sequences was 118. The average number of sequences in a file was 43,028 sequences. There was a total of 51,289,602 sequences in the data set.
+
+After sub-sampling there was 268,512 sequences total, or approximately .5% of the sequences. The maximum number of sequences after sub-sampling was 2,090, while the minimum was zero. Seven of the files did not have any sequences after sub-sampling. This was about 0.6% of the raw fastq files. 
+
+After trimming there was 154,922 sequences total, or approximately 58% of the sub-sampled sequences. The maximum number of sequences after trimming was 1,213, while the minimum was zero. Nineteen of the files did not have any sequences after sub-sampling. This was about 1.6% of the raw fastq files. files.
+
+Overall, the sequence quality was good. None of the inspected fastqc reports contained sequences flagged as poor quality. Figure 1 shows the fastqc of a file which did not have any sequences after trimming, while Figure 2 shows the fastqc of the file with the most sequences after trimming. The decline in quality scores happens about 50 base pairs later in the better file.
+
+![](data/images/fastqc_scores/BMI_Plate1WellA1_16S_R1_fastqc_scores.png)
+
+**Figure 1.** Fastqc per base sequence quality for BMI_Plate1WellA1_16S_R1. This was one of the lower quality files and did not have any acceptable sequences after sub-sampling and trimming. You can see a sharp decline on base sequence quality around 210 base pairs.
 
 
+![](data/images/fastqc_scores/BMI_Tube52_16S_R1_fastqc.png)
+
+**Figure 2.** Fastqc per base sequence quality for BMI_Tube52_16S_R1. This was one of the higher quality files. You can't see a sharp decline until approximately 260 base pairs.
+
+## BLAST Results
+
+The five most frequent BLAST matches I found in the data set were *Ralstonia solanacearum*, *Staphylococcus aureus*, *Geobacillus thermocatenulatus*, and *Sphingomonas melonis*.
+
+The top matches I found in each file with a query cover of 100% were *Ralstonia solanacearum*, *Bradyrhizobium elkanii*, *Bacillus sp.*, *Actinomadura sp*, and *Acetobacteraceae bacterium*.
 
 # Discussion
 <!-- 500 words 2650 total -->
+
+## Overview
+
+The UNDE site, in Michigan, near the great lakes has a second-growth Northern mesic forest and Evergreen forests with various trees including maple, aspen, birch, cedar, and black spruce. In addition, the site has a woody wetlands dominated by thicks of alder. 
+
+The data collected by NEON from this site was high-quality and contained a substantial amount of genetic information. The collected sequences matched a variety of bacteria widely associated to soil including *Ralstonia solanacearum* and *Acetobacteraceae bacterium*. These two species have very different impacts on plants. *Ralstonia solanacearum* is a plant pathogen while *Acetobacteraceae bacterium* can be found in symbiotic relationships with many different plants by colonizing their internal tissues.
+
+## *Ralstonia solanacearum*
+
+*Ralstonia solanacearumm* is a soil-borne plant pathogen with unusually high prevalence worldwide [@salanoubat2002genome]. This pathogen naturally infects the roots of plants causing bacterial wilt in many plants and crops [@castillo2007evolutionary]. The DNA sequencing of the soil samples from the UNDE site indicate a high probability of *Ralstonia solanacearum*. The workers of UNDERC should look for indications of this pathogen in plants near the sampling sites and take preventative action to protect the biodiversity of the UNDE site.
 
 # Sources Cited
