@@ -30,7 +30,7 @@ printf "\n"
 
 # Samples per file
 # can be commented out to supress output
-echo "\n Samples per File"
+printf "\n Samples per File"
 for file in /data/subsampled-fastq/*.fastq
 do
 	grep -c "^+$" "$file" >> "data/sequence_counts_illumina/subsampled_counts.txt"
@@ -44,7 +44,7 @@ printf "\n"
 
 # Samples per file
 # Can be commented out to supress output
-echo "\n Samples per File"
+printf "\n Samples per File"
 for file in /data/trimmed-fastq/*.fastq
 do
 	grep -c "^+$" "$file" >> "data/sequence_counts_illumina/trimmed_counts.txt"
