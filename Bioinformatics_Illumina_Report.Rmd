@@ -24,20 +24,27 @@ knitr::opts_chunk$set(echo = TRUE)
 <!--Overview of soil bacterial communities (400 words)-->
 <!--ACTUAL: 80 words -->
 
-Microscopic organisms are among the oldest and most prevalent lifeforms on earth. Accordingly, they play a vital role in the health of functioning of ecosystems by affecting processes like carbon dioxide and nitrogen cycling [@martiny]. As the worlds climate changes over time understanding how microbes influence the dynamics of ecosystems will be necessary to preserve the environment. Currently, the impacts of climate change on the biogeochemical cycling of microbes are not well understood [@barnard]. 
+Microscopic organisms are among the oldest and most prevalent lifeforms on earth. Accordingly, they play a vital role in the health of ecosystems by affecting processes like carbon dioxide and nitrogen cycling [@martiny]. As the worlds climate changes over time understanding how microbes influence the dynamics of ecosystems will be necessary to preserve the environment. Currently, the impacts of climate change on the biogeochemical cycling of microbes are not well understood [@barnard]. However, some research suggests microbes may be able to mediate carbon-cycle feedbacks to climate warming [@zhou]. 
 
+Due to their importance in the function and stability of ecosystems, the biodiversity of microorganisms is vital to the overall diversity of macroscopic organisms. Typically the first objective of many ecological research projects is to determine the which organisms are present and their biogeography [@zimmerman]. Previous research suggests the distribution of microbes is heterogenuous and spatially-structured [@maron]. Thus, accurate sampling of a wide variety of plots is necessary to understanding how microbes influence a large ecosystem. 
 
+For the microbial community, identifying distint species is particularly difficult [@koeppel]. Recent advances in molecular biology, including high-throughput sequencing has allowed for genetic identification of microbial species without culturing them. Many researchers use amplicon sequencing of the 16S rRNA gene as a biomarker for the microbial community [@tringe]. 
 
 <!--Overview of NEON -> My site including UNDERC (300 words)-700 -->
 <!--ACTUAL: 166 words-->
 
-The UNDE site, near the Great Lakes in Michigan, is managed by the University of Notre Dame Environmental Research Center (UNDERC). The property has a second-growth Northern mesic forest and Evergreen forests. The dominant species are red and sugar maple (*Acer rubrum* and *A. saccharum*), aspen (*Populus tremuloides*), paper birch (*Betula papyrifera*), balsam fir (*Abies balsamea*), cedar (*Thuja occidentalis*), and black spruce (*Picea mariana*). In addition to the deciduous and mixed forests the site has woody wetlands dominated by thickes of alder (*Alnus incana*).
+The National Science Foundation (NSF) funded National Ecological Observation Network (NEON) was designed to answer how the ecosystem and it's components respond to changes in climate? [@keller] To this aim NEON collects microbial samples in soil from a number of sites across the United States. I will investigate the UNDE site, near the Great Lakes in Michigan.
+The UNDE site is managed by the University of Notre Dame Environmental Research Center (UNDERC). The property has a second-growth Northern mesic forest and Evergreen forests. The dominant species are red and sugar maple (*Acer rubrum* and *A. saccharum*), aspen (*Populus tremuloides*), paper birch (*Betula papyrifera*), balsam fir (*Abies balsamea*), cedar (*Thuja occidentalis*), and black spruce (*Picea mariana*). In addition to the deciduous and mixed forests the site has woody wetlands dominated by thickes of alder (*Alnus incana*).
 
 The climate is generally humid, cool, and wet with no true dry season and receives approximately 114 inches of snow annually. The soil families include coarse, loamy, mixed, superactive, frigid, argic fragiaquods.
 
 Before the land was donated to the Notre Dame University in the 1930s, region-wide logging for pine cut most of the forested areas on the property. Timber harvest continued into the 1950s, but was followed by a forest regrowth. Recently, the site is used for recreational, educational, and research goals.
 
 <!--Approach (200 words)-900 -->
+
+The objective of this study is to determine which microbes are present at the UNDE site, using the 16S barcode sequence, and how this changes over time. This information provides insight into how these ecosystems respond to climate change and their overall health and function.
+
+The data collected by NEON will be processed for quality control, subsampled, trimmed, converted to fasta format and compared to NCBI's nucleotide database using the BLAST algorithm. The matches to the nucleotide database will be used to make inferences on the type of microbial organisms present.
 
 <!--Major findings (150 words)-1050 -->
 
