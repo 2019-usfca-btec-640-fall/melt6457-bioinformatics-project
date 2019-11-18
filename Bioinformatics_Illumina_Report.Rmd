@@ -1,7 +1,7 @@
 ---
 title: 'Your Title Here'
 author: "Kory Melton"
-date: "September 9, 2019"
+date: "November 18th, 2019"
 output: word_document
 csl: bioinformatics.csl
 bibliography: references.bib
@@ -11,22 +11,93 @@ bibliography: references.bib
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Introduction
-
-# Methods
-
-## Study design
-
-## Analysis
-
-# Results
-
-## Subsections are ok in the results section too
-
+<!-- 
 ```{r your-code-here}
 # Add code chunks as needed for your analyses
 ```
+-->
+
+<!-- word count: 385 words -->
+
+# Introduction
+
+<!--Overview of soil bacterial communities (400 words)-->
+<!--ACTUAL: 80 words -->
+
+Microscopic organisms are among the oldest and most prevalent lifeforms on earth. Accordingly, they play a vital role in the health of functioning of ecosystems by affecting processes like carbon dioxide and nitrogen cycling [@martiny]. As the worlds climate changes over time understanding how microbes influence the dynamics of ecosystems will be necessary to preserve the environment. Currently, the impacts of climate change on the biogeochemical cycling of microbes are not well understood [@barnard]. 
+
+
+
+<!--Overview of NEON -> My site including UNDERC (300 words)-700 -->
+<!--ACTUAL: 166 words-->
+
+The UNDE site, near the Great Lakes in Michigan, is managed by the University of Notre Dame Environmental Research Center (UNDERC). The property has a second-growth Northern mesic forest and Evergreen forests. The dominant species are red and sugar maple (*Acer rubrum* and *A. saccharum*), aspen (*Populus tremuloides*), paper birch (*Betula papyrifera*), balsam fir (*Abies balsamea*), cedar (*Thuja occidentalis*), and black spruce (*Picea mariana*). In addition to the deciduous and mixed forests the site has woody wetlands dominated by thickes of alder (*Alnus incana*).
+
+The climate is generally humid, cool, and wet with no true dry season and receives approximately 114 inches of snow annually. The soil families include coarse, loamy, mixed, superactive, frigid, argic fragiaquods.
+
+Before the land was donated to the Notre Dame University in the 1930s, region-wide logging for pine cut most of the forested areas on the property. Timber harvest continued into the 1950s, but was followed by a forest regrowth. Recently, the site is used for recreational, educational, and research goals.
+
+<!--Approach (200 words)-900 -->
+
+<!--Major findings (150 words)-1050 -->
+
+
+# Methods
+<!--TARGET: 500 words -1550 total -->
+<!--ACTUAL: 488 words -->
+
+<!-- 45 words-->
+NEON collected and sequenced the samples from the UNDE site, all data can be found in data product DP1.10108.001 (https://data.neonscience.org/data-products/DP1.10108.001) [@NEON]. I analyzed the samples which were formatted and uploaded by NEON to make inferences on the microbial sequences present in each sample over time.
+
+## Sample Collection
+
+<!-- 103 words -->
+Each site contains ten plots that are further sampled one to three times per year. NEON randomly selects three locations for each sample event, with each sampling location is not re-sampled. Soil sampling is collected to a maximum depth of thirty centimeters. After collection, samples are stores in sterile containers, frozen and shipped to a lab for downstream analysis. 
+In the lab, DNA is extracted and the samples are prepared for high-throughput sequence analysis using primers for 16S sequences. The sequences are delivered to NEON for quality control and acceptance. After acceptance, NEON formats and uploads the files in repositories for public use.
+
+## Analysis
+
+<!-- Overview/general outline of analysis approach -->
+<!-- 84 words -->
+I downloaded all unique 16S files for the UNDE site from the NEON database. Then, I checked each files quality using fastqc. I subsampled each file to make the dataset computationally tractable. I trimmed each file in order to capture high quality reads and converted the fastq files to fasta files. Next, I compared each fasta file to a nucleotide database to make inferences on which microorganisms were present in the samples from the UNDE site. Finally, I used those BLAST results to BLANK!!! FILL THIS IN!!!!
+
+### Downloading Data
+
+<!-- 71 words -->
+I downloaded all unique files for the target gene 16S from the NEON database for the UNDE site. The script to download the data used the R library neonUtilities and the NEON API to download the data product. I used the data product ID DP1.10108.001. In addition, I downloaded the metadata for the raw data to include information on when the data was collected and where the data was collected from.
+
+### Fastqc
+
+<!-- 28 words -->
+I extracted the R1 files from their zipped folders. Then, I ran fastqc on each file to assess their quality and identify any problematic files [@fastqc]. 
+
+### Subsampling
+
+<!-- 28 words -->
+I randomly subsampled 0.5% of the sequences in each file to make the data computationally tractable. For this, I used the srand function and the random seed 1234.
+
+### Trimming
+
+<!-- 54 words -->
+I trimmed the subsampled files using TrimmomaticSE [@trimmomatic]. I used four threads, phred33 base quality encoding, a minimum quality threshold of 5 for both leading and trailing bases, and a minimum length of two-hundred base pairs. Addtionally, I implemented a sliding window with window size eight and required quality of twenty-five.
+
+### BLAST
+
+<!-- 80 words -->
+I used bioawk (https://github.com/lh3/bioawk) to convert the subsampled, trimmed fastq files to fasta files for downstream BLAST analyses. I compared each fasta file to the GenBank's nucleotide database [@benson2000genbank]. I used the BLASTN algorithm, which uses a nucleotide query sequence to search the nucleotide database [@blastn]. I used four threads, the '10 sscinames std' format, and returned one match for each sequence. I excluded 2018-09-19_environmental_sequence.gi to reduce the number of uncultured or environmental matches.
+
+### Analyzing Blast Data
+
+WRITE OUT WHAT I DID AFTER I DO IT
+
+# Results
+<!-- 600 words 2150 total -->
+
+## Subsections are ok in the results section too
+
+
 
 # Discussion
+<!-- 500 words 2650 total -->
 
 # Sources Cited
