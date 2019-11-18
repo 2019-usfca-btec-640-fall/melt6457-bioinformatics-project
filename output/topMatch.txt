@@ -1,4692 +1,1142 @@
-      1 Acidimicrobiales bacterium URHD0090
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Actinocorallia sp. 9_55
-      1 Alphaproteobacteria bacterium IPR-32G
-      1 Acidobacterium ailaaui
-      1 Acetobacteraceae bacterium MP03
-      1 Acidobacteria bacterium CB 286305
-     16 Clostridium estertheticum subsp. estertheticum
-      1 Arenimonas aquatica
-      1 Acetobacterium sp. Schreyahn_Kolonie_Aster_3.2
-      1 Acidobacterium sp. SCGC AAA240-C04
-      1 actinobacterium WWH12
-      1 Acidobacteria bacterium CB 286306
-      1 Acidobacteria bacterium CB 286305
-     18 Ralstonia solanacearum
-      1 Alphaproteobacteria bacterium
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Acidipila dinghuensis
-      1 actinobacterium YJF1-30
-      1 Acidobacteria bacterium SJ-70G
-     10 uncultured bacterium
-      1 Adhaeribacter terrae
-      1 actinobacterium SCGC AAA003-F21
-      1 Actinoplanes sp. 319H11
-      1 Actinobacteria bacterium
-      1 Acidobacteria bacterium CB 286367
-      1 Bacillus sp. (in: Bacteria)
-      1 Agreia sp.
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Actinomycetales bacterium URHD0103
-      1 alpha proteobacterium endosymbiont 1b of Inanidrilus leukodermatus
-      1 Acidobacteria bacterium IP-33G
-     13 uncultured bacterium
-     16 uncultured bacterium
-      1 Acidobacteria bacterium WSR6
-      1 Acidipila dinghuensis
-      1 Actinoalloteichus cyanogriseus
-      1 Acidobacteria bacterium WX90
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Acidobacteria bacterium WSR12
-      1 Actinobacteria bacterium
-      1 Acidobacteria bacterium IGE-004
-      1 Acetobacteraceae bacterium
-     11 uncultured bacterium
-      1 Nordella sp.
-      1 Acidipila dinghuensis
-      1 Acetobacteraceae bacterium
-      1 Actinoplanes regularis
-      1 actinobacterium WWH12
-      1 Acidobacteria bacterium CB 286305
-      1 Actinoalloteichus hymeniacidonis
-      1 Actinobacteria bacterium
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Actinoalloteichus hymeniacidonis
-      1 alpha proteobacterium endosymbiont 1b of Inanidrilus leukodermatus
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium LWQ117
-      1 Acidobacteria bacterium CB 286367
-     15 uncultured bacterium
-      1 Acidocella sp.
-      1 Acidobacteria bacterium
-      1 Acetobacteraceae bacterium
-      1 Afifella marina
-      1 Actinomycetales
-      1 Acidobacteria bacterium IGE-016
-      1 Allokutzneria sp.
-      1 alpha proteobacterium endosymbiont 1b of Inanidrilus leukodermatus
-      1 Acetobacteraceae bacterium
-      1 bacterium
-      1 Acidobacteria bacterium IGE-008
-      1 Atopobium vaginae
-      1 Actinobacteria bacterium IP-21A
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium AB39
-      1 Aeromicrobium tamlense
-      1 Adhaeribacter terrae
-      1 Acidibrevibacterium fodinaquatile
-     18 Ralstonia solanacearum
-      1 actinobacterium WWH12
-      1 actinobacterium YJF1-30
-      1 Amycolatopsis sp.
-      1 Acetobacteraceae bacterium
-      1 actinobacterium SCGC AAA041-K03
-      1 Acidimicrobidae bacterium Ellin7143
-     10 uncultured bacterium
-      1 Actinokineospora sp.
-     15 uncultured bacterium
-      1 Acidicapsa acidisoli
-      1 Acidimicrobium ferrooxidans DSM 10331
-      1 Actinoallomurus acaciae
-      1 bacterium
-      1 Actinobacteria bacterium
-      1 Acetobacteraceae bacterium
-      1 Asticcacaulis sp. ECN-2008
-      1 Acetobacteraceae bacterium
-      1 Acidicaldus sp. USBA-GBX-499
-      1 Aeromicrobium sp.
-     10 uncultured bacterium
-      1 Acidobacteria bacterium CB 286367
-      1 Acetobacteraceae bacterium
-      1 actinobacterium WWH12
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Actinomadura sp. ZZY-2013
-      1 Actinoalloteichus cyanogriseus
-      1 Acetobacteraceae bacterium MP03
-      1 Acidimicrobidae bacterium Ellin7143
-     16 Ralstonia solanacearum
-      1 Alphaproteobacteria bacterium
-      1 Acidobacteria bacterium KBS 96
-      1 Acetobacteraceae bacterium W1.09-37
-      1 Acidothermus cellulolyticus 11B
-      1 Acetobacteraceae bacterium
-      1 Aeromicrobium ginsengisoli
-      1 Actinoalloteichus cyanogriseus
-      1 actinobacterium HA-est-Is53-14
-      1 Acidobacteria bacterium IGE-004
-      1 Actinocorallia longicatena
-      1 Afifella pfennigii;Afifella pfennigii DSM 17143
-      1 Acidobacteria bacterium CB 286367
-      1 Acidobacteria bacterium CB 286367
-      1 Acidobacteria bacterium WSR12
-      1 Acetobacteraceae bacterium
-      1 Acidobacteriaceae bacterium KBS89
-      1 Acidobacteria bacterium IGE-008
-      1 Acidobacteria bacterium CB 286367
-      1 Acidobacteria bacterium LWQ117
-      1 Actinoalloteichus hymeniacidonis
-    174 Ralstonia solanacearum
-      1 Adhaeribacter terrae
-     18 Ralstonia solanacearum
-      1 Acetobacteraceae bacterium
-      1 Actinoalloteichus cyanogriseus
-      1 Arenimicrobium luteum
-      1 Actinobacteria bacterium
-      1 Actinoallomurus acaciae
-      1 Agromyces indicus
-      1 actinobacterium MS-F-22
-      1 Arenimicrobium luteum
-      1 Actinobacteria bacterium
-      1 Acidobacteria bacterium LP6
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Acidobacteria bacterium LP6
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Acidobacteria bacterium WY67
-      1 Bacillus circulans
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Actinobacteria bacterium
-      1 Acidobacteria bacterium WY67
-      1 Actinobacteria bacterium
-      1 Acidobacteria bacterium WY67
-      1 Acidimicrobiaceae bacterium
-      1 Acetobacteraceae bacterium
-      1 Acetobacteraceae bacterium
-      1 Acidimicrobiales bacterium URHD0090
-      1 Acetobacteraceae bacterium
-      1 Afipia sp. GAS231
-      1 Acidobacteria bacterium CB 286367
-      1 Acidimicrobiaceae bacterium
-      1 actinobacterium WWH12
-      1 Acidimicrobiia bacterium
-      1 Acidimicrobiaceae bacterium
-      1 Acetobacteraceae bacterium PAMC 26568;Acetobacteraceae bacterium PAMC 26569
-      1 Adhaeribacter aquaticus
-     17 uncultured bacterium
-     10 uncultured bacterium
-      1 Acidobacteriaceae bacterium A2-4c
-      1 Actinobacteria bacterium
-     10 uncultured bacterium
-      1 Acidobacteria bacterium WSR12
-      1 Acidimicrobiaceae bacterium
-      1 Acidobacteria bacterium CB 286305
-      1 Actinomadura hallensis
-      1 Acidobacteria bacterium IGE-002
-      1 Acidimicrobiia bacterium
-      1 Afipia sp. GAS231
-    174 Ralstonia solanacearum
-      1 Acidimicrobidae bacterium Ellin7143
-      1 actinobacterium YNPRH1P-1
-      1 Actinomycetospora atypica
-     11 Ralstonia solanacearum
-      1 Acetobacteraceae bacterium
-      1 Arenimicrobium luteum
-      1 Acetobacteraceae bacterium
-     11 uncultured bacterium
-      1 Actinomycetales
-     14 Brevibacillus brevis
-     16 Clostridium beijerinckii NRRL B-598
-      1 Acetobacteraceae bacterium
-      1 actinobacterium SCGC AAA041-K03
-      1 Acetobacteraceae bacterium MP03
-      1 Acidobacteria bacterium KBS 96
-      1 Actinobacteria bacterium 15TR583
-      1 Acetobacteraceae bacterium
-      1 Acetobacteraceae bacterium
-     10 uncultured bacterium
-      1 alpha proteobacterium KC-IT-H4
-      1 Acidobacteria bacterium IGE-015
-      1 actinobacterium SCGC AAA240-L08
-      1 Acidobacteria bacterium CB 286306
-      1 Acidobacteria bacterium WSR6
-      1 Actinoalloteichus cyanogriseus
-      1 Acetobacteraceae bacterium
-      1 Bacillus cucumis
-      1 Actinomadura sp. WMMA1423
-      1 Acidobacteria bacterium IGE-002
-     11 uncultured bacterium
-      1 anaerobic syntrophic bacterium NE23-3
-      1 Aciditerrimonas sp.
-      1 actinobacterium SCGC AAA043-I09
-     14 uncultured bacterium
-     11 uncultured bacterium
-      1 Acidobacteriaceae bacterium KBS89
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Acetobacteraceae bacterium
-      1 Acetobacteraceae bacterium
-      1 Acetobacteraceae bacterium
-      1 Archangium sp.
-      1 Acidobacteria bacterium WSR6
-      1 Actinocorallia herbida
-      1 actinobacterium YJF1-30
-      1 Actinomadura sp.
-      1 Acidobacteria bacterium IGE-016
-      1 actinobacterium WWH12
-     10 uncultured bacterium
-     10 uncultured bacterium
-      1 Acidobacteria bacterium WSR12
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium CB 286367
-     10 uncultured bacterium
-      1 Acidobacteria bacterium IGE-002
-      1 Acidobacteria bacterium WSR12
-      1 Acidobacteria bacterium WY67
-      1 Actinomadura sp. DS-MS-114
-      1 Acidobacteria bacterium IPR-39A
-      1 Actinocorallia sp. 9_55
-      1 Actinomadura sp. 2602GPT1-42
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Acidobacteria bacterium IGE-004
-      1 bacterium
-      1 actinobacterium Aac-61;actinobacterium Aac-77
-      1 Acidobacteria bacterium URHE0068
-    139 Ralstonia solanacearum
-      1 bacterium
-      1 Acidobacteria bacterium IGE-002
-      1 Acidobacteria bacterium IGE-010
-      1 Acidobacteria bacterium IGE-015
-      1 Achromobacter denitrificans
-      1 Acidobacteria bacterium WSR6
-      1 Actinomycetales
-      1 Acetobacter orientalis
-      1 bacterium
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Acidobacteria bacterium IGE-011
-      1 Acidobacteria bacterium CB 286367
-      1 Acidobacteria bacterium WSR6
-      1 Actinomycetales
-    104 Ralstonia solanacearum
-      1 Acidobacteria bacterium LWQ117
-      1 Acetobacteraceae bacterium
-      1 Acetobacteraceae bacterium
-      1 Acetobacteraceae bacterium
-      1 actinobacterium YJF1-30
-      1 Acidobacteria bacterium WSR12
-      1 Acidobacteria bacterium WSR6
-      1 actinobacterium DSM 46683
-      1 Altererythrobacter xinjiangensis
-      1 Actinopolymorpha singaporensis
-     12 uncultured bacterium
-     15 uncultured bacterium
-      1 Acidimicrobidae bacterium Ellin7143
-      1 actinobacterium CH9
-      1 actinobacterium MS-F-1
-     11 uncultured bacterium
-      1 actinobacterium CPI
-      1 Acidobacteriaceae bacterium A2-4c
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium LWQ117
-      1 Acidisoma sp.
-      1 Actinobacteria bacterium
-      1 Acidobacteria bacterium CB 286367
-    174 Ralstonia solanacearum
-      1 Actinomadura sp. S2422
-      1 Actinobacteria bacterium IP-21A
-      1 Acidobacteria bacterium SCGC AAA204-D14
-      1 Acidobacteriaceae bacterium KBS89
-      1 Acetobacteraceae bacterium MP03
-      1 Acidimicrobiales bacterium URHD0090
-      1 Acidobacteria bacterium CB 286367
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Acidimicrobiales bacterium URHD0090
-      1 Acidimicrobiia bacterium
-     11 Bacillus anthracis str. A16R
-      1 Acidobacteria bacterium WSR6
-    174 Ralstonia solanacearum
-      1 Acidobacteria bacterium CB 286367
-      1 Acidicapsa sp. CE1
-      1 Actinomadura sp.
-      1 Acetobacteraceae bacterium
-      1 Acidobacterium ailaaui
-      1 Alphaproteobacteria bacterium IP-54A
-      1 Acetobacteraceae bacterium
-      1 Acidobacteriaceae bacterium A2-4c
-      1 Acidobacteria bacterium WSR6
-     13 Bacillus simplex
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium CB 286306
-     11 uncultured bacterium
-     11 uncultured bacterium
-      1 Actinobacteria bacterium IP-21A
-      1 actinobacterium YJF1-30
-      1 Actinobacteria bacterium
-      1 actinobacterium WWH12
-     11 uncultured bacterium
-      1 Aquincola sp. ID0723
-      1 Acidobacteria bacterium CB 286305
-      1 Adhaeribacter sp. KS35
-      1 Acidobacteria bacterium WSR6
-      1 Actinobacteria bacterium
-      1 Acidibacter ferrireducens
-      1 Acidovorax sp. KBT156
-      1 Acidobacteria bacterium SJ-70G
-      1 Acidobacterium sp. WY65
-      1 actinobacterium YJF1-30
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium WSR6
-      1 Actinoalloteichus sp. SHA6
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Actinobacteria bacterium IP-21A
-     18 Ralstonia solanacearum
-      1 Acidobacteria bacterium SJ-70G
-      1 Acetobacteraceae bacterium
-      1 Achromobacter xylosoxidans
-      1 alpha proteobacterium CN37
-      1 Acidobacteria bacterium AB158
-      1 actinobacterium SCGC AAA041-K03
-      1 Acetobacteraceae bacterium
-      1 Acidobacterium ailaaui
-      1 Amaricoccus macauensis
-      1 Aeromicrobium sp. CC-CFT486
-      1 Acidobacteria bacterium LWQ117
-     11 Bacillus sp. FJAT-25496
-      1 Acidobacteria bacterium WSR6
-      1 Acidicapsa sp. CE1
-      1 Acetobacteraceae bacterium
-      1 Acidipila rosea
-      1 Acidobacteria bacterium WSR6
-     12 uncultured bacterium
-      1 Acidiphilium sp.
-     10 uncultured bacterium
-      1 Achromobacter denitrificans
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium IGE-002
-     13 uncultured bacterium
-      1 Acidobacteria bacterium LWQ117
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium CB 286305
-      1 Actinoplanes sp. TMC5
-      1 Acidocella sp.
-      1 Acetobacteraceae bacterium
-      1 Actinoplanes sp. TD028
-      1 Acetobacteraceae bacterium
-      1 actinobacterium DSM 46683
-     10 uncultured bacterium
-      1 Acidobacteriaceae bacterium Gsoil 1619
-     12 uncultured bacterium
-    107 Staphylococcus aureus
-    178 Ralstonia solanacearum
-      1 Acidicapsa sp. CE1
-      1 Acidobacteria bacterium
-      1 Acetobacteraceae bacterium
-      1 Alphaproteobacteria bacterium IP-54A
-      1 Acetobacteraceae bacterium
-      1 Acidicapsa acidisoli
-      1 Acetobacteraceae bacterium
-    116 Ralstonia solanacearum
-      1 Acetobacteraceae bacterium
-      1 Acidicapsa acidisoli
-      1 Acidicapsa acidisoli
-    126 Ralstonia solanacearum
-      1 Acidipila rosea
-      1 Acidobacteria bacterium CCO287
-      1 Acetobacteraceae bacterium
-      1 Acidicapsa acidisoli
-      1 Acidobacteriaceae bacterium KBS89
-      1 Alphaproteobacteria bacterium IP-54A
-      1 bacterium
-      1 Acidipila rosea
-      1 Acetobacteraceae bacterium
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteriaceae bacterium C27
-    176 Ralstonia solanacearum
-    174 Ralstonia solanacearum
-      1 Acidobacteria bacterium
-      1 Actinobacteria bacterium
-      1 Acetobacteraceae bacterium LX45
-      1 Acidicapsa acidisoli
-      1 Acetobacteraceae bacterium
-    126 Ralstonia solanacearum
-      1 Acidicapsa acidisoli
-      1 Alphaproteobacteria bacterium IP-54A
-      1 Acidobacteria bacterium AB20
-      1 Actinoplanes sp. ISO06811
-      1 Acidobacteria bacterium WSR6
-      1 Actinobacteria bacterium
-      1 Acidobacteria bacterium IP-28A
-      1 Acetobacteraceae bacterium
-    116 Ralstonia solanacearum
-      1 Acetobacteraceae bacterium
-      1 Acetobacteraceae bacterium MP03
-      1 Acidobacteriaceae bacterium KBS89
-      1 Alphaproteobacteria bacterium IP-54A
-      1 Acidisphaera sp.
-      1 Acidicapsa acidisoli
-      1 Acidobacteriaceae bacterium KBS89
-      1 Acetobacteraceae bacterium
-    143 Ralstonia solanacearum
-      1 Acetobacteraceae bacterium
-      1 Acetobacteraceae bacterium
-      1 Acetobacteraceae bacterium
-      1 Acidisoma sp.
-      1 Acidipila rosea
-      1 Acetobacteraceae bacterium
-    176 Ralstonia solanacearum
-    177 Ralstonia solanacearum
-      1 Acidobacteria bacterium
-      1 Acidobacteriaceae bacterium KBS89
-      1 Acidobacteriaceae bacterium C27
-      1 Acetobacteraceae bacterium
-      1 alpha proteobacterium URHD0017
-      1 Acetobacteraceae bacterium PN-29
-      1 Acidobacteria bacterium IP-33G
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium IGE-013
-      1 Acidicapsa acidisoli
-    176 Ralstonia solanacearum
-      1 Acidipila dinghuensis
-      1 Acidobacteria bacterium
-      1 Acidobacteria bacterium KBS 83
-      1 Acidobacteria bacterium IGE-013
-      1 Acidobacteria bacterium
-      1 Acidicapsa acidisoli
-     10 uncultured bacterium
-      1 Actinobacteria bacterium
-      1 Acidisphaera sp.
-      1 bacterium
-      1 Acidicapsa sp. CE1
-      1 Acidipila rosea
-      1 Acidisoma sp.
-      1 Acidicapsa acidisoli
-      1 Acidobacterium capsulatum
-      1 Alphaproteobacteria bacterium IP-54A
-      1 Acidicapsa acidisoli
-      1 Acidobacteria bacterium
-      1 Acidicapsa sp. CE1
-      1 Acetobacteraceae bacterium
-      1 actinobacterium TC4
-      1 Acidipila dinghuensis
-      1 Acidobacteria bacterium URHE0068
-     13 Klebsiella variicola
-      1 bacterium
-    178 Ralstonia solanacearum
-      1 Acidimicrobiales bacterium URHD0090
-      1 bacterium Ellin5299
-      1 Amorphus sp.
-      1 bacterium
-      1 Acidobacteria bacterium
-      1 Actinoplanes cibodasensis
-      1 Actinobacteria bacterium 15TR583
-      1 Bacillus cereus
-      1 Alphaproteobacteria bacterium IP-54A
-      1 bacterium
-      1 Acidicapsa sp. CE1
-      1 Bacillus nealsonii
-    111 Staphylococcus aureus
-      1 Acidobacteria bacterium AB158
-      1 Bacillus drentensis
-      1 Actinomycetales bacterium
-      1 Acidobacteriaceae bacterium KBS89
-    178 Ralstonia solanacearum
-      1 bacterium K-5b5
-      1 Acidicapsa acidisoli
-      1 Acidobacteria bacterium WSR6
-    176 Ralstonia solanacearum
-      1 Acetobacteraceae bacterium MP03
-      1 Acidocella sp. DM1;Acidocella sp. DM2
-      1 Acidobacteria bacterium AB60
-      1 Alphaproteobacteria bacterium IP-54A
-    126 Ralstonia solanacearum
-      1 Acidobacteria bacterium KBS 96
-    107 Staphylococcus aureus
-    178 Ralstonia solanacearum
-      1 Acidobacteria bacterium AB158
-    111 Staphylococcus aureus
-      1 Acidobacteria bacterium N3B
-      1 Actinobacteria bacterium 15TR583
-      1 Alphaproteobacteria bacterium
-     17 Bradyrhizobium erythrophlei
-      1 Acidobacteria bacterium KBS 96
-      1 Acetobacteraceae bacterium
-      1 Acidipila rosea
-      1 Acidicaldus sp. MK6
-    107 Staphylococcus aureus
-      1 Acetobacteraceae bacterium W1.09-37
-      1 Acetobacteraceae bacterium MS302e
-      1 Acidobacteria bacterium AB158
-      1 Acidobacteria bacterium SJ-70G
-      1 Acetobacteraceae bacterium
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Acidobacteria bacterium
-      1 Acidobacteria bacterium AB158
-      1 Acidobacteria bacterium
-      1 alpha proteobacterium Shinshu-th1
-      1 Acidobacteria bacterium AB158
-    178 Ralstonia solanacearum
-      1 Actinobacteria bacterium 15TR583
-      1 bacterium
-      1 Alphaproteobacteria bacterium IP-54A
-      1 Acidobacteriaceae bacterium KBS89
-      1 Acidobacteria bacterium AB20
-      1 Acidobacteria bacterium KBS 96
-    174 Ralstonia solanacearum
-      1 Acidobacteriaceae bacterium A2-4c
-      1 Acidobacteria bacterium SJ-70G
-      1 Acidimicrobiales bacterium URHD0090
-      1 bacterium Ellin6528
-      1 bacterium
-      1 bacterium
-      1 Alphaproteobacteria bacterium IP-54A
-      1 Acidobacteria bacterium KBS 96
-      1 Acidisphaera rubrifaciens
-      1 Acetobacteraceae bacterium
-      1 Acidobacterium capsulatum ATCC 51196
-     13 Paenibacillus sp. 18JY67-1
-    178 Ralstonia solanacearum
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium WSR6
-    126 Ralstonia solanacearum
-      1 Acetobacteraceae bacterium
-     14 uncultured bacterium
-      1 Acidobacteriaceae bacterium SBC82
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium KBS 96
-      1 Alphaproteobacteria bacterium IP-54A
-      1 Acidobacteria bacterium WSR6
-      1 Amorphus sp.
-    174 Ralstonia solanacearum
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium WSR6
-     16 Clostridium estertheticum subsp. estertheticum
-      1 Actinomycetales
-      1 Acidobacteria bacterium LWQ117
-    125 Ralstonia solanacearum
-      1 Achromobacter spanius
-      1 Acetobacteraceae bacterium
-      1 Actinomycetales bacterium URHA049F
-      1 Acidobacteria bacterium WSR6
-      1 Acetobacteraceae bacterium
-      1 bacterium
-      1 Acidobacteria bacterium IGE-013
-      1 alpha proteobacterium CN37
-      1 Acidobacterium ailaaui
-      1 Acidobacteria bacterium KBS 96
-      1 Acetobacteraceae bacterium
-      1 Acidicapsa acidisoli
-      1 Achromobacter xylosoxidans
-      1 bacterium
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium LWQ117
-      1 bacterium
-      1 Actinoplanes teichomyceticus ATCC 31121
-      1 Acidobacteria bacterium KBS 96
-      1 Acetobacteraceae bacterium
-      1 Acidocella facilis
-      1 Actinobacteria bacterium
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium WSR6
-      1 Acidisphaera sp.
-      1 Actinobacteria bacterium
-      1 Acidobacteria bacterium LWQ117
-     16 Clostridium estertheticum subsp. estertheticum
-      1 Acetobacteraceae bacterium
-      1 Acidipila rosea
-      1 Acidocella facilis
-     11 uncultured bacterium
-      1 Acidobacterium sp. pan6
-      1 Actinoplanes sp. A-T 5916
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Azoarcus sp. SY39
-      1 Acidobacteria bacterium WSR6
-      1 alpha proteobacterium KC-IT-H4
-      1 alpha proteobacterium AKB-2008-TA3A
-      1 bacterium
-      1 Archangium disciforme
-      1 bacterium
-      1 Actinoplanes sp. LW-10
-      1 Acidimicrobiales bacterium URHD0090
-      1 Actinomadura sp. YIM 77503
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium WSR6
-      1 Actinobacteria bacterium
-      1 Actinomycetales bacterium
-      1 Acidobacteria bacterium KBS 96
-      1 Alphaproteobacteria bacterium IP-54A
-      1 Acidobacterium capsulatum
-      1 bacterium
-      1 Alphaproteobacteria bacterium
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium KBS 96
-      1 bacterium
-      1 Acidobacteria bacterium WSR6
-      1 Alphaproteobacteria bacterium IP-54A
-      1 Bacillus cereus
-      1 bacterium
-      1 Acidobacteria bacterium URHE0068
-      1 Acidobacteria bacterium IP-33G
-      1 Azospirillum brasilense
-      1 Actinomycetales
-      1 Archangium sp.
-      1 Actinobacteria bacterium 15TR583
-      1 Acidobacteria bacterium
-      1 bacterium
-      1 Acidobacteria bacterium WSR6
-      1 bacterium
-      1 Acidobacteria bacterium IP-20G
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium WSR6
-      1 Azospirillum brasilense
-      1 Acidimicrobidae bacterium Ellin7143
-      1 actinobacterium MS-F-22
-      1 actinobacterium YNPRH1P-1
-      1 Acetobacteraceae bacterium
-      1 Actinomycetales
-      1 Acidobacteria bacterium WSR6
-      1 Acidimicrobiales bacterium URHD0090
-      1 Alphaproteobacteria bacterium
-      1 Acidobacteria bacterium AB158
-      1 Acidobacteria bacterium IGE-013
-      1 Acetobacteraceae bacterium
-      1 Actinobacteria bacterium
-      1 Acidobacteriaceae bacterium K5
-      1 Acidobacteria bacterium IP-33G
-      1 Acidobacteria bacterium WSR6
-      1 Afipia sp.
-      1 Acidobacteriaceae bacterium KBS89
-      1 Alphaproteobacteria bacterium IP-54A
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium SJ-70G
-      1 Acidobacteria bacterium KBS 96
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium WSR6
-      1 Acidisphaera rubrifaciens
-      1 Acidobacteria bacterium SJ-70G
-      1 Actinobacteria bacterium IP-21A
-      1 Acidobacterium capsulatum
-      1 Actinoplanes cibodasensis
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium WSR6
-     10 uncultured bacterium
-      1 actinobacterium SCGC AAA043-P15
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Acidobacteria bacterium WSR6
-      1 Algorimarina butyrica
-      1 Actinomycetales bacterium
-      1 Acidobacteria bacterium
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium AB20
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Actinobacteria bacterium
-      1 Acidobacteria bacterium WSR6
-      1 Archangium sp.
-      1 Acidobacteria bacterium LWQ117
-      1 Acidobacteria bacterium WSR6
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium WSR6
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium AB158
-      1 bacterium
-      1 bacterium
-      1 Acidobacteria bacterium WSR6
-      1 Alphaproteobacteria bacterium IP-54A
-      1 Acetobacteraceae bacterium MP03
-      1 Acetobacteraceae bacterium
-      1 Acidobacteriaceae bacterium KBS89
-      1 Acetobacteraceae bacterium
-      1 Acetobacteraceae bacterium LX45
-      1 Acidobacteria bacterium WSR6
-      1 Actinobacteria bacterium
-      1 Acidobacteria bacterium SJ-70G
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium SJ-70G
-      1 Acidobacteriaceae bacterium C27
-      1 Acidobacteriaceae bacterium K5
-      1 Acetobacteraceae bacterium
-      1 Alphaproteobacteria bacterium IP-45A
-      1 Acetobacteraceae bacterium
-      1 Acidicapsa acidisoli
-      1 Acidobacteria bacterium
-      1 bacterium
-      1 bacterium
-      1 Acidicapsa acidisoli
-      1 bacterium
-      1 Acidobacteria bacterium IP-28A
-      1 Acetobacteraceae bacterium
-      1 Archangium sp.
-      1 Acetobacteraceae bacterium
-      1 Alphaproteobacteria bacterium IP-54A
-      1 Acidobacteria bacterium WSR6
-     19 Ralstonia solanacearum
-      1 Acidobacteriaceae bacterium KBS89
-      1 Actinobacteria bacterium
-      1 Actinobacteria bacterium
-      1 bacterium
-      1 Alphaproteobacteria bacterium IP-54A
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium WSR6
-      1 bacterium
-      1 Acetobacteraceae bacterium
-      1 bacterium
-      1 anoxygenic photosynthetic bacterium C26
-      1 actinobacterium TC4
-      1 bacterium
-      1 Asanoa sp.
-      1 Acidobacteriaceae bacterium KBS89
-      1 Afipia sp. JMT1926
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium WSR6
-      1 Acidicapsa sp. CE1
-      1 Acetobacteraceae bacterium MP03
-      1 Acetobacteraceae bacterium
-      1 Acidobacteriaceae bacterium SBC82
-      1 Acidicapsa acidisoli
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Acetobacteraceae bacterium PN-29
-      1 Acidobacteria bacterium
-      1 Acidobacteria bacterium WSR6
-      1 actinobacterium SCGC AAA041-N04
-      1 Acidimicrobiaceae bacterium
-      1 Acidobacteria bacterium WSR6
-      1 Streptomyces sp.
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium WSR6
-      1 bacterium
-      1 Actinoplanes durhamensis
-      1 Actinobacteria bacterium
-      1 Acidicapsa acidisoli
-    122 Ralstonia solanacearum
-      1 Acidobacteria bacterium KBS 96
-      1 Acidobacteria bacterium SJ-16G
-      1 uncultured bacterium
-      1 Acetobacteraceae bacterium
-      1 Acidisphaera sp.
-      1 Actinobacteria bacterium
-      1 Acidobacteriaceae bacterium KBS89
-     17 Ralstonia solanacearum
-      1 Acidicapsa sp. CE1
-      1 Acidisphaera sp.
-      1 Acetobacteraceae bacterium
-      1 bacterium
-      1 Aciditerrimonas sp.
-      1 Acidipila dinghuensis
-      1 Acidobacteriaceae bacterium C27
-      1 Acidobacteria bacterium WSR6
-      1 Acidipila rosea
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium SJ-70G
-      1 Acetobacteraceae bacterium
-      1 Acidipila rosea
-      1 Acetobacteraceae bacterium
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium IP-33G
-      1 actinobacterium YJF1-30
-      1 Acidobacteria bacterium
-      1 Acidobacteria bacterium
-      1 Acetobacteraceae bacterium
-      1 Acidobacterium capsulatum
-      1 Telmatobacter sp. 15-28
-      1 Alphaproteobacteria bacterium IP-45A
-      2 bacterium
-      1 Acetobacteraceae bacterium
-      1 Acetobacteraceae bacterium
-     11 uncultured bacterium
-      1 Acidobacteriaceae bacterium SBC82
-      1 actinobacterium TC4
-      1 Acidobacteriaceae bacterium KBS89
-      1 Acidicapsa acidisoli
-      1 Acidobacteria bacterium KBS 96
-      1 Acidobacteriaceae bacterium KBS89
-      1 Acetobacteraceae bacterium
-      1 Acidobacteriaceae bacterium Gsoil 969
-      1 Acidobacteria bacterium KBS 96
-      1 Afipia sp. GAS231
-      1 actinobacterium SCGC AAA043-G10
-      1 Acetobacteraceae bacterium
-      1 Acidipila rosea
-      1 Acidobacteria bacterium
-      1 Acidicapsa acidisoli
-      1 Acidobacteria bacterium IP-28A
-      1 Acetobacteraceae bacterium
-      1 Acidobacteriaceae bacterium SBC82
-      1 Actinobacteria bacterium
-      1 Acetobacteraceae bacterium PN-29
-      1 Acidobacteria bacterium SJ-70G
-      1 Acidicapsa dinghuensis
-      1 Acidiphilium cryptum JF-5
-    174 Ralstonia solanacearum
-      1 Acetobacterium sp. KB-1
-      1 Acetobacteraceae bacterium
-      1 Acidobacteriaceae bacterium A2-4c
-      1 Acidicapsa sp. CE1
-      1 Acetobacteraceae bacterium MP03
-      1 Acetobacteraceae bacterium PN-29
-      1 Acetobacteraceae bacterium
-      1 Acidobacteriaceae bacterium C27
-      1 Acidobacteria bacterium IP-33G
-      1 Acetobacteraceae bacterium
-      1 Acanthamoeba castellanii str. Neff
-      1 Acidobacteria bacterium AB158
-      1 Acetobacteraceae bacterium
-      1 Acidobacterium ailaaui
-      1 Acidicapsa acidisoli
-      1 Acetobacteraceae bacterium MS302e
-      1 Acetobacteraceae bacterium
-      1 Acidobacterium capsulatum
-      1 Acidobacteria bacterium AB20
-      1 Acetobacteraceae bacterium
-      1 Acidobacterium sp. WY65
-      1 Acetobacteraceae bacterium MP03
-      1 Acidobacteriaceae bacterium KBS89
-      1 Actinobacteria bacterium
-      1 Acidobacteria bacterium AB158
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteriaceae bacterium A2-4c
-      1 actinobacterium YJF1-30
-      1 Acidobacteria bacterium WSR6
-      1 Acidicapsa acidisoli
-      1 Acidobacteriaceae bacterium KBS89
-      1 Acetobacteraceae bacterium MP03
-      1 Acidobacteria bacterium WSR6
-      1 Acidicapsa sp. CE1
-      1 Acidibrevibacterium fodinaquatile
-      1 Acetobacteraceae bacterium
-      1 Acidibacter ferrireducens
-      1 Actinobacteria bacterium 15TR583
-      1 bacterium
-    174 Ralstonia solanacearum
-      1 Acidobacteria bacterium WY67
-      1 bacterium
-      1 Acetobacteraceae bacterium
-      1 Actinobacteria bacterium
-      1 Acidipila dinghuensis
-      1 Acetobacteraceae bacterium
-      1 Acidicapsa acidisoli
-      1 Actinobacteria bacterium
-      1 Acidobacteria bacterium IGE-008
-      1 Actinoplanes italicus
-      1 Actinoplanes ferrugineus
-      1 Acidobacteria bacterium WY67
-      1 Actinomadura keratinilytica
-      1 Agromyces ramosus
-      1 Aggregicoccus edonensis
-      1 Acidimicrobiales bacterium URHD0090
-     11 uncultured bacterium
-      1 Acidobacteria bacterium IGE-004
-      1 actinobacterium DSM 46683
-      1 Acidobacteria bacterium WSR12
-      1 Actinoplanes italicus
-      1 Acidobacteria bacterium IGE-004
-      1 Acidobacteria bacterium WY67
-     10 uncultured bacterium
-      1 Acidobacteria bacterium IGE-010
-      1 bacterium
-      1 Acidobacteria bacterium CB 286306
-      1 Actinobacteria bacterium
-      1 Actinobacteria bacterium
-      1 bacterium
-      1 Acidobacteria bacterium IGE-004
-      1 Aciditerrimonas sp.
-      1 Actinoplanes italicus
-      1 Actinobacteria bacterium
-      1 Actinoplanes italicus
-      1 Acetobacteraceae bacterium
-     17 Ralstonia solanacearum
-      1 Acidobacteria bacterium IGE-002
-      1 Aeromicrobium sp. KAR59
-      1 actinobacterium TC4
-      1 Acidobacteria bacterium IGE-018
-      1 Acidobacteria bacterium CB 286305
-      1 Actinoplanes italicus
-      1 actinobacterium YJF1-30
-      1 Arenimicrobium luteum
-      1 Alkalispirillum sp. ACO1
-      1 Acidobacteria bacterium WSR6
-      1 Acetobacteraceae bacterium
-    178 Ralstonia solanacearum
-      1 Acidicapsa acidisoli
-      1 uncultured bacterium
-      1 uncultured bacterium
-    142 Ralstonia solanacearum
-      1 Acidobacteria bacterium WSR6
-    115 Ralstonia solanacearum
-      1 Acidicapsa acidisoli
-      1 Acidobacteria bacterium LWQ117
-      1 Acidobacteria bacterium WSR6
-    176 Ralstonia solanacearum
-    176 Ralstonia solanacearum
-      1 Acidobacteria bacterium KBS 96
-      1 Acidisphaera sp.
-      1 Acidicapsa acidisoli
-    142 Ralstonia solanacearum
-      1 Acidobacteria bacterium WSR6
-    170 Ralstonia solanacearum
-    115 Ralstonia solanacearum
-    176 Ralstonia solanacearum
-    178 Ralstonia solanacearum
-      1 Acetobacteraceae bacterium
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Acidobacteria bacterium WSR6
-      1 Acidibrevibacterium fodinaquatile
-      1 Anolis evermanni
-      1 actinobacterium YJF1-30
-    143 Ralstonia solanacearum
-    174 Ralstonia solanacearum
-      1 Acidobacteria bacterium WSR6
-    116 Ralstonia solanacearum
-      1 Acidobacteria bacterium AB158
-      1 Acetobacteraceae bacterium LX45
-    176 Ralstonia solanacearum
-    176 Ralstonia solanacearum
-      1 Acidobacteria bacterium CB 286367
-      1 Acidobacteria bacterium URHE0068
-    177 Ralstonia solanacearum
-    177 Ralstonia solanacearum
-    142 Ralstonia solanacearum
-      1 Acidimicrobiales bacterium URHD0090
-      1 Acidicapsa sp. CE1
-    115 Ralstonia solanacearum
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteriaceae bacterium KBS89
-    178 Ralstonia solanacearum
-    126 Ralstonia solanacearum
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium WSR6
-    176 Ralstonia solanacearum
-    126 Ralstonia solanacearum
-    178 Ralstonia solanacearum
-    179 Ralstonia solanacearum
-    115 Ralstonia solanacearum
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteriaceae bacterium A2-4c
-    178 Ralstonia solanacearum
-    176 Ralstonia solanacearum
-      1 Acidobacteria bacterium WSR6
-    176 Ralstonia solanacearum
-      1 Actinomadura sp.
-      1 Acetobacteraceae bacterium
-    143 Ralstonia solanacearum
-    176 Ralstonia solanacearum
-    179 Ralstonia solanacearum
-    115 Ralstonia solanacearum
-     13 Pseudoxanthomonas suwonensis
-      1 Achromobacter spanius
-    174 Ralstonia solanacearum
-    176 Ralstonia solanacearum
-      1 Acidobacteria bacterium WSR6
-     10 uncultured bacterium
-      1 Acidovorax sp. CC-11P11
-     13 Klebsiella variicola
-    125 Ralstonia solanacearum
-     12 Ralstonia solanacearum
-    179 Ralstonia solanacearum
-    115 Ralstonia solanacearum
-      1 Acidisoma sp.
-      1 Acidobacteria bacterium WSR6
-      1 Acidipila rosea
-    176 Ralstonia solanacearum
-    176 Ralstonia solanacearum
-      1 Acetobacteraceae bacterium
-    142 Ralstonia solanacearum
-      1 Adhaeribacter sp. MJ115
-    179 Ralstonia solanacearum
-    115 Ralstonia solanacearum
-     17 Bradyrhizobium erythrophlei
-    176 Ralstonia solanacearum
-      1 Actinobacteria bacterium 15TR583
-      1 Acetobacteraceae bacterium MP03
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteriaceae bacterium SBC82
-    176 Ralstonia solanacearum
-    142 Ralstonia solanacearum
-      1 Acidobacteria bacterium WSR6
-    178 Ralstonia solanacearum
-    115 Ralstonia solanacearum
-     16 Clostridium estertheticum subsp. estertheticum
-      1 Bacillus sp. (in: Bacteria)
-      1 Acetobacteraceae bacterium LX45
-    126 Ralstonia solanacearum
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium WSR6
-      1 Acetobacteraceae bacterium
-    169 Ralstonia solanacearum
-      1 Acidobacteria bacterium KBS 96
-      1 Acetobacteraceae bacterium
-    176 Ralstonia solanacearum
-    115 Ralstonia solanacearum
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium URHE0068
-      1 Acidimicrobidae bacterium Ellin7143
-      1 bacterium
-      1 bacterium
-      1 Actinobacteria bacterium
-    174 Ralstonia solanacearum
-    143 Ralstonia solanacearum
-     14 Bacillus anthracis
-      1 Actinotalea sp. SYSU S10002
-    116 Ralstonia solanacearum
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium AB20
-    178 Ralstonia solanacearum
-      1 Alphaproteobacteria bacterium IP-54A
-      1 bacterium
-      1 bacterium
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium SJ-70G
-    143 Ralstonia solanacearum
-      1 Acetobacteraceae bacterium MP03
-    179 Ralstonia solanacearum
-    176 Ralstonia solanacearum
-      1 Acidobacteria bacterium WSR6
-     13 Pseudomonas frederiksbergensis
-      1 alpha proteobacterium URHD0017
-     13 Ralstonia solanacearum
-      1 Acidobacteria bacterium SJ-70G
-      1 Acidobacteria bacterium AB158
-      1 Acidobacteria bacterium WSR6
-      1 actinobacterium YJF1-30
-    174 Ralstonia solanacearum
-      1 Acetobacteraceae bacterium
-    178 Ralstonia solanacearum
-    115 Ralstonia solanacearum
-    178 Ralstonia solanacearum
-    176 Ralstonia solanacearum
-    174 Ralstonia solanacearum
-      1 Acidobacteria bacterium WSR6
-      1 Acetobacteraceae bacterium
-      1 Actinobacteria bacterium IP-21A
-      1 Azospirillum brasilense
-      1 Acidobacteria bacterium WSR6
-      1 Acetobacteraceae bacterium
-      1 Acidicapsa acidisoli
-      1 Acidobacteria bacterium KBS 96
-    116 Ralstonia solanacearum
-      1 Acidobacteria bacterium WSR6
-      1 Acetobacteraceae bacterium
-    176 Ralstonia solanacearum
-      1 Acidicapsa sp. CE1
-      1 Acidobacteriaceae bacterium KBS89
-      1 Alphaproteobacteria bacterium H 52
-      1 Alphaproteobacteria bacterium IP-54A
-      1 Acetobacteraceae bacterium
-      1 Acetobacteraceae bacterium
-      1 Acetobacteraceae bacterium MP03
-    179 Ralstonia solanacearum
-    116 Ralstonia solanacearum
-      1 Acidobacteria bacterium WSR6
-     10 Geobacillus thermocatenulatus
-      1 Azospirillum brasilense
-      1 Arctic sea ice bacterium ARK10157
-    177 Ralstonia solanacearum
-      1 Acidobacteriaceae bacterium KBS89
-    178 Ralstonia solanacearum
-    143 Ralstonia solanacearum
-    178 Ralstonia solanacearum
-    178 Ralstonia solanacearum
-    107 Ralstonia solanacearum
-     13 Bacillus cytotoxicus
-      1 Acidimicrobiia bacterium
-    176 Ralstonia solanacearum
-      1 Acidobacteria bacterium CB 286306
-      1 Acidobacteria bacterium WY67
-      1 Acidimicrobiia bacterium
-      1 Acidobacteria bacterium WSR12
-      1 Adhaeribacter sp. HMF7616
-      1 Acetobacteraceae bacterium
-      1 Acidimicrobiaceae bacterium
-      1 actinobacterium WWH12
-      1 Actinobacteria bacterium
-      1 Acetobacteraceae bacterium
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium WSR6
-      1 actinobacterium YNPRH1P-1
-      1 Actinobacteria bacterium
-      1 Actinomycetales bacterium
-    143 Ralstonia solanacearum
-      1 Actinomadura hallensis;Actinomadura sp. T5S13;Actinomadura sp. SPO7
-      1 Acidimicrobiales bacterium URHD0090
-      1 Actinobacteria bacterium
-      1 Acetobacteraceae bacterium
-      1 Acanthamoeba castellanii str. Neff
-      1 Acidobacteria bacterium SJ-70G
-      1 actinobacterium MS-F-1
-    176 Ralstonia solanacearum
-    192 Ralstonia solanacearum
-      1 Arenimicrobium luteum
-      1 Acidobacteria bacterium WY67
-    176 Ralstonia solanacearum
-      1 Acetobacteraceae bacterium W1.09-37
-    176 Ralstonia solanacearum
-    115 Ralstonia solanacearum
-      1 Acidobacteria bacterium WY67
-      1 actinobacterium WWH12
-      1 Acidobacteria bacterium YJF2-13
-      1 Acidobacteriaceae bacterium KBS89
-    178 Ralstonia solanacearum
-      1 bacterium
-      1 Acetobacteraceae bacterium
-      1 Altererythrobacter sp. R83-1
-      1 Acidobacteria bacterium CB 286306
-     10 uncultured bacterium
-      1 alpha proteobacterium endosymbiont 1b of Inanidrilus leukodermatus
-      1 actinobacterium SCGC AAA278-M15
-      1 Actinobacteria bacterium
-      1 Achromobacter sp.
-      1 Achromobacter sp.
-      1 Achromobacter sp.
-      1 Aphanizomenon flos-aquae NIES-81
-      1 actinobacterium SCGC AAA028-N15;actinobacterium SCGC AAA028-P22
-     17 Microcystis sp. MC19
-      1 actinobacterium MS-F-91
-      1 actinobacterium MS-F-91
-      1 Algoriphagus marisflavi
-      1 Acidobacteria bacterium CB 286367
-      1 Achromobacter sp.
-    174 Ralstonia solanacearum
-      1 Alphaproteobacteria bacterium
-      1 Actinobacteria bacterium SJ-69A
-      1 Aliidiomarina shirensis
-     16 uncultured bacterium
-     10 uncultured bacterium
-     13 uncultured bacterium
-      1 Novosphingobium naphthalenivorans
-     15 uncultured bacterium
-     12 uncultured bacterium
-     14 Clostridium beijerinckii
-    178 Ralstonia solanacearum
-     10 uncultured bacterium
-     16 Clostridium estertheticum subsp. estertheticum
-      1 Acidobacteria bacterium IGE-018
-     11 uncultured bacterium
-     11 uncultured bacterium
-    178 Ralstonia solanacearum
-    107 Staphylococcus aureus
-    178 Ralstonia solanacearum
-      1 Acaryochloris marina
-      1 Acidovorax radicis
-      1 actinobacterium L2002
-    177 Ralstonia solanacearum
-    178 Ralstonia solanacearum
-     10 Sphingomonas melonis
-      1 Acidovorax sp. EECC-557
-      1 Acetobacteraceae bacterium
-     12 uncultured bacterium
-Acidimicrobiales bacterium URHD0090
-Acidimicrobidae bacterium Ellin7143
-Actinocorallia sp. 9_55
-Alphaproteobacteria bacterium IPR-32G
-Acidobacterium ailaaui
-Acetobacteraceae bacterium MP03
-Acidobacteria bacterium CB 286305
-Acidobacteria bacterium CB 286367
-Arenimonas aquatica
-Acetobacterium sp. Schreyahn_Kolonie_Aster_3.2
-Acidobacterium sp. SCGC AAA240-C04
-actinobacterium WWH12
-Acidobacteria bacterium CB 286306
-Acidobacteria bacterium CB 286305
-Actinoalloteichus cyanogriseus
-Alphaproteobacteria bacterium
-Acidimicrobidae bacterium Ellin7143
-Acidipila dinghuensis
-actinobacterium YJF1-30
-Acidobacteria bacterium SJ-70G
-Actinobacteria bacterium
-Adhaeribacter terrae
-actinobacterium SCGC AAA003-F21
-Actinoplanes sp. 319H11
-Actinobacteria bacterium
-Acidobacteria bacterium CB 286367
-Bacillus sp. (in: Bacteria)
-Agreia sp.
-Acidimicrobidae bacterium Ellin7143
-Actinomycetales bacterium URHD0103
-alpha proteobacterium endosymbiont 1b of Inanidrilus leukodermatus
-Acidobacteria bacterium IP-33G
-Archangium gephyra
-actinobacterium WWH12
-Acidobacteria bacterium WSR6
-Acidipila dinghuensis
-Actinoalloteichus cyanogriseus
-Acidobacteria bacterium WX90
-Acidimicrobidae bacterium Ellin7143
-Acidobacteria bacterium WSR12
-Actinobacteria bacterium
-Acidobacteria bacterium IGE-004
-Acetobacteraceae bacterium
-Acidimicrobiaceae bacterium
-Nordella sp.
-Acidipila dinghuensis
-Acetobacteraceae bacterium
-Actinoplanes regularis
-actinobacterium WWH12
-Acidobacteria bacterium CB 286305
-Actinoalloteichus hymeniacidonis
-Actinobacteria bacterium
-Acidimicrobidae bacterium Ellin7143
-Actinoalloteichus hymeniacidonis
-alpha proteobacterium endosymbiont 1b of Inanidrilus leukodermatus
-Acetobacteraceae bacterium
-Acidobacteria bacterium LWQ117
-Acidobacteria bacterium CB 286367
-actinobacterium WWH12
-Acidocella sp.
-Acidobacteria bacterium
-Acetobacteraceae bacterium
-Afifella marina
-Actinomycetales
-Acidobacteria bacterium IGE-016
-Allokutzneria sp.
-alpha proteobacterium endosymbiont 1b of Inanidrilus leukodermatus
-Acetobacteraceae bacterium
-bacterium
-Acidobacteria bacterium IGE-008
-Atopobium vaginae
-Actinobacteria bacterium IP-21A
-Acidobacteria bacterium WSR6
-Acidobacteria bacterium WSR6
-Acidobacteria bacterium WSR6
-Acidobacteria bacterium AB39
-Aeromicrobium tamlense
-Adhaeribacter terrae
-Acidibrevibacterium fodinaquatile
-Actinobacteria bacterium
-actinobacterium WWH12
-actinobacterium YJF1-30
-Amycolatopsis sp.
-Acetobacteraceae bacterium
-actinobacterium SCGC AAA041-K03
-Acidimicrobidae bacterium Ellin7143
-Acidimicrobiia bacterium
-Actinokineospora sp.
-Acidobacteria bacterium IGE-004
-Acidicapsa acidisoli
-Acidimicrobium ferrooxidans DSM 10331
-Actinoallomurus acaciae
-bacterium
-Actinobacteria bacterium
-Acetobacteraceae bacterium
-Asticcacaulis sp. ECN-2008
-Acetobacteraceae bacterium
-Acidicaldus sp. USBA-GBX-499
-Aeromicrobium sp.
-Achromobacter sp. AONIH1
-Acidobacteria bacterium CB 286367
-Acetobacteraceae bacterium
-actinobacterium WWH12
-Acidimicrobidae bacterium Ellin7143
-Actinomadura sp. ZZY-2013
-Actinoalloteichus cyanogriseus
-Acetobacteraceae bacterium MP03
-Acidimicrobidae bacterium Ellin7143
-Actinophytocola glycyrrhizae
-Alphaproteobacteria bacterium
-Acidobacteria bacterium KBS 96
-Acetobacteraceae bacterium W1.09-37
-Acidothermus cellulolyticus 11B
-Acetobacteraceae bacterium
-Aeromicrobium ginsengisoli
-Actinoalloteichus cyanogriseus
-actinobacterium HA-est-Is53-14
-Acidobacteria bacterium IGE-004
-Actinocorallia longicatena
-Afifella pfennigii;Afifella pfennigii DSM 17143
-Acidobacteria bacterium CB 286367
-Acidobacteria bacterium CB 286367
-Acidobacteria bacterium WSR12
-Acetobacteraceae bacterium
-Acidobacteriaceae bacterium KBS89
-Acidobacteria bacterium IGE-008
-Acidobacteria bacterium CB 286367
-Acidobacteria bacterium LWQ117
-Actinoalloteichus hymeniacidonis
-Acidimicrobidae bacterium Ellin7143
-Adhaeribacter terrae
-Actinobacteria bacterium
-Acetobacteraceae bacterium
-Actinoalloteichus cyanogriseus
-Arenimicrobium luteum
-Actinobacteria bacterium
-Actinoallomurus acaciae
-Agromyces indicus
-actinobacterium MS-F-22
-Arenimicrobium luteum
-Actinobacteria bacterium
-Acidobacteria bacterium LP6
-Acidimicrobidae bacterium Ellin7143
-Acidobacteria bacterium LP6
-Acidimicrobidae bacterium Ellin7143
-Acidobacteria bacterium WY67
-Bacillus circulans
-Acidimicrobidae bacterium Ellin7143
-Actinobacteria bacterium
-Acidobacteria bacterium WY67
-Actinobacteria bacterium
-Acidobacteria bacterium WY67
-Acidimicrobiaceae bacterium
-Acetobacteraceae bacterium
-Acetobacteraceae bacterium
-Acidimicrobiales bacterium URHD0090
-Acetobacteraceae bacterium
-Afipia sp. GAS231
-Acidobacteria bacterium CB 286367
-Acidimicrobiaceae bacterium
-actinobacterium WWH12
-Acidimicrobiia bacterium
-Acidimicrobiaceae bacterium
-Acetobacteraceae bacterium PAMC 26568;Acetobacteraceae bacterium PAMC 26569
-Adhaeribacter aquaticus
-Acidobacteria bacterium WY67
-Acidobacteria bacterium CB 286306
-Acidobacteriaceae bacterium A2-4c
-Actinobacteria bacterium
-Acidimicrobidae bacterium Ellin7143
-Acidobacteria bacterium WSR12
-Acidimicrobiaceae bacterium
-Acidobacteria bacterium CB 286305
-Actinomadura hallensis
-Acidobacteria bacterium IGE-002
-Acidimicrobiia bacterium
-Afipia sp. GAS231
-Acetobacteraceae bacterium
-Acidimicrobidae bacterium Ellin7143
-actinobacterium YNPRH1P-1
-Actinomycetospora atypica
-Acetobacteraceae bacterium
-Acetobacteraceae bacterium
-Arenimicrobium luteum
-Acetobacteraceae bacterium
-Acidobacteria bacterium CB 286367
-Actinomycetales
-Acidibrevibacterium fodinaquatile
-Acetobacteraceae bacterium
-Acetobacteraceae bacterium
-actinobacterium SCGC AAA041-K03
-Acetobacteraceae bacterium MP03
-Acidobacteria bacterium KBS 96
-Actinobacteria bacterium 15TR583
-Acetobacteraceae bacterium
-Acetobacteraceae bacterium
-Adhaeribacter sp. KS35
-alpha proteobacterium KC-IT-H4
-Acidobacteria bacterium IGE-015
-actinobacterium SCGC AAA240-L08
-Acidobacteria bacterium CB 286306
-Acidobacteria bacterium WSR6
-Actinoalloteichus cyanogriseus
-Acetobacteraceae bacterium
-Bacillus cucumis
-Actinomadura sp. WMMA1423
-Acidobacteria bacterium IGE-002
-Acetobacteraceae bacterium AKB-2008-TA7
-anaerobic syntrophic bacterium NE23-3
-Aciditerrimonas sp.
-actinobacterium SCGC AAA043-I09
-actinobacterium WWH12
-Acidobacteria bacterium KBS 96
-Acidobacteriaceae bacterium KBS89
-Acidimicrobidae bacterium Ellin7143
-Acetobacteraceae bacterium
-Acetobacteraceae bacterium
-Acetobacteraceae bacterium
-Archangium sp.
-Acidobacteria bacterium WSR6
-Actinocorallia herbida
-actinobacterium YJF1-30
-Actinomadura sp.
-Acidobacteria bacterium IGE-016
-actinobacterium WWH12
-Acetobacteraceae bacterium
-Acidobacteria bacterium WSR12
-Acidobacteria bacterium WSR12
-Acidobacteria bacterium WSR6
-Acidobacteria bacterium CB 286367
-Acidobacteria bacterium IGE-008
-Acidobacteria bacterium IGE-002
-Acidobacteria bacterium WSR12
-Acidobacteria bacterium WY67
-Actinomadura sp. DS-MS-114
-Acidobacteria bacterium IPR-39A
-Actinocorallia sp. 9_55
-Actinomadura sp. 2602GPT1-42
-Acidimicrobidae bacterium Ellin7143
-Acidobacteria bacterium IGE-004
-bacterium
-actinobacterium Aac-61;actinobacterium Aac-77
-Acidobacteria bacterium URHE0068
-Acidobacteria bacterium CU2
-bacterium
-Acidobacteria bacterium IGE-002
-Acidobacteria bacterium IGE-010
-Acidobacteria bacterium IGE-015
-Achromobacter denitrificans
-Acidobacteria bacterium WSR6
-Actinomycetales
-Acetobacter orientalis
-bacterium
-Acidimicrobidae bacterium Ellin7143
-Acidobacteria bacterium IGE-011
-Acidobacteria bacterium CB 286367
-Acidobacteria bacterium WSR6
-Actinomycetales
-Acidimicrobidae bacterium Ellin7143
-Acidobacteria bacterium LWQ117
-Acetobacteraceae bacterium
-Acetobacteraceae bacterium
-Acetobacteraceae bacterium
-Acidithiobacillus caldus
-Acidobacteria bacterium WSR12
-Acidobacteria bacterium WSR6
-actinobacterium DSM 46683
-Altererythrobacter xinjiangensis
-Actinopolymorpha singaporensis
-Actinomadura amylolytica
-Acidobacteria bacterium CB 286305
-Acidimicrobidae bacterium Ellin7143
-actinobacterium CH9
-actinobacterium MS-F-1
-Adhaeribacter terrae
-actinobacterium CPI
-Acidobacteriaceae bacterium A2-4c
-Acetobacteraceae bacterium
-Acidobacteria bacterium LWQ117
-Acidisoma sp.
-Actinobacteria bacterium
-Acidobacteria bacterium CB 286367
-Acidobacteria bacterium CB 286367
-Actinomadura sp. S2422
-Actinobacteria bacterium IP-21A
-Acidobacteria bacterium SCGC AAA204-D14
-Acidobacteriaceae bacterium KBS89
-Acetobacteraceae bacterium MP03
-Acidimicrobiales bacterium URHD0090
-Acidobacteria bacterium CB 286367
-Acidimicrobidae bacterium Ellin7143
-Acidimicrobiales bacterium URHD0090
-Acidimicrobiia bacterium
-Acidobacteria bacterium CB 286367
-Acidobacteria bacterium WSR6
-Acetobacteraceae bacterium PN-29
-Acidobacteria bacterium CB 286367
-Acidicapsa sp. CE1
-Actinomadura sp.
-Acetobacteraceae bacterium
-Acidobacterium ailaaui
-Alphaproteobacteria bacterium IP-54A
-Acetobacteraceae bacterium
-Acidobacteriaceae bacterium A2-4c
-Acidobacteria bacterium WSR6
-Acidobacteriaceae bacterium KBS89
-Acidobacteria bacterium WSR6
-Acidobacteria bacterium CB 286306
-Acetobacteraceae bacterium
-actinobacterium YJF1-30
-Actinobacteria bacterium IP-21A
-actinobacterium YJF1-30
-Actinobacteria bacterium
-actinobacterium WWH12
-Allokutzneria sp.
-Aquincola sp. ID0723
-Acidobacteria bacterium CB 286305
-Adhaeribacter sp. KS35
-Acidobacteria bacterium WSR6
-Actinobacteria bacterium
-Acidibacter ferrireducens
-Acidovorax sp. KBT156
-Acidobacteria bacterium SJ-70G
-Acidobacterium sp. WY65
-actinobacterium YJF1-30
-Acidobacteria bacterium WSR6
-Acidobacteria bacterium WSR6
-Actinoalloteichus sp. SHA6
-Acidimicrobidae bacterium Ellin7143
-Actinobacteria bacterium IP-21A
-Actinomadura sp. YIM M11072
-Acidobacteria bacterium SJ-70G
-Acetobacteraceae bacterium
-Achromobacter xylosoxidans
-alpha proteobacterium CN37
-Acidobacteria bacterium AB158
-actinobacterium SCGC AAA041-K03
-Acetobacteraceae bacterium
-Acidobacterium ailaaui
-Amaricoccus macauensis
-Aeromicrobium sp. CC-CFT486
-Acidobacteria bacterium LWQ117
-Actinobacteria bacterium
-Acidobacteria bacterium WSR6
-Acidicapsa sp. CE1
-Acetobacteraceae bacterium
-Acidipila rosea
-Acidobacteria bacterium WSR6
-Adhaeribacter sp.
-Acidiphilium sp.
-actinobacterium WWH12
-Achromobacter denitrificans
-Acidobacteria bacterium WSR6
-Acidobacteria bacterium IGE-002
-Acidobacteria bacterium CB 286306
-Acidobacteria bacterium LWQ117
-Acetobacteraceae bacterium
-Acidobacteria bacterium CB 286305
-Actinoplanes sp. TMC5
-Acidocella sp.
-Acetobacteraceae bacterium
-Actinoplanes sp. TD028
-Acetobacteraceae bacterium
-actinobacterium DSM 46683
-actinobacterium DSM 46683
-Acidobacteriaceae bacterium Gsoil 1619
-Acetobacteraceae bacterium
-Acetobacteraceae bacterium
-Acidicapsa acidisoli
-Acidicapsa sp. CE1
-Acidobacteria bacterium
-Acetobacteraceae bacterium
-Alphaproteobacteria bacterium IP-54A
-Acetobacteraceae bacterium
-Acidicapsa acidisoli
-Acetobacteraceae bacterium
-Acetobacteraceae bacterium
-Acetobacteraceae bacterium
-Acidicapsa acidisoli
-Acidicapsa acidisoli
-Acetobacteraceae bacterium
-Acidipila rosea
-Acidobacteria bacterium CCO287
-Acetobacteraceae bacterium
-Acidicapsa acidisoli
-Acidobacteriaceae bacterium KBS89
-Alphaproteobacteria bacterium IP-54A
-bacterium
-Acidipila rosea
-Acetobacteraceae bacterium
-Acetobacteraceae bacterium
-Acidobacteria bacterium WSR6
-Acidobacteriaceae bacterium C27
-Acidobacteria bacterium IP-33G
-Acidobacteria bacterium SJ-70G
-Acidobacteria bacterium
-Actinobacteria bacterium
-Acetobacteraceae bacterium LX45
-Acidicapsa acidisoli
-Acetobacteraceae bacterium
-actinobacterium TC4
-Acidicapsa acidisoli
-Alphaproteobacteria bacterium IP-54A
-Acidobacteria bacterium AB20
-Actinoplanes sp. ISO06811
-Acidobacteria bacterium WSR6
-Actinobacteria bacterium
-Acidobacteria bacterium IP-28A
-Acetobacteraceae bacterium
-Acidicapsa sp. CE1
-Acetobacteraceae bacterium
-Acetobacteraceae bacterium MP03
-Acidobacteriaceae bacterium KBS89
-Alphaproteobacteria bacterium IP-54A
-Acidisphaera sp.
-Acidicapsa acidisoli
-Acidobacteriaceae bacterium KBS89
-Acetobacteraceae bacterium
-Acidicapsa acidisoli
-Acetobacteraceae bacterium
-Acetobacteraceae bacterium
-Acetobacteraceae bacterium
-Acidisoma sp.
-Acidipila rosea
-Acetobacteraceae bacterium
-Acidisphaera sp.
-Acetobacteraceae bacterium
-Acidobacteria bacterium
-Acidobacteriaceae bacterium KBS89
-Acidobacteriaceae bacterium C27
-Acetobacteraceae bacterium
-actinobacterium HA-est-Is51-14
-Acetobacteraceae bacterium PN-29
-Acidobacteria bacterium IP-33G
-Acetobacteraceae bacterium
-Acidobacteria bacterium IGE-013
-Acidicapsa acidisoli
-Acidobacteriaceae bacterium C27
-Acidipila dinghuensis
-Acidobacteria bacterium
-Acidobacteria bacterium KBS 83
-Acidobacteria bacterium IGE-013
-Acidobacteria bacterium
-Acidicapsa acidisoli
-Actinobacteria bacterium
-Actinobacteria bacterium
-Acidisphaera sp.
-bacterium
-Acidicapsa sp. CE1
-Acidipila rosea
-Acidisoma sp.
-Acidicapsa acidisoli
-Acidobacterium capsulatum
-Alphaproteobacteria bacterium IP-54A
-Acidicapsa acidisoli
-Acidobacteria bacterium
-Acidicapsa sp. CE1
-Acetobacteraceae bacterium
-actinobacterium TC4
-Acidipila dinghuensis
-Acidobacteria bacterium URHE0068
-Acidobacteria bacterium IP-33G
-bacterium
-bacterium
-Acidimicrobiales bacterium URHD0090
-bacterium Ellin5299
-Amorphus sp.
-bacterium
-Acidobacteria bacterium
-Actinoplanes cibodasensis
-Actinobacteria bacterium 15TR583
-Bacillus cereus
-Alphaproteobacteria bacterium IP-54A
-bacterium
-Acidicapsa sp. CE1
-Bacillus nealsonii
-bacterium
-Acidobacteria bacterium AB158
-Bacillus drentensis
-Actinomycetales bacterium
-Acidobacteriaceae bacterium KBS89
-Acidobacteria bacterium SJ-70G
-bacterium K-5b5
-Acidicapsa acidisoli
-Acidobacteria bacterium WSR6
-Acidicapsa acidisoli
-Acetobacteraceae bacterium MP03
-Acidocella sp. DM1;Acidocella sp. DM2
-Acidobacteria bacterium AB60
-Alphaproteobacteria bacterium IP-54A
-Acidibacter ferrireducens
-Acidobacteria bacterium KBS 96
-bacterium
-Acetobacteraceae bacterium
-Acidobacteria bacterium AB158
-Alphaproteobacteria bacterium
-Acidobacteria bacterium N3B
-Actinobacteria bacterium 15TR583
-Alphaproteobacteria bacterium
-Acidimicrobidae bacterium Ellin7143
-Acidobacteria bacterium KBS 96
-Acetobacteraceae bacterium
-Acidipila rosea
-Acidicaldus sp. MK6
-Acetobacteraceae bacterium
-Acetobacteraceae bacterium W1.09-37
-Acetobacteraceae bacterium MS302e
-Acidobacteria bacterium AB158
-Acidobacteria bacterium SJ-70G
-Acetobacteraceae bacterium
-Acidimicrobidae bacterium Ellin7143
-Acidobacteria bacterium
-Acidobacteria bacterium AB158
-Acidobacteria bacterium
-alpha proteobacterium Shinshu-th1
-Acidobacteria bacterium AB158
-Acidobacterium sp. pan6
-Actinobacteria bacterium 15TR583
-bacterium
-Alphaproteobacteria bacterium IP-54A
-Acidobacteriaceae bacterium KBS89
-Acidobacteria bacterium AB20
-Acidobacteria bacterium KBS 96
-Alicyclobacillus sp.
-Acidobacteriaceae bacterium A2-4c
-Acidobacteria bacterium SJ-70G
-Acidimicrobiales bacterium URHD0090
-bacterium Ellin6528
-bacterium
-bacterium
-Alphaproteobacteria bacterium IP-54A
-Acidobacteria bacterium KBS 96
-Acidisphaera rubrifaciens
-Acetobacteraceae bacterium
-Acidobacterium capsulatum ATCC 51196
-Acidimicrobidae bacterium Ellin7143
-Acetobacteraceae bacterium
-Acetobacteraceae bacterium
-Acidobacteria bacterium WSR6
-Acetobacteraceae bacterium
-Acetobacteraceae bacterium
-Acidimicrobiales bacterium URHD0090
-Acidobacteriaceae bacterium SBC82
-Acidobacteria bacterium WSR6
-Acidobacteria bacterium WSR6
-Acidobacteria bacterium KBS 96
-Alphaproteobacteria bacterium IP-54A
-Acidobacteria bacterium WSR6
-Amorphus sp.
-Acidobacteria bacterium WSR6
-Acidobacteria bacterium WSR6
-Acidobacteria bacterium WSR6
-Acidobacteria bacterium WSR6
-bacterium
-Actinomycetales
-Acidobacteria bacterium LWQ117
-Acidobacteria bacterium IGE-002
-Achromobacter spanius
-Acetobacteraceae bacterium
-Actinomycetales bacterium URHA049F
-Acidobacteria bacterium WSR6
-Acetobacteraceae bacterium
-bacterium
-Acidobacteria bacterium IGE-013
-alpha proteobacterium CN37
-Acidobacterium ailaaui
-Acidobacteria bacterium KBS 96
-Acetobacteraceae bacterium
-Acidicapsa acidisoli
-Achromobacter xylosoxidans
-bacterium
-Acetobacteraceae bacterium
-Acidobacteria bacterium LWQ117
-bacterium
-Actinoplanes teichomyceticus ATCC 31121
-Acidobacteria bacterium KBS 96
-Acetobacteraceae bacterium
-Acidocella facilis
-Actinobacteria bacterium
-Acetobacteraceae bacterium
-Acidobacteria bacterium WSR6
-Acidobacteria bacterium WSR6
-Acidisphaera sp.
-Actinobacteria bacterium
-Acidobacteria bacterium LWQ117
-Alphaproteobacteria bacterium IP-54A
-Acetobacteraceae bacterium
-Acidipila rosea
-Acidocella facilis
-bacterium
-Acidobacterium sp. pan6
-Actinoplanes sp. A-T 5916
-Acidimicrobidae bacterium Ellin7143
-Arsenophonus nasoniae
-Acidobacteria bacterium WSR6
-alpha proteobacterium KC-IT-H4
-alpha proteobacterium AKB-2008-TA3A
-bacterium
-Archangium disciforme
-bacterium
-Actinoplanes sp. LW-10
-Acidimicrobiales bacterium URHD0090
-Actinomadura sp. YIM 77503
-Acidobacteria bacterium WSR6
-Acidobacteria bacterium WSR6
-Actinobacteria bacterium
-Actinomycetales bacterium
-Acidobacteria bacterium KBS 96
-Alphaproteobacteria bacterium IP-54A
-Acidobacterium capsulatum
-bacterium
-Alphaproteobacteria bacterium
-Acidobacteria bacterium WSR6
-Acidobacteria bacterium KBS 96
-bacterium
-Acidobacteria bacterium WSR6
-Alphaproteobacteria bacterium IP-54A
-Bacillus cereus
-bacterium
-Acidobacteria bacterium URHE0068
-Acidobacteria bacterium IP-33G
-Azospirillum brasilense
-Actinomycetales
-Archangium sp.
-Actinobacteria bacterium 15TR583
-Acidobacteria bacterium
-bacterium
-Acidobacteria bacterium WSR6
-bacterium
-Acidobacteria bacterium IP-20G
-Acidobacteria bacterium WSR6
-Acidobacteria bacterium WSR6
-Azospirillum brasilense
-Acidimicrobidae bacterium Ellin7143
-actinobacterium MS-F-22
-actinobacterium YNPRH1P-1
-Acetobacteraceae bacterium
-Actinomycetales
-Acidobacteria bacterium WSR6
-Acidimicrobiales bacterium URHD0090
-Alphaproteobacteria bacterium
-Acidobacteria bacterium AB158
-Acidobacteria bacterium IGE-013
-Acetobacteraceae bacterium
-Actinobacteria bacterium
-Acidobacteriaceae bacterium K5
-Acidobacteria bacterium IP-33G
-Acidobacteria bacterium WSR6
-Afipia sp.
-Acidobacteriaceae bacterium KBS89
-Alphaproteobacteria bacterium IP-54A
-Acidobacteria bacterium WSR6
-Acidobacteria bacterium WSR6
-Acidobacteria bacterium SJ-70G
-Acidobacteria bacterium KBS 96
-Acetobacteraceae bacterium
-Acidobacteria bacterium WSR6
-Acidisphaera rubrifaciens
-Acidobacteria bacterium SJ-70G
-Actinobacteria bacterium IP-21A
-Acidobacterium capsulatum
-Actinoplanes cibodasensis
-Acidobacteria bacterium WSR6
-Acidobacteria bacterium WSR6
-Azoarcus sp. DD4
-actinobacterium SCGC AAA043-P15
-Acidimicrobidae bacterium Ellin7143
-Acidobacteria bacterium WSR6
-Algorimarina butyrica
-Actinomycetales bacterium
-Acidobacteria bacterium
-Acidimicrobidae bacterium Ellin7143
-Acetobacteraceae bacterium
-Acidobacteria bacterium AB20
-Acidimicrobidae bacterium Ellin7143
-Actinobacteria bacterium
-Acidobacteria bacterium WSR6
-Archangium sp.
-Acidobacteria bacterium LWQ117
-Acidobacteria bacterium WSR6
-Acetobacteraceae bacterium
-Acidobacteria bacterium WSR6
-Acetobacteraceae bacterium
-Acidobacteria bacterium AB158
-bacterium
-Aquisphaera giovannonii
-Acidobacteria bacterium WSR6
-Alphaproteobacteria bacterium IP-54A
-Acetobacteraceae bacterium MP03
-Acetobacteraceae bacterium
-Acidobacteriaceae bacterium KBS89
-Acetobacteraceae bacterium
-Acetobacteraceae bacterium LX45
-Acidobacteria bacterium WSR6
-Actinobacteria bacterium
-Acidobacteria bacterium SJ-70G
-Acetobacteraceae bacterium
-Acidobacteria bacterium SJ-70G
-Acidobacteriaceae bacterium C27
-Acidobacteriaceae bacterium K5
-Acetobacteraceae bacterium
-Alphaproteobacteria bacterium IP-45A
-Acetobacteraceae bacterium
-Acidicapsa acidisoli
-Acidobacteria bacterium
-bacterium
-bacterium
-Acidicapsa acidisoli
-bacterium
-Acidobacteria bacterium IP-28A
-Acetobacteraceae bacterium
-Archangium sp.
-Acetobacteraceae bacterium
-Alphaproteobacteria bacterium IP-54A
-Acidobacteria bacterium WSR6
-Acidobacteria bacterium KBS 96
-Acidobacteriaceae bacterium KBS89
-Actinobacteria bacterium
-Actinobacteria bacterium
-bacterium
-Alphaproteobacteria bacterium IP-54A
-Acidobacteria bacterium WSR6
-Acidobacteria bacterium WSR6
-bacterium
-Acetobacteraceae bacterium
-bacterium
-anoxygenic photosynthetic bacterium C26
-actinobacterium TC4
-bacterium
-Asanoa sp.
-Acidobacteriaceae bacterium KBS89
-Afipia sp. JMT1926
-Acetobacteraceae bacterium
-Acidobacteria bacterium WSR6
-Acidicapsa sp. CE1
-Acetobacteraceae bacterium MP03
-Acetobacteraceae bacterium
-Acidobacteriaceae bacterium SBC82
-Acidicapsa acidisoli
-Acidimicrobidae bacterium Ellin7143
-Acetobacteraceae bacterium PN-29
-Acidobacteria bacterium
-Acidobacteria bacterium WSR6
-actinobacterium SCGC AAA041-N04
-Acidimicrobiaceae bacterium
-Acidobacteria bacterium WSR6
-Streptomyces sp.
-Acidobacteria bacterium WSR6
-Acidobacteria bacterium WSR6
-Acidobacteria bacterium WSR6
-bacterium
-Actinoplanes durhamensis
-Actinobacteria bacterium
-Acidicapsa acidisoli
-Actinobacteria bacterium 15TR583
-Acidobacteria bacterium KBS 96
-Acidobacteria bacterium SJ-16G
-uncultured bacterium
-Acetobacteraceae bacterium
-Acidisphaera sp.
-Actinobacteria bacterium
-Acidobacteriaceae bacterium KBS89
-alpha proteobacterium URHD0017
-Acidicapsa sp. CE1
-Acidisphaera sp.
-Acetobacteraceae bacterium
-Acidobacteria bacterium
-Aciditerrimonas sp.
-Acidipila dinghuensis
-Acidobacteriaceae bacterium C27
-Acidobacteria bacterium WSR6
-Acidipila rosea
-Acetobacteraceae bacterium
-Acidobacteria bacterium SJ-70G
-Acetobacteraceae bacterium
-Acidipila rosea
-Acetobacteraceae bacterium
-Acetobacteraceae bacterium
-Acidobacteria bacterium IP-33G
-actinobacterium YJF1-30
-Acidobacteria bacterium
-Acidobacteria bacterium
-Acetobacteraceae bacterium
-Acidobacterium capsulatum
-Telmatobacter sp. 15-28
-Alphaproteobacteria bacterium IP-45A
-bacterium
-Acetobacteraceae bacterium
-Acetobacteraceae bacterium
-Acidobacteria bacterium AB20
-Acidobacteriaceae bacterium SBC82
-actinobacterium TC4
-Acidobacteriaceae bacterium KBS89
-Acidicapsa acidisoli
-Acidobacteria bacterium KBS 96
-Acidobacteriaceae bacterium KBS89
-Acetobacteraceae bacterium
-Acidobacteriaceae bacterium Gsoil 969
-Acidobacteria bacterium KBS 96
-Afipia sp. GAS231
-actinobacterium SCGC AAA043-G10
-Acetobacteraceae bacterium
-Acidipila rosea
-Acidobacteria bacterium
-Acidicapsa acidisoli
-Acidobacteria bacterium IP-28A
-Acetobacteraceae bacterium
-Acidobacteriaceae bacterium SBC82
-Actinobacteria bacterium
-Acetobacteraceae bacterium PN-29
-Acidobacteria bacterium SJ-70G
-Acidicapsa dinghuensis
-Acidiphilium cryptum JF-5
-Acetobacteraceae bacterium
-Acetobacterium sp. KB-1
-Acetobacteraceae bacterium
-Acidobacteriaceae bacterium A2-4c
-Acidicapsa sp. CE1
-Acetobacteraceae bacterium MP03
-Acetobacteraceae bacterium PN-29
-Acetobacteraceae bacterium
-Acidobacteriaceae bacterium C27
-Acidobacteria bacterium IP-33G
-Acetobacteraceae bacterium
-Acanthamoeba castellanii str. Neff
-Acidobacteria bacterium AB158
-Acetobacteraceae bacterium
-Acidobacterium ailaaui
-Acidicapsa acidisoli
-Acetobacteraceae bacterium MS302e
-Acetobacteraceae bacterium
-Acidobacterium capsulatum
-Acidobacteria bacterium AB20
-Acetobacteraceae bacterium
-Acidobacterium sp. WY65
-Acetobacteraceae bacterium MP03
-Acidobacteriaceae bacterium KBS89
-Actinobacteria bacterium
-Acidobacteria bacterium AB158
-Acidobacteria bacterium WSR6
-Acidobacteria bacterium WSR6
-Acidobacteriaceae bacterium A2-4c
-actinobacterium YJF1-30
-Acidobacteria bacterium WSR6
-Acidicapsa acidisoli
-Acidobacteriaceae bacterium KBS89
-Acetobacteraceae bacterium MP03
-Acidobacteria bacterium WSR6
-Acidicapsa sp. CE1
-Acidibrevibacterium fodinaquatile
-Acetobacteraceae bacterium
-Acidibacter ferrireducens
-Actinobacteria bacterium 15TR583
-bacterium
-Acidisoma sp.
-Acidobacteria bacterium WY67
-Archangium gephyra
-Acetobacteraceae bacterium
-Actinobacteria bacterium
-Acidipila dinghuensis
-Acetobacteraceae bacterium
-Acidicapsa acidisoli
-Actinobacteria bacterium
-Acidobacteria bacterium IGE-008
-Actinoplanes italicus
-Actinoplanes ferrugineus
-Acidobacteria bacterium WY67
-Actinomadura keratinilytica
-Agromyces ramosus
-Aggregicoccus edonensis
-Acidimicrobiales bacterium URHD0090
-actinobacterium SCGC AAA041-K03
-Acidobacteria bacterium IGE-004
-actinobacterium DSM 46683
-Acidobacteria bacterium WSR12
-Actinoplanes italicus
-Acidobacteria bacterium IGE-004
-Acidobacteria bacterium WY67
-actinobacterium DSM 46683
-Acidobacteria bacterium IGE-010
-bacterium
-Acidobacteria bacterium CB 286306
-Actinobacteria bacterium
-Actinobacteria bacterium
-bacterium
-Acidobacteria bacterium IGE-004
-Aciditerrimonas sp.
-Actinoplanes italicus
-Actinobacteria bacterium
-Actinoplanes italicus
-Acetobacteraceae bacterium
-Acidobacteria bacterium IGE-010
-Acidobacteria bacterium IGE-002
-Aeromicrobium sp. KAR59
-actinobacterium TC4
-Acidobacteria bacterium IGE-018
-Acidobacteria bacterium CB 286305
-Actinoplanes italicus
-actinobacterium YJF1-30
-Arenimicrobium luteum
-Alkalispirillum sp. ACO1
-Acidobacteria bacterium WSR6
-Acetobacteraceae bacterium
-Acetobacteraceae bacterium
-Acidicapsa acidisoli
-uncultured bacterium
-uncultured bacterium
-Acidimicrobidae bacterium Ellin7143
-Acidobacteria bacterium WSR6
-Acetobacteraceae bacterium
-Acidicapsa acidisoli
-Acidobacteria bacterium LWQ117
-Acidobacteria bacterium WSR6
-Acidobacteria bacterium WSR6
-Acetobacteraceae bacterium
-Acidobacteria bacterium KBS 96
-Acidisphaera sp.
-Acidicapsa acidisoli
-Acetobacteraceae bacterium
-Acidobacteria bacterium WSR6
-Acetobacteraceae bacterium
-Acidobacteria bacterium URHE0068
-Achromobacter sp. MFA1 R4
-Acidobacteria bacterium
-Acetobacteraceae bacterium
-Acidimicrobidae bacterium Ellin7143
-Acidobacteria bacterium WSR6
-Acidibrevibacterium fodinaquatile
-Anolis evermanni
-actinobacterium YJF1-30
-Acidobacteria bacterium
-Acetobacteraceae bacterium
-Acidobacteria bacterium WSR6
-Acetobacteraceae bacterium
-Acidobacteria bacterium AB158
-Acetobacteraceae bacterium LX45
-Acidobacteria bacterium AB158
-Acidimicrobidae bacterium Ellin7143
-Acidobacteria bacterium CB 286367
-Acidobacteria bacterium URHE0068
-Acidimicrobiales bacterium URHD0090
-Acidimicrobidae bacterium Ellin7143
-Acidobacteria bacterium IGE-013
-Acidimicrobiales bacterium URHD0090
-Acidicapsa sp. CE1
-Acidimicrobidae bacterium Ellin7143
-Acidobacteria bacterium WSR6
-Acidobacteriaceae bacterium KBS89
-Acetobacteraceae bacterium
-Acetobacteraceae bacterium
-Acetobacteraceae bacterium
-Acidobacteria bacterium WSR6
-Acidobacteria bacterium WSR6
-Acidimicrobidae bacterium Ellin7143
-Acidobacteria bacterium SJ-70G
-Acidimicrobidae bacterium Ellin7143
-Bacillus sp. IDA4917
-Acidobacteria bacterium SJ-16G
-Acidobacteria bacterium WSR6
-Acidobacteriaceae bacterium A2-4c
-Acetobacteraceae bacterium
-Acidobacteria bacterium KBS 96
-Acidobacteria bacterium WSR6
-Acidobacteria bacterium IGE-013
-Actinomadura sp.
-Acetobacteraceae bacterium
-Acetobacteraceae bacterium PN-29
-Acetobacteraceae bacterium
-Acetobacteraceae bacterium
-Acetobacteraceae bacterium
-Acidobacteria bacterium WSR6
-Achromobacter spanius
-Acetobacteraceae bacterium
-Acetobacteraceae bacterium
-Acetobacteraceae bacterium
-Actinobacteria bacterium
-Acidovorax sp. CC-11P11
-Achromobacter xylosoxidans
-Acidimicrobidae bacterium Ellin7143
-Acidipila rosea
-Acidobacteria bacterium WSR6
-Acetobacteraceae bacterium
-Acidisoma sp.
-Acidobacteria bacterium WSR6
-Acidipila rosea
-Acetobacteraceae bacterium
-Actinobacteria bacterium 15TR583
-Acetobacteraceae bacterium
-Acidobacteria bacterium WSR6
-Adhaeribacter sp. MJ115
-Acetobacteraceae bacterium PN-29
-Acetobacteraceae bacterium MS302e
-Acidobacteria bacterium WSR6
-Acidobacteria bacterium LWQ117
-Actinobacteria bacterium 15TR583
-Acetobacteraceae bacterium MP03
-Acidobacteria bacterium WSR6
-Acidobacteriaceae bacterium SBC82
-Acidobacteria bacterium IP-33G
-Actinobacteria bacterium 15TR583
-Acidobacteria bacterium WSR6
-Acetobacteraceae bacterium
-Acidobacteria bacterium IGE-013
-Acidobacteria bacterium KBS 96
-Bacillus sp. (in: Bacteria)
-Acetobacteraceae bacterium LX45
-Actinomycetales
-Acetobacteraceae bacterium
-Acidobacteria bacterium WSR6
-Acetobacteraceae bacterium
-Acidicapsa sp. CE1
-Acidobacteria bacterium KBS 96
-Acetobacteraceae bacterium
-Alphaproteobacteria bacterium IP-54A
-Acidimicrobidae bacterium Ellin7143
-Acidimicrobidae bacterium Ellin7143
-Acidobacteria bacterium WSR6
-Acidobacteria bacterium URHE0068
-Acidimicrobidae bacterium Ellin7143
-bacterium
-bacterium
-Actinobacteria bacterium
-Acidibrevibacterium fodinaquatile
-Acidobacteria bacterium IGE-013
-Acidobacteria bacterium WSR6
-Actinotalea sp. SYSU S10002
-Acetobacteraceae bacterium PN-29
-Acetobacteraceae bacterium
-Acidobacteria bacterium AB20
-Acidimicrobiales bacterium URHD0090
-Alphaproteobacteria bacterium IP-54A
-bacterium
-bacterium
-Acetobacteraceae bacterium
-Acidobacteria bacterium SJ-70G
-Acidobacteria bacterium WSR6
-Acetobacteraceae bacterium MP03
-Acidobacteriaceae bacterium Gsoil 969
-Afipia sp.
-Acidobacteria bacterium WSR6
-Acidobacteria bacterium WSR6
-alpha proteobacterium URHD0017
-Acidobacteria bacterium WSR6
-Acidobacteria bacterium SJ-70G
-Acidobacteria bacterium AB158
-Acidobacteria bacterium WSR6
-actinobacterium YJF1-30
-Acetobacteraceae bacterium
-Acetobacteraceae bacterium
-Acidobacteria bacterium WSR6
-Acetobacteraceae bacterium
-Acidobacteria bacterium LWQ117
-Acidobacteria bacterium LWQ117
-Acetobacteraceae bacterium
-Acidobacteria bacterium WSR6
-Acetobacteraceae bacterium
-Actinobacteria bacterium IP-21A
-Azospirillum brasilense
-Acidobacteria bacterium WSR6
-Acetobacteraceae bacterium
-Acidicapsa acidisoli
-Acidobacteria bacterium KBS 96
-Acetobacteraceae bacterium
-Acidobacteria bacterium WSR6
-Acetobacteraceae bacterium
-Acidobacteria bacterium WSR6
-Acidicapsa sp. CE1
-Acidobacteriaceae bacterium KBS89
-Alphaproteobacteria bacterium H 52
-Alphaproteobacteria bacterium IP-54A
-Acetobacteraceae bacterium
-Acetobacteraceae bacterium
-Acetobacteraceae bacterium MP03
-Acidobacteria bacterium WSR6
-Acetobacteraceae bacterium
-Acidobacteria bacterium WSR6
-Acidobacterium ailaaui
-Azospirillum brasilense
-Arctic sea ice bacterium ARK10157
-Acidobacteria bacterium AB158
-Acidobacteriaceae bacterium KBS89
-Acidobacteria bacterium KBS 96
-Acetobacteraceae bacterium
-Acidobacteria bacterium KBS 96
-Acidobacteria bacterium WSR6
-Acidobacteria bacterium WSR6
-Acidobacteria bacterium WY67
-Acidimicrobiia bacterium
-Actinoplanes ferrugineus
-Acidobacteria bacterium CB 286306
-Acidobacteria bacterium WY67
-Acidimicrobiia bacterium
-Acidobacteria bacterium WSR12
-Adhaeribacter sp. HMF7616
-Acetobacteraceae bacterium
-Acidimicrobiaceae bacterium
-actinobacterium WWH12
-Actinobacteria bacterium
-Acetobacteraceae bacterium
-Acetobacteraceae bacterium
-Acidobacteria bacterium WSR6
-actinobacterium YNPRH1P-1
-Actinobacteria bacterium
-Actinomycetales bacterium
-Acetobacteraceae bacterium
-Actinomadura hallensis;Actinomadura sp. T5S13;Actinomadura sp. SPO7
-Acidimicrobiales bacterium URHD0090
-Actinobacteria bacterium
-Acetobacteraceae bacterium
-Acanthamoeba castellanii str. Neff
-Acidobacteria bacterium SJ-70G
-actinobacterium MS-F-1
-Arthrobacter sp.
-Acidobacteria bacterium LWQ117
-Arenimicrobium luteum
-Acidobacteria bacterium WY67
-Acidobacteria bacterium WY67
-Acetobacteraceae bacterium W1.09-37
-Acidobacteria bacterium WSR6
-Acidovorax avenae
-Acidobacteria bacterium WY67
-actinobacterium WWH12
-Acidobacteria bacterium YJF2-13
-Acidobacteriaceae bacterium KBS89
-Acidobacteria bacterium WY67
-bacterium
-Acetobacteraceae bacterium
-Altererythrobacter sp. R83-1
-Acidobacteria bacterium CB 286306
-actinobacterium WWH12
-Actinoplanes sp. N902-109
-actinobacterium SCGC AAA278-M15
-Actinobacteria bacterium
-Achromobacter sp.
-Achromobacter sp.
-Achromobacter sp.
-Aphanizomenon flos-aquae NIES-81
-actinobacterium SCGC AAA028-N15;actinobacterium SCGC AAA028-P22
-Actinobacteria bacterium PW-36A
-actinobacterium MS-F-91
-actinobacterium MS-F-91
-Algoriphagus marisflavi
-Acidobacteria bacterium CB 286367
-Achromobacter sp.
-Acidobacterium sp. WY65
-Alphaproteobacteria bacterium
-Actinobacteria bacterium SJ-69A
-Aliidiomarina shirensis
-Absiella dolichum DSM 3991
-Acidovorax sp.
-Actinobacteria bacterium
-Novosphingobium naphthalenivorans
-Acidimicrobidae bacterium YM18-244
-Acidimicrobidae bacterium Ellin7143
-Acidimicrobiales bacterium URHD0090
-Acidisphaera sp.
-Acidimicrobiia bacterium
-Acidimicrobiaceae bacterium
-Acidobacteria bacterium IGE-018
-Acidimicrobiales bacterium URHD0090
-bacterium
-Acetobacteraceae bacterium
-Acidobacteria bacterium IGE-015
-Acidisoma sp.
-Acaryochloris marina
-Acidovorax radicis
-actinobacterium L2002
-Acidobacterium sp. ORAC
-Acidobacteria bacterium IGE-015
-Acetobacteraceae bacterium AKB-2008-TA7
-Acidovorax sp. EECC-557
-Acetobacteraceae bacterium
-Acidimicrobidae bacterium L1919
-      1 Acidimicrobiales bacterium URHD0090
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Actinocorallia sp. 9_55
-      1 Alphaproteobacteria bacterium IPR-32G
-      1 Acidobacterium ailaaui
-      1 Acetobacteraceae bacterium MP03
-      1 Acidobacteria bacterium CB 286305
-     16 Clostridium estertheticum subsp. estertheticum
-      1 Arenimonas aquatica
-      1 Acetobacterium sp. Schreyahn_Kolonie_Aster_3.2
-      1 Acidobacterium sp. SCGC AAA240-C04
-      1 actinobacterium WWH12
-      1 Acidobacteria bacterium CB 286306
-      1 Acidobacteria bacterium CB 286305
-     18 Ralstonia solanacearum
-      1 Alphaproteobacteria bacterium
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Acidipila dinghuensis
-      1 actinobacterium YJF1-30
-      1 Acidobacteria bacterium SJ-70G
-     10 uncultured bacterium
-      1 Adhaeribacter terrae
-      1 actinobacterium SCGC AAA003-F21
-      1 Actinoplanes sp. 319H11
-      1 Actinobacteria bacterium
-      1 Acidobacteria bacterium CB 286367
-      1 Bacillus sp. (in: Bacteria)
-      1 Agreia sp.
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Actinomycetales bacterium URHD0103
-      1 alpha proteobacterium endosymbiont 1b of Inanidrilus leukodermatus
-      1 Acidobacteria bacterium IP-33G
-     13 uncultured bacterium
-     16 uncultured bacterium
-      1 Acidobacteria bacterium WSR6
-      1 Acidipila dinghuensis
-      1 Actinoalloteichus cyanogriseus
-      1 Acidobacteria bacterium WX90
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Acidobacteria bacterium WSR12
-      1 Actinobacteria bacterium
-      1 Acidobacteria bacterium IGE-004
-      1 Acetobacteraceae bacterium
-     11 uncultured bacterium
-      1 Nordella sp.
-      1 Acidipila dinghuensis
-      1 Acetobacteraceae bacterium
-      1 Actinoplanes regularis
-      1 actinobacterium WWH12
-      1 Acidobacteria bacterium CB 286305
-      1 Actinoalloteichus hymeniacidonis
-      1 Actinobacteria bacterium
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Actinoalloteichus hymeniacidonis
-      1 alpha proteobacterium endosymbiont 1b of Inanidrilus leukodermatus
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium LWQ117
-      1 Acidobacteria bacterium CB 286367
-     15 uncultured bacterium
-      1 Acidocella sp.
-      1 Acidobacteria bacterium
-      1 Acetobacteraceae bacterium
-      1 Afifella marina
-      1 Actinomycetales
-      1 Acidobacteria bacterium IGE-016
-      1 Allokutzneria sp.
-      1 alpha proteobacterium endosymbiont 1b of Inanidrilus leukodermatus
-      1 Acetobacteraceae bacterium
-      1 bacterium
-      1 Acidobacteria bacterium IGE-008
-      1 Atopobium vaginae
-      1 Actinobacteria bacterium IP-21A
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium AB39
-      1 Aeromicrobium tamlense
-      1 Adhaeribacter terrae
-      1 Acidibrevibacterium fodinaquatile
-     18 Ralstonia solanacearum
-      1 actinobacterium WWH12
-      1 actinobacterium YJF1-30
-      1 Amycolatopsis sp.
-      1 Acetobacteraceae bacterium
-      1 actinobacterium SCGC AAA041-K03
-      1 Acidimicrobidae bacterium Ellin7143
-     10 uncultured bacterium
-      1 Actinokineospora sp.
-     15 uncultured bacterium
-      1 Acidicapsa acidisoli
-      1 Acidimicrobium ferrooxidans DSM 10331
-      1 Actinoallomurus acaciae
-      1 bacterium
-      1 Actinobacteria bacterium
-      1 Acetobacteraceae bacterium
-      1 Asticcacaulis sp. ECN-2008
-      1 Acetobacteraceae bacterium
-      1 Acidicaldus sp. USBA-GBX-499
-      1 Aeromicrobium sp.
-     10 uncultured bacterium
-      1 Acidobacteria bacterium CB 286367
-      1 Acetobacteraceae bacterium
-      1 actinobacterium WWH12
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Actinomadura sp. ZZY-2013
-      1 Actinoalloteichus cyanogriseus
-      1 Acetobacteraceae bacterium MP03
-      1 Acidimicrobidae bacterium Ellin7143
-     16 Ralstonia solanacearum
-      1 Alphaproteobacteria bacterium
-      1 Acidobacteria bacterium KBS 96
-      1 Acetobacteraceae bacterium W1.09-37
-      1 Acidothermus cellulolyticus 11B
-      1 Acetobacteraceae bacterium
-      1 Aeromicrobium ginsengisoli
-      1 Actinoalloteichus cyanogriseus
-      1 actinobacterium HA-est-Is53-14
-      1 Acidobacteria bacterium IGE-004
-      1 Actinocorallia longicatena
-      1 Afifella pfennigii;Afifella pfennigii DSM 17143
-      1 Acidobacteria bacterium CB 286367
-      1 Acidobacteria bacterium CB 286367
-      1 Acidobacteria bacterium WSR12
-      1 Acetobacteraceae bacterium
-      1 Acidobacteriaceae bacterium KBS89
-      1 Acidobacteria bacterium IGE-008
-      1 Acidobacteria bacterium CB 286367
-      1 Acidobacteria bacterium LWQ117
-      1 Actinoalloteichus hymeniacidonis
-    174 Ralstonia solanacearum
-      1 Adhaeribacter terrae
-     18 Ralstonia solanacearum
-      1 Acetobacteraceae bacterium
-      1 Actinoalloteichus cyanogriseus
-      1 Arenimicrobium luteum
-      1 Actinobacteria bacterium
-      1 Actinoallomurus acaciae
-      1 Agromyces indicus
-      1 actinobacterium MS-F-22
-      1 Arenimicrobium luteum
-      1 Actinobacteria bacterium
-      1 Acidobacteria bacterium LP6
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Acidobacteria bacterium LP6
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Acidobacteria bacterium WY67
-      1 Bacillus circulans
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Actinobacteria bacterium
-      1 Acidobacteria bacterium WY67
-      1 Actinobacteria bacterium
-      1 Acidobacteria bacterium WY67
-      1 Acidimicrobiaceae bacterium
-      1 Acetobacteraceae bacterium
-      1 Acetobacteraceae bacterium
-      1 Acidimicrobiales bacterium URHD0090
-      1 Acetobacteraceae bacterium
-      1 Afipia sp. GAS231
-      1 Acidobacteria bacterium CB 286367
-      1 Acidimicrobiaceae bacterium
-      1 actinobacterium WWH12
-      1 Acidimicrobiia bacterium
-      1 Acidimicrobiaceae bacterium
-      1 Acetobacteraceae bacterium PAMC 26568;Acetobacteraceae bacterium PAMC 26569
-      1 Adhaeribacter aquaticus
-     17 uncultured bacterium
-     10 uncultured bacterium
-      1 Acidobacteriaceae bacterium A2-4c
-      1 Actinobacteria bacterium
-     10 uncultured bacterium
-      1 Acidobacteria bacterium WSR12
-      1 Acidimicrobiaceae bacterium
-      1 Acidobacteria bacterium CB 286305
-      1 Actinomadura hallensis
-      1 Acidobacteria bacterium IGE-002
-      1 Acidimicrobiia bacterium
-      1 Afipia sp. GAS231
-    174 Ralstonia solanacearum
-      1 Acidimicrobidae bacterium Ellin7143
-      1 actinobacterium YNPRH1P-1
-      1 Actinomycetospora atypica
-     11 Ralstonia solanacearum
-      1 Acetobacteraceae bacterium
-      1 Arenimicrobium luteum
-      1 Acetobacteraceae bacterium
-     11 uncultured bacterium
-      1 Actinomycetales
-     14 Brevibacillus brevis
-     16 Clostridium beijerinckii NRRL B-598
-      1 Acetobacteraceae bacterium
-      1 actinobacterium SCGC AAA041-K03
-      1 Acetobacteraceae bacterium MP03
-      1 Acidobacteria bacterium KBS 96
-      1 Actinobacteria bacterium 15TR583
-      1 Acetobacteraceae bacterium
-      1 Acetobacteraceae bacterium
-     10 uncultured bacterium
-      1 alpha proteobacterium KC-IT-H4
-      1 Acidobacteria bacterium IGE-015
-      1 actinobacterium SCGC AAA240-L08
-      1 Acidobacteria bacterium CB 286306
-      1 Acidobacteria bacterium WSR6
-      1 Actinoalloteichus cyanogriseus
-      1 Acetobacteraceae bacterium
-      1 Bacillus cucumis
-      1 Actinomadura sp. WMMA1423
-      1 Acidobacteria bacterium IGE-002
-     11 uncultured bacterium
-      1 anaerobic syntrophic bacterium NE23-3
-      1 Aciditerrimonas sp.
-      1 actinobacterium SCGC AAA043-I09
-     14 uncultured bacterium
-     11 uncultured bacterium
-      1 Acidobacteriaceae bacterium KBS89
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Acetobacteraceae bacterium
-      1 Acetobacteraceae bacterium
-      1 Acetobacteraceae bacterium
-      1 Archangium sp.
-      1 Acidobacteria bacterium WSR6
-      1 Actinocorallia herbida
-      1 actinobacterium YJF1-30
-      1 Actinomadura sp.
-      1 Acidobacteria bacterium IGE-016
-      1 actinobacterium WWH12
-     10 uncultured bacterium
-     10 uncultured bacterium
-      1 Acidobacteria bacterium WSR12
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium CB 286367
-     10 uncultured bacterium
-      1 Acidobacteria bacterium IGE-002
-      1 Acidobacteria bacterium WSR12
-      1 Acidobacteria bacterium WY67
-      1 Actinomadura sp. DS-MS-114
-      1 Acidobacteria bacterium IPR-39A
-      1 Actinocorallia sp. 9_55
-      1 Actinomadura sp. 2602GPT1-42
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Acidobacteria bacterium IGE-004
-      1 bacterium
-      1 actinobacterium Aac-61;actinobacterium Aac-77
-      1 Acidobacteria bacterium URHE0068
-    139 Ralstonia solanacearum
-      1 bacterium
-      1 Acidobacteria bacterium IGE-002
-      1 Acidobacteria bacterium IGE-010
-      1 Acidobacteria bacterium IGE-015
-      1 Achromobacter denitrificans
-      1 Acidobacteria bacterium WSR6
-      1 Actinomycetales
-      1 Acetobacter orientalis
-      1 bacterium
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Acidobacteria bacterium IGE-011
-      1 Acidobacteria bacterium CB 286367
-      1 Acidobacteria bacterium WSR6
-      1 Actinomycetales
-    104 Ralstonia solanacearum
-      1 Acidobacteria bacterium LWQ117
-      1 Acetobacteraceae bacterium
-      1 Acetobacteraceae bacterium
-      1 Acetobacteraceae bacterium
-      1 actinobacterium YJF1-30
-      1 Acidobacteria bacterium WSR12
-      1 Acidobacteria bacterium WSR6
-      1 actinobacterium DSM 46683
-      1 Altererythrobacter xinjiangensis
-      1 Actinopolymorpha singaporensis
-     12 uncultured bacterium
-     15 uncultured bacterium
-      1 Acidimicrobidae bacterium Ellin7143
-      1 actinobacterium CH9
-      1 actinobacterium MS-F-1
-     11 uncultured bacterium
-      1 actinobacterium CPI
-      1 Acidobacteriaceae bacterium A2-4c
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium LWQ117
-      1 Acidisoma sp.
-      1 Actinobacteria bacterium
-      1 Acidobacteria bacterium CB 286367
-    174 Ralstonia solanacearum
-      1 Actinomadura sp. S2422
-      1 Actinobacteria bacterium IP-21A
-      1 Acidobacteria bacterium SCGC AAA204-D14
-      1 Acidobacteriaceae bacterium KBS89
-      1 Acetobacteraceae bacterium MP03
-      1 Acidimicrobiales bacterium URHD0090
-      1 Acidobacteria bacterium CB 286367
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Acidimicrobiales bacterium URHD0090
-      1 Acidimicrobiia bacterium
-     11 Bacillus anthracis str. A16R
-      1 Acidobacteria bacterium WSR6
-    174 Ralstonia solanacearum
-      1 Acidobacteria bacterium CB 286367
-      1 Acidicapsa sp. CE1
-      1 Actinomadura sp.
-      1 Acetobacteraceae bacterium
-      1 Acidobacterium ailaaui
-      1 Alphaproteobacteria bacterium IP-54A
-      1 Acetobacteraceae bacterium
-      1 Acidobacteriaceae bacterium A2-4c
-      1 Acidobacteria bacterium WSR6
-     13 Bacillus simplex
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium CB 286306
-     11 uncultured bacterium
-     11 uncultured bacterium
-      1 Actinobacteria bacterium IP-21A
-      1 actinobacterium YJF1-30
-      1 Actinobacteria bacterium
-      1 actinobacterium WWH12
-     11 uncultured bacterium
-      1 Aquincola sp. ID0723
-      1 Acidobacteria bacterium CB 286305
-      1 Adhaeribacter sp. KS35
-      1 Acidobacteria bacterium WSR6
-      1 Actinobacteria bacterium
-      1 Acidibacter ferrireducens
-      1 Acidovorax sp. KBT156
-      1 Acidobacteria bacterium SJ-70G
-      1 Acidobacterium sp. WY65
-      1 actinobacterium YJF1-30
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium WSR6
-      1 Actinoalloteichus sp. SHA6
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Actinobacteria bacterium IP-21A
-     18 Ralstonia solanacearum
-      1 Acidobacteria bacterium SJ-70G
-      1 Acetobacteraceae bacterium
-      1 Achromobacter xylosoxidans
-      1 alpha proteobacterium CN37
-      1 Acidobacteria bacterium AB158
-      1 actinobacterium SCGC AAA041-K03
-      1 Acetobacteraceae bacterium
-      1 Acidobacterium ailaaui
-      1 Amaricoccus macauensis
-      1 Aeromicrobium sp. CC-CFT486
-      1 Acidobacteria bacterium LWQ117
-     11 Bacillus sp. FJAT-25496
-      1 Acidobacteria bacterium WSR6
-      1 Acidicapsa sp. CE1
-      1 Acetobacteraceae bacterium
-      1 Acidipila rosea
-      1 Acidobacteria bacterium WSR6
-     12 uncultured bacterium
-      1 Acidiphilium sp.
-     10 uncultured bacterium
-      1 Achromobacter denitrificans
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium IGE-002
-     13 uncultured bacterium
-      1 Acidobacteria bacterium LWQ117
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium CB 286305
-      1 Actinoplanes sp. TMC5
-      1 Acidocella sp.
-      1 Acetobacteraceae bacterium
-      1 Actinoplanes sp. TD028
-      1 Acetobacteraceae bacterium
-      1 actinobacterium DSM 46683
-     10 uncultured bacterium
-      1 Acidobacteriaceae bacterium Gsoil 1619
-     12 uncultured bacterium
-    107 Staphylococcus aureus
-    178 Ralstonia solanacearum
-      1 Acidicapsa sp. CE1
-      1 Acidobacteria bacterium
-      1 Acetobacteraceae bacterium
-      1 Alphaproteobacteria bacterium IP-54A
-      1 Acetobacteraceae bacterium
-      1 Acidicapsa acidisoli
-      1 Acetobacteraceae bacterium
-    116 Ralstonia solanacearum
-      1 Acetobacteraceae bacterium
-      1 Acidicapsa acidisoli
-      1 Acidicapsa acidisoli
-    126 Ralstonia solanacearum
-      1 Acidipila rosea
-      1 Acidobacteria bacterium CCO287
-      1 Acetobacteraceae bacterium
-      1 Acidicapsa acidisoli
-      1 Acidobacteriaceae bacterium KBS89
-      1 Alphaproteobacteria bacterium IP-54A
-      1 bacterium
-      1 Acidipila rosea
-      1 Acetobacteraceae bacterium
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteriaceae bacterium C27
-    176 Ralstonia solanacearum
-    174 Ralstonia solanacearum
-      1 Acidobacteria bacterium
-      1 Actinobacteria bacterium
-      1 Acetobacteraceae bacterium LX45
-      1 Acidicapsa acidisoli
-      1 Acetobacteraceae bacterium
-    126 Ralstonia solanacearum
-      1 Acidicapsa acidisoli
-      1 Alphaproteobacteria bacterium IP-54A
-      1 Acidobacteria bacterium AB20
-      1 Actinoplanes sp. ISO06811
-      1 Acidobacteria bacterium WSR6
-      1 Actinobacteria bacterium
-      1 Acidobacteria bacterium IP-28A
-      1 Acetobacteraceae bacterium
-    116 Ralstonia solanacearum
-      1 Acetobacteraceae bacterium
-      1 Acetobacteraceae bacterium MP03
-      1 Acidobacteriaceae bacterium KBS89
-      1 Alphaproteobacteria bacterium IP-54A
-      1 Acidisphaera sp.
-      1 Acidicapsa acidisoli
-      1 Acidobacteriaceae bacterium KBS89
-      1 Acetobacteraceae bacterium
-    143 Ralstonia solanacearum
-      1 Acetobacteraceae bacterium
-      1 Acetobacteraceae bacterium
-      1 Acetobacteraceae bacterium
-      1 Acidisoma sp.
-      1 Acidipila rosea
-      1 Acetobacteraceae bacterium
-    176 Ralstonia solanacearum
-    177 Ralstonia solanacearum
-      1 Acidobacteria bacterium
-      1 Acidobacteriaceae bacterium KBS89
-      1 Acidobacteriaceae bacterium C27
-      1 Acetobacteraceae bacterium
-      1 alpha proteobacterium URHD0017
-      1 Acetobacteraceae bacterium PN-29
-      1 Acidobacteria bacterium IP-33G
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium IGE-013
-      1 Acidicapsa acidisoli
-    176 Ralstonia solanacearum
-      1 Acidipila dinghuensis
-      1 Acidobacteria bacterium
-      1 Acidobacteria bacterium KBS 83
-      1 Acidobacteria bacterium IGE-013
-      1 Acidobacteria bacterium
-      1 Acidicapsa acidisoli
-     10 uncultured bacterium
-      1 Actinobacteria bacterium
-      1 Acidisphaera sp.
-      1 bacterium
-      1 Acidicapsa sp. CE1
-      1 Acidipila rosea
-      1 Acidisoma sp.
-      1 Acidicapsa acidisoli
-      1 Acidobacterium capsulatum
-      1 Alphaproteobacteria bacterium IP-54A
-      1 Acidicapsa acidisoli
-      1 Acidobacteria bacterium
-      1 Acidicapsa sp. CE1
-      1 Acetobacteraceae bacterium
-      1 actinobacterium TC4
-      1 Acidipila dinghuensis
-      1 Acidobacteria bacterium URHE0068
-     13 Klebsiella variicola
-      1 bacterium
-    178 Ralstonia solanacearum
-      1 Acidimicrobiales bacterium URHD0090
-      1 bacterium Ellin5299
-      1 Amorphus sp.
-      1 bacterium
-      1 Acidobacteria bacterium
-      1 Actinoplanes cibodasensis
-      1 Actinobacteria bacterium 15TR583
-      1 Bacillus cereus
-      1 Alphaproteobacteria bacterium IP-54A
-      1 bacterium
-      1 Acidicapsa sp. CE1
-      1 Bacillus nealsonii
-    111 Staphylococcus aureus
-      1 Acidobacteria bacterium AB158
-      1 Bacillus drentensis
-      1 Actinomycetales bacterium
-      1 Acidobacteriaceae bacterium KBS89
-    178 Ralstonia solanacearum
-      1 bacterium K-5b5
-      1 Acidicapsa acidisoli
-      1 Acidobacteria bacterium WSR6
-    176 Ralstonia solanacearum
-      1 Acetobacteraceae bacterium MP03
-      1 Acidocella sp. DM1;Acidocella sp. DM2
-      1 Acidobacteria bacterium AB60
-      1 Alphaproteobacteria bacterium IP-54A
-    126 Ralstonia solanacearum
-      1 Acidobacteria bacterium KBS 96
-    107 Staphylococcus aureus
-    178 Ralstonia solanacearum
-      1 Acidobacteria bacterium AB158
-    111 Staphylococcus aureus
-      1 Acidobacteria bacterium N3B
-      1 Actinobacteria bacterium 15TR583
-      1 Alphaproteobacteria bacterium
-     17 Bradyrhizobium erythrophlei
-      1 Acidobacteria bacterium KBS 96
-      1 Acetobacteraceae bacterium
-      1 Acidipila rosea
-      1 Acidicaldus sp. MK6
-    107 Staphylococcus aureus
-      1 Acetobacteraceae bacterium W1.09-37
-      1 Acetobacteraceae bacterium MS302e
-      1 Acidobacteria bacterium AB158
-      1 Acidobacteria bacterium SJ-70G
-      1 Acetobacteraceae bacterium
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Acidobacteria bacterium
-      1 Acidobacteria bacterium AB158
-      1 Acidobacteria bacterium
-      1 alpha proteobacterium Shinshu-th1
-      1 Acidobacteria bacterium AB158
-    178 Ralstonia solanacearum
-      1 Actinobacteria bacterium 15TR583
-      1 bacterium
-      1 Alphaproteobacteria bacterium IP-54A
-      1 Acidobacteriaceae bacterium KBS89
-      1 Acidobacteria bacterium AB20
-      1 Acidobacteria bacterium KBS 96
-    174 Ralstonia solanacearum
-      1 Acidobacteriaceae bacterium A2-4c
-      1 Acidobacteria bacterium SJ-70G
-      1 Acidimicrobiales bacterium URHD0090
-      1 bacterium Ellin6528
-      1 bacterium
-      1 bacterium
-      1 Alphaproteobacteria bacterium IP-54A
-      1 Acidobacteria bacterium KBS 96
-      1 Acidisphaera rubrifaciens
-      1 Acetobacteraceae bacterium
-      1 Acidobacterium capsulatum ATCC 51196
-     13 Paenibacillus sp. 18JY67-1
-    178 Ralstonia solanacearum
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium WSR6
-    126 Ralstonia solanacearum
-      1 Acetobacteraceae bacterium
-     14 uncultured bacterium
-      1 Acidobacteriaceae bacterium SBC82
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium KBS 96
-      1 Alphaproteobacteria bacterium IP-54A
-      1 Acidobacteria bacterium WSR6
-      1 Amorphus sp.
-    174 Ralstonia solanacearum
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium WSR6
-     16 Clostridium estertheticum subsp. estertheticum
-      1 Actinomycetales
-      1 Acidobacteria bacterium LWQ117
-    125 Ralstonia solanacearum
-      1 Achromobacter spanius
-      1 Acetobacteraceae bacterium
-      1 Actinomycetales bacterium URHA049F
-      1 Acidobacteria bacterium WSR6
-      1 Acetobacteraceae bacterium
-      1 bacterium
-      1 Acidobacteria bacterium IGE-013
-      1 alpha proteobacterium CN37
-      1 Acidobacterium ailaaui
-      1 Acidobacteria bacterium KBS 96
-      1 Acetobacteraceae bacterium
-      1 Acidicapsa acidisoli
-      1 Achromobacter xylosoxidans
-      1 bacterium
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium LWQ117
-      1 bacterium
-      1 Actinoplanes teichomyceticus ATCC 31121
-      1 Acidobacteria bacterium KBS 96
-      1 Acetobacteraceae bacterium
-      1 Acidocella facilis
-      1 Actinobacteria bacterium
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium WSR6
-      1 Acidisphaera sp.
-      1 Actinobacteria bacterium
-      1 Acidobacteria bacterium LWQ117
-     16 Clostridium estertheticum subsp. estertheticum
-      1 Acetobacteraceae bacterium
-      1 Acidipila rosea
-      1 Acidocella facilis
-     11 uncultured bacterium
-      1 Acidobacterium sp. pan6
-      1 Actinoplanes sp. A-T 5916
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Azoarcus sp. SY39
-      1 Acidobacteria bacterium WSR6
-      1 alpha proteobacterium KC-IT-H4
-      1 alpha proteobacterium AKB-2008-TA3A
-      1 bacterium
-      1 Archangium disciforme
-      1 bacterium
-      1 Actinoplanes sp. LW-10
-      1 Acidimicrobiales bacterium URHD0090
-      1 Actinomadura sp. YIM 77503
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium WSR6
-      1 Actinobacteria bacterium
-      1 Actinomycetales bacterium
-      1 Acidobacteria bacterium KBS 96
-      1 Alphaproteobacteria bacterium IP-54A
-      1 Acidobacterium capsulatum
-      1 bacterium
-      1 Alphaproteobacteria bacterium
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium KBS 96
-      1 bacterium
-      1 Acidobacteria bacterium WSR6
-      1 Alphaproteobacteria bacterium IP-54A
-      1 Bacillus cereus
-      1 bacterium
-      1 Acidobacteria bacterium URHE0068
-      1 Acidobacteria bacterium IP-33G
-      1 Azospirillum brasilense
-      1 Actinomycetales
-      1 Archangium sp.
-      1 Actinobacteria bacterium 15TR583
-      1 Acidobacteria bacterium
-      1 bacterium
-      1 Acidobacteria bacterium WSR6
-      1 bacterium
-      1 Acidobacteria bacterium IP-20G
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium WSR6
-      1 Azospirillum brasilense
-      1 Acidimicrobidae bacterium Ellin7143
-      1 actinobacterium MS-F-22
-      1 actinobacterium YNPRH1P-1
-      1 Acetobacteraceae bacterium
-      1 Actinomycetales
-      1 Acidobacteria bacterium WSR6
-      1 Acidimicrobiales bacterium URHD0090
-      1 Alphaproteobacteria bacterium
-      1 Acidobacteria bacterium AB158
-      1 Acidobacteria bacterium IGE-013
-      1 Acetobacteraceae bacterium
-      1 Actinobacteria bacterium
-      1 Acidobacteriaceae bacterium K5
-      1 Acidobacteria bacterium IP-33G
-      1 Acidobacteria bacterium WSR6
-      1 Afipia sp.
-      1 Acidobacteriaceae bacterium KBS89
-      1 Alphaproteobacteria bacterium IP-54A
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium SJ-70G
-      1 Acidobacteria bacterium KBS 96
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium WSR6
-      1 Acidisphaera rubrifaciens
-      1 Acidobacteria bacterium SJ-70G
-      1 Actinobacteria bacterium IP-21A
-      1 Acidobacterium capsulatum
-      1 Actinoplanes cibodasensis
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium WSR6
-     10 uncultured bacterium
-      1 actinobacterium SCGC AAA043-P15
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Acidobacteria bacterium WSR6
-      1 Algorimarina butyrica
-      1 Actinomycetales bacterium
-      1 Acidobacteria bacterium
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium AB20
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Actinobacteria bacterium
-      1 Acidobacteria bacterium WSR6
-      1 Archangium sp.
-      1 Acidobacteria bacterium LWQ117
-      1 Acidobacteria bacterium WSR6
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium WSR6
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium AB158
-      1 bacterium
-      1 bacterium
-      1 Acidobacteria bacterium WSR6
-      1 Alphaproteobacteria bacterium IP-54A
-      1 Acetobacteraceae bacterium MP03
-      1 Acetobacteraceae bacterium
-      1 Acidobacteriaceae bacterium KBS89
-      1 Acetobacteraceae bacterium
-      1 Acetobacteraceae bacterium LX45
-      1 Acidobacteria bacterium WSR6
-      1 Actinobacteria bacterium
-      1 Acidobacteria bacterium SJ-70G
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium SJ-70G
-      1 Acidobacteriaceae bacterium C27
-      1 Acidobacteriaceae bacterium K5
-      1 Acetobacteraceae bacterium
-      1 Alphaproteobacteria bacterium IP-45A
-      1 Acetobacteraceae bacterium
-      1 Acidicapsa acidisoli
-      1 Acidobacteria bacterium
-      1 bacterium
-      1 bacterium
-      1 Acidicapsa acidisoli
-      1 bacterium
-      1 Acidobacteria bacterium IP-28A
-      1 Acetobacteraceae bacterium
-      1 Archangium sp.
-      1 Acetobacteraceae bacterium
-      1 Alphaproteobacteria bacterium IP-54A
-      1 Acidobacteria bacterium WSR6
-     19 Ralstonia solanacearum
-      1 Acidobacteriaceae bacterium KBS89
-      1 Actinobacteria bacterium
-      1 Actinobacteria bacterium
-      1 bacterium
-      1 Alphaproteobacteria bacterium IP-54A
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium WSR6
-      1 bacterium
-      1 Acetobacteraceae bacterium
-      1 bacterium
-      1 anoxygenic photosynthetic bacterium C26
-      1 actinobacterium TC4
-      1 bacterium
-      1 Asanoa sp.
-      1 Acidobacteriaceae bacterium KBS89
-      1 Afipia sp. JMT1926
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium WSR6
-      1 Acidicapsa sp. CE1
-      1 Acetobacteraceae bacterium MP03
-      1 Acetobacteraceae bacterium
-      1 Acidobacteriaceae bacterium SBC82
-      1 Acidicapsa acidisoli
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Acetobacteraceae bacterium PN-29
-      1 Acidobacteria bacterium
-      1 Acidobacteria bacterium WSR6
-      1 actinobacterium SCGC AAA041-N04
-      1 Acidimicrobiaceae bacterium
-      1 Acidobacteria bacterium WSR6
-      1 Streptomyces sp.
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium WSR6
-      1 bacterium
-      1 Actinoplanes durhamensis
-      1 Actinobacteria bacterium
-      1 Acidicapsa acidisoli
-    122 Ralstonia solanacearum
-      1 Acidobacteria bacterium KBS 96
-      1 Acidobacteria bacterium SJ-16G
-      1 uncultured bacterium
-      1 Acetobacteraceae bacterium
-      1 Acidisphaera sp.
-      1 Actinobacteria bacterium
-      1 Acidobacteriaceae bacterium KBS89
-     17 Ralstonia solanacearum
-      1 Acidicapsa sp. CE1
-      1 Acidisphaera sp.
-      1 Acetobacteraceae bacterium
-      1 bacterium
-      1 Aciditerrimonas sp.
-      1 Acidipila dinghuensis
-      1 Acidobacteriaceae bacterium C27
-      1 Acidobacteria bacterium WSR6
-      1 Acidipila rosea
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium SJ-70G
-      1 Acetobacteraceae bacterium
-      1 Acidipila rosea
-      1 Acetobacteraceae bacterium
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium IP-33G
-      1 actinobacterium YJF1-30
-      1 Acidobacteria bacterium
-      1 Acidobacteria bacterium
-      1 Acetobacteraceae bacterium
-      1 Acidobacterium capsulatum
-      1 Telmatobacter sp. 15-28
-      1 Alphaproteobacteria bacterium IP-45A
-      2 bacterium
-      1 Acetobacteraceae bacterium
-      1 Acetobacteraceae bacterium
-     11 uncultured bacterium
-      1 Acidobacteriaceae bacterium SBC82
-      1 actinobacterium TC4
-      1 Acidobacteriaceae bacterium KBS89
-      1 Acidicapsa acidisoli
-      1 Acidobacteria bacterium KBS 96
-      1 Acidobacteriaceae bacterium KBS89
-      1 Acetobacteraceae bacterium
-      1 Acidobacteriaceae bacterium Gsoil 969
-      1 Acidobacteria bacterium KBS 96
-      1 Afipia sp. GAS231
-      1 actinobacterium SCGC AAA043-G10
-      1 Acetobacteraceae bacterium
-      1 Acidipila rosea
-      1 Acidobacteria bacterium
-      1 Acidicapsa acidisoli
-      1 Acidobacteria bacterium IP-28A
-      1 Acetobacteraceae bacterium
-      1 Acidobacteriaceae bacterium SBC82
-      1 Actinobacteria bacterium
-      1 Acetobacteraceae bacterium PN-29
-      1 Acidobacteria bacterium SJ-70G
-      1 Acidicapsa dinghuensis
-      1 Acidiphilium cryptum JF-5
-    174 Ralstonia solanacearum
-      1 Acetobacterium sp. KB-1
-      1 Acetobacteraceae bacterium
-      1 Acidobacteriaceae bacterium A2-4c
-      1 Acidicapsa sp. CE1
-      1 Acetobacteraceae bacterium MP03
-      1 Acetobacteraceae bacterium PN-29
-      1 Acetobacteraceae bacterium
-      1 Acidobacteriaceae bacterium C27
-      1 Acidobacteria bacterium IP-33G
-      1 Acetobacteraceae bacterium
-      1 Acanthamoeba castellanii str. Neff
-      1 Acidobacteria bacterium AB158
-      1 Acetobacteraceae bacterium
-      1 Acidobacterium ailaaui
-      1 Acidicapsa acidisoli
-      1 Acetobacteraceae bacterium MS302e
-      1 Acetobacteraceae bacterium
-      1 Acidobacterium capsulatum
-      1 Acidobacteria bacterium AB20
-      1 Acetobacteraceae bacterium
-      1 Acidobacterium sp. WY65
-      1 Acetobacteraceae bacterium MP03
-      1 Acidobacteriaceae bacterium KBS89
-      1 Actinobacteria bacterium
-      1 Acidobacteria bacterium AB158
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteriaceae bacterium A2-4c
-      1 actinobacterium YJF1-30
-      1 Acidobacteria bacterium WSR6
-      1 Acidicapsa acidisoli
-      1 Acidobacteriaceae bacterium KBS89
-      1 Acetobacteraceae bacterium MP03
-      1 Acidobacteria bacterium WSR6
-      1 Acidicapsa sp. CE1
-      1 Acidibrevibacterium fodinaquatile
-      1 Acetobacteraceae bacterium
-      1 Acidibacter ferrireducens
-      1 Actinobacteria bacterium 15TR583
-      1 bacterium
-    174 Ralstonia solanacearum
-      1 Acidobacteria bacterium WY67
-      1 bacterium
-      1 Acetobacteraceae bacterium
-      1 Actinobacteria bacterium
-      1 Acidipila dinghuensis
-      1 Acetobacteraceae bacterium
-      1 Acidicapsa acidisoli
-      1 Actinobacteria bacterium
-      1 Acidobacteria bacterium IGE-008
-      1 Actinoplanes italicus
-      1 Actinoplanes ferrugineus
-      1 Acidobacteria bacterium WY67
-      1 Actinomadura keratinilytica
-      1 Agromyces ramosus
-      1 Aggregicoccus edonensis
-      1 Acidimicrobiales bacterium URHD0090
-     11 uncultured bacterium
-      1 Acidobacteria bacterium IGE-004
-      1 actinobacterium DSM 46683
-      1 Acidobacteria bacterium WSR12
-      1 Actinoplanes italicus
-      1 Acidobacteria bacterium IGE-004
-      1 Acidobacteria bacterium WY67
-     10 uncultured bacterium
-      1 Acidobacteria bacterium IGE-010
-      1 bacterium
-      1 Acidobacteria bacterium CB 286306
-      1 Actinobacteria bacterium
-      1 Actinobacteria bacterium
-      1 bacterium
-      1 Acidobacteria bacterium IGE-004
-      1 Aciditerrimonas sp.
-      1 Actinoplanes italicus
-      1 Actinobacteria bacterium
-      1 Actinoplanes italicus
-      1 Acetobacteraceae bacterium
-     17 Ralstonia solanacearum
-      1 Acidobacteria bacterium IGE-002
-      1 Aeromicrobium sp. KAR59
-      1 actinobacterium TC4
-      1 Acidobacteria bacterium IGE-018
-      1 Acidobacteria bacterium CB 286305
-      1 Actinoplanes italicus
-      1 actinobacterium YJF1-30
-      1 Arenimicrobium luteum
-      1 Alkalispirillum sp. ACO1
-      1 Acidobacteria bacterium WSR6
-      1 Acetobacteraceae bacterium
-    178 Ralstonia solanacearum
-      1 Acidicapsa acidisoli
-      1 uncultured bacterium
-      1 uncultured bacterium
-    142 Ralstonia solanacearum
-      1 Acidobacteria bacterium WSR6
-    115 Ralstonia solanacearum
-      1 Acidicapsa acidisoli
-      1 Acidobacteria bacterium LWQ117
-      1 Acidobacteria bacterium WSR6
-    176 Ralstonia solanacearum
-    176 Ralstonia solanacearum
-      1 Acidobacteria bacterium KBS 96
-      1 Acidisphaera sp.
-      1 Acidicapsa acidisoli
-    142 Ralstonia solanacearum
-      1 Acidobacteria bacterium WSR6
-    170 Ralstonia solanacearum
-    115 Ralstonia solanacearum
-    176 Ralstonia solanacearum
-    178 Ralstonia solanacearum
-      1 Acetobacteraceae bacterium
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Acidobacteria bacterium WSR6
-      1 Acidibrevibacterium fodinaquatile
-      1 Anolis evermanni
-      1 actinobacterium YJF1-30
-    143 Ralstonia solanacearum
-    174 Ralstonia solanacearum
-      1 Acidobacteria bacterium WSR6
-    116 Ralstonia solanacearum
-      1 Acidobacteria bacterium AB158
-      1 Acetobacteraceae bacterium LX45
-    176 Ralstonia solanacearum
-    176 Ralstonia solanacearum
-      1 Acidobacteria bacterium CB 286367
-      1 Acidobacteria bacterium URHE0068
-    177 Ralstonia solanacearum
-    177 Ralstonia solanacearum
-    142 Ralstonia solanacearum
-      1 Acidimicrobiales bacterium URHD0090
-      1 Acidicapsa sp. CE1
-    115 Ralstonia solanacearum
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteriaceae bacterium KBS89
-    178 Ralstonia solanacearum
-    126 Ralstonia solanacearum
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium WSR6
-    176 Ralstonia solanacearum
-    126 Ralstonia solanacearum
-    178 Ralstonia solanacearum
-    179 Ralstonia solanacearum
-    115 Ralstonia solanacearum
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteriaceae bacterium A2-4c
-    178 Ralstonia solanacearum
-    176 Ralstonia solanacearum
-      1 Acidobacteria bacterium WSR6
-    176 Ralstonia solanacearum
-      1 Actinomadura sp.
-      1 Acetobacteraceae bacterium
-    143 Ralstonia solanacearum
-    176 Ralstonia solanacearum
-    179 Ralstonia solanacearum
-    115 Ralstonia solanacearum
-     13 Pseudoxanthomonas suwonensis
-      1 Achromobacter spanius
-    174 Ralstonia solanacearum
-    176 Ralstonia solanacearum
-      1 Acidobacteria bacterium WSR6
-     10 uncultured bacterium
-      1 Acidovorax sp. CC-11P11
-     13 Klebsiella variicola
-    125 Ralstonia solanacearum
-     12 Ralstonia solanacearum
-    179 Ralstonia solanacearum
-    115 Ralstonia solanacearum
-      1 Acidisoma sp.
-      1 Acidobacteria bacterium WSR6
-      1 Acidipila rosea
-    176 Ralstonia solanacearum
-    176 Ralstonia solanacearum
-      1 Acetobacteraceae bacterium
-    142 Ralstonia solanacearum
-      1 Adhaeribacter sp. MJ115
-    179 Ralstonia solanacearum
-    115 Ralstonia solanacearum
-     17 Bradyrhizobium erythrophlei
-    176 Ralstonia solanacearum
-      1 Actinobacteria bacterium 15TR583
-      1 Acetobacteraceae bacterium MP03
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteriaceae bacterium SBC82
-    176 Ralstonia solanacearum
-    142 Ralstonia solanacearum
-      1 Acidobacteria bacterium WSR6
-    178 Ralstonia solanacearum
-    115 Ralstonia solanacearum
-     16 Clostridium estertheticum subsp. estertheticum
-      1 Bacillus sp. (in: Bacteria)
-      1 Acetobacteraceae bacterium LX45
-    126 Ralstonia solanacearum
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium WSR6
-      1 Acetobacteraceae bacterium
-    169 Ralstonia solanacearum
-      1 Acidobacteria bacterium KBS 96
-      1 Acetobacteraceae bacterium
-    176 Ralstonia solanacearum
-    115 Ralstonia solanacearum
-      1 Acidimicrobidae bacterium Ellin7143
-      1 Acidobacteria bacterium WSR6
-      1 Acidobacteria bacterium URHE0068
-      1 Acidimicrobidae bacterium Ellin7143
-      1 bacterium
-      1 bacterium
-      1 Actinobacteria bacterium
-    174 Ralstonia solanacearum
-    143 Ralstonia solanacearum
-     14 Bacillus anthracis
-      1 Actinotalea sp. SYSU S10002
-    116 Ralstonia solanacearum
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium AB20
-    178 Ralstonia solanacearum
-      1 Alphaproteobacteria bacterium IP-54A
-      1 bacterium
-      1 bacterium
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium SJ-70G
-    143 Ralstonia solanacearum
-      1 Acetobacteraceae bacterium MP03
-    179 Ralstonia solanacearum
-    176 Ralstonia solanacearum
-      1 Acidobacteria bacterium WSR6
-     13 Pseudomonas frederiksbergensis
-      1 alpha proteobacterium URHD0017
-     13 Ralstonia solanacearum
-      1 Acidobacteria bacterium SJ-70G
-      1 Acidobacteria bacterium AB158
-      1 Acidobacteria bacterium WSR6
-      1 actinobacterium YJF1-30
-    174 Ralstonia solanacearum
-      1 Acetobacteraceae bacterium
-    178 Ralstonia solanacearum
-    115 Ralstonia solanacearum
-    178 Ralstonia solanacearum
-    176 Ralstonia solanacearum
-    174 Ralstonia solanacearum
-      1 Acidobacteria bacterium WSR6
-      1 Acetobacteraceae bacterium
-      1 Actinobacteria bacterium IP-21A
-      1 Azospirillum brasilense
-      1 Acidobacteria bacterium WSR6
-      1 Acetobacteraceae bacterium
-      1 Acidicapsa acidisoli
-      1 Acidobacteria bacterium KBS 96
-    116 Ralstonia solanacearum
-      1 Acidobacteria bacterium WSR6
-      1 Acetobacteraceae bacterium
-    176 Ralstonia solanacearum
-      1 Acidicapsa sp. CE1
-      1 Acidobacteriaceae bacterium KBS89
-      1 Alphaproteobacteria bacterium H 52
-      1 Alphaproteobacteria bacterium IP-54A
-      1 Acetobacteraceae bacterium
-      1 Acetobacteraceae bacterium
-      1 Acetobacteraceae bacterium MP03
-    179 Ralstonia solanacearum
-    116 Ralstonia solanacearum
-      1 Acidobacteria bacterium WSR6
-     10 Geobacillus thermocatenulatus
-      1 Azospirillum brasilense
-      1 Arctic sea ice bacterium ARK10157
-    177 Ralstonia solanacearum
-      1 Acidobacteriaceae bacterium KBS89
-    178 Ralstonia solanacearum
-    143 Ralstonia solanacearum
-    178 Ralstonia solanacearum
-    178 Ralstonia solanacearum
-    107 Ralstonia solanacearum
-     13 Bacillus cytotoxicus
-      1 Acidimicrobiia bacterium
-    176 Ralstonia solanacearum
-      1 Acidobacteria bacterium CB 286306
-      1 Acidobacteria bacterium WY67
-      1 Acidimicrobiia bacterium
-      1 Acidobacteria bacterium WSR12
-      1 Adhaeribacter sp. HMF7616
-      1 Acetobacteraceae bacterium
-      1 Acidimicrobiaceae bacterium
-      1 actinobacterium WWH12
-      1 Actinobacteria bacterium
-      1 Acetobacteraceae bacterium
-      1 Acetobacteraceae bacterium
-      1 Acidobacteria bacterium WSR6
-      1 actinobacterium YNPRH1P-1
-      1 Actinobacteria bacterium
-      1 Actinomycetales bacterium
-    143 Ralstonia solanacearum
-      1 Actinomadura hallensis;Actinomadura sp. T5S13;Actinomadura sp. SPO7
-      1 Acidimicrobiales bacterium URHD0090
-      1 Actinobacteria bacterium
-      1 Acetobacteraceae bacterium
-      1 Acanthamoeba castellanii str. Neff
-      1 Acidobacteria bacterium SJ-70G
-      1 actinobacterium MS-F-1
-    176 Ralstonia solanacearum
-    192 Ralstonia solanacearum
-      1 Arenimicrobium luteum
-      1 Acidobacteria bacterium WY67
-    176 Ralstonia solanacearum
-      1 Acetobacteraceae bacterium W1.09-37
-    176 Ralstonia solanacearum
-    115 Ralstonia solanacearum
-      1 Acidobacteria bacterium WY67
-      1 actinobacterium WWH12
-      1 Acidobacteria bacterium YJF2-13
-      1 Acidobacteriaceae bacterium KBS89
-    178 Ralstonia solanacearum
-      1 bacterium
-      1 Acetobacteraceae bacterium
-      1 Altererythrobacter sp. R83-1
-      1 Acidobacteria bacterium CB 286306
-     10 uncultured bacterium
-      1 alpha proteobacterium endosymbiont 1b of Inanidrilus leukodermatus
-      1 actinobacterium SCGC AAA278-M15
-      1 Actinobacteria bacterium
-      1 Achromobacter sp.
-      1 Achromobacter sp.
-      1 Achromobacter sp.
-      1 Aphanizomenon flos-aquae NIES-81
-      1 actinobacterium SCGC AAA028-N15;actinobacterium SCGC AAA028-P22
-     17 Microcystis sp. MC19
-      1 actinobacterium MS-F-91
-      1 actinobacterium MS-F-91
-      1 Algoriphagus marisflavi
-      1 Acidobacteria bacterium CB 286367
-      1 Achromobacter sp.
-    174 Ralstonia solanacearum
-      1 Alphaproteobacteria bacterium
-      1 Actinobacteria bacterium SJ-69A
-      1 Aliidiomarina shirensis
-     16 uncultured bacterium
-     10 uncultured bacterium
-     13 uncultured bacterium
-      1 Novosphingobium naphthalenivorans
-     15 uncultured bacterium
-     12 uncultured bacterium
-     14 Clostridium beijerinckii
-    178 Ralstonia solanacearum
-     10 uncultured bacterium
-     16 Clostridium estertheticum subsp. estertheticum
-      1 Acidobacteria bacterium IGE-018
-     11 uncultured bacterium
-     11 uncultured bacterium
-    178 Ralstonia solanacearum
-    107 Staphylococcus aureus
-    178 Ralstonia solanacearum
-      1 Acaryochloris marina
-      1 Acidovorax radicis
-      1 actinobacterium L2002
-    177 Ralstonia solanacearum
-    178 Ralstonia solanacearum
-     10 Sphingomonas melonis
-      1 Acidovorax sp. EECC-557
-      1 Acetobacteraceae bacterium
-     12 uncultured bacterium
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+ Bacillus sp. 1085
+ Bacillus sp. (in: Bacteria)
+ bacterium
+ Bacillus cucumis
+ Blastococcus sp.
+ bacterium
+ Archangium gephyra
+ Bradyrhizobium elkanii
+ bacterium
+ bacterium
+ uncultured bacterium
+ Agromyces ramosus
+ Acinetobacter calcoaceticus
+ Bacillus koreensis
+ Variovorax sp. Z0-YC6806
+ bacterium
+ Asprobacter aquaticus
+ Bacillus circulans
+ bacterium
+ Acidobacteria bacterium SJ-70G
+ Bacillus sp. (in: Bacteria)
+ uncultured bacterium
+ uncultured bacterium
+ bacterium
+ bacterium
+ Bacillus aryabhattai
+ bacterium
+ Bacillus sp. (in: Bacteria)
+ Bacillus sp. (in: Bacteria)
+ Angustibacter speluncae
+ Bradyrhizobium elkanii
+ Bacillus sp. (in: Bacteria)
+ Bacillus sp. 1085
+ Bradyrhizobium elkanii
+ bacterium
+ Bradyrhizobium elkanii
+ Bacillus circulans
+ Microvirga sp.
+ bacterium YC-ZSS-LKJ199
+ Bacillus sp. (in: Bacteria)
+ Agromyces binzhouensis
+ Acidobacteria bacterium IGE-004
+ Actinobacteria bacterium
+ bacterium
+ uncultured bacterium
+ Acidobacteria bacterium
+ Bacillus cucumis
+ Actinoplanes regularis
+ Agromyces ramosus
+ Bacillus sp. (in: Bacteria)
+ Nocardioides albus
+ bacterium
+ Bradyrhizobium elkanii
+ Amycolatopsis sp.
+ Bacillus cucumis
+ Agromyces sp.
+ Micromonospora globbae
+ Aeromicrobium sp. CC-CFT486
+ Archangium gephyra
+ Bradyrhizobium elkanii
+ bacterium
+ Actinomycetales
+ Arenimicrobium luteum
+ bacterium
+ bacterium
+ Bacillus sp. (in: Bacteria)
+ Bacillus circulans
+ bacterium
+ Nocardioides sp.
+ Bacillus cucumis
+ Methanomassiliicoccus sp. 138
+ bacterium
+ Paenibacillus sp. 27-9
+ bacterium
+ Acidobacteria bacterium WSR6
+ bacterium Ellin7505
+ Aeromicrobium tamlense
+ bacterium
+ Acidobacteriaceae bacterium KBS89
+ Flavisolibacter sp.
+ Nakamurella sp.
+ bacterium
+ Acidobacteriaceae bacterium KBS89
+ Angustibacter sp.
+ bacterium
+ Bacillus sp. (in: Bacteria)
+ Bradyrhizobium elkanii
+ Acidobacteria bacterium IGE-004
+ bacterium
+ Bacillus koreensis
+ Aeromicrobium sp.
+ Micromonospora sp.
+ Ancylobacter sp. F30l
+ Rhizobiales bacterium URHE0042
+ bacterium
+ Agreia sp.
+ bacterium
+ Bradyrhizobium elkanii
+ bacterium
+ Bacillus circulans
+ Actinobacteria bacterium IP-21A
+ Altererythrobacter sp. R83-1
+ Acidimicrobidae bacterium Ellin7143
+ Bradyrhizobium elkanii
+ bacterium
+ Herbiconiux sp.
+ Bradyrhizobium sp.
+ bacterium
+ bacterium Ellin6055
+ Amycolatopsis sp.
+ bacterium
+ Archangium gephyra
+ Acetobacteraceae bacterium
+ Amycolatopsis sp.
+ bacterium Ellin6561
+ bacterium
+ Acidobacteria bacterium IGE-004
+ Blastococcus aggregatus
+ bacterium
+ Bacillus circulans
+ Bacillus sp. (in: Bacteria)
+ Agromyces ramosus
+ bacterium
+ bacterium
+ Aeromicrobium sp. 592
+ Angustibacter sp.
+ bacterium Ellin516
+ Phenylobacterium sp.
+ bacterium
+ Agromyces binzhouensis
+ bacterium
+ Acetobacteraceae bacterium
+ bacterium
+ bacterium
+ bacterium
+ bacterium
+ Bacillus cucumis
+ Bacillus sp. (in: Bacteria)
+ Bacillus circulans
+ bacterium
+ bacterium
+ bacterium
+ Bacillus cucumis
+ Amycolatopsis sp.
+ bacterium
+ Bacillus circulans
+ Flavobacterium riviphilum
+ Actinobacteria bacterium
+ Actinomadura sp. AL2
+ Actinoplanes cibodasensis
+ Flavihumibacter sp.
+ bacterium
+ actinobacterium YJF2-33
+ Bacillus sp. (in: Bacteria)
+ bacterium
+ Bradyrhizobium elkanii
+ Bacillus sp. (in: Bacteria)
+ Flavobacterium sp.
+ unidentified
+ bacterium
+ bacterium
+ bacterium
+ Acidobacteria bacterium WSR6
+ Bacillariophyta sp. 867-32
+ bacterium Ellin6561
+ Agromyces sp.
+ alpha proteobacterium S-A(3)-9A
+ bacterium
+ bacterium
+ bacterium
+ Rhizobiales bacterium YIM 77505
+ bacterium Ellin6505
+ Lysobacter sp.
+ Actinoplanes regularis
+ Bacillus sp. (in: Bacteria)
+ Archangium gephyra
+ Actinomycetales bacterium PE.R2A.21
+ bacterium
+ bacterium
+ Bradyrhizobium elkanii
+ Acidobacteriaceae bacterium A2-4c
+ Acidobacteria bacterium AB158
+ bacterium
+ Afipia sp. Is42
+ bacterium
+ Bacillus cucumis
+ bacterium
+ Amycolatopsis sp.
+ Bradyrhizobium elkanii
+ Actinoplanes sp. A-T 7460
+ bacterium
+ bacterium Ellin511
+ Bacillus sp. (in: Bacteria)
+ Actinobacteria bacterium 15TR583
+ Agreia sp.
+ Bradyrhizobium ottawaense
+ Bacillus circulans
+ Bacillus aryabhattai
+ Pedobacter sp.
+ alpha proteobacterium Shinshu-th1
+ bacterium Ellin6561
+ Agreia sp.
+ bacterium
+ bacterium
+ Massilia sp. BRM22
+ Bacillus asahii
+ Lysobacter sp.
+ Rhizorhabdus dicambivorans
+ Asprobacter aquaticus
+ bacterium
+ Bradyrhizobium elkanii
+ bacterium
+ Acidobacteriaceae bacterium KBS89
+ bacterium
+ Bacillus sp. (in: Bacteria)
+ bacterium
+ Acetobacteraceae bacterium
+ bacterium
+ Bacillus sp. (in: Bacteria)
+ Bacillus circulans
+ Bacillus sp. (in: Bacteria)
+ bacterium
+ Lysobacter sp.
+ Bacillus sp. MZ035G
+ Archangium sp.
+ bacterium
+ Azospirillum doebereinerae
+ Acidobacteria bacterium WSR6
+ bacterium Ellin7529
+ Actinoplanes sp. N902-109
+ Bacillus cucumis
+ Microvirga sp.
+ bacterium
+ Nitrosospira sp. PM2
+ Alphaproteobacteria bacterium SJR-37A
+ alpha proteobacterium KC-IT-H2
+ bacterium Ellin7505
+ Bacillus aryabhattai
+ Bacillus cucumis
+ Sphingomonas sp.
+ Actinomycetales
+ bacterium
+ Ralstonia solanacearum
+ uncultured bacterium
+ Bacillus cucumis
+ Acidobacteria bacterium IGE-010
+ Diaminobutyricimonas sp.
+ Bradyrhizobium sp.
+ bacterium
+ Bradyrhizobium elkanii
+ Nocardioides phosphati
+ Bradyrhizobium elkanii
+ Acidimicrobidae bacterium Ellin7143
+ Bradyrhizobium elkanii
+ bacterium
+ Archangium gephyra
+ bacterium
+ Rhizobiales bacterium URHE0042
+ Bacillus sp. (in: Bacteria)
+ Acetobacteraceae bacterium
+ uncultured bacterium
+ Lysobacter sp.
+ bacterium
+ bacterium
+ bacterium
+ bacterium
+ bacterium
+ Bacillus cucumis
+ Mycobacterium sp.
+ Agromyces ramosus
+ Dactylosporangium fulvum
+ Amycolatopsis sp.
+ Bacillus circulans
+ bacterium
+ Bradyrhizobium elkanii
+ Acidobacteriaceae bacterium KBS89
+ bacterium
+ Bradyrhizobium elkanii
+ Bradyrhizobium elkanii
+ Actinobacteria bacterium
+ Bradyrhizobium elkanii
+ Chitinophaga sp. 37C7
+ Bradyrhizobium elkanii
+ Bacillus sp. (in: Bacteria)
+ bacterium Ellin6547
+ bacterium Ellin7505
+ bacterium
+ Bacillus cereus
+ Bradyrhizobium elkanii
+ Bradyrhizobium sp.
+ unidentified
+ Bacillus cucumis
+ bacterium
+ uncultured bacterium
+ Dyella sp.
+ Bacillus sp. (in: Bacteria)
+ Acidobacteriaceae bacterium KBS89
+ bacterium Ellin328
+ Schlesneria paludicola
+ bacterium Ellin6523
+ bacterium Ellin7529
+ bacterium
+ Bradyrhizobium sp.
+ Acidobacteriaceae bacterium KBS89
+ Acidobacteriaceae bacterium KBS89
+ bacterium
+ Pseudarthrobacter sp.
+ Actinobacteria bacterium IP-21A
+ Solirubrobacter sp.
+ Opitutus sp. VeCb1
+ unidentified
+ actinobacterium WWH12
+ bacterium
+ bacterium
+ Bacillus cucumis
+ Bacillus circulans
+ Bacillus cereus
+ Oryzihumus sp. 746G135
+ Agromyces ramosus
+ bacterium
+ Bacillus sp. IDA1527
+ Oryzihumus sp. 746G135
+ bacterium Ellin6517;bacterium Ellin6557
+ bacterium
+ bacterium YO-33
+ bacterium
+ bacterium
+ Bradyrhizobium sp.
+ bacterium
+ Aeromicrobium ginsengisoli
+ Reyranella sp.
+ Actinomadura bangladeshensis
+ Acidobacteria bacterium WSR6
+ Lentzea guizhouensis
+ bacterium Ellin7529
+ Bosea sp. F3-2
+ bacterium
+ Burkholderia sp. BB5e
+ bacterium
+ Blastococcus sp.
+ Bradyrhizobium elkanii
+ Actinoplanes sp. 428G06
+ Bacillus circulans
+ bacterium
+ Acidicapsa acidisoli
+ Proteobacteria
+ Bradyrhizobium elkanii
+ Bacillus cohnii
+ bacterium
+ Cellulomonas denverensis
+ bacterium
+ Actinoplanes sp. A-T 5916
+ uncultured bacterium
+ Massilia glaciei
+ bacterium
+ uncultured actinobacterium
+ bacterium
+ Chryseobacterium indoltheticum
+ Actinobacteria bacterium
+ bacterium
+ Angustibacter sp.
+ Actinomadura sp.
+ Actinomadura sp.
+ Agromyces sp.
+ Bacillus circulans
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ Acidobacteriaceae bacterium A2-4c
+ Mycobacterium simiae
+ Acidobacteriaceae bacterium KBS89
+ uncultured bacterium
+ Acidobacteria bacterium SJ-70G
+ Flavobacterium sp.
+ Acetobacteraceae bacterium
+ Acetobacteraceae bacterium
+ Acidobacteriaceae bacterium KBS89
+ Acidicapsa acidisoli
+ Bradyrhizobium elkanii
+ Ralstonia solanacearum
+ bacterium
+ bacterium
+ Bradyrhizobium sp.
+ bacterium
+ Bradyrhizobium sp.
+ Bradyrhizobium sp.
+ bacterium Ellin7505
+ bacterium
+ Acidobacterium capsulatum
+ bacterium
+ Acidobacteria bacterium WSR6
+ uncultured Burkholderia sp.
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ Klebsiella aerogenes
+ Burkholderia sp.
+ Mucilaginibacter sp. S20-104
+ bacterium
+ bacterium
+ Ralstonia solanacearum
+ Acidobacteria bacterium
+ Granulicella acidiphila
+ Bradyrhizobium sp.
+ Ktedonobacteraceae bacterium brp13
+ bacterium
+ Mycobacterium sp. 01-632
+ Proteobacteria
+ Acetobacteraceae bacterium
+ bacterium
+ bacterium
+ Acidobacteria bacterium AB158
+ bacterium
+ Bacillus phage Maceta
+ Granulicella paludicola
+ bacterium
+ Acidobacteriaceae bacterium KBS89
+ Acidicapsa acidisoli
+ Bradyrhizobium elkanii
+ unidentified
+ Acidobacteria bacterium WSR6
+ bacterium
+ bacterium
+ Bradyrhizobium sp.
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ bacterium
+ bacterium Ellin5095
+ bacterium
+ Acidobacteria bacterium SJ-70G
+ bacterium
+ bacterium
+ Acidobacteriaceae bacterium KBS89
+ bacterium
+ Bradyrhizobium elkanii
+ Acidicapsa acidisoli
+ Ralstonia solanacearum
+ uncultured bacterium
+ Telmatobacter bradus
+ Acidobacteriaceae bacterium KBS89
+ bacterium
+ bacterium
+ bacterium
+ bacterium
+ uncultured bacterium
+ Acidobacteriaceae bacterium KBS89
+ uncultured bacterium
+ Bradyrhizobium elkanii
+ bacterium
+ Rhizomicrobium sp. URHE0053
+ Bradyrhizobium elkanii
+ Bradyrhizobium elkanii
+ Bradyrhizobium elkanii
+ Acidobacteriaceae bacterium KBS89
+ Acidobacteria bacterium SJ-70G
+ unidentified
+ Actinobacteria bacterium
+ bacterium Ellin504
+ uncultured bacterium
+ bacterium
+ uncultured bacterium
+ Ralstonia solanacearum
+ Paraburkholderia sp.
+ Rhodopila globiformis
+ uncultured bacterium
+ bacterium
+ Bacillus sp. (in: Bacteria)
+ Lysinibacillus macroides
+ Bacillus cereus
+ Bacillus licheniformis
+ bacterium Ellin6554
+ Proteobacteria
+ uncultured bacterium
+ Acidobacteria bacterium AB158
+ Bacillus drentensis
+ uncultured bacterium
+ bacterium
+ Ralstonia solanacearum
+ unidentified
+ bacterium
+ unidentified
+ Ralstonia solanacearum
+ Chitinophaga sp. RDB-195
+ unidentified
+ uncultured actinobacterium
+ bacterium
+ Bacillus bataviensis
+ Bradyrhizobium elkanii
+ Acidobacterium sp. pan6
+ Acidobacteria bacterium AB158
+ Bradyrhizobium elkanii
+ Burkholderia sp.
+ Anderseniella sp. Alg231-50
+ Escherichia coli
+ Acidobacterium sp. pan6
+ unidentified
+ Acidicapsa acidisoli
+ Ralstonia solanacearum
+ Bradyrhizobium elkanii
+ Bradyrhizobium elkanii
+ unidentified
+ bacterium
+ Acidobacteria bacterium AB158
+ Vigna unguiculata
+ Acidobacteriaceae bacterium KBS89
+ Bradyrhizobium elkanii
+ Acidobacteria bacterium
+ Acidobacteria bacterium AB158
+ Bradyrhizobium sp.
+ uncultured bacterium
+ unidentified
+ uncultured bacterium
+ uncultured bacterium
+ Bradyrhizobium elkanii
+ bacterium K-5b10
+ bacterium
+ Acidobacteria bacterium KBS 96
+ Ralstonia solanacearum
+ Rickettsiella sp. RKTSLLA_T3222;Rickettsiella sp. RKTSLLA_T3229
+ Acidobacteria bacterium SJ-70G
+ Acidobacteria bacterium WSR6
+ unidentified
+ Mycobacterium avium subsp. hominissuis
+ Amnibacterium sp.
+ Bacillus sp. (in: Bacteria)
+ Acetobacteraceae bacterium
+ actinobacterium TC4
+ Acidimicrobidae bacterium Ellin7143
+ Ralstonia solanacearum
+ Actinobacteria bacterium IP-21A
+ Acidobacteria bacterium WSR6
+ Ralstonia solanacearum
+ Actinobacteria bacterium
+ Ralstonia solanacearum
+ bacterium
+ bacterium Ellin7505
+ Bacillus sp. (in: Bacteria)
+ bacterium
+ Bradyrhizobium sp.
+ bacterium Ellin7522
+ bacterium
+ bacterium
+ uncultured bacterium
+ bacterium
+ bacterium
+ bacterium SCGC AAA018-C6
+ Hyphomicrobium sp.
+ uncultured bacterium
+ Ralstonia solanacearum
+ bacterium
+ bacterium
+ bacterium
+ uncultured bacterium
+ bacterium
+ bacterium SCGC AAA018-I12
+ uncultured bacterium
+ uncultured bacterium
+ bacterium Ellin6561
+ uncultured bacterium
+ bacterium
+ uncultured Bacteroidetes bacterium
+ Proteobacteria
+ uncultured bacterium
+ bacterium
+ uncultured bacterium
+ Mycobacterium sp. 01-632
+ uncultured Gemmatimonas sp.
+ bacterium
+ Bradyrhizobium sp. KBS0727
+ uncultured bacterium
+ uncultured actinobacterium
+ Bradyrhizobium sp.
+ alpha proteobacterium URHD0017
+ Actinobacteria bacterium 15TR583
+ bacterium
+ bacterium
+ Acidobacteria bacterium WSR6
+ Methylotenera versatilis
+ uncultured bacterium
+ Proteobacteria
+ uncultured bacterium
+ uncultured bacterium
+ Bradyrhizobium elkanii
+ Bradyrhizobium elkanii
+ bacterium
+ Reyranella soli
+ bacterium
+ bacterium
+ bacterium
+ uncultured bacterium
+ Mucilaginibacter ginsenosidivorax
+ Bacillus sp. (in: Bacteria)
+ uncultured Alphaproteobacteria bacterium
+ uncultured bacterium
+ Acidobacteria bacterium WSR6
+ Proteobacteria
+ Paenibacillus sp. 27-9
+ Pseudomonas frederiksbergensis
+ Bradyrhizobium elkanii
+ uncultured bacterium
+ uncultured bacterium
+ uncultured bacterium
+ Bradyrhizobium elkanii
+ unidentified
+ bacterium
+ bacterium
+ uncultured bacterium
+ bacterium
+ Burkholderia sp.
+ bacterium
+ bacterium
+ Bacillus acidicola
+ uncultured bacterium
+ uncultured bacterium
+ Bradyrhizobium elkanii
+ bacterium Ellin518
+ Bradyrhizobium sp.
+ Planctomycetales bacterium Ellin7224
+ bacterium
+ bacterium
+ bacterium
+ Mycobacterium sp. L2107
+ bacterium
+ bacterium
+ Bacillus circulans
+ bacterium
+ Bradyrhizobium sp. URHC0015
+ uncultured bacterium
+ Acidobacteriaceae bacterium KBS89
+ bacterium
+ bacterium Ellin5241
+ bacterium MI-12
+ Bradyrhizobium elkanii
+ Bradyrhizobium elkanii
+ bacterium Ellin7505
+ Acidobacteriaceae bacterium K5
+ anoxygenic photosynthetic bacterium C26
+ Bradyrhizobium elkanii
+ bacterium
+ uncultured bacterium
+ bacterium
+ Alphaproteobacteria bacterium IP-54A
+ bacterium
+ Alphaproteobacteria bacterium IP-54A
+ Acidobacteria bacterium KBS 96
+ bacterium
+ uncultured bacterium
+ bacterium Ellin5032
+ bacterium
+ actinobacterium MS-F-22
+ bacterium
+ Hyphomicrobium sp.
+ bacterium
+ Bradyrhizobium sp.
+ bacterium
+ bacterium
+ bacterium
+ bacterium
+ Proteobacteria
+ bacterium
+ bacterium Ellin6561
+ bacterium
+ Acidobacteria bacterium WSR6
+ Bradyrhizobium elkanii
+ bacterium Ellin6099
+ Bradyrhizobium elkanii
+ Bradyrhizobium sp. URHC0015
+ bacterium Ellin7504
+ Bradyrhizobium elkanii
+ Hyphomicrobium sp. Pd-E-(r)-e-D-5(2)
+ Myxococcus macrosporus DSM 14697
+ uncultured bacterium
+ bacterium
+ Paenibacillus sp. 27-9
+ bacterium Ellin6554
+ bacterium
+ bacterium Ellin6510
+ Acidobacteriaceae bacterium KBS89
+ bacterium
+ Bradyrhizobium elkanii
+ bacterium Ellin6506
+ Dyella sp.
+ Bradyrhizobium sp.
+ uncultured bacterium
+ uncultured actinobacterium
+ Bradyrhizobium elkanii
+ bacterium
+ uncultured actinobacterium
+ uncultured bacterium
+ uncultured bacterium
+ uncultured actinobacterium
+ bacterium
+ Flavitalea antarctica
+ Acidicapsa acidisoli
+ uncultured bacterium
+ uncultured Acidimicrobiia bacterium
+ unidentified
+ Bradyrhizobium elkanii
+ uncultured bacterium
+ uncultured actinobacterium
+ uncultured bacterium
+ bacterium Ellin5289
+ Acidobacteriaceae bacterium KBS89
+ Pinnularia sp. U-strain
+ bacterium
+ Bradyrhizobium elkanii
+ uncultured bacterium
+ bacterium
+ Bradyrhizobium elkanii
+ bacterium
+ Burkholderia sp. HBS3-3_Pa
+ anoxygenic photosynthetic bacterium C26
+ uncultured bacterium
+ uncultured bacterium
+ bacterium
+ Bradyrhizobium elkanii
+ uncultured bacterium
+ Bradyrhizobium elkanii
+ Bradyrhizobium elkanii
+ alpha proteobacterium URHD0017
+ uncultured bacterium
+ Acetobacteraceae bacterium
+ Inquilinus sp. HRRK142
+ bacterium Ellin5241
+ Acetobacteraceae bacterium PN-29
+ unidentified
+ Bradyrhizobium elkanii
+ uncultured Bacteroidetes bacterium
+ Bradyrhizobium elkanii
+ uncultured bacterium
+ Bacillus sp. (in: Bacteria)
+ bacterium
+ uncultured bacterium
+ bacterium Ellin6506
+ Micromonospora sp. LS287
+ uncultured bacterium
+ uncultured bacterium
+ Candidatus Solibacter usitatus
+ bacterium
+ uncultured actinobacterium
+ Acetobacteraceae bacterium
+ uncultured bacterium
+ Bradyrhizobium elkanii
+ Acidobacteriaceae bacterium KBS89
+ unidentified
+ bacterium
+ uncultured bacterium
+ Acetobacteraceae bacterium
+ Bradyrhizobium sp.
+ uncultured bacterium
+ uncultured bacterium
+ Bradyrhizobium elkanii
+ Bradyrhizobium sp.
+ Fibroporia radiculosa
+ Bradyrhizobium elkanii
+ bacterium
+ uncultured actinobacterium
+ bacterium
+ bacterium
+ bacterium
+ uncultured bacterium
+ Bradyrhizobium sp.
+ unidentified
+ bacterium
+ Acidobacteriaceae bacterium K5
+ Rhodanobacter sp. PAMC 26558
+ uncultured bacterium
+ Phreatobacter stygius
+ uncultured bacterium
+ uncultured bacterium
+ Mycobacterium cookii
+ uncultured bacterium
+ Bradyrhizobium sp.
+ Bradyrhizobium elkanii
+ Dyella sp.
+ bacterium
+ Actinobaculum sp. 313
+ Luteibacter rhizovicinus
+ Acidobacteria bacterium WSR6
+ Bradyrhizobium sp.
+ bacterium
+ bacterium Ellin5095
+ bacterium
+ Burkholderia sp.
+ Burkholderia sp. BB5e
+ Bradyrhizobium sp.
+ Mycobacterium sp. 01-632
+ Terracidiphilus gabretensis
+ uncultured bacterium
+ Granulicella paludicola
+ Bradyrhizobium sp.
+ Dyella sp. DHOA06
+ Acidobacterium capsulatum ATCC 51196
+ Bradyrhizobium sp.
+ bacterium
+ Microbacteriaceae bacterium
+ Dyella sp. DHOA06
+ bacterium
+ bacterium
+ uncultured bacterium
+ Dyella sp. DHOA06
+ Dyella sp.
+ Bradyrhizobium elkanii
+ bacterium
+ Acanthamoeba castellanii str. Neff
+ uncultured bacterium
+ Pseudomonas graminis
+ Actinobacteria bacterium
+ Acidobacteriaceae bacterium KBS89
+ unidentified
+ Acetobacteraceae bacterium
+ Novosphingobium sp.
+ bacterium
+ uncultured bacterium
+ Acidobacteriaceae bacterium A2-4c
+ uncultured bacterium
+ bacterium Ellin6554
+ Aeromonas veronii
+ Bradyrhizobium centrosematis
+ uncultured bacterium
+ Dyella sp. DHOA06
+ uncultured bacterium
+ Candidatus Solibacter usitatus
+ uncultured Acidobacteriaceae bacterium
+ Proteobacteria
+ bacterium
+ Bradyrhizobium elkanii
+ Bradyrhizobium sp.
+ bacterium
+ Burkholderia sp. UR 2-07
+ uncultured bacterium
+ uncultured actinobacterium
+ unidentified
+ bacterium
+ Bradyrhizobium jicamae
+ Microcoleus vaginatus ACT688
+ Acetobacteraceae bacterium
+ Bradyrhizobium sp.
+ Luteitalea pratensis
+ Acetobacteraceae bacterium
+ Bradyrhizobium elkanii
+ Mycobacterium sp.
+ coccoid cyanobacterium CMT-2FBIN-NPC27
+ Bacillus circulans
+ Arthrobacter sp.
+ Pinus elliottii
+ uncultured bacterium
+ Streptomyces corchorusii
+ Bacillus circulans
+ bacterium Ellin5032
+ Bacillus sp. LPPA 971
+ Mesorhizobium sp.
+ Rhizobacter profundi
+ bacterium
+ Bacillus huizhouensis
+ Actinoplanes lichenis
+ Microcoleus vaginatus ACT688
+ bacterium PE03-6G1
+ Mesorhizobium sp.
+ Actinophytocola sp.
+ alpha proteobacterium URHD0017
+ Mesorhizobium sp.
+ Phenylobacterium sp.
+ uncultured bacterium
+ Lentzea guizhouensis
+ uncultured bacterium
+ unidentified
+ Actinomycetales bacterium
+ Microcoleus vaginatus HS025
+ Pseudoxanthomonas gei
+ Pseudarthrobacter sp.
+ Streptoverticillium reticulum
+ Mesorhizobium sp.
+ Sphingomonas wittichii
+ Rhizobiales bacterium
+ uncultured bacterium
+ Acidobacteria bacterium WSR6
+ bacterium
+ Ralstonia solanacearum
+ Acidicapsa sp. CE1
+ Ralstonia solanacearum
+ bacterium
+ Ralstonia solanacearum
+ bacterium
+ alpha proteobacterium URHD0017
+ Afipia sp.
+ Ralstonia solanacearum
+ Acidobacteria bacterium WSR6
+ bacterium
+ Bradyrhizobium elkanii
+ Acidobacteriaceae bacterium K5
+ Ralstonia solanacearum
+ bacterium
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ Acidobacteria bacterium IP-33G
+ Alphaproteobacteria bacterium IP-54A
+ Acidobacteria bacterium WSR6
+ bacterium Ellin7505
+ bacterium
+ Anolis evermanni
+ bacterium
+ Ralstonia solanacearum
+ bacterium
+ Acidobacteria bacterium WSR6
+ Acetobacteraceae bacterium
+ Acidobacteria bacterium AB158
+ bacterium Ellin371
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ bacterium
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ bacterium
+ Bacillus cereus
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ Staphylococcus aureus
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ alpha proteobacterium URHD0017
+ Bradyrhizobium sp.
+ Pseudomonas sp.
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ Chitinophagaceae bacterium StRD705
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ Bradyrhizobium elkanii
+ Ralstonia solanacearum
+ Anolis evermanni
+ Acidobacteriaceae bacterium KBS89
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ Acidobacteria bacterium WSR6
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ bacterium
+ Ralstonia solanacearum
+ Anolis evermanni
+ Klebsiella variicola
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ Bradyrhizobium sp.
+ Acidobacteria bacterium WSR6
+ bacterium
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ bacterium
+ Ralstonia solanacearum
+ bacterium
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ Acidobacteria bacterium WSR6
+ Ralstonia solanacearum
+ Arthrobacter sp.
+ Actinobacteria bacterium
+ Acidobacteria bacterium WSR6
+ Actinobacteria bacterium 15TR583
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ Acidobacteria bacterium WSR6
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ Clostridium estertheticum subsp. estertheticum
+ Bacillus sp. (in: Bacteria)
+ bacterium Ellin6510
+ Ralstonia solanacearum
+ soil bacterium Slfm-S3F-M1LLLSSL-3
+ Bradyrhizobium sp.
+ bacterium Ellin7544
+ Ralstonia solanacearum
+ bacterium
+ bacterium
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ Afipia sp.
+ Acidobacteria bacterium WSR6
+ bacterium
+ Bacillus phage Maceta
+ bacterium Ellin5289
+ bacterium Ellin371
+ bacterium
+ Acidobacteria bacterium WSR6
+ Actinobacteria bacterium 15TR583
+ Bacillus anthracis
+ bacterium
+ Acidobacteria bacterium WSR6
+ Bacillus sp. KBS0812
+ Bacillus circulans
+ Ralstonia solanacearum
+ bacterium
+ uncultured bacterium
+ bacterium
+ bacterium
+ Acidobacteria bacterium SJ-70G
+ Ralstonia solanacearum
+ bacterium Ellin6115
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ bacterium
+ Arthrobacter sp.
+ bacterium
+ Ralstonia solanacearum
+ Acidobacteria bacterium SJ-70G
+ Bradyrhizobium sp.
+ bacterium Ellin6554
+ Afipia sp.
+ Ralstonia solanacearum
+ Acidobacteriaceae bacterium KBS89
+ Ralstonia solanacearum
+ Arthrobacter sp.
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ Bacillus phage Maceta
+ bacterium
+ Bradyrhizobium elkanii
+ Escherichia coli
+ bacterium
+ bacterium
+ Acidobacteria bacterium WSR6
+ bacterium
+ Actinobacteria bacterium 15TR583
+ Ralstonia solanacearum
+ bacterium
+ Ralstonia solanacearum
+ Mycobacterium sp.
+ Pseudomonas sp.
+ Alphaproteobacteria bacterium H 52
+ Bradyrhizobium sp.
+ bacterium
+ bacterium
+ bacterium Ellin328
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ alpha proteobacterium URHD0017
+ bacterium Ellin7505
+ bacterium
+ Ralstonia solanacearum
+ bacterium
+ bacterium
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ Blastococcus sp. URHD0003
+ Bradyrhizobium sp.
+ Ralstonia solanacearum
+ Blastococcus sp.
+ Streptomyces sp.
+ Actinomycetospora straminea
+ bacterium
+ bacterium
+ Rhizobacter sp.
+ Bradyrhizobium sp.
+ Anaeromyxobacter sp. K
+ Bradyrhizobium sp. 2 39S1MB
+ bacterium
+ Pseudorhodoplanes sinuspersici
+ Bradyrhizobium sp.
+ Afipia sp. Is42
+ Actinobacteria bacterium
+ Blastococcus sp.
+ Ralstonia solanacearum
+ Dongia sp. URHE0060
+ Bradyrhizobium elkanii
+ Sphingomonas sp. AE3
+ Bradyrhizobium elkanii
+ bacterium
+ Actinomycetales bacterium PE.R2A.21
+ bacterium Ellin6055
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ Cystobacter sp. S236
+ Kibdelosporangium sp.
+ Ralstonia solanacearum
+ bacterium
+ bacterium
+ Ralstonia solanacearum
+ Agromyces ramosus
+ Bradyrhizobium elkanii
+ Acidobacteria bacterium YJF2-13
+ bacterium
+ Bacillus sp. (in: Bacteria)
+ unidentified
+ alpha proteobacterium URHD0017
+ uncultured bacterium
+ Actinobacteria bacterium
+ bacterium
+ actinobacterium SCGC AAA278-M15
+ actinobacterium MS-B-64
+ actinobacterium SCGC AAA278-P08
+ Methylocystis sp.
+ bacterium
+ bacterium
+ actinobacterium SCGC AAA043-M10
+ Algoriphagus sp. DSL-12
+ Microcystis flos-aquae NRERC-207
+ Candidatus Fonsibacter ubiquis
+ Bacteroidetes bacterium SCGC AAA027-N15
+ Chamaesiphon subglobosus PCC 7430
+ Albirhodobacter marinus
+ Ralstonia solanacearum
+ Altererythrobacter buctensis
+ Glabratella patelliformis
+ Cellvibrio gandavensis
+ Ralstonia solanacearum
+ Acidovorax sp.
+ Clostridium estertheticum subsp. estertheticum
+ anaerobic methanogenic archaeon E15-4
+ Clostridium estertheticum subsp. estertheticum
+ bacterium
+ Ralstonia solanacearum
+ Alsobacter sp.
+ Clostridium estertheticum subsp. estertheticum
+ bacterium
+ Bacillus sp. (in: Bacteria)
+ Paenibacillus sp. 27-9
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ Enterobacter sp. LU1
+ Acinetobacter lwoffii
+ alpha proteobacterium A0721
+ Ralstonia solanacearum
+ Ralstonia solanacearum
+ Algoriphagus terrigena
+ Agrobacterium vitis
+ Acetobacteraceae bacterium D2B06
+ Agrococcus jenensis

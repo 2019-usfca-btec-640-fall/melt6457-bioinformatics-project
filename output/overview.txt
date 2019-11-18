@@ -8,3 +8,23 @@
     107 Staphylococcus aureus
     107 Staphylococcus aureus
      10 Geobacillus thermocatenulatus
+     10 Sphingomonas melonis
+     10 uncultured bacterium
+     10 uncultured bacterium
+     10 uncultured bacterium
+     10 uncultured bacterium
+     10 uncultured bacterium
+     10 uncultured bacterium
+     10 uncultured bacterium
+     10 uncultured bacterium
+     10 uncultured bacterium
+     10 uncultured bacterium
+     10 uncultured bacterium
+     10 uncultured bacterium
+     10 uncultured bacterium
+     10 uncultured bacterium
+     10 uncultured bacterium
+     10 uncultured bacterium
+     10 uncultured bacterium
+     10 uncultured bacterium
+    111 Staphylococcus aureus
