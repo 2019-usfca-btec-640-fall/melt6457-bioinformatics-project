@@ -7,6 +7,7 @@ library("dplyr")
 library("tidyr")
 library("knitr")
 library("ggplot2")
+library("lubridate")
 
 # These are the primary packages well use to clean and analyze the data
 # this package needs to be installed from bioconductor -- it's not on CRAN
