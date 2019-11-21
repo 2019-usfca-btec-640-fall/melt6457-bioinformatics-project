@@ -63,5 +63,3 @@ phyloseq_obj <- prune_samples(sample_sums(phyloseq_obj) > 0, phyloseq_obj)
 
 # save phyloseq object to use in the Rmd file
 save(phyloseq_obj, file = "output/phyloseq_obj.Rda")
-
-
