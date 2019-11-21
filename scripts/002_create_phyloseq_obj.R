@@ -23,7 +23,7 @@ library("neonUtilities")
 
 # Download the full set of metadata for the site over all time periods
 metadata_all <- loadByProduct("DP1.10108.001",
-                              site = "ABBY",
+                              site = "UNDE",
                               startdate = NA,
                               enddate = NA,
                               package = "expanded",
@@ -43,6 +43,10 @@ metadata_subset <- metadata_subset %>%
          collect_day = day(parse_date_time(collectDate,
                                              orders = "YmdHM")))
 
+# get rid of any duplicate rows
+metadata_subset <- metadata_subset %>%
+  distinct(internalLabID, .keep_all = TRUE)
+
 # set the rownames of the metadata to match the sample names used for
 # the sample data
 rownames(metadata_subset) <- metadata_subset$internalLabID
@@ -51,6 +55,17 @@ rownames(metadata_subset) <- metadata_subset$internalLabID
 # save necessary files from dada pipeline to use with phyloseq
 load("output/dada-results/seqtable.Rda")
 load("output/dada-results/taxatable.Rda")
+
+# trim rownames to match the internal lab ID
+# rownames(sequence_table_nochim) <- gsub(pattern = "_16S_R1_subsampled_filt",
+#                                         replacement = "",
+#                                         rownames())
+
+# subset the sequence table to only include those that are also in the
+# metadata table
+sequence_table_nochim <- sequence_table_nochim[
+  rownames(sequence_table_nochim) %in% 
+    as.character(metadata_subset$internalLabID),]
 
 # Construct phyloseq object (straightforward from dada2 outputs)
 phyloseq_obj <- phyloseq(otu_table(sequence_table_nochim,

@@ -24,7 +24,7 @@ library("dada2")
 library("phyloseq")
 
 # load in the saved phyloseq object to work with
-load("output/phyloseq_obj.Rda")
+load("output/phyloseq_obj.Rda") # need in RMarkdown file
 
 ##########################################
 # Phyloseq-native analyses
@@ -56,7 +56,7 @@ melted_phyloseq <- psmelt(phyloseq_obj)
 melted_phyloseq <- melted_phyloseq %>%
   mutate_if(is.factor, as.character)
 
-melted_phyloseq %>%
+summaryTable <- melted_phyloseq %>%
   filter(collect_month == 10) %>%
   group_by(Phylum) %>%
   summarize(sum_abundance = sum(Abundance,
