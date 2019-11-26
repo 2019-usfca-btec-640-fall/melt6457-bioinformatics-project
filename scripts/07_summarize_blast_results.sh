@@ -10,6 +10,16 @@
 # kmelton@dons.usfca.edu
 #######################################################################
 
+# pull out uncultued bacterium
+blastFile="output/blast_results.csv"
+curatedBlastFile="output/curatedBlastFile.csv"
+grep -v -e "uncultured" -e "bacterium" -e "Bacterium" -e "unidentified" -e "fungal" "$blastFile" > "$curatedBlastFile"
+
+# get an overview of the species found in curated BLAST
+curatedOverviewFile="output/curatedOverview.csv"
+cut -d, -f1 < "$curatedBlastFile" | cut -d" " -f1 > "$curatedOverviewFile"
+#cut -d, -f1 < "$curatedBlastFile" | uniq -c | sort | head -30 > "$curatedOverviewFile"
+
 # get an overview of the species found in BLAST
 overviewFile=output/overview.txt
 cut -d, -f1 < output/blast_results.csv | uniq -c | sort | head -30 > "$overviewFile"
