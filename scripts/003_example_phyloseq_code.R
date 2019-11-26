@@ -31,8 +31,8 @@ load("output/phyloseq_obj.Rda") # need in RMarkdown file
 ##########################################
 
 # pull out numbers from plots
-plotNum <- substring(phyloseq_obj@sam_data[["plotID"]], 6, 7)
-phyloseq_obj@sam_data[["plotID"]] <- substring(phyloseq_obj@sam_data[["plotID"]], 6, 7)
+# plotNum <- substring(phyloseq_obj@sam_data[["plotID"]], 6, 8)
+phyloseq_obj@sam_data[["plotID"]] <- substring(phyloseq_obj@sam_data[["plotID"]], 6, 8)
 
 
 # Make supplemented phyloseq by merging objects
@@ -45,9 +45,16 @@ head(phyloseq_supp@sam_data$plotID)
 
 # alpha diversity metrics -- see many more
 # examples here, under 'Tutorials': https://joey711.github.io/phyloseq
-plot_richness(phyloseq_obj,
+plot_richness(phyloseq_2016,
               x = "plotID",
-              measures = c("Shannon", "Simpson")) +
+              measures = c("Shannon")) +
+  xlab("Sample origin") +
+  geom_jitter(width = 0.2) +
+  theme_bw()
+
+plot_richness(phyloseq_2017,
+              x = "plotID",
+              measures = c("Shannon")) +
   xlab("Sample origin") +
   geom_jitter(width = 0.2) +
   theme_bw()
@@ -87,3 +94,33 @@ summaryTable <- melted_phyloseq %>%
     group_by(Phylum) %>%
       summarize(sum_abundance = sum(Abundance,
                                     na.rm = TRUE))
+
+
+##########################################
+# prune to only include 2016
+##########################################
+phyloseq_2016 <- prune_samples(phyloseq_obj@sam_data[["collect_year"]] == 2016, phyloseq_obj)
+phyloseq_2017 <- prune_samples(phyloseq_obj@sam_data[["collect_year"]] == 2017, phyloseq_obj)
+
+# abundance on y axis, year collected on x axis,
+# top 3 phyla, bar graph grouped, color by phyla
+
+# first step, figure out top 3 phyla overall based on
+# number of sequences
+top_3_phyla <- melted_phyloseq %>%
+  group_by(Phylum) %>%
+    summarize(sum_abund = sum(Abundance,
+                              na.rm = TRUE)) %>%
+      arrange(desc(sum_abund)) %>%
+        head(3) %>%
+          pull(Phylum)
+
+melted_phyloseq %>%
+  group_by(collect_year, Phylum) %>%
+  summarize(sum_abund = sum(Abundance,
+                            na.rm = TRUE)) %>%
+    filter(Phylum %in% top_3_phyla) %>%
+    ggplot(aes(x = factor(collect_year),
+               y = sum_abund,
+               fill = Phylum)) +
+        geom_col(position = position_dodge())
