@@ -65,7 +65,7 @@ load("output/dada-results/taxatable.Rda")
 # metadata table
 sequence_table_nochim <- sequence_table_nochim[
   rownames(sequence_table_nochim) %in% 
-    as.character(metadata_subset$internalLabID),]
+    as.character(metadata_subset$internalLabID), ]
 
 # Construct phyloseq object (straightforward from dada2 outputs)
 phyloseq_obj <- phyloseq(otu_table(sequence_table_nochim,

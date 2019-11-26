@@ -27,6 +27,19 @@ library("phyloseq")
 load("output/phyloseq_obj.Rda") # need in RMarkdown file
 
 ##########################################
+# Add some data to phyloseq
+##########################################
+
+# pull out numbers from plots
+plotNum <- substring(phyloseq_obj@sam_data[["plotID"]], 6, 7)
+phyloseq_obj@sam_data[["plotID"]] <- substring(phyloseq_obj@sam_data[["plotID"]], 6, 7)
+
+
+# Make supplemented phyloseq by merging objects
+phyloseq_supp <- merge_phyloseq(phyloseq_obj, plotNum)
+head(phyloseq_supp@sam_data$plotID)
+
+##########################################
 # Phyloseq-native analyses
 ##########################################
 
@@ -39,9 +52,22 @@ plot_richness(phyloseq_obj,
   geom_jitter(width = 0.2) +
   theme_bw()
 
-# bar plot of taxa my month sampled
+# add a calculated column to the data
+
+plot_richness(phyloseq_obj,
+              x = "collect_year",
+              measures = c("Shannon", "Simpson")) +
+  xlab("Sample Year")
+  
+
+# bar plot of taxa by month sampled
 plot_bar(phyloseq_obj,
          x = "collect_month",
+         fill = "Phylum")
+
+# bar plot of taxa by year sampled
+plot_bar(phyloseq_obj,
+         x = "collect_year",
          fill = "Phylum")
 
 ##########################################
@@ -58,6 +84,6 @@ melted_phyloseq <- melted_phyloseq %>%
 
 summaryTable <- melted_phyloseq %>%
   filter(collect_month == 10) %>%
-  group_by(Phylum) %>%
-  summarize(sum_abundance = sum(Abundance,
-                                  na.rm = TRUE))
+    group_by(Phylum) %>%
+      summarize(sum_abundance = sum(Abundance,
+                                    na.rm = TRUE))
