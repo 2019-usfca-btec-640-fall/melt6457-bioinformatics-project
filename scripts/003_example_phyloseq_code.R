@@ -242,3 +242,10 @@ melted_phyloseq %>%
               theme(axis.text.x = element_text(angle = 60,
                                                hjust = 1)) +
               theme(legend.position = "none")
+
+# table
+melted_phyloseq %>%
+  filter(!is.na(Kingdom)) %>%
+  group_by(Kingdom) %>%
+    tally() %>%
+      kable(col.names = c("Kingdom", "Number of Sequences"))

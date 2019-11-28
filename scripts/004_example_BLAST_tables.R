@@ -6,3 +6,4 @@ blastResults <- blastResults[, c(2, 1)] %>%
 
 # make table
 kable(blastResults)
+
