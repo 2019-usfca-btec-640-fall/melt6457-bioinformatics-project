@@ -17,8 +17,9 @@ curatedBlastFile="output/curatedBlastFile.csv"
 curatedSummaryCsv="output/curatedSummary.csv"
 curatedOverviewFile="output/curatedOverview.txt"
 curatedSummaryFile="output/curatedSummary.txt"
+top5file="output/top5blast.csv"
 
-touch "$blastFile" "$curatedBlastFile" "$curatedSummaryCsv" "$curatedOverviewFile" "$curatedSummaryFile"
+touch "$blastFile" "$curatedBlastFile" "$curatedSummaryCsv" "$curatedOverviewFile" "$curatedSummaryFile" "$top5file"
 
 # curate the file by pulling out specific terms
 grep -v -e "uncultured" -e "bacterium" -e "Bacterium" -e "unidentified" -e "fungal" "$blastFile" > "$curatedBlastFile"
@@ -45,20 +46,20 @@ printf "Get overview file...\n"
 overviewFile=output/overview.txt
 cut -d, -f1 < output/blast_results.csv | uniq -c | sort | head -30 > "$overviewFile"
 
-# get the top match for each file
-printf "Get top match for each file...\n"
-# set the topMatchFile and create it
-topMatchFile=output/topMatch.txt
-rm output/topMatch.txt # remove previous iterations so you get a clean file
-touch output/topMatch.txt
+# Print out a file with the top 5 matches from BLAST
+# 1 - Ralstonia
+# 2 - Staphylococcus
+# 3 - Bradyrhizobium
+# 4 - Pseudomonas
+# 5 - Proteobacteria
 
-printf "Sort out top matches...\n"
-# use a for loop to go through each file
-for file in output/blast_results/*.csv
-do
-	grep "100.0" < "$file" | cut -d, -f1 | uniq -c | sort | awk '{$1=""; print}' | head -1 >> "$topMatchFile"
-done
+# make a temp file
+top5temp="output/top5tempFile.csv"
+touch "$top5temp"
 
-# get a count for how the unique top matches
-printf "Get final count...\n"
-uniq -c < "$topMatchFile" | sort > output/topMatch_sorted.txt
+printf "Get top 5 BLAST matches...\n"
+grep -e "Ralstonia" -e "Staphylococcus" -e "Bradyrhizobium" -e "Pseudomonas" -e "Proteobacteria" "$curatedBlastFile" > "$top5temp"
+sed '1iScientific Name,qseqid,sseqid,pident,length,mismatch,gapopen,qstart,qend,sstart,send,evalue,bitscore' "$top5temp" > "$top5file"
+
+# remove temp file
+rm "$top5temp"
