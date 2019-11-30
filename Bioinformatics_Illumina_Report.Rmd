@@ -30,10 +30,26 @@ library("dada2")
 library("phyloseq")
 
 # load in the saved phyloseq object to work with
-load("output/phyloseq_obj.Rda") # need in RMarkdown file
-
+load("output/phyloseq_obj.Rda")
 ```
 
+``` {r add melted phyloseq}
+# make melted phyloseq
+# melt phyloseq obj into a data frame for dplyr/ggplot
+# analysis and visualization
+melted_phyloseq <- psmelt(phyloseq_obj)
+
+# turn all factor columns into character columns for dplyr
+melted_phyloseq <- melted_phyloseq %>%
+  mutate_if(is.factor, as.character)
+
+##########################################
+# Make plot ID's more readable
+##########################################
+
+phyloseq_obj@sam_data[["plotID"]] <- substring(phyloseq_obj@sam_data[["plotID"]], 6, 8)
+melted_phyloseq$plotID <- substring(melted_phyloseq$plotID, 6, 8)
+```
 <!-- word count: 385 words -->
 
 # Introduction
@@ -158,7 +174,9 @@ The data collected by NEON from this site was high-quality and contained a subst
 
 *Ralstonia solanacearumm* is a soil-borne plant pathogen with unusually high prevalence worldwide [@salanoubat2002genome]. This pathogen naturally infects the roots of plants causing bacterial wilt in many plants and crops [@castillo2007evolutionary]. The DNA sequencing of the soil samples from the UNDE site indicate a high probability of *Ralstonia solanacearum*. The workers of UNDERC should look for indications of this pathogen in plants near the sampling sites and take preventative action to protect the biodiversity of the UNDE site.
 
-``` {r phyloseq_obj}
+# Tables and Graphs
+
+``` {r blast results}
 # read data in from csv
 blastResults <- read.csv("output/curatedSummary.csv")
 # flip the order of the data so the genus comes first
@@ -167,12 +185,83 @@ blastResults <- blastResults[, c(2, 1)] %>%
 
 # make table
 kable(blastResults)
-
-plot_richness(phyloseq_obj,
-               x = "plotID",
-               measures = "Shannon") + 
-   xlab("Plot ID") +
-     geom_point(aes(color = factor(collect_year)))
 ```
-                    
+
+**Table 1.** Top 20 genus returned from blast results
+
+``` {r blast comparison}
+# get top 20 genus
+top20_Genus <- melted_phyloseq %>%
+  group_by(Genus) %>%
+    filter(!is.na(Genus)) %>%
+      summarize(sum_abund = sum(Abundance,
+                                na.rm = TRUE)) %>%
+        arrange(desc(sum_abund)) %>%
+          head(20)
+
+colnames(top20_Genus) <- c("Genus",
+                          "Abundance")
+kable (top20_Genus)
+```
+
+**Table 2.** Top 20 genus by abundance from curated database
+
+``` {r Samples by year}
+##########################################
+# Number of Samples
+##########################################
+
+# Get number of samples by year, plot, month
+sample_info <- melted_phyloseq %>%
+  distinct(OTU, .keep_all = TRUE) %>%
+  group_by(plotID, collect_year, collect_month) %>%
+  tally()
+
+# Graph the number of samples by month, with fill year
+sample_info %>%
+  ggplot(aes(x = factor(collect_month),
+             y = n,
+             fill = factor(collect_year))) +
+  xlab("Collection Month") +
+  ylab("Number of Samples") +
+  geom_col(position = position_dodge())
+```
+
+**Figure 1.** Number of samples by month
+
+``` {r samples by plot}
+# Graph the plots in month 5 and 8
+sample_info %>%
+  filter(collect_month == 5 | collect_month == 8) %>%
+  group_by(plotID, collect_year) %>%
+  ggplot(aes(x = plotID,
+             y = n,
+             fill = factor(collect_year))) +
+  xlab("Plot ID") +
+  ylab("Number of Samples") +
+  ggtitle("Samples by plot") +
+  geom_col() +
+  theme(axis.text.x = element_text(angle = 60,
+                                   hjust = 1)) +
+  theme(legend.position = "top") +
+  labs(fill = "Collection Year")
+```
+
+**Figure 2.** Number of samples by plot
+
+``` {r kingdom analysis}
+kingdom_info <- melted_phyloseq %>%
+  filter(!is.na(Kingdom)) %>%
+  distinct(OTU, .keep_all = TRUE) %>%
+  group_by(Kingdom, collect_year, collect_month) %>%
+  tally()
+
+kingdom_info %>%
+  ggplot(aes(x = factor(collect_year),
+             y = n,
+             fill = Kingdom)) +
+  geom_col()
+```
+  
+**Figure 3.** Summary of Kingdom found matched in phyloseq.                  
 # Sources Cited

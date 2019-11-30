@@ -1,9 +1,8 @@
 # read data in from csv
-blastResults <- read.csv("output/curatedSummary.csv")
+blast_results <- read.csv("output/curatedSummary.csv")
 # flip the order of the data so the genus comes first
-blastResults <- blastResults[, c(2, 1)] %>%
+blast_results <- blast_results[, c(2, 1)] %>%
   arrange(desc(Count))
 
 # make table
-kable(blastResults)
-
+kable(blast_results)

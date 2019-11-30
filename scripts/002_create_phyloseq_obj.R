@@ -64,7 +64,7 @@ load("output/dada-results/taxatable.Rda")
 # subset the sequence table to only include those that are also in the
 # metadata table
 sequence_table_nochim <- sequence_table_nochim[
-  rownames(sequence_table_nochim) %in% 
+  rownames(sequence_table_nochim) %in%
     as.character(metadata_subset$internalLabID), ]
 
 # Construct phyloseq object (straightforward from dada2 outputs)
