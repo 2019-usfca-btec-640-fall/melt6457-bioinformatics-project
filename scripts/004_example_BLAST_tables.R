@@ -78,25 +78,6 @@ top_3_bp %>%
 # make a table for other relevant counts
 kable(top_3_staph_rals_pro)
 
-###############################################
-# Ralstonia Investigation
-###############################################
-# get a table grouping ralstonia by qseqid and sseqid
-ralstonia <- top_5_genus %>%
-  filter(Genus == "Ralstonia") %>%
-  group_by(sseqid) %>%
-  tally()
-
-ralstonia_qs <- top_5_genus %>%
-  filter(Genus == "Ralstonia") %>%
-  group_by(qseqid) %>%
-  tally()
-
-# make a table of ids for ralstonia
-
-
-# boxplots for ralstonia 
-
 #################################################
 # Boxplots by scientific group
 #################################################
@@ -110,7 +91,8 @@ top_5_genus %>%
   ylab("Percent Identity") +
   theme_classic() +
   theme(axis.text.x = element_text(angle = 60,
-                                   hjust = 1))
+                                   hjust = 1)) +
+  geom_hline(yintercept = 90, color = "red")
 
 # graph boxplot of length by top 5 Genus
 top_5_genus %>%
@@ -122,10 +104,12 @@ top_5_genus %>%
   ylab("Length of Sequence") +
   theme_classic() +
   theme(axis.text.x = element_text(angle = 60,
-                                   hjust = 1))
+                                   hjust = 1)) +
+  geom_hline(yintercept = 200, color = "red")
 
 # graph boxplot of evalue by top 5 genus
 top_5_genus %>%
+  filter(evalue < 1) %>%
   ggplot(aes(x = Genus,
              y = evalue)) +
   geom_boxplot() +
@@ -134,7 +118,8 @@ top_5_genus %>%
   ylab("Expected Value") +
   theme_classic() +
   theme(axis.text.x = element_text(angle = 60,
-                                   hjust = 1))
+                                   hjust = 1)) +
+  geom_hline(yintercept = 0.05, color = "red")
 
 # graph boxplot of bitscore by top 5 genus
 top_5_genus %>%
@@ -146,7 +131,8 @@ top_5_genus %>%
   ylab("Bitscore") +
   theme_classic() +
   theme(axis.text.x = element_text(angle = 60,
-                                   hjust = 1))
+                                   hjust = 1)) +
+  geom_hline(yintercept = 200, color = "red")
 
 # Number of Samples in top 5 genus when controlled for
 # - bitscore above 200
