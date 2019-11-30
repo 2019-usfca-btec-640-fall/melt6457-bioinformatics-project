@@ -81,6 +81,38 @@ sample_info %>%
   theme(legend.position = "top") +
   labs(fill = "Collection Year")
 
+# counts of the top 3 phyla overall, for each of the plots
+top_3_diverse_phyla <- melted_phyloseq %>%
+  filter(Abundance > 0, !is.na(Phylum)) %>%
+  distinct(OTU, .keep_all = TRUE) %>%
+  group_by(Phylum) %>%
+  tally() %>%
+  arrange(desc(n)) %>%
+  head(3) %>%
+  pull(Phylum)
+
+# Phyla by year
+# control for
+# - month 5 or month 8
+# - plots: 001, 006, 008, 037, 038, 043, 044
+# look at different phylum abundances
+
+# list of plots to keep
+plots <- c('001', '006', '008', '037', '038', '043', '044')
+melted_phyloseq %>%
+  filter(collect_month == 5 | collect_month == 8) %>%
+  filter(plotID %in% plots) %>%
+  group_by(collect_year, Phylum) %>%
+  summarize(sum_abund = sum(Abundance,
+                            na.rm = TRUE)) %>%
+  filter(Phylum %in% top_3_diverse_phyla) %>%
+  ggplot(aes(x = factor(collect_year),
+             y = sum_abund,
+             fill = Phylum)) +
+  xlab("Collection Month") +
+  ylab("Abundance") +
+  geom_col(position = position_dodge())
+
 ##########################################
 # Phyloseq-native analyses
 ##########################################
@@ -92,14 +124,17 @@ sample_info %>%
 diversity <- estimate_richness(phyloseq_obj, split = FALSE, measures = "Shannon")
 
 # prune for 3 different datasets
-# 2016, 2017, months 5 and 8
+# in months 5 and 8
+# -2016
+# -2017
+
+phyloseq_5_8 <- prune_samples(phyloseq_obj@sam_data$collect_month == 5 
+                              | phyloseq_obj@sam_data$collect_month == 8,
+                              phyloseq_obj)
 phyloseq_2016 <- prune_samples(phyloseq_obj@sam_data$collect_year == 2016, 
                                phyloseq_obj)
 phyloseq_2017 <- prune_samples(phyloseq_obj@sam_data$collect_year == 2017, 
                                phyloseq_obj)
-phyloseq_5_8 <- prune_samples(phyloseq_obj@sam_data$collect_month == 5 
-                              | phyloseq_obj@sam_data$collect_month == 8,
-                              phyloseq_obj)
 
 # richness in 2016
 plot_richness(phyloseq_2016,
@@ -116,7 +151,7 @@ plot_richness(phyloseq_2017,
   xlab("Plot ID") +
     geom_point(aes(color = factor(collect_month)))
 
-# richness in months 5 and 8
+# richness in months 5 and 8 with year as the color
 plot_richness(phyloseq_5_8,
               x = "plotID",
               measures = "Shannon") + 
@@ -202,16 +237,6 @@ kable (top20_Genus)
 #################################################
 # In-class examples 27Nov19
 #################################################
-
-# counts of the top 3 phyla overall, for each of the plots
-top_3_diverse_phyla <- melted_phyloseq %>%
-  filter(Abundance > 0, !is.na(Phylum)) %>%
-    distinct(OTU, .keep_all = TRUE) %>%
-      group_by(Phylum) %>%
-        tally() %>%
-          arrange(desc(n)) %>%
-            head(3) %>%
-              pull(Phylum)
 
 melted_phyloseq %>%
   filter(Phylum %in% top_3_diverse_phyla) %>%
