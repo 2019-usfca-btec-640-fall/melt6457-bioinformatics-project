@@ -41,7 +41,7 @@ load("output/phyloseq_obj.Rda")
 # Make plot ID's more readable
 ##########################################
 
-phyloseq_obj@sam_data[["plotID"]] <- 
+phyloseq_obj@sam_data[["plotID"]] <-
   substring(phyloseq_obj@sam_data[["plotID"]],
             6,
             8)
@@ -531,7 +531,7 @@ melted_phyloseq %>%
 
 ``` {r richness by year}
 phyloseq_5_8 <- prune_samples(
-  phyloseq_obj@sam_data$collect_month == 5 | 
+  phyloseq_obj@sam_data$collect_month == 5 |
   phyloseq_obj@sam_data$collect_month == 8,
                               phyloseq_obj)
 
