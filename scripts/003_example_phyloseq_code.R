@@ -28,6 +28,15 @@ library("phyloseq")
 load("output/phyloseq_obj.Rda") # need in RMarkdown file
 
 ##########################################
+# Make plot ID's more readable
+##########################################
+
+phyloseq_obj@sam_data[["plotID"]] <-
+  substring(phyloseq_obj@sam_data[["plotID"]],
+            6,
+            8)
+
+##########################################
 # Make melted phyloseq object
 ##########################################
 
@@ -40,23 +49,13 @@ melted_phyloseq <- melted_phyloseq %>%
   mutate_if(is.factor, as.character)
 
 ##########################################
-# Make plot ID's more readable
-##########################################
-
-phyloseq_obj@sam_data[["plotID"]] <-
-  substring(phyloseq_obj@sam_data[["plotID"]],
-            6,
-            8)
-melted_phyloseq$plot_ID <- substring(melted_phyloseq$plot_ID, 6, 8)
-
-##########################################
 # Number of Samples
 ##########################################
 
 # Get number of samples by year, plot, month
 sample_info <- melted_phyloseq %>%
   distinct(OTU, .keep_all = TRUE) %>%
-  group_by(plot_ID, collect_year, collect_month) %>%
+  group_by(plotID, collect_year, collect_month) %>%
   tally()
 
 # Graph the number of samples by month, with fill year
