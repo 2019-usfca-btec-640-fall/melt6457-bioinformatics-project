@@ -354,12 +354,12 @@ curated_top_5_totals <- top_5_genus %>%
   filter(evalue < 0.05) %>%
   filter(length > 200) %>%
   filter(pident > 90) %>%
-  group_by(Genus) %>%
+  group_by(genus) %>%
   tally()
 
 top_5_totals <- top_10_genus %>%
   head(5) %>%
-  arrange(Genus)
+  arrange(genus)
 
 invisible(sort(top_5_totals$Genus))
 
