@@ -43,8 +43,11 @@ melted_phyloseq <- melted_phyloseq %>%
 # Make plot ID's more readable
 ##########################################
 
-phyloseq_obj@sam_data[["plotID"]] <- substring(phyloseq_obj@sam_data[["plotID"]], 6, 8)
-melted_phyloseq$plotID <- substring(melted_phyloseq$plotID, 6, 8)
+phyloseq_obj@sam_data[["plotID"]] <- 
+  substring(phyloseq_obj@sam_data[["plotID"]],
+            6,
+            8)
+melted_phyloseq$plot_ID <- substring(melted_phyloseq$plot_ID, 6, 8)
 
 ##########################################
 # Number of Samples
@@ -53,7 +56,7 @@ melted_phyloseq$plotID <- substring(melted_phyloseq$plotID, 6, 8)
 # Get number of samples by year, plot, month
 sample_info <- melted_phyloseq %>%
   distinct(OTU, .keep_all = TRUE) %>%
-  group_by(plotID, collect_year, collect_month) %>%
+  group_by(plot_ID, collect_year, collect_month) %>%
   tally()
 
 # Graph the number of samples by month, with fill year
@@ -100,7 +103,7 @@ sample_info %>%
 sample_info %>%
   group_by(plotID, collect_month) %>%
   ggplot(aes(x = plotID,
-             y = n, 
+             y = n,
              fill = factor(collect_month))) +
   xlab("Plot ID") +
   ylab("Number of Samples") +
@@ -126,7 +129,7 @@ top_3_diverse_phyla <- melted_phyloseq %>%
 # look at different phylum abundances
 
 # list of plots to keep
-plots <- c('001', '006', '008', '037', '038', '043', '044')
+plots <- c("001", "006", "008", "037", "038", "043", "044")
 melted_phyloseq %>%
   filter(collect_month == 5 | collect_month == 8) %>%
   filter(plotID %in% plots) %>%
@@ -144,7 +147,7 @@ melted_phyloseq %>%
 # Phyla by month in plot 6
 # top 3 phyla in plot 6
 diverse_phyla_plot_6 <- melted_phyloseq %>%
-  filter(plotID == '006') %>%
+  filter(plotID == "006") %>%
   filter(Abundance > 0, !is.na(Phylum)) %>%
   distinct(OTU, .keep_all = TRUE) %>%
   group_by(Phylum) %>%
@@ -153,7 +156,7 @@ diverse_phyla_plot_6 <- melted_phyloseq %>%
   pull(Phylum)
 
 melted_phyloseq %>%
-  filter(plotID == '006') %>%
+  filter(plotID == "006") %>%
   group_by(collect_month, Phylum) %>%
   summarize(sum_abund = sum(Abundance,
                             na.rm = TRUE)) %>%
@@ -173,19 +176,21 @@ melted_phyloseq %>%
 # examples here, under 'Tutorials': https://joey711.github.io/phyloseq
 
 # get richness object for more flexible graphing
-diversity <- estimate_richness(phyloseq_obj, split = FALSE, measures = "Shannon")
+diversity <- estimate_richness(phyloseq_obj,
+                               split = FALSE,
+                               measures = "Shannon")
 
 # prune for 3 different datasets
 # in months 5 and 8
 # -2016
 # -2017
 
-phyloseq_5_8 <- prune_samples(phyloseq_obj@sam_data$collect_month == 5 
+phyloseq_5_8 <- prune_samples(phyloseq_obj@sam_data$collect_month == 5
                               | phyloseq_obj@sam_data$collect_month == 8,
                               phyloseq_obj)
-phyloseq_2016 <- prune_samples(phyloseq_obj@sam_data$collect_year == 2016, 
+phyloseq_2016 <- prune_samples(phyloseq_obj@sam_data$collect_year == 2016,
                                phyloseq_obj)
-phyloseq_2017 <- prune_samples(phyloseq_obj@sam_data$collect_year == 2017, 
+phyloseq_2017 <- prune_samples(phyloseq_obj@sam_data$collect_year == 2017,
                                phyloseq_obj)
 phyloseq_5 <- prune_samples(phyloseq_obj@sam_data$collect_month == 5,
                             phyloseq_obj)
@@ -193,22 +198,22 @@ phyloseq_5 <- prune_samples(phyloseq_obj@sam_data$collect_month == 5,
 # richness in 2016
 plot_richness(phyloseq_2016,
               x = "plotID",
-              measures = "Shannon") + 
+              measures = "Shannon") +
   xlab("Plot ID") +
-    geom_point(size=2,
+    geom_point(size = 2,
                aes(color = factor(collect_month)))
 
 # richness in months 5 and 8 with year as the color
 plot_richness(phyloseq_5_8,
               x = "plotID",
-              measures = "Shannon") + 
+              measures = "Shannon") +
   xlab("Plot ID") +
   geom_point(aes(color = factor(collect_year)))
 
 # richness in May
 plot_richness(phyloseq_5,
               x = "plotID",
-              measures = "Shannon") + 
+              measures = "Shannon") +
   xlab("Plot ID") +
   geom_point(aes(color = factor(collect_year)))
 
@@ -273,7 +278,7 @@ top_10_Genus <- melted_phyloseq %>%
 
 colnames(top_10_Genus) <- c("Genus",
                           "Abundance")
-kable (top_10_Genus)
+kable(top_10_Genus)
 
 #################################################
 # In-class examples 27Nov19
@@ -332,19 +337,6 @@ melted_phyloseq %>%
     tally() %>%
       kable(col.names = c("Kingdom", "Number of Sequences"))
 
-##############################################################
-# Try ordination
-##############################################################
-
-# limit to top 10 phyla
-phylum.sum = tapply(taxa_sums(phyloseq_obj), tax_table(phyloseq_obj)[, "Phylum"], sum, na.rm=TRUE)
-top_10_phyla = names(sort(phylum.sum, TRUE))[1:10]
-top_10_phyloseq = prune_taxa((tax_table(phyloseq_obj)[, "Phylum"] %in% top_10_phyla), phyloseq_obj)
-
-ntaxa(top_10_phyloseq)
-PO.ord <- ordinate(top_10_phyloseq, "NMDS", "bray")
-plot_ordination(top_10_phyloseq, PO.ord, type="sample", color="collect_year", title="taxa")
-
 # test plot of archaea and bacteria
 kingdom_info <- melted_phyloseq %>%
   filter(!is.na(Kingdom)) %>%
@@ -379,9 +371,9 @@ kingdom_table<-matrix(c(kingdom_info$n[1],
                         kingdom_info$n[10]),
                       ncol = 8)
 
-colnames(kingdom_table) <- c('May', 'July', 'August', 'October',
-                             'May', 'July', 'August', 'October')
-rownames(kingdom_table) <- c('Archaea', 'Bacteria')
+colnames(kingdom_table) <- c("May", "July", "August", "October",
+                             "May", "July", "August", "October")
+rownames(kingdom_table) <- c("Archaea", "Bacteria")
 
 kable(kingdom_table)
   # kable_styling(c("striped", "bordered")) %>%
