@@ -39,7 +39,7 @@ sort < "$curatedOverviewFile" | uniq -c | sort -n | tail -20 | awk '{$1=$1;print
 printf "Making Csv...\n"
 # replace the space with a comma (to make it a csv file) and add info to the top of the file
 sed -i 's/\ /,/g' "$curatedSummaryFile"
-sed '1iCount,Genus' "$curatedSummaryFile" > "$curatedSummaryCsv"
+sed '1icount,genus' "$curatedSummaryFile" > "$curatedSummaryCsv"
 
 printf "Get overview file...\n"
 # get an overview of the species found in BLAST

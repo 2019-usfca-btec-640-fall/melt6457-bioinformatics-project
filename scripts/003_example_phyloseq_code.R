@@ -43,7 +43,7 @@ melted_phyloseq <- melted_phyloseq %>%
 # Make plot ID's more readable
 ##########################################
 
-phyloseq_obj@sam_data[["plotID"]] <- 
+phyloseq_obj@sam_data[["plotID"]] <-
   substring(phyloseq_obj@sam_data[["plotID"]],
             6,
             8)
@@ -268,7 +268,7 @@ melted_phyloseq %>%
 #################################################
 
 # get top 20 genus
-top_10_Genus <- melted_phyloseq %>%
+top_10_genus <- melted_phyloseq %>%
   group_by(Genus) %>%
     filter(!is.na(Genus)) %>%
       summarize(sum_abund = sum(Abundance,
@@ -276,9 +276,9 @@ top_10_Genus <- melted_phyloseq %>%
         arrange(desc(sum_abund)) %>%
           head(10)
 
-colnames(top_10_Genus) <- c("Genus",
+colnames(top_10_genus) <- c("Genus",
                           "Abundance")
-kable(top_10_Genus)
+kable(top_10_genus)
 
 #################################################
 # In-class examples 27Nov19
@@ -353,7 +353,7 @@ kingdom_info %>%
              fill = Kingdom)) +
   geom_col()
 
-kingdom_table<-matrix(c(kingdom_info$n[1],
+kingdom_table <- matrix(c(kingdom_info$n[1],
                         kingdom_info$n[5],
                         0,
                         kingdom_info$n[6],
@@ -377,8 +377,8 @@ rownames(kingdom_table) <- c("Archaea", "Bacteria")
 
 kable(kingdom_table)
   # kable_styling(c("striped", "bordered")) %>%
-  # add_header_above(c(" ", 
-  #                    "2016" = 4, 
+  # add_header_above(c(" ",
+  #                    "2016" = 4,
   #                    "2017" = 4))
 
 # list the top phyla in descending order
