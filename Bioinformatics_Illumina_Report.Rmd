@@ -56,7 +56,7 @@ melted_phyloseq$plotID <- substring(melted_phyloseq$plotID, 6, 8)
 blast_results <- read.csv("output/curatedSummary.csv")
 # flip the order of the data so the genus comes first
 top_10_genus <- blast_results[, c(2, 1)] %>%
-  arrange(desc(Count)) %>%
+  arrange(desc(count)) %>%
   head(10)
 
 # read curated data on top 5 in from csv
@@ -366,7 +366,7 @@ invisible(sort(top_5_totals$Genus))
 top_5_totals$curated.count <- curated_top_5_totals$n
 
 top_5_totals <- top_5_totals %>%
-  arrange(desc(Count))
+  arrange(desc(count))
 
 kable(top_5_totals)
 ```
