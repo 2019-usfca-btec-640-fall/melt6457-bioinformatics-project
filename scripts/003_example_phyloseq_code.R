@@ -81,6 +81,34 @@ sample_info %>%
   theme(legend.position = "top") +
   labs(fill = "Collection Year")
 
+# graph the plots by month
+sample_info %>%
+  group_by(plotID, collect_year) %>%
+  ggplot(aes(x = plotID,
+             y = n,
+             fill = factor(collect_month))) +
+  xlab("Plot ID") +
+  ylab("Number of Samples") +
+  ggtitle("Samples by plot") +
+  geom_col() +
+  theme(axis.text.x = element_text(angle = 60,
+                                   hjust = 1)) +
+  theme(legend.position = "top") +
+  labs(fill = "Collection Month")
+
+# Graph the plots in month 5 and 8
+sample_info %>%
+  group_by(plotID, collect_month) %>%
+  ggplot(aes(x = plotID,
+             y = n, 
+             fill = factor(collect_month))) +
+  xlab("Plot ID") +
+  ylab("Number of Samples") +
+  ggtitle("Samples by plot") +
+  geom_col() +
+  theme(axis.text.x = element_text(angle = 60,
+                                   hjust = 1))
+
 # counts of the top 3 phyla overall, for each of the plots
 top_3_diverse_phyla <- melted_phyloseq %>%
   filter(Abundance > 0, !is.na(Phylum)) %>%
@@ -109,6 +137,30 @@ melted_phyloseq %>%
   ggplot(aes(x = factor(collect_year),
              y = sum_abund,
              fill = Phylum)) +
+  xlab("Collection Year") +
+  ylab("Abundance") +
+  geom_col(position = position_dodge())
+
+# Phyla by month in plot 6
+# top 3 phyla in plot 6
+diverse_phyla_plot_6 <- melted_phyloseq %>%
+  filter(plotID == '006') %>%
+  filter(Abundance > 0, !is.na(Phylum)) %>%
+  distinct(OTU, .keep_all = TRUE) %>%
+  group_by(Phylum) %>%
+  tally() %>%
+  arrange(desc(n)) %>%
+  pull(Phylum)
+
+melted_phyloseq %>%
+  filter(plotID == '006') %>%
+  group_by(collect_month, Phylum) %>%
+  summarize(sum_abund = sum(Abundance,
+                            na.rm = TRUE)) %>%
+  filter(Phylum %in% diverse_phyla_plot_6) %>%
+  ggplot(aes(x = factor(collect_month),
+             y = sum_abund,
+             fill = Phylum)) +
   xlab("Collection Month") +
   ylab("Abundance") +
   geom_col(position = position_dodge())
@@ -135,6 +187,8 @@ phyloseq_2016 <- prune_samples(phyloseq_obj@sam_data$collect_year == 2016,
                                phyloseq_obj)
 phyloseq_2017 <- prune_samples(phyloseq_obj@sam_data$collect_year == 2017, 
                                phyloseq_obj)
+phyloseq_5 <- prune_samples(phyloseq_obj@sam_data$collect_month == 5,
+                            phyloseq_obj)
 
 # richness in 2016
 plot_richness(phyloseq_2016,
@@ -144,13 +198,6 @@ plot_richness(phyloseq_2016,
     geom_point(size=2,
                aes(color = factor(collect_month)))
 
-# richness in 2017
-plot_richness(phyloseq_2017,
-              x = "plotID",
-              measures = "Shannon") + 
-  xlab("Plot ID") +
-    geom_point(aes(color = factor(collect_month)))
-
 # richness in months 5 and 8 with year as the color
 plot_richness(phyloseq_5_8,
               x = "plotID",
@@ -158,18 +205,12 @@ plot_richness(phyloseq_5_8,
   xlab("Plot ID") +
   geom_point(aes(color = factor(collect_year)))
 
-# bar plot of taxa by month sampled
-plot_bar(phyloseq_2016,
-         x = "collect_month",
-         fill = "Phylum")
-
-# bar plot of taxa by year sampled
-plot_bar(phyloseq_obj,
-         x = "collect_year",
-         fill = "Phylum")
-
-# abundance on y axis, year collected on x axis,
-# top 3 phyla, bar graph grouped, color by phyla
+# richness in May
+plot_richness(phyloseq_5,
+              x = "plotID",
+              measures = "Shannon") + 
+  xlab("Plot ID") +
+  geom_point(aes(color = factor(collect_year)))
 
 # first step, figure out top 3 phyla overall based on
 # number of sequences
@@ -222,17 +263,17 @@ melted_phyloseq %>%
 #################################################
 
 # get top 20 genus
-top20_Genus <- melted_phyloseq %>%
+top_10_Genus <- melted_phyloseq %>%
   group_by(Genus) %>%
     filter(!is.na(Genus)) %>%
       summarize(sum_abund = sum(Abundance,
                                 na.rm = TRUE)) %>%
         arrange(desc(sum_abund)) %>%
-          head(20)
+          head(10)
 
-colnames(top20_Genus) <- c("Genus",
+colnames(top_10_Genus) <- c("Genus",
                           "Abundance")
-kable (top20_Genus)
+kable (top_10_Genus)
 
 #################################################
 # In-class examples 27Nov19
@@ -347,3 +388,23 @@ kable(kingdom_table)
   # add_header_above(c(" ", 
   #                    "2016" = 4, 
   #                    "2017" = 4))
+
+# list the top phyla in descending order
+phyla_by_plot <- melted_phyloseq %>%
+  group_by(plotID, Phylum) %>%
+  filter(!is.na(Phylum)) %>%
+  summarize(sum_abund = sum(Abundance,
+                            na.rm = TRUE)) %>%
+  filter(sum_abund > 0) %>%
+  arrange(desc(sum_abund))
+
+# keep only the top phyla
+top_phyla_by_plot <- phyla_by_plot[!duplicated(phyla_by_plot$plotID), ]
+
+top_phyla_by_plot %>%
+  ggplot(aes(x = plotID,
+             y = sum_abund,
+             fill = Phylum)) +
+  geom_col() +
+  theme(axis.text.x = element_text(angle = 10)) +
+  theme(legend.position = "top")

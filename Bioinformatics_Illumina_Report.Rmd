@@ -430,6 +430,126 @@ kingdom_info %>%
   geom_col()
 ```
   
-**Figure 10.** Summary of Kingdom found matched in phyloseq.  
+**Figure 10.** Summary of Kingdom found matched in phyloseq. 
+
+``` {r phyla by plot}
+# list the top phyla in descending order
+phyla_by_plot <- melted_phyloseq %>%
+  group_by(plotID, Phylum) %>%
+  filter(!is.na(Phylum)) %>%
+  summarize(sum_abund = sum(Abundance,
+                            na.rm = TRUE)) %>%
+  filter(sum_abund > 0) %>%
+  arrange(desc(sum_abund))
+
+# keep only the top phyla
+top_phyla_by_plot <- phyla_by_plot[!duplicated(phyla_by_plot$plotID), ]
+
+top_phyla_by_plot %>%
+  ggplot(aes(x = plotID,
+             y = sum_abund,
+             fill = Phylum)) +
+  geom_col() +
+  theme(axis.text.x = element_text(angle = 10)) +
+  theme(legend.position = "top")
+```
+
+**Figure 11.**
+
+``` {r top 3 phyla by year}
+# Phyla by year
+# control for
+# - month 5 or month 8
+# - plots: 001, 006, 008, 037, 038, 043, 044
+# look at different phylum abundances
+
+# list of plots to keep
+plots <- c('001', '006', '008', '037', '038', '043', '044')
+
+# counts of the top 3 phyla overall, for each of the plots
+top_3_diverse_phyla <- melted_phyloseq %>%
+  filter(Abundance > 0, !is.na(Phylum)) %>%
+  distinct(OTU, .keep_all = TRUE) %>%
+  group_by(Phylum) %>%
+  tally() %>%
+  arrange(desc(n)) %>%
+  head(3) %>%
+  pull(Phylum)
+
+melted_phyloseq %>%
+  filter(collect_month == 5 | collect_month == 8) %>%
+  filter(plotID %in% plots) %>%
+  group_by(collect_year, Phylum) %>%
+  summarize(sum_abund = sum(Abundance,
+                            na.rm = TRUE)) %>%
+  filter(Phylum %in% top_3_diverse_phyla) %>%
+  ggplot(aes(x = factor(collect_year),
+             y = sum_abund,
+             fill = Phylum)) +
+  xlab("Collection Year") +
+  ylab("Abundance") +
+  geom_col(position = position_dodge())
+```
+
+**Figure 12.**
+
+``` {r phyla by month plot 6}
+# Phyla by month in plot 6
+# top 3 phyla in plot 6
+diverse_phyla_plot_6 <- melted_phyloseq %>%
+  filter(plotID == '006') %>%
+  filter(Abundance > 0, !is.na(Phylum)) %>%
+  distinct(OTU, .keep_all = TRUE) %>%
+  group_by(Phylum) %>%
+  tally() %>%
+  arrange(desc(n)) %>%
+  pull(Phylum)
+
+melted_phyloseq %>%
+  filter(plotID == '006') %>%
+  group_by(collect_month, Phylum) %>%
+  summarize(sum_abund = sum(Abundance,
+                            na.rm = TRUE)) %>%
+  filter(Phylum %in% diverse_phyla_plot_6) %>%
+  ggplot(aes(x = factor(collect_month),
+             y = sum_abund,
+             fill = Phylum)) +
+  xlab("Collection Month") +
+  ylab("Abundance") +
+  geom_col(position = position_dodge())
+```
+
+**Figure 13.**
+
+``` {r richness by year}
+phyloseq_5_8 <- prune_samples(
+  phyloseq_obj@sam_data$collect_month == 5 |    
+  phyloseq_obj@sam_data$collect_month == 8,
+                              phyloseq_obj)
+
+# richness in months 5 and 8 with year as the color
+plot_richness(phyloseq_5_8,
+              x = "plotID",
+              measures = "Shannon") + 
+  xlab("Plot ID") +
+  geom_point(aes(color = factor(collect_year)))
+```
+
+**Figure 14.**
+
+``` {r richness 2016}
+phyloseq_2016 <- prune_samples(
+  phyloseq_obj@sam_data$collect_year == 2016, 
+                               phyloseq_obj)
+# richness in 2016
+plot_richness(phyloseq_2016,
+              x = "plotID",
+              measures = "Shannon") + 
+  xlab("Plot ID") +
+    geom_point(size=2,
+               aes(color = factor(collect_month)))
+```
+
+**Figure 15.**
 
 # Sources Cited
