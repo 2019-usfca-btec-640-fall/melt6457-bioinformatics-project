@@ -8,7 +8,10 @@ bibliography: references.bib
 ---
 
 ```{r setup, include = FALSE}
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, error = FALSE)
+knitr::opts_chunk$set(echo = FALSE, 
+                      warning = FALSE, 
+                      message = FALSE, 
+                      error = FALSE)
 ```
 
 ```{r load-packages}
@@ -34,6 +37,19 @@ library("phyloseq")
 # load in the saved phyloseq object to work with
 load("output/phyloseq_obj.Rda")
 
+##########################################
+# Make plot ID's more readable
+##########################################
+
+phyloseq_obj@sam_data[["plotID"]] <- 
+  substring(phyloseq_obj@sam_data[["plotID"]], 
+            6, 
+            8)
+
+################################################
+# Make melted phyloseq
+################################################
+
 # make melted phyloseq
 # melt phyloseq obj into a data frame for dplyr/ggplot
 # analysis and visualization
@@ -42,13 +58,6 @@ melted_phyloseq <- psmelt(phyloseq_obj)
 # turn all factor columns into character columns for dplyr
 melted_phyloseq <- melted_phyloseq %>%
   mutate_if(is.factor, as.character)
-
-##########################################
-# Make plot ID's more readable
-##########################################
-
-phyloseq_obj@sam_data[["plotID"]] <- substring(phyloseq_obj@sam_data[["plotID"]], 6, 8)
-melted_phyloseq$plotID <- substring(melted_phyloseq$plotID, 6, 8)
 ```
 
 ``` {r add blast data}
@@ -211,7 +220,7 @@ top_10_genus_curated <- melted_phyloseq %>%
 
 colnames(top_10_genus_curated) <- c("Genus",
                           "Abundance")
-kable (top_10_genus_curated)
+kable(top_10_genus_curated)
 ```
 
 **Table 2.** Top 10 genus by abundance from curated database
@@ -219,8 +228,8 @@ kable (top_10_genus_curated)
 ``` {r detailed blast}
 # get top by species w/o Bradyrhizobium and Pseudomonas
 top_3_staph_rals_pro <- top_5_genus %>%
-  filter (genus != "Bradyrhizobium") %>%
-  filter (genus != "Pseudomonas") %>%
+  filter(genus != "Bradyrhizobium") %>%
+  filter(genus != "Pseudomonas") %>%
   group_by(genus, species) %>%
   tally() %>%
   arrange(desc(n)) %>%
@@ -463,7 +472,7 @@ top_phyla_by_plot %>%
 # look at different phylum abundances
 
 # list of plots to keep
-plots <- c('001', '006', '008', '037', '038', '043', '044')
+plots <- c("001", "006", "008", "037", "038", "043", "044")
 
 # counts of the top 3 phyla overall, for each of the plots
 top_3_diverse_phyla <- melted_phyloseq %>%
@@ -496,7 +505,7 @@ melted_phyloseq %>%
 # Phyla by month in plot 6
 # top 3 phyla in plot 6
 diverse_phyla_plot_6 <- melted_phyloseq %>%
-  filter(plotID == '006') %>%
+  filter(plotID == "006") %>%
   filter(Abundance > 0, !is.na(Phylum)) %>%
   distinct(OTU, .keep_all = TRUE) %>%
   group_by(Phylum) %>%
@@ -505,7 +514,7 @@ diverse_phyla_plot_6 <- melted_phyloseq %>%
   pull(Phylum)
 
 melted_phyloseq %>%
-  filter(plotID == '006') %>%
+  filter(plotID == "006") %>%
   group_by(collect_month, Phylum) %>%
   summarize(sum_abund = sum(Abundance,
                             na.rm = TRUE)) %>%
@@ -522,14 +531,14 @@ melted_phyloseq %>%
 
 ``` {r richness by year}
 phyloseq_5_8 <- prune_samples(
-  phyloseq_obj@sam_data$collect_month == 5 |    
+  phyloseq_obj@sam_data$collect_month == 5 | 
   phyloseq_obj@sam_data$collect_month == 8,
                               phyloseq_obj)
 
 # richness in months 5 and 8 with year as the color
 plot_richness(phyloseq_5_8,
               x = "plotID",
-              measures = "Shannon") + 
+              measures = "Shannon") +
   xlab("Plot ID") +
   geom_point(aes(color = factor(collect_year)))
 ```
@@ -543,9 +552,9 @@ phyloseq_2016 <- prune_samples(
 # richness in 2016
 plot_richness(phyloseq_2016,
               x = "plotID",
-              measures = "Shannon") + 
+              measures = "Shannon") +
   xlab("Plot ID") +
-    geom_point(size=2,
+    geom_point(size = 2,
                aes(color = factor(collect_month)))
 ```
 

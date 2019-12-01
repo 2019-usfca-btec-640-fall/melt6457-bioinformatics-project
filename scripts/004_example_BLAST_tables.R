@@ -13,11 +13,15 @@ library("dada2")
 
 # read curated summary data in from csv
 blast_results <- read.csv("output/curatedSummary.csv")
+
 # flip the order of the data so the genus comes first
 top_10_genus <- blast_results[, c(2, 1)] %>%
   arrange(desc(count)) %>%
   head(10)
 
+######################################################
+# Make a table of the top 10 genus
+######################################################
 # make table
 kable(top_10_genus)
 
