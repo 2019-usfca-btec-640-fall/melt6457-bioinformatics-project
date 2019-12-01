@@ -55,7 +55,7 @@ melted_phyloseq$plotID <- substring(melted_phyloseq$plotID, 6, 8)
 # read curated summary data in from csv
 blast_results <- read.csv("output/curatedSummary.csv")
 # flip the order of the data so the genus comes first
-top_10_genus <- blast_results[, c(2, 1)] %>%
+top_10_genus_blast <- blast_results[, c(2, 1)] %>%
   arrange(desc(count)) %>%
   head(10)
 
@@ -63,8 +63,8 @@ top_10_genus <- blast_results[, c(2, 1)] %>%
 top_5_genus <- read.csv("output/top5blast.csv")
 
 # mutate the data frame to split scientific name into genus and species
-top_5_genus$Genus <- gsub(" .*$", "", top_5_genus$Scientific.Name)
-top_5_genus$Species <- gsub(".* ", "", top_5_genus$Scientific.Name)
+top_5_genus$genus <- gsub(" .*$", "", top_5_genus$Scientific.Name)
+top_5_genus$species <- gsub(".* ", "", top_5_genus$Scientific.Name)
 ```
 <!-- word count: 385 words -->
 
@@ -194,14 +194,14 @@ The data collected by NEON from this site was high-quality and contained a subst
 
 ``` {r blast table}
 # make table
-kable(top_10_genus)
+kable(top_10_genus_blast)
 ```
 
 **Table 1.** Top 10 genus returned from blast results
 
 ``` {r blast comparison}
 # get top 20 genus
-top_10_Genus <- melted_phyloseq %>%
+top_10_genus_curated <- melted_phyloseq %>%
   group_by(Genus) %>%
     filter(!is.na(Genus)) %>%
       summarize(sum_abund = sum(Abundance,
@@ -209,9 +209,9 @@ top_10_Genus <- melted_phyloseq %>%
         arrange(desc(sum_abund)) %>%
           head(10)
 
-colnames(top_10_Genus) <- c("Genus",
+colnames(top_10_genus_curated) <- c("Genus",
                           "Abundance")
-kable (top_10_Genus)
+kable (top_10_genus_curated)
 ```
 
 **Table 2.** Top 10 genus by abundance from curated database
@@ -219,9 +219,9 @@ kable (top_10_Genus)
 ``` {r detailed blast}
 # get top by species w/o Bradyrhizobium and Pseudomonas
 top_3_staph_rals_pro <- top_5_genus %>%
-  filter (Genus != "Bradyrhizobium") %>%
-  filter (Genus != "Pseudomonas") %>%
-  group_by(Genus, Species) %>%
+  filter (genus != "Bradyrhizobium") %>%
+  filter (genus != "Pseudomonas") %>%
+  group_by(genus, species) %>%
   tally() %>%
   arrange(desc(n)) %>%
   head(3)
@@ -229,16 +229,16 @@ top_3_staph_rals_pro <- top_5_genus %>%
 # get top 3 of Bradyrhizobium and Pseudomonas
 # Bradyrhizobium
 top_3_br <- top_5_genus %>%
-  filter(Genus == "Bradyrhizobium") %>%
-  group_by(Genus, Species) %>%
+  filter(genus == "Bradyrhizobium") %>%
+  group_by(genus, species) %>%
   tally() %>%
   arrange(desc(n)) %>%
   head(3)
 
 # Pseudomonas
 top_3_pseu <- top_5_genus %>%
-  filter(Genus == "Pseudomonas") %>%
-  group_by(Genus, Species) %>%
+  filter(genus == "Pseudomonas") %>%
+  group_by(genus, species) %>%
   tally() %>%
   arrange(desc(n)) %>%
   head(3)
@@ -252,11 +252,10 @@ top_3_bp <- rbind(top_3_br,
 # Ralstonia was ommitted to make graph more readable
 # Proteobacteria didn't have any species
 top_3_bp %>%
-  filter(Genus == 0 | 1) %>%
   filter(n > 10) %>%
-  ggplot(aes(x = Genus,
+  ggplot(aes(x = genus,
              y = n,
-             fill = Species)) +
+             fill = species)) +
   xlab("Genus") +
   ylab("Number of Samples") +
   ggtitle("BLAST Samples by Genus and Species") +
@@ -277,7 +276,7 @@ kable(top_3_staph_rals_pro)
 ``` {r percent Identity}
 # graph boxplot of percent identity by top 5 Genus
 top_5_genus %>%
-  ggplot(aes(x = Genus,
+  ggplot(aes(x = genus,
              y = pident)) +
   geom_boxplot() +
   ggtitle("Percent Identity by Genus") +
@@ -294,7 +293,7 @@ top_5_genus %>%
 ``` {r length}
 # graph boxplot of length by top 5 Genus
 top_5_genus %>%
-  ggplot(aes(x = Genus,
+  ggplot(aes(x = genus,
              y = length)) +
   geom_boxplot() +
   ggtitle("Length of Sequence Match by Genus") +
@@ -312,7 +311,7 @@ top_5_genus %>%
 # graph boxplot of evalue by top 5 genus
 top_5_genus %>%
   filter(evalue < 1) %>%
-  ggplot(aes(x = Genus,
+  ggplot(aes(x = genus,
              y = evalue)) +
   geom_boxplot() +
   ggtitle("Expected Value by Genus") +
@@ -329,7 +328,7 @@ top_5_genus %>%
 ``` {r bitscore}
 # graph boxplot of bitscore by top 5 genus
 top_5_genus %>%
-  ggplot(aes(x = Genus,
+  ggplot(aes(x = genus,
              y = bitscore)) +
   geom_boxplot() +
   ggtitle("Bitscore by Genus") +
@@ -357,13 +356,13 @@ curated_top_5_totals <- top_5_genus %>%
   group_by(genus) %>%
   tally()
 
-top_5_totals <- top_10_genus %>%
+top_5_totals <- top_10_genus_blast %>%
   head(5) %>%
   arrange(genus)
 
-invisible(sort(top_5_totals$Genus))
+invisible(sort(top_5_totals$genus))
 
-top_5_totals$curated.count <- curated_top_5_totals$n
+top_5_totals$curated_count <- curated_top_5_totals$n
 
 top_5_totals <- top_5_totals %>%
   arrange(desc(count))
