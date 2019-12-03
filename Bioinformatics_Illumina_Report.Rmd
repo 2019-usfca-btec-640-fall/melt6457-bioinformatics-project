@@ -152,16 +152,40 @@ I trimmed the sub-sampled files using TrimmomaticSE [@trimmomatic]. I used four 
 ### BLAST
 
 <!-- 80 words -->
-I used bioawk (https://github.com/lh3/bioawk) to convert the sub-sampled, trimmed fastq files to fasta files for downstream BLAST analyses. I compared each fasta file to the GenBank's nucleotide database [@benson2000genbank]. I used the BLASTN algorithm, which uses a nucleotide query sequence to search the nucleotide database [@blastn]. I used four threads, the '10 sscinames std' format, and returned one match for each sequence. I excluded 2018-09-19_environmental_sequence.gi to reduce the number of uncultured or environmental matches.
+I used bioawk (https://github.com/lh3/bioawk) to convert the sub-sampled, trimmed fastq files to fasta files for downstream BLAST analyses. I compared each fasta file to the GenBank's nucleotide database [@benson2000genbank]. I used the BLASTN algorithm, which uses a nucleotide query sequence to search the nucleotide database [@blastn]. I used four threads, the '10 sscinames std' format, and returned one match for each sequence. I excluded 2018-09-19_environmental_sequence.gi to reduce the number of uncultured or environmental matches. The BLAST results are stored in a comma seperated file in the output directory.
 
 ### Analyzing Blast Data
 
-I analyzed the BLAST matches found for each sequence using the seventh bash script in the pipeline. First, I found the 5 BLAST matches which occured most frequently throughout the dataset. Then, I found the top match for each file with a query cover of 100% to include only high quality matches.
+I analyzed the BLAST matches found for each sequence using the seventh bash script in the pipeline. First, I curated the BLAST matches to exclude classifications that were unidentified or too generic. Then, I found the five BLAST matches which occured most frequently throughout the dataset. I analyzed the BLAST matches for the five most prevalent to determine my confidence in the results. 
 
-### DADA2 and Phyloseq Pipeline
+#### Curating 
+
+I curated the BLAST matches based on the description returned from the BLAST result. I removed all matches with the description uncultured or unidentified since these results would not provide any context on the UNDE site. In addition, I removed all files with the generic names of bacterium, Bacterium, or fungal.
+
+#### Processing Curated File
+
+After curation, I calculated a count for the frequency of each description. Then, I sorted out the top twenty most prevalent matches throughout all files. The count and description are saved in a curated summary comma separated file in the output directory. I also saved an output of the top thirty most prevalent BLAST matches without curation in the output directory.
+
+I saved the data from the BLAST results for the top five most prevalent matches into a comma separated file for further analysis in R. I pulled the ten most prevalent matches based on the highest taxonomic level in the description. This was compared to the top ten genus by abundance from the curated database. Next, I found the most abundant species for each genus.
+
+I used the percent identity, length of sequence match, expected value, and bitscore to assess the quality of the BLAST matches for the top five most prevalent matches by highest taxonomic level. The data were visualized with boxplots using ggplot2 [@ggplot2]. I removed low quality matches based on cutoff values for percent identity, length of sequence match, expected value, and bitscore. I used a cutoff of 90% for percent identity. I sorted out all sequences with a match length below two-hundred base pairs. I used a upper bound of 0.00010 for expected value and two-hundred for bitscore.
+
+### DADA2 Pipeline
+
+I also processed the subsampled data with dada [@dada2]. The sequences were filtered and trimmed to ensure all analyzed sequences were high quality. I discarded any sequences with N's. Only up to three expected errors were allowed. Reads were truncated at the first instance of a quality score below two. I also discarded reads which matched against the phiX genome. Error models were generated for each of the samples. I removed all duplicated sequences. I generated high resolution sample inferences from the dereplicated forward amplicon sequencing reads and the error models previously generated. I removed all chimeras using the consensus method. All sequences shorter than fifty were removed because there is no way to assign their taxonomy. I assigned taxonomy using a supplied training data set while checking the reverse complement of all sequences to see if it is a better match to the reference sequence. The results were saved to the output directory.
+
+### Metadata
+
+I downloaded the metadata for the UNDE site from the DP1.10108.001 data product by NEON. All duplicated rows were removed and matched to the data from the dada2 pipeline. I pruned the samples without any sequences.
+
+
+### Analysis
+
+I analyzed the data using ggplot [@ggplot2] and dplyr [@dplyr]. First, I calculated the number of samples for each month, year, kingdom, and plot. Then, I found the top phyla in each plot by abundance. I separated the top three phyla by year to analyze the change of the samples from 2016 to 2017. I analyzed the the abundance of Phyla by month and year to determine if the composition of samples changed over time. Then, I took the top six genus for each month and year separated by Phyla. Finally, I used [@phyloseq] to visualize the alpha diversity by month and year using the shannon method.
 
 # Results
 <!-- 600 words 2150 total -->
+<!-- Add error plots -->
 
 ## Sequence Counts and Quality
 
@@ -219,7 +243,7 @@ top_10_genus_curated <- melted_phyloseq %>%
         arrange(desc(sum_abund)) %>%
           head(10)
 
-colnames(top_10_genus_curated) <- c("Genus",
+colnames(top_10_genus_curated) <- c("Description",
                           "Abundance")
 kable(top_10_genus_curated)
 ```
