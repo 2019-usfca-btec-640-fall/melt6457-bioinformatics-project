@@ -460,7 +460,7 @@ melted_phyloseq %>%
 # woody wetlands (ww):   002, 003, 010
 #                        038
 ##################################################
-melted_phyloseq$plot_type <- switch(melted_phyloseq$plotID, 
+melted_phyloseq$plot_type <- switch(melted_phyloseq$plotID,
                                 "001" = "df",
                                 "006" = "df",
                                 "007" = "df",
