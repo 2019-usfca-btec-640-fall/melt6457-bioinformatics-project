@@ -19,6 +19,7 @@ top_10_genus <- blast_results[, c(2, 1)] %>%
   arrange(desc(count)) %>%
   head(10)
 
+
 ######################################################
 # Make a table of the top 10 genus
 ######################################################
@@ -113,17 +114,17 @@ top_5_genus %>%
 
 # graph boxplot of evalue by top 5 genus
 top_5_genus %>%
-  filter(evalue < 1) %>%
+  filter(evalue < .0002) %>%
   ggplot(aes(x = genus,
              y = evalue)) +
   geom_boxplot() +
-  ggtitle("Expected Value by Genus") +
-  xlab("Genus") +
+  ggtitle("Expected Value by Description") +
+  xlab("Description") +
   ylab("Expected Value") +
   theme_classic() +
   theme(axis.text.x = element_text(angle = 60,
                                    hjust = 1)) +
-  geom_hline(yintercept = 0.05, color = "red")
+  geom_hline(yintercept = 0.0001, color = "red")
 
 # graph boxplot of bitscore by top 5 genus
 top_5_genus %>%

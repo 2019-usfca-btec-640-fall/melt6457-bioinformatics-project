@@ -67,6 +67,17 @@ sample_info %>%
   ylab("Number of Samples") +
   geom_col(position = position_dodge())
 
+# Graph the number of samples by month, with fill year
+# for plot 6
+sample_info %>%
+  filter(plotID == "006") %>%
+  ggplot(aes(x = factor(collect_month),
+             y = n,
+             fill = factor(collect_year))) +
+  xlab("Collection Month") +
+  ylab("Number of Samples") +
+  geom_col(position = position_dodge())
+
 # Graph the plots in month 5 and 8
 sample_info %>%
   filter(collect_month == 5 | collect_month == 8) %>%
@@ -143,29 +154,56 @@ melted_phyloseq %>%
   ylab("Abundance") +
   geom_col(position = position_dodge())
 
-# Phyla by month in plot 6
-# top 3 phyla in plot 6
-diverse_phyla_plot_6 <- melted_phyloseq %>%
-  filter(plotID == "006") %>%
+# phyla by month and year
+diverse_phyla <- melted_phyloseq %>%
   filter(Abundance > 0, !is.na(Phylum)) %>%
   distinct(OTU, .keep_all = TRUE) %>%
   group_by(Phylum) %>%
   tally() %>%
   arrange(desc(n)) %>%
+  head(5) %>%
   pull(Phylum)
 
 melted_phyloseq %>%
-  filter(plotID == "006") %>%
-  group_by(collect_month, Phylum) %>%
+  group_by(collect_month, collect_year, Phylum) %>%
   summarize(sum_abund = sum(Abundance,
                             na.rm = TRUE)) %>%
-  filter(Phylum %in% diverse_phyla_plot_6) %>%
-  ggplot(aes(x = factor(collect_month),
+  filter(Phylum %in% diverse_phyla) %>%
+  ggplot(aes(x = Phylum,
              y = sum_abund,
              fill = Phylum)) +
-  xlab("Collection Month") +
+  xlab("") +
   ylab("Abundance") +
-  geom_col(position = position_dodge())
+  geom_col(position = position_dodge()) +
+  facet_grid(collect_year ~ collect_month) +
+  theme(axis.text.x = element_blank()) +
+  ggtitle("Abundance of Phyla by Month and Year")
+
+diverse_proteobacteria <- melted_phyloseq %>%
+  filter(collect_year == 2016) %>%
+  filter(Abundance > 0, !is.na(Genus)) %>%
+  distinct(OTU, .keep_all = TRUE) %>%
+  group_by(Genus) %>%
+  tally() %>%
+  arrange(desc(n)) %>%
+  head(6) %>%
+  pull(Genus)
+
+melted_phyloseq %>%
+  filter(collect_month != 10) %>%
+  group_by(collect_month, Genus, Phylum) %>%
+  summarize(sum_abund = sum(Abundance,
+                            na.rm = TRUE)) %>%
+  filter(Genus %in% diverse_proteobacteria) %>%
+  ggplot(aes(x = Genus,
+             y = sum_abund,
+             fill = Genus)) +
+  xlab("") +
+  ylab("Abundance") +
+  geom_col(position = position_dodge()) +
+  facet_grid(Phylum ~ collect_month) +
+  theme(axis.text.x = element_blank()) +
+  ggtitle("Abundance of Genus in Proteobacteria by Month")
 
 ##########################################
 # Phyloseq-native analyses
@@ -399,3 +437,45 @@ top_phyla_by_plot %>%
   geom_col() +
   theme(axis.text.x = element_text(angle = 10)) +
   theme(legend.position = "top")
+
+##################################################
+# Output Unique OTUs
+##################################################
+melted_phyloseq %>%
+  group_by(OTU) %>%
+  summarize(sum_abund = sum(Abundance,
+                            na.rm = TRUE)) %>%
+  arrange(desc(sum_abund)) %>%
+  mutate(Phylum = paste0("*", Phylum, "*")) %>%
+  head(5) %>%
+  pull(OTU)
+
+##################################################
+# Look at plots based on type
+# deciduous forest (df): 001, 006, 007
+#                        013, 014, 043
+#                        019, 027
+# mixed forest (mf):     008, 017, 034,
+#                        035, 037, 044
+# woody wetlands (ww):   002, 003, 010
+#                        038
+##################################################
+melted_phyloseq$plot_type <- switch(melted_phyloseq$plotID, 
+                                "001" = "df",
+                                "006" = "df",
+                                "007" = "df",
+                                "013" = "df",
+                                "014" = "df",
+                                "043" = "df",
+                                "019" = "df",
+                                "027" = "df",
+                                "008" = "mf",
+                                "017" = "mf",
+                                "034" = "mf",
+                                "035" = "mf",
+                                "037" = "mf",
+                                "044" = "mf",
+                                "002" = "ww",
+                                "003" = "ww",
+                                "010" = "ww",
+                                "038" = "ww")

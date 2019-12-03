@@ -1,7 +1,7 @@
 ---
-title: 'Presence of plant pathogen *Ralstonia solanacearum* at UNDE NEON Site'
+title: 'NEED TO CHANGE TITLE'
 author: "Kory Melton"
-date: "November 18th, 2019"
+date: "December 7th, 2019"
 output: word_document
 csl: bioinformatics.csl
 bibliography: references.bib
@@ -171,15 +171,6 @@ After trimming there was 154,922 sequences total, or approximately 58% of the su
 
 Overall, the sequence quality was good. None of the inspected fastqc reports contained sequences flagged as poor quality. Figure 1 shows the fastqc of a file which did not have any sequences after trimming, while Figure 2 shows the fastqc of the file with the most sequences after trimming. The decline in quality scores happens about 50 base pairs later in the better file.
 
-![](data/images/fastqc_scores/BMI_Plate1WellA1_16S_R1_fastqc_scores.png)
-
-**Figure 1.** Fastqc per base sequence quality for BMI_Plate1WellA1_16S_R1. This was one of the lower quality files and did not have any acceptable sequences after sub-sampling and trimming. You can see a sharp decline on base sequence quality around 210 base pairs.
-
-
-![](data/images/fastqc_scores/BMI_Tube52_16S_R1_fastqc.png)
-
-**Figure 2.** Fastqc per base sequence quality for BMI_Tube52_16S_R1. This was one of the higher quality files. You can't see a sharp decline until approximately 260 base pairs.
-
 ## BLAST Results
 
 The five most frequent BLAST matches I found in the data set were *Ralstonia solanacearum*, *Staphylococcus aureus*, *Geobacillus thermocatenulatus*, and *Sphingomonas melonis*.
@@ -200,6 +191,14 @@ The data collected by NEON from this site was high-quality and contained a subst
 *Ralstonia solanacearumm* is a soil-borne plant pathogen with unusually high prevalence worldwide [@salanoubat2002genome]. This pathogen naturally infects the roots of plants causing bacterial wilt in many plants and crops [@castillo2007evolutionary]. The DNA sequencing of the soil samples from the UNDE site indicate a high probability of *Ralstonia solanacearum*. The workers of UNDERC should look for indications of this pathogen in plants near the sampling sites and take preventative action to protect the biodiversity of the UNDE site.
 
 # Tables and Graphs
+
+![](data/images/fastqc_scores/BMI_Plate1WellA1_16S_R1_fastqc_scores.png)
+
+**Figure 1.** Fastqc per base sequence quality for BMI_Plate1WellA1_16S_R1. This was one of the lower quality files and did not have any acceptable sequences after sub-sampling and trimming. You can see a sharp decline on base sequence quality around 210 base pairs.
+
+![](data/images/fastqc_scores/BMI_Tube52_16S_R1_fastqc.png)
+
+**Figure 2.** Fastqc per base sequence quality for BMI_Tube52_16S_R1. This was one of the higher quality files. You can't see a sharp decline until approximately 260 base pairs.
 
 ``` {r blast table}
 # make table
@@ -273,7 +272,7 @@ top_3_bp %>%
                                    hjust = 1))
 ```
 
-**Figure 1.**
+**Figure 3.**
 
 ``` {r detailed-table}
 # make a table for other relevant counts
@@ -288,8 +287,8 @@ top_5_genus %>%
   ggplot(aes(x = genus,
              y = pident)) +
   geom_boxplot() +
-  ggtitle("Percent Identity by Genus") +
-  xlab("Genus") +
+  ggtitle("Percent Identity by Description") +
+  xlab("Description") +
   ylab("Percent Identity") +
   theme_classic() +
   theme(axis.text.x = element_text(angle = 60,
@@ -305,8 +304,8 @@ top_5_genus %>%
   ggplot(aes(x = genus,
              y = length)) +
   geom_boxplot() +
-  ggtitle("Length of Sequence Match by Genus") +
-  xlab("Genus") +
+  ggtitle("Length of Sequence Match by Description") +
+  xlab("Description") +
   ylab("Length of Sequence") +
   theme_classic() +
   theme(axis.text.x = element_text(angle = 60,
@@ -319,17 +318,17 @@ top_5_genus %>%
 ``` {r evalue}
 # graph boxplot of evalue by top 5 genus
 top_5_genus %>%
-  filter(evalue < 1) %>%
+  filter(evalue < .0002) %>%
   ggplot(aes(x = genus,
              y = evalue)) +
   geom_boxplot() +
-  ggtitle("Expected Value by Genus") +
-  xlab("Genus") +
+  ggtitle("Expected Value by Description") +
+  xlab("Description") +
   ylab("Expected Value") +
   theme_classic() +
   theme(axis.text.x = element_text(angle = 60,
                                    hjust = 1)) +
-  geom_hline(yintercept = 0.05, color = "red")
+  geom_hline(yintercept = 0.0001, color = "red")
 ```
 
 **Figure 6.**
@@ -340,8 +339,8 @@ top_5_genus %>%
   ggplot(aes(x = genus,
              y = bitscore)) +
   geom_boxplot() +
-  ggtitle("Bitscore by Genus") +
-  xlab("Genus") +
+  ggtitle("Bitscore by Description") +
+  xlab("Description") +
   ylab("Bitscore") +
   theme_classic() +
   theme(axis.text.x = element_text(angle = 60,
@@ -359,7 +358,7 @@ top_5_genus %>%
 # - percent identity above 90%
 curated_top_5_totals <- top_5_genus %>%
   filter(bitscore > 200) %>%
-  filter(evalue < 0.05) %>%
+  filter(evalue < 0.0001) %>%
   filter(length > 200) %>%
   filter(pident > 90) %>%
   group_by(genus) %>%
@@ -376,7 +375,10 @@ top_5_totals$curated_count <- curated_top_5_totals$n
 top_5_totals <- top_5_totals %>%
   arrange(desc(count))
 
-kable(top_5_totals)
+kable(top_5_totals,
+      col.names = c("Description", 
+                    "Count", 
+                    "Curated Count"))
 ```
 
 **Table 4.**
@@ -399,7 +401,9 @@ sample_info %>%
              fill = factor(collect_year))) +
   xlab("Collection Month") +
   ylab("Number of Samples") +
-  geom_col(position = position_dodge())
+  geom_col(position = position_dodge()) +
+  labs(fill = "Collection Year") +
+  ggtitle("Number of Samples by Month")
 ```
 
 **Figure 8.** Number of samples by month
@@ -435,7 +439,10 @@ kingdom_info %>%
   ggplot(aes(x = factor(collect_year),
              y = n,
              fill = Kingdom)) +
-  geom_col()
+  geom_col() +
+  ggtitle("Kingdom by Year") +
+  xlab("Collection Year") +
+  ylab("Number of Samples")
 ```
   
 **Figure 10.** Summary of Kingdom found matched in phyloseq. 
@@ -459,7 +466,10 @@ top_phyla_by_plot %>%
              fill = Phylum)) +
   geom_col() +
   theme(axis.text.x = element_text(angle = 10)) +
-  theme(legend.position = "top")
+  theme(legend.position = "top") +
+  ggtitle("Top Phyla in each plot by Abundance") +
+  xlab("Plot ID") +
+  ylab("Abundance")
 ```
 
 **Figure 11.**
@@ -496,38 +506,68 @@ melted_phyloseq %>%
              fill = Phylum)) +
   xlab("Collection Year") +
   ylab("Abundance") +
-  geom_col(position = position_dodge())
+  geom_col(position = position_dodge()) +
+  ggtitle("Top 3 Phyla by Year")
 ```
 
 **Figure 12.**
 
-``` {r phyla by month plot 6}
-# Phyla by month in plot 6
-# top 3 phyla in plot 6
-diverse_phyla_plot_6 <- melted_phyloseq %>%
-  filter(plotID == "006") %>%
+``` {r phyla by month and year}
+# phyla by month and year
+diverse_phyla <- melted_phyloseq %>%
   filter(Abundance > 0, !is.na(Phylum)) %>%
   distinct(OTU, .keep_all = TRUE) %>%
   group_by(Phylum) %>%
   tally() %>%
   arrange(desc(n)) %>%
+  head(5) %>%
   pull(Phylum)
 
 melted_phyloseq %>%
-  filter(plotID == "006") %>%
-  group_by(collect_month, Phylum) %>%
+  group_by(collect_month, collect_year, Phylum) %>%
   summarize(sum_abund = sum(Abundance,
                             na.rm = TRUE)) %>%
-  filter(Phylum %in% diverse_phyla_plot_6) %>%
-  ggplot(aes(x = factor(collect_month),
+  filter(Phylum %in% diverse_phyla) %>%
+  ggplot(aes(x = Phylum,
              y = sum_abund,
              fill = Phylum)) +
-  xlab("Collection Month") +
+  xlab("") +
   ylab("Abundance") +
-  geom_col(position = position_dodge())
+  geom_col(position = position_dodge()) +
+  facet_grid(collect_year ~ collect_month) +
+  theme(axis.text.x = element_blank()) +
+  ggtitle("Abundance of Phyla by Month and Year")
 ```
 
 **Figure 13.**
+
+``` {r genus by month and phyla}
+diverse_genus <- melted_phyloseq %>%
+  filter(collect_year == 2016) %>%
+  filter(Abundance > 0, !is.na(Genus)) %>%
+  distinct(OTU, .keep_all = TRUE) %>%
+  group_by(Genus) %>%
+  tally() %>%
+  arrange(desc(n)) %>%
+  head(6) %>%
+  pull(Genus)
+
+melted_phyloseq %>%
+  filter(collect_month != 10) %>%
+  group_by(collect_month, Genus, Phylum) %>%
+  summarize(sum_abund = sum(Abundance,
+                            na.rm = TRUE)) %>%
+  filter(Genus %in% diverse_genus) %>%
+  ggplot(aes(x = Genus,
+             y = sum_abund,
+             fill = Genus)) +
+  xlab("") +
+  ylab("Abundance") +
+  geom_col(position = position_dodge()) +
+  facet_grid(Phylum ~ collect_month) +
+  theme(axis.text.x = element_blank()) +
+  ggtitle("Abundance of Genus in Proteobacteria by Month")
+```
 
 ``` {r richness by year}
 phyloseq_5_8 <- prune_samples(
@@ -540,7 +580,8 @@ plot_richness(phyloseq_5_8,
               x = "plotID",
               measures = "Shannon") +
   xlab("Plot ID") +
-  geom_point(aes(color = factor(collect_year)))
+  geom_point(aes(color = factor(collect_year))) +
+  labs(color = "Year")
 ```
 
 **Figure 14.**
@@ -555,7 +596,8 @@ plot_richness(phyloseq_2016,
               measures = "Shannon") +
   xlab("Plot ID") +
     geom_point(size = 2,
-               aes(color = factor(collect_month)))
+               aes(color = factor(collect_month))) +
+  labs(color = "Month")
 ```
 
 **Figure 15.**
