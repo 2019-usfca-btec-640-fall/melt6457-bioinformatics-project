@@ -156,7 +156,9 @@ I used bioawk (https://github.com/lh3/bioawk) to convert the sub-sampled, trimme
 
 ### Analyzing Blast Data
 
-I analyzed the BLAST matches found for each sequence using the seventh bash script in the pipeline. First, I found the 5 BLAST matches which occured most frequently throughout the dataset. Then, I found the top match for each file with a query cover of 100% to include only high quality matches. 
+I analyzed the BLAST matches found for each sequence using the seventh bash script in the pipeline. First, I found the 5 BLAST matches which occured most frequently throughout the dataset. Then, I found the top match for each file with a query cover of 100% to include only high quality matches.
+
+### DADA2 and Phyloseq Pipeline
 
 # Results
 <!-- 600 words 2150 total -->
@@ -376,8 +378,8 @@ top_5_totals <- top_5_totals %>%
   arrange(desc(count))
 
 kable(top_5_totals,
-      col.names = c("Description", 
-                    "Count", 
+      col.names = c("Description",
+                    "Count",
                     "Curated Count"))
 ```
 
