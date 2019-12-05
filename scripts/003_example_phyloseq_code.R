@@ -82,6 +82,7 @@ sample_info %>%
 sample_info %>%
   filter(collect_month == 5 | collect_month == 8) %>%
   group_by(plotID, collect_year) %>%
+
   ggplot(aes(x = plotID,
              y = n,
              fill = factor(collect_year))) +

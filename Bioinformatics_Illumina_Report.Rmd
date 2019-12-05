@@ -181,11 +181,13 @@ I downloaded the metadata for the UNDE site from the DP1.10108.001 data product 
 
 ### Analysis
 
-I analyzed the data using ggplot [@ggplot2] and dplyr [@dplyr]. First, I calculated the number of samples for each month, year, kingdom, and plot. Then, I found the top phyla in each plot by abundance. I separated the top three phyla by year to analyze the change of the samples from 2016 to 2017. I analyzed the the abundance of Phyla by month and year to determine if the composition of samples changed over time. Then, I took the top six genus for each month and year separated by Phyla. Finally, I used [@phyloseq] to visualize the alpha diversity by month and year using the shannon method.
+I analyzed the data using ggplot [@ggplot2] and dplyr [@dplyr]. First, I calculated the number of samples for each month, year, kingdom, and plot. Then, I found the top phyla in each plot by abundance. I separated the top three phyla by year to analyze the change of the samples from 2016 to 2017. For this analysis I only included the months of May and August since they were the only two months with collections in both 2016 and 2017. I analyzed the the abundance of Phyla by month and year to determine if the composition of samples changed over time. Then, I took the top six genus for each month and year separated by Phyla. Finally, I used [@phyloseq] to visualize the alpha diversity by month and year using the shannon method.
 
 # Results
 <!-- 600 words 2150 total -->
 <!-- Add error plots -->
+
+<!-- OVERVIEW OF RESULTS -->
 
 ## Sequence Counts and Quality
 
@@ -199,9 +201,26 @@ Overall, the sequence quality was good. None of the inspected fastqc reports con
 
 ## BLAST Results
 
-The five most frequent BLAST matches I found in the data set were *Ralstonia solanacearum*, *Staphylococcus aureus*, *Geobacillus thermocatenulatus*, and *Sphingomonas melonis*.
+The four most frequent BLAST matches I found in the data set were *Ralstonia solanacearum*, *Staphylococcus aureus*, *Geobacillus thermocatenulatus*, and *Sphingomonas melonis*.
 
-The top matches I found in each file with a query cover of 100% were *Ralstonia solanacearum*, *Bradyrhizobium elkanii*, *Bacillus sp.*, *Actinomadura sp*, and *Acetobacteraceae bacterium*.
+The top matches I found in each file with a query cover of 100% were *Ralstonia solanacearum*, *Bradyrhizobium elkanii*, *Bacillus sp.*, *Actinomadura sp*, and *Acetobacteraceae bacterium*. 
+
+The ten most frequent BLAST matches by the highest taxonomic level can be seen in Table 1. They are *Ralstonia*, *Staphylococcus*, *Bradyrhizobium*, *Pseudomonas*, Proteobacteria, *Candidatus*, *Mucilaginibacter*, *Bacillus*, *Sphingomonas*, and *Burkholderia*. *Ralstonia* dominated the BLAST matches with 68,508 total matches in the data set. There was a large dropoff to *Staphylococcus* and *Bradyrhizobium*.
+
+The ten most frequent genus matches by abundance were *Bradyrhizobium*, *Pseudomons*, *Roseiarcus*, *Burkholderia*, *Mycobacterium*, *Thermosporothrix*, *Gaiella*, *Massilia*, *Pedomicrobium*, and *Gemmatimonas*. *Bradyrhizobium*, *Pseudomonas*, and *Burkholderia* were prevalent in both lists while *Bradyrhizobium* and *Pseudomonas* appeared at near the top of the NCBI search and the curated search.
+
+The species returned for each genus in the BLAST results can be seen in Figure 3 and Table 3. For *Ralstonia* and *Staphylococcus* one species dominated all of the BLAST matches for the genus. *Ralstonia solanacearum* was present in 68,505 of the 68,508 of the *Ralstonia* matches, or 99.99% of the matches. *Staphylococcus aureus* was present in 3,059 of the 3,068 *Staphylococcus* matches, or 99.71% of the matches. The BLAST matches for *Bradyrhizobium* and *Pseudomonas* had a wider variety of species. Figure 3 shows the the top three species for these two genera. *Bradyrhizobium* was dominated by *Bradyrhizobium elkanii* and other unidentified species with a small number of *Bradyrhizboium erythroplei*. *Pseudomonas* had a lot fewer samples overall, but they were equally spread among *Pseudomonas frederiksbergensis*, *Pseudomonas protegens*, and unidentified species. 
+
+Figues 4 through 7 show the distribution of values for the BLAST matches by their description. In each graph there is a red line depicting the cutoff value used for the corresponding value. As shown in Figure 4, a large majoriy of the percent identities for the BLAST matches fall close to 100%. However, all matches except for proteobacteria have matches with lower than 90% query cover. Figure 5 highlights the difference of the length of sequences by the different types of BLAST matches. A majoriy of the matches for *Ralstonia* and *Staphylococcus* are fairly short sequences less than 100 base pairs long. While proteobacteria, *Bradyrhizobium*, and *Pseudomonas* had a majority of their matches above 200 base pairs long. In addition, as seen in Figure 6, *Ralstonia* and *Staphylococcus* have higher expected values with many above the cutoff of 0.00010. *Bradyrhizobium*, proteobacteria, and *Pseudomonas* have low expected values which indicate strong confidence in the BLAST matches. A similar trend can be seen with the bitscore values returned from the BLAST matches. In figure 7, you can see *Ralstonia* and *Staphyloccocus* have low bitscores centering around 100 base pairs while *Bradyrhizobium*, proteobacteria, and *Pseudomonas* had bitscores centering around 500. Table 4 shows the BLAST results before and after curation to throw out lower quality matches. The counts for *Ralstonia* and *Staphyloccocus* drop drastically with curation while a majority of the matches to *Bradyrhizobium*, proteobacteria, and *Pseudomonas* remain after curation. With all of these metrics considered, I have high confidence of the presence of *Bradyrhizobium*, *Pseudomonas*, and proteobacteria in the samples from the UNDE site. In contrast, I am not confident there was actually *Ralstonia* and *Staphylococcus* present at the UNDE site.
+
+## Samples over Time
+
+The number of samples over varied quite a lot between the time of collection and the plot collected from. Figure 8 shows the variation of the number of samples collected by month and year. Only May and July had samples collected in both 2016 and 2017. In both of these months there was significantly more samples collected in 2016 than 2017. In addition, the most samples were collected in May; followed by August, October, and finally July. Figure 9 shows the samples by plot in 2016 and 2017 during the months of May and August. In total there was eighteen plots sampled from the UNDE site. Seven of the eighteen plots were sampled in both 2016 and 2017: 001, 006, 008, 037, 038, 043, 044. Eight of the plots were only sampled in 2016: 007, 013, 014, 017, 019, 027, 034, and 035. Three of the plots were only sampled in 2017: 002, 003, and 010. Both archaea and bacteria were present in 2016 and 2017. There was 22  distinct archaea samples and 1,757 distinct bacterial samples matched to the curated database. The dataset contained 1,099 distinct samples in 2016. In contrast, the dataset contained 710 samples in 2017. The relative number of samples by year and kingdom is illustrated in Figure 10.
+
+
+
+<!-- talk about the variation of plots if I need to add words -->
+<!-- add more sections and subsections-->
 
 # Discussion
 <!-- 500 words 2650 total -->
@@ -228,7 +247,8 @@ The data collected by NEON from this site was high-quality and contained a subst
 
 ``` {r blast table}
 # make table
-kable(top_10_genus_blast)
+kable(top_10_genus_blast,
+      col.names = c("Description", "Count"))
 ```
 
 **Table 1.** Top 10 genus returned from blast results
@@ -243,9 +263,8 @@ top_10_genus_curated <- melted_phyloseq %>%
         arrange(desc(sum_abund)) %>%
           head(10)
 
-colnames(top_10_genus_curated) <- c("Description",
-                          "Abundance")
-kable(top_10_genus_curated)
+kable(top_10_genus_curated,
+      col.names = c("Genus", "Abundance"))
 ```
 
 **Table 2.** Top 10 genus by abundance from curated database
@@ -427,7 +446,7 @@ sample_info %>%
              fill = factor(collect_year))) +
   xlab("Collection Month") +
   ylab("Number of Samples") +
-  geom_col(position = position_dodge()) +
+  geom_col() +
   labs(fill = "Collection Year") +
   ggtitle("Number of Samples by Month")
 ```
@@ -439,6 +458,7 @@ sample_info %>%
 sample_info %>%
   filter(collect_month == 5 | collect_month == 8) %>%
   group_by(plotID, collect_year) %>%
+  arrange(desc(n)) %>%
   ggplot(aes(x = plotID,
              y = n,
              fill = factor(collect_year))) +
