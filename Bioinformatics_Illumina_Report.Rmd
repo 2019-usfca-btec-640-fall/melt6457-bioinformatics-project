@@ -309,14 +309,17 @@ top_3_staph_rals_pro <- top_5_genus %>%
   arrange(desc(n)) %>%
   head(3)
 
-top_3_staph_rals_pro$Scientific.Name <- 
+# change variable to match snake case
+colnames(top_3_staph_rals_pro)[1] <- "scientific_name"
+
+top_3_staph_rals_pro$scientific_name <-
   paste0("*",
-         top_3_staph_rals_pro$Scientific.Name,
+         top_3_staph_rals_pro$scientific_name,
          "*")
-top_3_staph_rals_pro$Scientific.Name <- 
+top_3_staph_rals_pro$scientific_name <-
   gsub("[*]Proteobacteria[*]",
        "Proteobacteria",
-       top_3_staph_rals_pro$Scientific.Name)
+       top_3_staph_rals_pro$scientific_name)
   
 # get top 3 of Bradyrhizobium and Pseudomonas
 # Bradyrhizobium
