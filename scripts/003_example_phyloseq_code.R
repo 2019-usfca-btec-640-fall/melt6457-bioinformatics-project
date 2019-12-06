@@ -1,3 +1,14 @@
+######################################################################
+# Script to test different analyses for the phyloseq object
+# Some of the functions written for this file will be used to create
+# a report in Bioinformatics_Illumina_Report.Rmd
+#
+#
+# Kory Melton
+# December 5, 2019
+# kmelton@dons.usfca.edu
+######################################################################
+#
 # The following is some example code that you can use for a starting
 # point in your own analyses within the chunks of your rmarkdown
 # report

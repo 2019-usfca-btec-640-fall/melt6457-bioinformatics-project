@@ -1,3 +1,14 @@
+######################################################################
+# Script to analyze data from BLAST stored in comma separated files:
+#     output/curatedSummary.csv - top genus/descriptions
+#     output/top5blast.csv - top genus/descriptions
+#
+#
+# Kory Melton
+# December 5, 2019
+# kmelton@dons.usfca.edu
+######################################################################
+
 library("dplyr")
 library("tidyr")
 library("knitr")
@@ -17,8 +28,12 @@ blast_results <- read.csv("output/curatedSummary.csv")
 # flip the order of the data so the genus comes first
 top_10_genus <- blast_results[, c(2, 1)] %>%
   arrange(desc(count)) %>%
+  mutate(genus = paste0("*", genus, "*")) %>%
   head(10)
 
+top_10_genus$genus <- gsub("[*]Proteobacteria[*]",
+                     "Proteobacteria",
+                     top_10_genus$genus)
 
 ######################################################
 # Make a table of the top 10 genus
@@ -26,6 +41,9 @@ top_10_genus <- blast_results[, c(2, 1)] %>%
 # make table
 kable(top_10_genus)
 
+######################################################
+# Work with data from top 5 genera/descriptions
+######################################################
 # read curated data on top 5 in from csv
 top_5_genus <- read.csv("output/top5blast.csv")
 
@@ -33,10 +51,26 @@ top_5_genus <- read.csv("output/top5blast.csv")
 top_5_genus$genus <- gsub(" .*$", "", top_5_genus$Scientific.Name)
 top_5_genus$species <- gsub(".* ", "", top_5_genus$Scientific.Name)
 
+# edit data so it will be in italics after knitting
+top_5_genus$genus <- paste0("*",
+                            top_5_genus$genus,
+                            "*")
+top_5_genus$species <- paste0("*",
+                            top_5_genus$species,
+                            "*")
+
+# remove proteobacteria from species list
+top_5_genus$species <- gsub("*Proteobacteria",
+                              "",
+                              top_5_genus$species)
+top_5_genus$genus <- gsub("[*]Proteobacteria[*]",
+                          "Proteobacteria",
+                          top_5_genus$genus)
+
 # get top by species w/o Bradyrhizobium and Pseudomonas
 top_3_staph_rals_pro <- top_5_genus %>%
-  filter(genus != "Bradyrhizobium") %>%
-  filter(genus != "Pseudomonas") %>%
+  filter(genus != "*Bradyrhizobium*") %>%
+  filter(genus != "*Pseudomonas*") %>%
   group_by(genus, species) %>%
   tally() %>%
   arrange(desc(n)) %>%
@@ -45,7 +79,7 @@ top_3_staph_rals_pro <- top_5_genus %>%
 # get top 3 of Bradyrhizobium and Pseudomonas
 # Bradyrhizobium
 top_3_br <- top_5_genus %>%
-  filter(genus == "Bradyrhizobium") %>%
+  filter(genus == "*Bradyrhizobium*") %>%
   group_by(genus, species) %>%
   tally() %>%
   arrange(desc(n)) %>%
@@ -53,7 +87,7 @@ top_3_br <- top_5_genus %>%
 
 # Pseudomonas
 top_3_pseu <- top_5_genus %>%
-  filter(genus == "Pseudomonas") %>%
+  filter(genus == "*Pseudomonas*") %>%
   group_by(genus, species) %>%
   tally() %>%
   arrange(desc(n)) %>%

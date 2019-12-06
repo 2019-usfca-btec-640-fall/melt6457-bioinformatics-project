@@ -1,8 +1,7 @@
 ###############################################################################
 # Script to run dada
-# Not implemented/complete yet
 #
-# Kory Melton
+# Written by Naupaka Zimmerman
 # November 13th, 2019
 # kmelton@dons.usfca.edu
 ###############################################################################

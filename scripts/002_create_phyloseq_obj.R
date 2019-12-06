@@ -1,3 +1,13 @@
+######################################################################
+# Script to merge metadata with dada output.
+# These two will be used to create a phyloseq for downstream
+# analysis.
+#
+# Written by Naupaka Zimmerman
+# October 23, 2019
+# kmelton@dons.usfca.edu
+######################################################################
+#
 # Be sure to install these packages before running this script
 # They can be installed either with the intall.packages() function
 # or with the 'Packages' pane in RStudio
