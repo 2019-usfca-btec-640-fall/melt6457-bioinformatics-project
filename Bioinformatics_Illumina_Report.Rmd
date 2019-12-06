@@ -63,10 +63,16 @@ melted_phyloseq <- melted_phyloseq %>%
 ``` {r add blast data}
 # read curated summary data in from csv
 blast_results <- read.csv("output/curatedSummary.csv")
+
 # flip the order of the data so the genus comes first
 top_10_genus_blast <- blast_results[, c(2, 1)] %>%
   arrange(desc(count)) %>%
+  mutate(genus = paste0("*", genus, "*")) %>%
   head(10)
+
+top_10_genus_blast$genus <- gsub("[*]Proteobacteria[*]",
+                                 "Proteobacteria",
+                                 top_10_genus_blast$genus)
 
 # read curated data on top 5 in from csv
 top_5_genus <- read.csv("output/top5blast.csv")
@@ -91,18 +97,29 @@ For the microbial community, identifying distinct species is particularly diffic
 <!--Overview of NEON -> My site including UNDERC (300 words)-700 -->
 <!--ACTUAL: 166 words-->
 
-The National Science Foundation (NSF) funded National Ecological Observation Network (NEON) was designed to answer how the ecosystem and it's components respond to changes in climate? [@keller] To this aim NEON collects microbial samples in soil from a number of sites across the United States. I will investigate the UNDE site, near the Great Lakes in Michigan.
-The UNDE site is managed by the University of Notre Dame Environmental Research Center (UNDERC). The property has a second-growth Northern mesic forest and Evergreen forests. The dominant species are red and sugar maple (*Acer rubrum* and *A. saccharum*), aspen (*Populus tremuloides*), paper birch (*Betula papyrifera*), balsam fir (*Abies balsamea*), cedar (*Thuja occidentalis*), and black spruce (*Picea mariana*). In addition to the deciduous and mixed forests the site has woody wetlands dominated by thicks of alder (*Alnus incana*).
+## UNDE Site
 
-The climate is generally humid, cool, and wet with no true dry season and receives approximately 114 inches of snow annually. The soil families include coarse, loamy, mixed, superactive, frigid, argic fragiaquods.
+The National Science Foundation (NSF) funded National Ecological Observation Network (NEON) was designed to answer how the ecosystem and it's components respond to changes in climate? [@keller] To this aim NEON collects microbial samples in soil from a number of sites across the United States. I will investigate the UNDE site, near the Great Lakes in Michigan. In the Great Lakes area NEON is particularly interested in land use and forest management. A balanced and well functioning soil microbiome is vital to the health of the forests found in the UNDE site and the Greak Lakes in general.
+
+The UNDE site is managed by the University of Notre Dame Environmental Research Center (UNDERC). The site is at an elevation of 518 m, with a mean annual temperature of 3$^\circ$, and a moderate 854 mms of annual precipitation. The property has a second-growth Northern mesic forest and Evergreen forests. The dominant species are red and sugar maple (*Acer rubrum* and *A. saccharum*), aspen (*Populus tremuloides*), paper birch (*Betula papyrifera*), balsam fir (*Abies balsamea*), cedar (*Thuja occidentalis*), and black spruce (*Picea mariana*). In addition to the deciduous and mixed forests the site has woody wetlands dominated by thicks of alder (*Alnus incana*).
 
 Before the land was donated to the Notre Dame University in the 1930s, region-wide logging for pine cut most of the forested areas on the property. Timber harvest continued into the 1950s, but was followed by a forest regrowth. Recently, the site is used for recreational, educational, and research goals.
 
+The climate is generally humid, cool, and wet with no true dry season and receives approximately 114 inches of snow annually. The soil families include coarse, loamy, mixed, superactive, frigid, argic fragiaquods. Although, some of the soil on the site is poorly drained, which may cause acidic sphagnum bogs. This is especially troublesome since climate warming can promote the growth of peat mosses and compound this issue [@breeuwer2009decreased]. The presence of sphagnum is known to increase the amount of dissolved organic Nitrogen; reducing Nitrogen immobilization by soil microbes [@bragazza2013biogeochemical]. The competition for nutrients and changes caused by sphagnum bogs and climate warming, can shortcircuit the Nitrogen cycle. In years where sphagnum bogs are prevalent one could expect lower abundances of soil microbes. In addition, ecosystems with a high abundance of nitrogen-fixing bacteria may be more suited to withstand the disruption caused by sphagnum bogs.
+
+<!-- Can add more information about this specific site -->
+
+<!-- Do some research into the soil and tree and what microbes should be found -->
+
 <!--Approach (200 words)-900 -->
 
-The objective of this study is to determine which microbes are present at the UNDE site, using the 16S barcode sequence, and how this changes over time. This information provides insight into how these ecosystems respond to climate change and their overall health and function.
+## Study Objectives
 
-The UNDE site has 1192 samples containing sequencing data from soil microbes. The data collected by NEON will be processed for quality control, sub-sampled, trimmed, converted to fasta format and compared to NCBI's nucleotide database using the BLAST algorithm. The matches to the nucleotide database will be used to make inferences on the type of microbial organisms present.
+The primary objective of this study is to determine which microbes are present at the UNDE site, using the 16S barcode sequence, and how this changes over time. This information provides insight into how these ecosystems respond to climate change and their overall health and function. The potential for sphagnum bog growth at the UNDE site is a primary concern. To that end, I looked for signs to indicate plots at the site which may have issues with sphagnum growth. A secondary objective of this study is to carefully analyze matches against the BLAST database. Many of my colleagues who have collected data from various NEON sites had *Ralstonia solanacearum* as their top BLAST match, and often had *Staphylococcus aureus* among the top of their list.
+
+The UNDE site has 1192 samples containing sequencing data from soil microbes. The data collected by NEON was be processed for quality control, and sub-sampled. At this point the sub-sampled files will be processed through two pipelines: DADA2 and BLAST. For the BLAST pipeline the samples were trimmed, converted to fasta format and compared to NCBI's nucleotide database using the BLAST algorithm. After comparison to the nucleotide database, I curated the data in R based on percent identity, sequence match length, expected value, and bitscore. For the DADA2 pipeline, I discarded poor sequences and trimmed the higher quality sequences. Then, I genereated sample inferences using error models and compared the results to a training data set. I used the matches from both the nucleotide database and training data set to make inferences on the type of microbial organisms present.  
+
+## Major Findings
 
 <!--Major findings (150 words)-1050 -->
 
@@ -215,8 +232,13 @@ Figues 4 through 7 show the distribution of values for the BLAST matches by thei
 
 ## Samples over Time
 
-The number of samples over varied quite a lot between the time of collection and the plot collected from. Figure 8 shows the variation of the number of samples collected by month and year. Only May and July had samples collected in both 2016 and 2017. In both of these months there was significantly more samples collected in 2016 than 2017. In addition, the most samples were collected in May; followed by August, October, and finally July. Figure 9 shows the samples by plot in 2016 and 2017 during the months of May and August. In total there was eighteen plots sampled from the UNDE site. Seven of the eighteen plots were sampled in both 2016 and 2017: 001, 006, 008, 037, 038, 043, 044. Eight of the plots were only sampled in 2016: 007, 013, 014, 017, 019, 027, 034, and 035. Three of the plots were only sampled in 2017: 002, 003, and 010. Both archaea and bacteria were present in 2016 and 2017. There was 22  distinct archaea samples and 1,757 distinct bacterial samples matched to the curated database. The dataset contained 1,099 distinct samples in 2016. In contrast, the dataset contained 710 samples in 2017. The relative number of samples by year and kingdom is illustrated in Figure 10.
+The number of samples over varied quite a lot between the time of collection and the plot collected from. Figure 8 shows the variation of the number of samples collected by month and year. Only May and July had samples collected in both 2016 and 2017. In both of these months there was significantly more samples collected in 2016 than 2017. In addition, the most samples were collected in May; followed by August, October, and finally July. Figure 9 shows the samples by plot in 2016 and 2017 during the months of May and August. In total there was eighteen plots sampled from the UNDE site. Seven of the eighteen plots were sampled in both 2016 and 2017: 001, 006, 008, 037, 038, 043, 044. Eight of the plots were only sampled in 2016: 007, 013, 014, 017, 019, 027, 034, and 035. Three of the plots were only sampled in 2017: 002, 003, and 010. Both archaea and bacteria were present in 2016 and 2017. There was 22  distinct archaea samples and 1,757 distinct bacterial samples matched to the curated database. The dataset contained 1,099 distinct samples in 2016. In contrast, the dataset contained 710 samples in 2017. The relative number of samples by year and Kingdom is illustrated in Figure 10. 
 
+Next, I analyzed the abundance of different Phyla by plot, year, and month. For sixteen of the eighteen plots proteobacteria was the most abundant Phylum. In plot 002 acidobacteria was the most abundant Phylum. Verrucomicrobia was the most abundant Phylum in plot 014. In both cases this abundance was much lower than many of the plots with Proteobacteria as the most abundant Phylum. For both years, Proteobacteria, Acidobacteria, and Actinobacteria were the three most abundant Phyla. The ratio of Phyla remained constant from 2016 to 2017. However, the abundance for each Phyla significantly declined from 2016 to 2017. Unsurprisingly, Proteobacteria was the most abundant Phyla in each month collected for both years. The abundances for all of the Phyla were significantly lower in 2017. Interestingly, no Actinobacteria were found in may of 2017 while it was the third most abundant Phyla in 2016. No samples were collected in October of 2016 and July of 2017.
+
+Since proteobacteria was the most abundant Phyla I looked into the abundance of different genera of Proteobacteria. The most abundant proteobacteria was *Bradyrhizobium* followed by *Pseudomonas*, *Roseiarcus*, and *Burkholderia*. Proteobacteria as a whole were more abundant during May and August. However, *Pseudomonas* and *Roseiarcus* were almost twice as abundant during May than August. *Gaiella* were the most abundant Actinobacteria, followed by *Myobacterium*. *Gaiella* was only present during May.
+
+Finally, I assessed the diversity of samples by plot by month and by year. Diversity was much higher for each plot during 2016. However, there are a significantly fewer diversity points plotted for 2017. For the months May, July, and August there does not appear to be a clear pattern for diversity. In plots 001, 007, 027, 035, 037, and 038 diversity seems to be higher in August than May. In plot 019 diversity appears to be higher in May than July. The highest diversity was in plot 001 in August.
 
 
 <!-- talk about the variation of plots if I need to add words -->
@@ -227,13 +249,20 @@ The number of samples over varied quite a lot between the time of collection and
 
 ## Overview
 
-The UNDE site, in Michigan, near the great lakes has a second-growth Northern mesic forest and Evergreen forests with various trees including maple, aspen, birch, cedar, and black spruce. In addition, the site has a woody wetlands dominated by thicks of alder. 
+The UNDE site, in Michigan, near the great lakes has a second-growth Northern mesic forest and Evergreen forests with various trees including maple, aspen, birch, cedar, and black spruce. In addition, the site has woody wetlands dominated by thicks of alder. 
 
 The data collected by NEON from this site was high-quality and contained a substantial amount of genetic information. The collected sequences matched a variety of bacteria widely associated to soil including *Ralstonia solanacearum* and *Acetobacteraceae bacterium*. These two species have very different impacts on plants. *Ralstonia solanacearum* is a plant pathogen while *Acetobacteraceae bacterium* can be found in symbiotic relationships with many different plants by colonizing their internal tissues.
 
-## *Ralstonia solanacearum*
+## BLAST Interpretation
 
 *Ralstonia solanacearumm* is a soil-borne plant pathogen with unusually high prevalence worldwide [@salanoubat2002genome]. This pathogen naturally infects the roots of plants causing bacterial wilt in many plants and crops [@castillo2007evolutionary]. The DNA sequencing of the soil samples from the UNDE site indicate a high probability of *Ralstonia solanacearum*. The workers of UNDERC should look for indications of this pathogen in plants near the sampling sites and take preventative action to protect the biodiversity of the UNDE site.
+
+## Taxonomic Interpretation
+
+## Limitations
+
+## Future Work
+
 
 # Tables and Graphs
 
@@ -261,7 +290,8 @@ top_10_genus_curated <- melted_phyloseq %>%
       summarize(sum_abund = sum(Abundance,
                                 na.rm = TRUE)) %>%
         arrange(desc(sum_abund)) %>%
-          head(10)
+          mutate(Genus = paste0("*", Genus, "*")) %>%
+            head(10)
 
 kable(top_10_genus_curated,
       col.names = c("Genus", "Abundance"))
@@ -274,10 +304,19 @@ kable(top_10_genus_curated,
 top_3_staph_rals_pro <- top_5_genus %>%
   filter(genus != "Bradyrhizobium") %>%
   filter(genus != "Pseudomonas") %>%
-  group_by(genus, species) %>%
+  group_by(Scientific.Name) %>%
   tally() %>%
   arrange(desc(n)) %>%
   head(3)
+
+top_3_staph_rals_pro$Scientific.Name <- 
+  paste0("*",
+         top_3_staph_rals_pro$Scientific.Name,
+         "*")
+top_3_staph_rals_pro$Scientific.Name <- 
+  gsub("[*]Proteobacteria[*]",
+       "Proteobacteria",
+       top_3_staph_rals_pro$Scientific.Name)
   
 # get top 3 of Bradyrhizobium and Pseudomonas
 # Bradyrhizobium
@@ -321,12 +360,16 @@ top_3_bp %>%
 
 ``` {r detailed-table}
 # make a table for other relevant counts
-kable(top_3_staph_rals_pro)
+kable(top_3_staph_rals_pro,
+      col.names = c("Description",
+                    "Count"))
+  
 ```
 
 **Table 3.**
 
 ``` {r percent Identity}
+
 # graph boxplot of percent identity by top 5 Genus
 top_5_genus %>%
   ggplot(aes(x = genus,
