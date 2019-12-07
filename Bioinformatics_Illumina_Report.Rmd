@@ -96,7 +96,7 @@ top_5_genus$species <- gsub(".* ", "", top_5_genus$Scientific.Name)
 <!--Overview of soil bacterial communities (400 words)-->
 <!--ACTUAL: 80 words -->
 
-Microscopic organisms are among the oldest and most prevalent lifeforms on earth. Accordingly, they play a vital role in the health of ecosystems by affecting processes like carbon dioxide and nitrogen cycling [@martiny]. As the worlds climate changes over time understanding how microbes influence the dynamics of ecosystems will be necessary to preserve the environment. Currently, the impacts of climate change on the biogeochemical cycling of microbes are not well understood [@barnard]. However, some research suggests microbes may be able to mediate carbon-cycle feedbacks to climate warming [@zhou]. 
+Microscopic organisms are among the oldest and most prevalent lifeforms on earth. Accordingly, they play a vital role in the health of ecosystems by affecting processes like carbon dioxide and nitrogen cycling [@martiny]. As the worlds climate changes over time understanding how microbes influence the dynamics of ecosystems will be necessary to preserve the environment. Currently, the impacts of climate change on the biogeochemical cycling of microbes are not well understood [@barnard]. However, some research suggests microbes may be able to mediate carbon-cycle feedback to climate warming [@zhou]. 
 
 Due to their importance in the function and stability of ecosystems, the biodiversity of microorganisms is vital to the overall diversity of macroscopic organisms. Typically the first objective of many ecological research projects is to determine the which organisms are present and their bio-geography [@zimmerman]. Previous research suggests the distribution of microbes is heterogeneous and spatially-structured [@maron]. Thus, accurate sampling of a wide variety of plots is necessary to understanding how microbes influence a large ecosystem. 
 
@@ -107,13 +107,13 @@ For the microbial community, identifying distinct species is particularly diffic
 
 ## UNDE Site
 
-The National Science Foundation (NSF) funded National Ecological Observation Network (NEON) was designed to answer how the ecosystem and it's components respond to changes in climate? [@keller] To this aim NEON collects microbial samples in soil from a number of sites across the United States. I will investigate the UNDE site, near the Great Lakes in Michigan. In the Great Lakes area NEON is particularly interested in land use and forest management. A balanced and well functioning soil microbiome is vital to the health of the forests found in the UNDE site and the Greak Lakes in general.
+The National Science Foundation (NSF) funded National Ecological Observation Network (NEON) was designed to answer how the ecosystem and it's components respond to changes in climate? [@keller] To this aim NEON collects microbial samples in soil from a number of sites across the United States. I will investigate the UNDE site, near the Great Lakes in Michigan. In the Great Lakes area NEON is particularly interested in land use and forest management. A balanced and well functioning soil microbiome is vital to the health of the forests found in the UNDE site and the Great Lakes in general.
 
-The UNDE site is managed by the University of Notre Dame Environmental Research Center (UNDERC). The site is at an elevation of 518 m, with a mean annual temperature of 3$^\circ$, and a moderate 854 mms of annual precipitation. The property has a second-growth Northern mesic forest and Evergreen forests. The dominant species are red and sugar maple (*Acer rubrum* and *A. saccharum*), aspen (*Populus tremuloides*), paper birch (*Betula papyrifera*), balsam fir (*Abies balsamea*), cedar (*Thuja occidentalis*), and black spruce (*Picea mariana*). In addition to the deciduous and mixed forests the site has woody wetlands dominated by thicks of alder (*Alnus incana*).
+The UNDE site is managed by the University of Notre Dame Environmental Research Center (UNDERC). The site is at an elevation of 518 m, with a mean annual temperature of 3$^\circ$C, and a moderate 854 mms of annual precipitation. The property has a second-growth Northern mesic forest and Evergreen forests. The dominant species are red and sugar maple (*Acer rubrum* and *A. saccharum*), aspen (*Populus tremuloides*), paper birch (*Betula papyrifera*), balsam fir (*Abies balsamea*), cedar (*Thuja occidentalis*), and black spruce (*Picea mariana*). In addition to the deciduous and mixed forests the site has woody wetlands dominated by thicks of alder (*Alnus incana*).
 
 Before the land was donated to the Notre Dame University in the 1930s, region-wide logging for pine cut most of the forested areas on the property. Timber harvest continued into the 1950s, but was followed by a forest regrowth. Recently, the site is used for recreational, educational, and research goals.
 
-The climate is generally humid, cool, and wet with no true dry season and receives approximately 114 inches of snow annually. The soil families include coarse, loamy, mixed, superactive, frigid, argic fragiaquods. Although, some of the soil on the site is poorly drained, which may cause acidic sphagnum bogs. This is especially troublesome since climate warming can promote the growth of peat mosses and compound this issue [@breeuwer2009decreased]. The presence of sphagnum is known to increase the amount of dissolved organic Nitrogen; reducing Nitrogen immobilization by soil microbes [@bragazza2013biogeochemical]. The competition for nutrients and changes caused by sphagnum bogs and climate warming, can shortcircuit the Nitrogen cycle. In years where sphagnum bogs are prevalent one could expect lower abundances of soil microbes. In addition, ecosystems with a high abundance of nitrogen-fixing bacteria may be more suited to withstand the disruption caused by sphagnum bogs.
+The climate is generally humid, cool, and wet with no true dry season and receives approximately 114 inches of snow annually. The soil families include coarse, loamy, mixed, superactive, frigid, argic fragiaquods. Although, some of the soil on the site is poorly drained, which may cause acidic sphagnum bogs. This is especially troublesome since climate warming can promote the growth of peat mosses and compound this issue [@breeuwer2009decreased]. The presence of sphagnum is known to increase the amount of dissolved organic Nitrogen; reducing Nitrogen immobilization by soil microbes [@bragazza2013biogeochemical]. The competition for nutrients and changes caused by sphagnum bogs and climate warming, can short-circuit the Nitrogen cycle. In years where sphagnum bogs are prevalent one could expect lower abundances of soil microbes. In addition, ecosystems with a high abundance of nitrogen-fixing bacteria may be more suited to withstand the disruption caused by sphagnum bogs.
 
 <!-- Can add more information about this specific site -->
 
@@ -125,13 +125,13 @@ The climate is generally humid, cool, and wet with no true dry season and receiv
 
 The primary objective of this study is to determine which microbes are present at the UNDE site, using the 16S barcode sequence, and how this changes over time. This information provides insight into how these ecosystems respond to climate change and their overall health and function. The potential for sphagnum bog growth at the UNDE site is a primary concern. To that end, I looked for signs to indicate plots at the site which may have issues with sphagnum growth. A secondary objective of this study is to carefully analyze matches against the BLAST database. Many of my colleagues who have collected data from various NEON sites had *Ralstonia solanacearum* as their top BLAST match, and often had *Staphylococcus aureus* among the top of their list.
 
-The UNDE site has 1192 samples containing sequencing data from soil microbes. The data collected by NEON was be processed for quality control, and sub-sampled. At this point the sub-sampled files will be processed through two pipelines: DADA2 and BLAST. For the BLAST pipeline the samples were trimmed, converted to fasta format and compared to NCBI's nucleotide database using the BLAST algorithm. After comparison to the nucleotide database, I curated the data in R based on percent identity, sequence match length, expected value, and bitscore. For the DADA2 pipeline, I discarded poor sequences and trimmed the higher quality sequences. Then, I genereated sample inferences using error models and compared the results to a training data set. I used the matches from both the nucleotide database and training data set to make inferences on the type of microbial organisms present.  
+The UNDE site has 1192 samples containing sequencing data from soil microbes. The data collected by NEON was be processed for quality control, and sub-sampled. At this point the sub-sampled files will be processed through two pipelines: DADA2 and BLAST. For the BLAST pipeline the samples were trimmed, converted to fasta format and compared to NCBI's nucleotide database using the BLAST algorithm. After comparison to the nucleotide database, I curated the data in R based on percent identity, sequence match length, expected value, and bitscore. For the DADA2 pipeline, I discarded poor sequences and trimmed the higher quality sequences. Then, I generated sample inferences using error models and compared the results to a training data set. I used the matches from both the nucleotide database and training data set to make inferences on the type of microbial organisms present.  
 
 ## Major Findings
 
 <!--Major findings (150 words)-1050 -->
 
-The subsampling of the dataset collected by NEON for the UNDE site contained a large number of quality sequences which could be used for downstream analysis. I found a variety of proteobacteria in both the BLAST matches and matches to the curated training dataset. Most notably, the samples contained *Bradyrhizobium*, *Pseudomonas*, and *Burkholderia*. The presence of *Bradyrhizobium* and *Pseudomonas* provide indications of a healthy soil microbiome community at the UNDE site. *Burkholderia* could either be benenificial or detrimental to the ecosystem especially with the potential threat of acidic sphagnum bogs. 
+The subsampling of the dataset collected by NEON for the UNDE site contained a large number of quality sequences which could be used for downstream analysis. I found a variety of proteobacteria in both the BLAST matches and matches to the curated training dataset. Most notably, the samples contained *Bradyrhizobium*, *Pseudomonas*, and *Burkholderia*. The presence of *Bradyrhizobium* and *Pseudomonas* provide indications of a healthy soil microbiome community at the UNDE site. *Burkholderia* could either be beneficial or detrimental to the ecosystem especially with the potential threat of acidic sphagnum bogs. 
 
 The BLAST matches were dominated by low quality matches to *Ralstonia solanacearum* and *Staphylococcus aureus*. The high frequency of low quality matches is likely an artifact of the sequencing and sequence matching method. Interestingly, *Ralstonia solanacearum* was transferred from the *Burkholderia* genus to the *Ralstonia* genus. Thus, the matches may have been indicative of a strong presence of *Burkholderia* at the UNDE site. 
 
@@ -301,7 +301,7 @@ Finally, to target the primary objective of determining how the most abundant so
 ``` {r blast-table}
 # make table of the top 10 matches
 # columns
-# Description | Count |
+# Description // Count
 # ---------------------
 kable(top_10_genus_blast,
       col.names = c("Description", "Count"))
@@ -326,7 +326,7 @@ top_10_genus_curated <- melted_phyloseq %>%
 
 # create table
 # columns
-# Genus | Abundance
+# Genus // Abundance
 # -----------------
 kable(top_10_genus_curated,
       col.names = c("Genus", "Abundance"))
@@ -407,11 +407,11 @@ top_3_bp %>%
 # proteobacteria
 #
 # columns
-# Description     | Count
+# Description     // Count
 # -----------------------
-# R. solanacearum | count
-# S. aureus       | count
-# Proteobacteria  | count
+# R. solanacearum // count
+# S. aureus       // count
+# Proteobacteria  // count
 kable(top_3_staph_rals_pro,
       col.names = c("Description",
                     "Count"))
@@ -595,7 +595,7 @@ kingdom_info %>%
   ylab("Number of Samples")
 ```
   
-**Figure 10.** Summary of Kingdom by year. The samples were primarly bacterial, however a small number of the samples were archaeal. In addition, this graph shows that almost 300 more samples were collected in 2016.
+**Figure 10.** Summary of Kingdom by year. The samples were primarily bacterial, however a small number of the samples were archaeal. In addition, this graph shows that almost 300 more samples were collected in 2016.
 
 ``` {r phyla-by-plot}
 # list the top phyla in descending order
