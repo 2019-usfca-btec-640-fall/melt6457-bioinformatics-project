@@ -33,7 +33,7 @@ library("dada2")
 library("phyloseq")
 ```
 
-``` {r add melted phyloseq}
+``` {r add-melted-phyloseq}
 # load in the saved phyloseq object to work with
 load("output/phyloseq_obj.Rda")
 
@@ -60,7 +60,7 @@ melted_phyloseq <- melted_phyloseq %>%
   mutate_if(is.factor, as.character)
 ```
 
-``` {r add blast data}
+``` {r add-blast-data}
 # read curated summary data in from csv
 blast_results <- read.csv("output/curatedSummary.csv")
 
@@ -144,7 +144,7 @@ In the lab, DNA is extracted and the samples are prepared for high-throughput se
 <!-- 84 words -->
 I downloaded all unique 16S files for the UNDE site from the NEON database. Then, I checked each files quality using fastqc. I sub-sampled each file to make the dataset computationally tractable. I trimmed each file in order to capture high quality reads and converted the fastq files to fasta files. Next, I compared each fasta file to a nucleotide database to make inferences on which microorganisms were present in the samples from the UNDE site. 
 
-Finally, I used those BLAST results to BLANK!!! FILL THIS IN!!!!
+Finally, I used those BLAST results to XXXXXX
 
 ### Downloading Data
 
@@ -195,10 +195,9 @@ I also processed the subsampled data with dada [@dada2]. The sequences were filt
 
 I downloaded the metadata for the UNDE site from the DP1.10108.001 data product by NEON. All duplicated rows were removed and matched to the data from the dada2 pipeline. I pruned the samples without any sequences.
 
-
 ### Analysis
 
-I analyzed the data using ggplot [@ggplot2] and dplyr [@dplyr]. First, I calculated the number of samples for each month, year, kingdom, and plot. Then, I found the top phyla in each plot by abundance. I separated the top three phyla by year to analyze the change of the samples from 2016 to 2017. For this analysis I only included the months of May and August since they were the only two months with collections in both 2016 and 2017. I analyzed the the abundance of Phyla by month and year to determine if the composition of samples changed over time. Then, I took the top six genus for each month and year separated by Phyla. Finally, I used [@phyloseq] to visualize the alpha diversity by month and year using the shannon method.
+I analyzed the data using ggplot [@ggplot2] and dplyr [@dplyr]. First, I calculated the number of samples for each month, year, kingdom, and plot. Then, I found the top phyla in each plot by abundance. I separated the top three phyla by year to analyze the change of the samples from 2016 to 2017. For this analysis I only included the months of May and August since they were the only two months with collections in both 2016 and 2017. I analyzed the the abundance of Phyla by month and year to determine if the composition of samples changed over time. Then, I took the top six genus for each month and year separated by Phyla. Finally, I used phyloseq[@phyloseq] to visualize the alpha diversity by month and year using the shannon method.
 
 # Results
 <!-- 600 words 2150 total -->
@@ -216,23 +215,21 @@ After trimming there was 154,922 sequences total, or approximately 58% of the su
 
 Overall, the sequence quality was good. None of the inspected fastqc reports contained sequences flagged as poor quality. Figure 1 shows the fastqc of a file which did not have any sequences after trimming, while Figure 2 shows the fastqc of the file with the most sequences after trimming. The decline in quality scores happens about 50 base pairs later in the better file.
 
-## BLAST Results
+## Taxonomic Results
 
-The four most frequent BLAST matches I found in the data set were *Ralstonia solanacearum*, *Staphylococcus aureus*, *Geobacillus thermocatenulatus*, and *Sphingomonas melonis*.
+I found a variety of proteobacteria, spingobacteriales, firmicutes, and staphylococus in the ten most frequent BLAST matches by the highest taxonomic level as seen in Table 1. They were *Ralstonia*, *Staphylococcus*, *Bradyrhizobium*, *Pseudomonas*, Proteobacteria, *Candidatus*, *Mucilaginibacter*, *Bacillus*, *Sphingomonas*, and *Burkholderia*. *Ralstonia* dominated the BLAST matches with 68,508 total matches in the data set. There was a large dropoff to *Staphylococcus* and *Bradyrhizobium*. The number of raw matches to the NCBI nucleotide database may not be the most reliable method of species identification. So, I compared these top results to the matches from the curated training dataset through the DADA2 pipeline and curated the BLAST data with ggplot. 
 
-The top matches I found in each file with a query cover of 100% were *Ralstonia solanacearum*, *Bradyrhizobium elkanii*, *Bacillus sp.*, *Actinomadura sp*, and *Acetobacteraceae bacterium*. 
+A few of the matches were present in both lists, however a number of BLAST matches were not present in the curated database. The ten most frequent genus matches by abundance in the curated dataset were *Bradyrhizobium*, *Pseudomons*, *Roseiarcus*, *Burkholderia*, *Mycobacterium*, *Thermosporothrix*, *Gaiella*, *Massilia*, *Pedomicrobium*, and *Gemmatimonas*. *Bradyrhizobium*, *Pseudomonas*, and *Burkholderia* were prevalent in both lists while *Bradyrhizobium* and *Pseudomonas* appeared at near the top of the NCBI search and the curated search. As a result, I am fairly confident the samples from UNDE site are dominated by proteobacteria. However, the lack of *Ralstonia* and *Staphyloccocuus* makes me question if the samples are present in the UNDE samples. A summary of the top genera and their abundances can be found in table 2.
 
-The ten most frequent BLAST matches by the highest taxonomic level can be seen in Table 1. They are *Ralstonia*, *Staphylococcus*, *Bradyrhizobium*, *Pseudomonas*, Proteobacteria, *Candidatus*, *Mucilaginibacter*, *Bacillus*, *Sphingomonas*, and *Burkholderia*. *Ralstonia* dominated the BLAST matches with 68,508 total matches in the data set. There was a large dropoff to *Staphylococcus* and *Bradyrhizobium*.
+Curation of the BLAST matches based on percent identity, sequence match length, expected value, and bitscore show low quality matches to *Ralstonia* and *Staphylococcus*. It is unlikely *Ralstonia* is present at the UNDE site because many of the matching sequences had short sequence matches with low percent identities and high expected values and bitscores. In fact, only 945 of the 68508 *Ralstonia* samples, or 1.3%, remained after curation. Similarly, I have low confidence in the presence of *Staphylococcus* because of low sequence match lengths and low expected values (expected value < 0.00010, and bitscore < 200). Less than 0.05% of the *Staphylococcus* samples remained after curation. In contrast, I have high confidence in the presence of *Bradyrhizobium*, *Pseudomonas*, and proteobacteria at large. All matches for proteobacteria met the specified criteria for curation. More than 90% of the *Bradyrhizobium* samples met the specified criteria while 86% of the *Pseudomonas* samples met the specified criteria. Figues 4 through 7 show the distribution of values for the BLAST matches by their description. In each graph there is a red line depicting the cutoff value used for the corresponding value. With all of these metrics considered, I have high confidence of the presence of *Bradyrhizobium*, *Pseudomonas*, and proteobacteria in the samples from the UNDE site. In contrast, I am not confident there was actually *Ralstonia* and *Staphylococcus* present at the UNDE site.
 
-The ten most frequent genus matches by abundance were *Bradyrhizobium*, *Pseudomons*, *Roseiarcus*, *Burkholderia*, *Mycobacterium*, *Thermosporothrix*, *Gaiella*, *Massilia*, *Pedomicrobium*, and *Gemmatimonas*. *Bradyrhizobium*, *Pseudomonas*, and *Burkholderia* were prevalent in both lists while *Bradyrhizobium* and *Pseudomonas* appeared at near the top of the NCBI search and the curated search.
+I found the top 3 species for the genera *Bradyrhizobium* and *Pseudomonas*. There was 1144 *Bradyrhizobium elkanii*, 849 *Bradyrhizobium sp.*, 89 *Bradyrhizobium erythrophlei*, 288 *Pseudomonas sp.*, 212 *Pseudomonas frederiksbergensis*, and 140 *Pseudomonas protegens*. The *Ralstonia* matches were predominantly *Ralstonia solanacearum* (68,505 of the 68,508 samples, or 99.99%). Similarly, *Staphylococcus* matches were predominantly *Staphyloccocus aureus* (3,059 of the 3,068, or 99.71%). The species returned for each genus in the BLAST results can be seen in Figure 3 and Table 3.
 
-The species returned for each genus in the BLAST results can be seen in Figure 3 and Table 3. For *Ralstonia* and *Staphylococcus* one species dominated all of the BLAST matches for the genus. *Ralstonia solanacearum* was present in 68,505 of the 68,508 of the *Ralstonia* matches, or 99.99% of the matches. *Staphylococcus aureus* was present in 3,059 of the 3,068 *Staphylococcus* matches, or 99.71% of the matches. The BLAST matches for *Bradyrhizobium* and *Pseudomonas* had a wider variety of species. Figure 3 shows the the top three species for these two genera. *Bradyrhizobium* was dominated by *Bradyrhizobium elkanii* and other unidentified species with a small number of *Bradyrhizboium erythroplei*. *Pseudomonas* had a lot fewer samples overall, but they were equally spread among *Pseudomonas frederiksbergensis*, *Pseudomonas protegens*, and unidentified species. 
-
-Figues 4 through 7 show the distribution of values for the BLAST matches by their description. In each graph there is a red line depicting the cutoff value used for the corresponding value. As shown in Figure 4, a large majoriy of the percent identities for the BLAST matches fall close to 100%. However, all matches except for proteobacteria have matches with lower than 90% query cover. Figure 5 highlights the difference of the length of sequences by the different types of BLAST matches. A majoriy of the matches for *Ralstonia* and *Staphylococcus* are fairly short sequences less than 100 base pairs long. While proteobacteria, *Bradyrhizobium*, and *Pseudomonas* had a majority of their matches above 200 base pairs long. In addition, as seen in Figure 6, *Ralstonia* and *Staphylococcus* have higher expected values with many above the cutoff of 0.00010. *Bradyrhizobium*, proteobacteria, and *Pseudomonas* have low expected values which indicate strong confidence in the BLAST matches. A similar trend can be seen with the bitscore values returned from the BLAST matches. In figure 7, you can see *Ralstonia* and *Staphyloccocus* have low bitscores centering around 100 base pairs while *Bradyrhizobium*, proteobacteria, and *Pseudomonas* had bitscores centering around 500. Table 4 shows the BLAST results before and after curation to throw out lower quality matches. The counts for *Ralstonia* and *Staphyloccocus* drop drastically with curation while a majority of the matches to *Bradyrhizobium*, proteobacteria, and *Pseudomonas* remain after curation. With all of these metrics considered, I have high confidence of the presence of *Bradyrhizobium*, *Pseudomonas*, and proteobacteria in the samples from the UNDE site. In contrast, I am not confident there was actually *Ralstonia* and *Staphylococcus* present at the UNDE site.
+Overall, I am highly confident the UNDE site contains a variety of proteobacteria including *Bradyrhizobium* and *Pseudomonas* for a number of reasons: the BLAST samples were predominantly proteobacteria including these two genera, the curated dataset matched a large number of proteobacteria and these two genera, the BLAST matches for these samples were high quality (percent identity > 90, sequence match length > 200, expected value < 0.00010, bitscore > 200). However, the low quality BLAST matches and single species dominance makes me skeptical of the presence of *Ralstonia* and *Staphylococcus* in the samples at the UNDE site.
 
 ## Samples over Time
 
-The number of samples over varied quite a lot between the time of collection and the plot collected from. Figure 8 shows the variation of the number of samples collected by month and year. Only May and July had samples collected in both 2016 and 2017. In both of these months there was significantly more samples collected in 2016 than 2017. In addition, the most samples were collected in May; followed by August, October, and finally July. Figure 9 shows the samples by plot in 2016 and 2017 during the months of May and August. In total there was eighteen plots sampled from the UNDE site. Seven of the eighteen plots were sampled in both 2016 and 2017: 001, 006, 008, 037, 038, 043, 044. Eight of the plots were only sampled in 2016: 007, 013, 014, 017, 019, 027, 034, and 035. Three of the plots were only sampled in 2017: 002, 003, and 010. Both archaea and bacteria were present in 2016 and 2017. There was 22  distinct archaea samples and 1,757 distinct bacterial samples matched to the curated database. The dataset contained 1,099 distinct samples in 2016. In contrast, the dataset contained 710 samples in 2017. The relative number of samples by year and Kingdom is illustrated in Figure 10. 
+The number of samples over varied quite a lot between the time of collection and the plot collected from. Figure 8 shows the variation of the number of samples collected by month and year. Only May and July had samples collected in both 2016 and 2017. In both of these months there was significantly more samples collected in 2016 than 2017. In addition, the most samples were collected in May; followed by August, October, and finally July. Figure 9 shows the samples by plot in 2016 and 2017 during the months of May and August. In total there was eighteen plots sampled from the UNDE site. Seven of the eighteen plots were sampled in both 2016 and 2017: 001, 006, 008, 037, 038, 043, 044. Eight of the plots were only sampled in 2016: 007, 013, 014, 017, 019, 027, 034, and 035. Three of the plots were only sampled in 2017: 002, 003, and 010. Both archaea and bacteria were present in 2016 and 2017 with only a small number of archaea. There was 22 distinct archaea samples and 1,757 distinct bacterial samples matched to the curated database. The dataset contained 1,099 distinct samples in 2016. In contrast, the dataset contained 710 samples in 2017. The relative number of samples by year and Kingdom is illustrated in Figure 10. 
 
 Next, I analyzed the abundance of different Phyla by plot, year, and month. For sixteen of the eighteen plots proteobacteria was the most abundant Phylum. In plot 002 acidobacteria was the most abundant Phylum. Verrucomicrobia was the most abundant Phylum in plot 014. In both cases this abundance was much lower than many of the plots with Proteobacteria as the most abundant Phylum. For both years, Proteobacteria, Acidobacteria, and Actinobacteria were the three most abundant Phyla. The ratio of Phyla remained constant from 2016 to 2017. However, the abundance for each Phyla significantly declined from 2016 to 2017. Unsurprisingly, Proteobacteria was the most abundant Phyla in each month collected for both years. The abundances for all of the Phyla were significantly lower in 2017. Interestingly, no Actinobacteria were found in may of 2017 while it was the third most abundant Phyla in 2016. No samples were collected in October of 2016 and July of 2017.
 
@@ -240,28 +237,51 @@ Since proteobacteria was the most abundant Phyla I looked into the abundance of 
 
 Finally, I assessed the diversity of samples by plot by month and by year. Diversity was much higher for each plot during 2016. However, there are a significantly fewer diversity points plotted for 2017. For the months May, July, and August there does not appear to be a clear pattern for diversity. In plots 001, 007, 027, 035, 037, and 038 diversity seems to be higher in August than May. In plot 019 diversity appears to be higher in May than July. The highest diversity was in plot 001 in August.
 
-
 <!-- talk about the variation of plots if I need to add words -->
-<!-- add more sections and subsections-->
 
 # Discussion
 <!-- 500 words 2650 total -->
 
 ## Overview
 
-The UNDE site, in Michigan, near the great lakes has a second-growth Northern mesic forest and Evergreen forests with various trees including maple, aspen, birch, cedar, and black spruce. In addition, the site has woody wetlands dominated by thicks of alder. 
+The UNDE site, in Michigan, near the great lakes has a second-growth Northern mesic forest and Evergreen forests with various trees including maple, aspen, birch, cedar, and black spruce. In addition, the site has woody wetlands dominated by thicks of alder. However, the land has a known susceptibility to overgrowth of acidic sphagnum bogs which outcompete other species impacting the soil microbiome. 
+
+The data collected by NEON from this site varied in quality, but contained a substantial amount of genetic information. The 1192 samples had 51,289,602 sequences. Half of the subsampled sequences were high quality, passing the trimming step of the pipeline. The inspected fastqc samples were also of sufficient quality. 
+
+I found a variety of proteobacteria, acidobacteria, and actinobacteria among the matches to both the BLAST analysis and DADA2 pipeline. Most notably, I found a high abundance of proteobacteria especially *Bradyrhizbium* and *Pseudomonas*. Many of the BLAST matches for *Ralstonia* and *Staphylococcus* were low quality and were discarded after curation. It is likely these results were artifacts of sequencing or sequence matching.  
+
+-- climate change observations
+
+-- brief overview of changes over time
+
 
 The data collected by NEON from this site was high-quality and contained a substantial amount of genetic information. The collected sequences matched a variety of bacteria widely associated to soil including *Ralstonia solanacearum* and *Acetobacteraceae bacterium*. These two species have very different impacts on plants. *Ralstonia solanacearum* is a plant pathogen while *Acetobacteraceae bacterium* can be found in symbiotic relationships with many different plants by colonizing their internal tissues.
 
-## BLAST Interpretation
-
-*Ralstonia solanacearumm* is a soil-borne plant pathogen with unusually high prevalence worldwide [@salanoubat2002genome]. This pathogen naturally infects the roots of plants causing bacterial wilt in many plants and crops [@castillo2007evolutionary]. The DNA sequencing of the soil samples from the UNDE site indicate a high probability of *Ralstonia solanacearum*. The workers of UNDERC should look for indications of this pathogen in plants near the sampling sites and take preventative action to protect the biodiversity of the UNDE site.
-
 ## Taxonomic Interpretation
+
+I am not confident in the presence of *Staphylococcus aureus* and *Ralstonia solanacearum* at the UNDE site. The firmicute *Staphyloccocus aureus* is frequently found on the skin of humans. Since the sample matches were relatively small there is a chance these samples matched to *Staphylococcus aureus* were contamined from the time of collection to sequencing. *Ralstonia solanacearum* is a soil-borne plant pathogen with unusually high prevalence worldwide [@salanoubat2002genome]. This pathogen naturally infects the roots of plants causing bacterial wilt in many plants and crops [@castillo2007evolutionary]. Interestingly, *solanacearum* was transferred from the *Burkholderia* genus to the *Ralstonia* genus. Thus, there is a chance many of the samples matched to *Ralstonia solanacearum* were actually memebers of the *Burkholderia* genus. This would explain the large number of low quality matches to *Ralstonia solanacearum*. However, Workers at the UNDE site should still be aware of the slight possibility of this bacteria's presence on the property. Since a goal of the site is tree management plants near important tree species should be inspected for infected roots and xylem.
+
+I am very confident there is a large abundance of proteobacteria and most notably *Bradyrhizobium*, *Pseudomonas*, and *Burkholderia* at the UNDE site. *Bradyrhizobium* have a key role in nitrogen cycling, helping to maintain soil fertility [@bradyrhizobium]. Thus, their presence is a positive sign for the health of the UNDE ecosystem. They will be vital to the microbial response following a buildup of sphagnum moss. In addition, *Pseudomonas* is known to protect plants from soil-borne fungal pathogens [@pseudo1]. One of the predominant species in this genus *Pseudomonas frederikbergensis* has proved to provide a similar protection for plants by enhancing cold and soil salinity tolerance in plants [@pseudo2]. The combination of these two proteobacteria provide strong indications that the UNDE ecosystem is currently healthy from a soil microbiome perspective. However, the affinity for the UNDE site to develop peat overgrowth is still a primary concern. *Burkholderia* have strong acid tolerances with strains which promote plant growth and strains that are pathogens for humans, animals, and plants [@burk]. Thus, their presence at the UNDE site can be seen as a double-edged sword. Their ability to survive in acidic environments have important implications for how the soil microbiome of the UNDE site could respond to global warming. With an increase in acidic sphagnum bogs, the population of *Burkholderia* is likely to grow. If the *Burkholderia* present at the UNDE site is healthy they would be an ideal nitrogen fixing bacteria to combat the impact of sphagnum overgrowth. However, if the *Burkholderia* are pathogen causing an shift toward acidic sphagnum bogs at the UNDE site could have negative impacts to the surrounding environment.
+
+## Changes over Time
+
+Its difficult to make strong inferences on the changes of the composition and diversity of microbial samples collected from the UNDE site due to variance in the number of samples taken between months and years. In addition, the NEON site collection started in 2016 at the site so only two years of data was collected. Different approaches can be taken to improve the data collection to draw meaningful inferences and will be fully discussed in the future work section.
 
 ## Limitations
 
+I had a number of limitations for this study of the UNDE site. The first limitation is computational tractability. The overwhelming number of samples collected were not possible to analyze in the time permitted. As a result, I had to subsample 0.5% of the sequences collected. This could have introduced a number of bias to the data. For example, by random chance a larger number of samples than representative of the actual dataset could have been sampled during a specific year (like 2016) or month (like May).
+
+The subsampled data I analyzed had uneven collections which could have resulted from the aforementioned subsampling, or the way NEON sampled the site. In either case this made it difficult to make accurate inferences on the change in composition and diversity over time and by site. Finally, there are only two years of data currently collected at this site. As NEON continues work on the UNDE site, more data can be collected from different months and years to provide more context on the UNDE ecosystem.
+
 ## Future Work
+
+A large number of future projects can be analyzed from this dataset. I would love to do more analysis without subsampling data (or subsampling to a lesser degree) or subsample the data in a more delicate fashion. One way to go about subsampling would be determine the different plots, months, and years NEON collected samples. Then, one could make sure to obtain an equal number of samples from each condition to make more even comparisons between conditions. Additionally, the metatdata could be used to determine the relative percentage of the total samples in each condition. This could be used to ensure the subsampled data matched the distribution of samples by condition. For instance, if 3% of the samples in the entire dataset were collected at plot 001 in May of 2017, this could be reflected in the subsampled dataset. It was difficult to find information on what happened at the site during 2017. Further analysis into the metadata or an interview with staff at the UNDE site would be useful to determine if the uneven sampling was a result of decreased sampling or less organisms being present during 2017. 
+
+With more time I would break up the data by the type of plots present at the UNDE site: woody wetlands, mixed forest, deciduous forest to see what differences the soil microbiome samples have between site types. This information can be found on the NEON website and likely added to the metadata for the samples collected. I would also curate all of the BLAST matches based on quality score before determining the top 5 genus. This would provide context on the number of high quality matches against the BLAST database. In addition, more comparison matches would be useful to strengthen the inferences made. This could be done with additional training data sets.
+
+More analysis could be done on the samples which matched *Ralstonia solanacearum* in the NCBI nucleotide database. Since these samples could potentially be related to the *Burkholderia* genus the unique OTUs which matched *Ralstonia solanacearum* could be placed into phylogenetic context with different species of the *Burkholderia* genus and an outgroup. This would provide context into if these samples are a member of this genus or perhaps something else entirely. Additionally, as noted above the *Burkholderia* genus has both benficial and determinal strains. So, if the samples do fit into a larger *Burkholderia* phylogeny one could ascertain which strains of *Burkholderia* the mystery samples more closely resemble.
+
+Finally, to target the primary objective of determining how the most abundant soil microbial taxa change over time continuing to track the site in the following years is vital. If sphagnum presence was added to the metadata one could track how the microbiome responds to and influences the changes in the ecosystem, especially as concerns over climate warming grow.
 
 
 # Tables and Graphs
@@ -452,6 +472,10 @@ curated_top_5_totals <- top_5_genus %>%
   filter(evalue < 0.0001) %>%
   filter(length > 200) %>%
   filter(pident > 90) %>%
+  mutate(genus = paste0("*", genus, "*")) %>%
+  mutate(genus = gsub("[*]Proteobacteria[*]",
+                      "Proteobacteria",
+                      genus)) %>%
   group_by(genus) %>%
   tally()
 
@@ -459,6 +483,7 @@ top_5_totals <- top_10_genus_blast %>%
   head(5) %>%
   arrange(genus)
 
+# sort the data alphabetically so the dataframes can be combined correctly
 invisible(sort(top_5_totals$genus))
 
 top_5_totals$curated_count <- curated_top_5_totals$n
