@@ -1,7 +1,7 @@
 ---
-title: 'Presence of the proteobacteria *Bradyrhizobium*, *Pseudomonas*, and *Burkholderia* indicate a healthy microbiome community at the UNDE site which could be strongly influence by acidic Sphagnum Bogs'
+title: 'Presence of the proteobacteria *Bradyrhizobium*, *Pseudomonas*, and *Burkholderia* indicate a healthy microbiome community at the UNDE site which could be strongly influenced by acidic Sphagnum Bogs'
 author: "Kory Melton"
-date: "December 7th, 2019"
+date: "December 11th, 2019"
 output: word_document
 csl: bioinformatics.csl
 bibliography: references.bib
@@ -43,7 +43,9 @@ library("phyloseq")
 load("output/phyloseq_obj.Rda")
 
 ##########################################
-# Make plot ID's more readable
+# Make plot ID's more readable by taking
+# substring of the plots with just the
+# numbers
 ##########################################
 phyloseq_obj@sam_data[["plotID"]] <-
   substring(phyloseq_obj@sam_data[["plotID"]],
@@ -86,8 +88,15 @@ top_10_genus_blast$genus <- gsub("[*]Proteobacteria[*]",
 top_5_genus <- read.csv("output/top5blast.csv")
 
 # mutate the data frame to split scientific name into genus and species
-top_5_genus$genus <- gsub(" .*$", "", top_5_genus$Scientific.Name)
-top_5_genus$species <- gsub(".* ", "", top_5_genus$Scientific.Name)
+# pull out genus (first word)
+top_5_genus$genus <- gsub(" .*$", 
+                          "", 
+                          pattern = top_5_genus$Scientific.Name)
+
+# pull out species (after first word)
+top_5_genus$species <- gsub(".* ", 
+                            "", 
+                            pattern = top_5_genus$Scientific.Name)
 ```
 <!-- word count: 385 words -->
 
@@ -351,10 +360,13 @@ top_3_staph_rals_pro <- top_5_genus %>%
 # change variable to match snake case
 colnames(top_3_staph_rals_pro)[1] <- "scientific_name"
 
+# put *genus* so the output for tables is italics
 top_3_staph_rals_pro$scientific_name <-
   paste0("*",
          top_3_staph_rals_pro$scientific_name,
          "*")
+
+# remove the *genus* for proteobacteria since it is not a genus
 top_3_staph_rals_pro$scientific_name <-
   gsub("[*]Proteobacteria[*]",
        "Proteobacteria",
@@ -579,12 +591,15 @@ sample_info %>%
 **Figure 9.** Number of samples by plot. There was variance in the number of samples taken in each plot. Plots 001, 006, 008, 037, 038, 043, 044 were collected in both 2016 and 2017. While plots 002, 003, and 010 were only collected in 2017 and plots 013, 014, 017, 019, 027, 034, 035 were only collected during 2016. Plot 001 had the highest number of samples collected while plot 017 had the least.
 
 ``` {r kingdom-analysis}
+# get information from the melted phyloseq on kingdom by
+# collection year and collection month
 kingdom_info <- melted_phyloseq %>%
   filter(!is.na(Kingdom)) %>%
   distinct(OTU, .keep_all = TRUE) %>%
   group_by(Kingdom, collect_year, collect_month) %>%
   tally()
 
+# graph the number of each kingdom by collection year
 kingdom_info %>%
   ggplot(aes(x = factor(collect_year),
              y = n,
@@ -598,7 +613,7 @@ kingdom_info %>%
 **Figure 10.** Summary of Kingdom by year. The samples were primarily bacterial, however a small number of the samples were archaeal. In addition, this graph shows that almost 300 more samples were collected in 2016.
 
 ``` {r phyla-by-plot}
-# list the top phyla in descending order
+# list the top phyla in descending order of abundance
 phyla_by_plot <- melted_phyloseq %>%
   group_by(plotID, Phylum) %>%
   filter(!is.na(Phylum)) %>%
@@ -607,9 +622,10 @@ phyla_by_plot <- melted_phyloseq %>%
   filter(sum_abund > 0) %>%
   arrange(desc(sum_abund))
 
-# keep only the top phyla
+# keep only the top phyla for each plot
 top_phyla_by_plot <- phyla_by_plot[!duplicated(phyla_by_plot$plotID), ]
 
+# graph the top phyla by plotID with different colors for each phyla
 top_phyla_by_plot %>%
   ggplot(aes(x = plotID,
              y = sum_abund,
@@ -664,7 +680,7 @@ melted_phyloseq %>%
 **Figure 12.** Top 3 Phyla by Year. Each Phyla is more abundant in 2016 than 2017. This could potentially be due to variance in the number of samples collected in 2016 and 2017. Both years have the same trend of proteobacteria, acidobacteria, and actinobacteria in similar proportions This indicates there may not be a significant change in the composition of Phyla from 2016 to 2017.
 
 ``` {r phyla-by-month-and-year}
-# phyla by month and year
+# top 5 phyla by month and year
 diverse_phyla <- melted_phyloseq %>%
   filter(Abundance > 0, !is.na(Phylum)) %>%
   distinct(OTU, .keep_all = TRUE) %>%
@@ -674,6 +690,8 @@ diverse_phyla <- melted_phyloseq %>%
   head(5) %>%
   pull(Phylum)
 
+# graph the abundances of the top 5 diverse phyla in a facet grid
+# by month and by year
 melted_phyloseq %>%
   group_by(collect_month, collect_year, Phylum) %>%
   summarize(sum_abund = sum(Abundance,
@@ -693,6 +711,7 @@ melted_phyloseq %>%
 **Figure 13.** Abundance of Phyla by Month and Year. There is a significant difference between the abundance of samples in 2016 to 2017. In 2016 proteobacteria are the most abundant phyla for each month. Each month shows a similar trend. Except, May shows a higher relative abundance of verrucomicrobia.
 
 ``` {r genus-by-month-and-phyla}
+# get the top 6 diverse genera
 diverse_genus <- melted_phyloseq %>%
   filter(collect_year == 2016) %>%
   filter(Abundance > 0, !is.na(Genus)) %>%
@@ -703,6 +722,9 @@ diverse_genus <- melted_phyloseq %>%
   head(6) %>%
   pull(Genus)
 
+# graph the abundance of genera of proteobacteria in a facet grid
+# separated by months in 2016
+# filter out month 10 because it does not have proteobacteria
 melted_phyloseq %>%
   filter(collect_month != 10) %>%
   group_by(collect_month, Genus, Phylum) %>%
@@ -724,6 +746,7 @@ melted_phyloseq %>%
 **Figure 15.** Abundance of different genera in Proteobacteria by month. *Bradyrhizobium* is the most abundant genus each month samples were collected followed by *Pseudomonas*. *Burkholderia* abundance increases in August indicating the potential of a more acidic environment. In August the total abundance drops as well.
 
 ``` {r richness-by-year}
+# prune sample to only include months 5 and 8
 phyloseq_5_8 <- prune_samples(
   phyloseq_obj@sam_data$collect_month == 5 |
   phyloseq_obj@sam_data$collect_month == 8,
@@ -742,9 +765,11 @@ plot_richness(phyloseq_5_8,
 **Figure 15.** Alpha diversity by plot in 2016 and 2017. Alpha diversity was measured using the Shannon method. The diversity is consistently higher for each plot in 2016 over 2017. This could be due to a large number of samples being measured in 2016.
 
 ``` {r richness-2016}
+# prune the samples to only include the year 2016
 phyloseq_2016 <- prune_samples(
   phyloseq_obj@sam_data$collect_year == 2016,
                                phyloseq_obj)
+
 # richness in 2016
 plot_richness(phyloseq_2016,
               x = "plotID",
