@@ -89,13 +89,13 @@ top_5_genus <- read.csv("output/top5blast.csv")
 
 # mutate the data frame to split scientific name into genus and species
 # pull out genus (first word)
-top_5_genus$genus <- gsub(" .*$", 
-                          "", 
+top_5_genus$genus <- gsub(" .*$",
+                          "",
                           pattern = top_5_genus$Scientific.Name)
 
 # pull out species (after first word)
-top_5_genus$species <- gsub(".* ", 
-                            "", 
+top_5_genus$species <- gsub(".* ",
+                            "",
                             pattern = top_5_genus$Scientific.Name)
 ```
 <!-- word count: 385 words -->
