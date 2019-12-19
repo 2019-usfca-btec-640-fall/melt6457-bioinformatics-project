@@ -1,0 +1,1021 @@
+      1  Acanthamoeba castellanii str. Neff
+      1  Acetobacteraceae bacterium
+      1  Acetobacteraceae bacterium
+      1  Acetobacteraceae bacterium
+      1  Acetobacteraceae bacterium
+      1  Acetobacteraceae bacterium
+      1  Acetobacteraceae bacterium
+      1  Acetobacteraceae bacterium
+      1  Acetobacteraceae bacterium
+      1  Acetobacteraceae bacterium
+      1  Acetobacteraceae bacterium
+      1  Acetobacteraceae bacterium
+      1  Acetobacteraceae bacterium
+      1  Acetobacteraceae bacterium
+      1  Acetobacteraceae bacterium D2B06
+      1  Acetobacteraceae bacterium PN-29
+      1  Acidicapsa acidisoli
+      1  Acidicapsa acidisoli
+      1  Acidicapsa acidisoli
+      1  Acidicapsa acidisoli
+      1  Acidicapsa acidisoli
+      1  Acidicapsa acidisoli
+      1  Acidicapsa sp. CE1
+      1  Acidimicrobidae bacterium Ellin7143
+      1  Acidimicrobidae bacterium Ellin7143
+      1  Acidimicrobidae bacterium Ellin7143
+      1  Acidobacteria bacterium
+      1  Acidobacteria bacterium
+      1  Acidobacteria bacterium
+      1  Acidobacteria bacterium AB158
+      1  Acidobacteria bacterium AB158
+      1  Acidobacteria bacterium AB158
+      1  Acidobacteria bacterium AB158
+      1  Acidobacteria bacterium AB158
+      1  Acidobacteria bacterium AB158
+      1  Acidobacteria bacterium AB158
+      1  Acidobacteria bacterium IGE-004
+      1  Acidobacteria bacterium IGE-004
+      1  Acidobacteria bacterium IGE-004
+      1  Acidobacteria bacterium IGE-010
+      1  Acidobacteria bacterium IP-33G
+      1  Acidobacteria bacterium KBS 96
+      1  Acidobacteria bacterium KBS 96
+      1  Acidobacteria bacterium SJ-70G
+      1  Acidobacteria bacterium SJ-70G
+      1  Acidobacteria bacterium SJ-70G
+      1  Acidobacteria bacterium SJ-70G
+      1  Acidobacteria bacterium SJ-70G
+      1  Acidobacteria bacterium SJ-70G
+      1  Acidobacteria bacterium SJ-70G
+      1  Acidobacteria bacterium WSR6
+      1  Acidobacteria bacterium WSR6
+      1  Acidobacteria bacterium WSR6
+      1  Acidobacteria bacterium WSR6
+      1  Acidobacteria bacterium WSR6
+      1  Acidobacteria bacterium WSR6
+      1  Acidobacteria bacterium WSR6
+      1  Acidobacteria bacterium WSR6
+      1  Acidobacteria bacterium WSR6
+      1  Acidobacteria bacterium WSR6
+      1  Acidobacteria bacterium WSR6
+      1  Acidobacteria bacterium WSR6
+      1  Acidobacteria bacterium WSR6
+      1  Acidobacteria bacterium WSR6
+      1  Acidobacteria bacterium WSR6
+      1  Acidobacteria bacterium WSR6
+      1  Acidobacteria bacterium WSR6
+      1  Acidobacteria bacterium WSR6
+      1  Acidobacteria bacterium WSR6
+      1  Acidobacteria bacterium WSR6
+      1  Acidobacteria bacterium WSR6
+      1  Acidobacteria bacterium WSR6
+      1  Acidobacteria bacterium WSR6
+      1  Acidobacteria bacterium WSR6
+      1  Acidobacteria bacterium WSR6
+      1  Acidobacteria bacterium YJF2-13
+      1  Acidobacteriaceae bacterium A2-4c
+      1  Acidobacteriaceae bacterium A2-4c
+      1  Acidobacteriaceae bacterium A2-4c
+      1  Acidobacteriaceae bacterium K5
+      1  Acidobacteriaceae bacterium K5
+      1  Acidobacteriaceae bacterium K5
+      1  Acidobacteriaceae bacterium KBS89
+      1  Acidobacteriaceae bacterium KBS89
+      1  Acidobacteriaceae bacterium KBS89
+      1  Acidobacteriaceae bacterium KBS89
+      1  Acidobacteriaceae bacterium KBS89
+      1  Acidobacteriaceae bacterium KBS89
+      1  Acidobacteriaceae bacterium KBS89
+      1  Acidobacteriaceae bacterium KBS89
+      1  Acidobacteriaceae bacterium KBS89
+      1  Acidobacteriaceae bacterium KBS89
+      1  Acidobacteriaceae bacterium KBS89
+      1  Acidobacteriaceae bacterium KBS89
+      1  Acidobacteriaceae bacterium KBS89
+      1  Acidobacteriaceae bacterium KBS89
+      1  Acidobacteriaceae bacterium KBS89
+      1  Acidobacteriaceae bacterium KBS89
+      1  Acidobacteriaceae bacterium KBS89
+      1  Acidobacteriaceae bacterium KBS89
+      1  Acidobacteriaceae bacterium KBS89
+      1  Acidobacteriaceae bacterium KBS89
+      1  Acidobacterium capsulatum
+      1  Acidobacterium capsulatum ATCC 51196
+      1  Acidobacterium sp. pan6
+      1  Acidobacterium sp. pan6
+      1  Acidovorax sp.
+      1  Acinetobacter calcoaceticus
+      1  Acinetobacter lwoffii
+      1  Actinobacteria bacterium
+      1  Actinobacteria bacterium
+      1  Actinobacteria bacterium
+      1  Actinobacteria bacterium
+      1  Actinobacteria bacterium
+      1  Actinobacteria bacterium
+      1  Actinobacteria bacterium
+      1  Actinobacteria bacterium
+      1  Actinobacteria bacterium
+      1  Actinobacteria bacterium
+      1  Actinobacteria bacterium 15TR583
+      1  Actinobacteria bacterium 15TR583
+      1  Actinobacteria bacterium 15TR583
+      1  Actinobacteria bacterium 15TR583
+      1  Actinobacteria bacterium 15TR583
+      1  Actinobacteria bacterium IP-21A
+      1  Actinobacteria bacterium IP-21A
+      1  Actinobacteria bacterium IP-21A
+      1  actinobacterium MS-B-64
+      1  actinobacterium MS-F-22
+      1  actinobacterium SCGC AAA043-M10
+      1  actinobacterium SCGC AAA278-M15
+      1  actinobacterium SCGC AAA278-P08
+      1  actinobacterium TC4
+      1  actinobacterium WWH12
+      1  actinobacterium YJF2-33
+      1  Actinobaculum sp. 313
+      1  Actinomadura bangladeshensis
+      1  Actinomadura sp. AL2
+      1  Actinomycetales
+      1  Actinomycetales
+      1  Actinomycetales bacterium
+      1  Actinomycetales bacterium PE.R2A.21
+      1  Actinomycetales bacterium PE.R2A.21
+      1  Actinomycetospora straminea
+      1  Actinophytocola sp.
+      1  Actinoplanes cibodasensis
+      1  Actinoplanes lichenis
+      1  Actinoplanes regularis
+      1  Actinoplanes regularis
+      1  Actinoplanes sp. 428G06
+      1  Actinoplanes sp. A-T 5916
+      1  Actinoplanes sp. A-T 7460
+      1  Actinoplanes sp. N902-109
+      1  Aeromicrobium ginsengisoli
+      1  Aeromicrobium sp.
+      1  Aeromicrobium sp. 592
+      1  Aeromicrobium sp. CC-CFT486
+      1  Aeromicrobium tamlense
+      1  Aeromonas veronii
+      1  Afipia sp.
+      1  Afipia sp.
+      1  Afipia sp.
+      1  Afipia sp. Is42
+      1  Afipia sp. Is42
+      1  Agreia sp.
+      1  Agreia sp.
+      1  Agreia sp.
+      1  Agrobacterium vitis
+      1  Agrococcus jenensis
+      1  Agromyces binzhouensis
+      1  Agromyces binzhouensis
+      1  Agromyces ramosus
+      1  Agromyces ramosus
+      1  Agromyces ramosus
+      1  Agromyces ramosus
+      1  Agromyces ramosus
+      1  Agromyces ramosus
+      1  Agromyces sp.
+      1  Agromyces sp.
+      1  Agromyces sp.
+      1  Albirhodobacter marinus
+      1  Algoriphagus sp. DSL-12
+      1  Algoriphagus terrigena
+      1  Alphaproteobacteria bacterium H 52
+      1  Alphaproteobacteria bacterium IP-54A
+      1  Alphaproteobacteria bacterium IP-54A
+      1  Alphaproteobacteria bacterium IP-54A
+      1  Alphaproteobacteria bacterium SJR-37A
+      1  alpha proteobacterium A0721
+      1  alpha proteobacterium KC-IT-H2
+      1  alpha proteobacterium S-A(3)-9A
+      1  alpha proteobacterium Shinshu-th1
+      1  alpha proteobacterium URHD0017
+      1  alpha proteobacterium URHD0017
+      1  alpha proteobacterium URHD0017
+      1  alpha proteobacterium URHD0017
+      1  alpha proteobacterium URHD0017
+      1  alpha proteobacterium URHD0017
+      1  alpha proteobacterium URHD0017
+      1  Alsobacter sp.
+      1  Altererythrobacter buctensis
+      1  Altererythrobacter sp. R83-1
+      1  Amnibacterium sp.
+      1  Amycolatopsis sp.
+      1  Amycolatopsis sp.
+      1  Amycolatopsis sp.
+      1  Amycolatopsis sp.
+      1  Amycolatopsis sp.
+      1  Amycolatopsis sp.
+      1  anaerobic methanogenic archaeon E15-4
+      1  Anaeromyxobacter sp. K
+      1  Ancylobacter sp. F30l
+      1  Anderseniella sp. Alg231-50
+      1  Angustibacter sp.
+      1  Angustibacter sp.
+      1  Angustibacter sp.
+      1  Angustibacter speluncae
+      1  Anolis evermanni
+      1  Anolis evermanni
+      1  Anolis evermanni
+      1  anoxygenic photosynthetic bacterium C26
+      1  anoxygenic photosynthetic bacterium C26
+      1  Archangium gephyra
+      1  Archangium gephyra
+      1  Archangium gephyra
+      1  Archangium gephyra
+      1  Archangium gephyra
+      1  Archangium sp.
+      1  Arenimicrobium luteum
+      1  Arthrobacter sp.
+      1  Arthrobacter sp.
+      1  Arthrobacter sp.
+      1  Arthrobacter sp.
+      1  Asprobacter aquaticus
+      1  Asprobacter aquaticus
+      1  Azospirillum doebereinerae
+      1  Bacillariophyta sp. 867-32
+      1  Bacillus acidicola
+      1  Bacillus anthracis
+      1  Bacillus aryabhattai
+      1  Bacillus aryabhattai
+      1  Bacillus aryabhattai
+      1  Bacillus asahii
+      1  Bacillus bataviensis
+      1  Bacillus cereus
+      1  Bacillus cereus
+      1  Bacillus cereus
+      1  Bacillus cereus
+      1  Bacillus circulans
+      1  Bacillus circulans
+      1  Bacillus circulans
+      1  Bacillus circulans
+      1  Bacillus circulans
+      1  Bacillus circulans
+      1  Bacillus circulans
+      1  Bacillus circulans
+      1  Bacillus circulans
+      1  Bacillus circulans
+      1  Bacillus circulans
+      1  Bacillus circulans
+      1  Bacillus circulans
+      1  Bacillus circulans
+      1  Bacillus circulans
+      1  Bacillus circulans
+      1  Bacillus circulans
+      1  Bacillus cohnii
+      1  Bacillus cucumis
+      1  Bacillus cucumis
+      1  Bacillus cucumis
+      1  Bacillus cucumis
+      1  Bacillus cucumis
+      1  Bacillus cucumis
+      1  Bacillus cucumis
+      1  Bacillus cucumis
+      1  Bacillus cucumis
+      1  Bacillus cucumis
+      1  Bacillus cucumis
+      1  Bacillus cucumis
+      1  Bacillus cucumis
+      1  Bacillus drentensis
+      1  Bacillus huizhouensis
+      1  Bacillus koreensis
+      1  Bacillus koreensis
+      1  Bacillus licheniformis
+      1  Bacillus phage Maceta
+      1  Bacillus phage Maceta
+      1  Bacillus phage Maceta
+      1  Bacillus sp. 1085
+      1  Bacillus sp. 1085
+      1  Bacillus sp. IDA1527
+      1  Bacillus sp. (in: Bacteria)
+      1  Bacillus sp. (in: Bacteria)
+      1  Bacillus sp. (in: Bacteria)
+      1  Bacillus sp. (in: Bacteria)
+      1  Bacillus sp. (in: Bacteria)
+      1  Bacillus sp. (in: Bacteria)
+      1  Bacillus sp. (in: Bacteria)
+      1  Bacillus sp. (in: Bacteria)
+      1  Bacillus sp. (in: Bacteria)
+      1  Bacillus sp. (in: Bacteria)
+      1  Bacillus sp. (in: Bacteria)
+      1  Bacillus sp. (in: Bacteria)
+      1  Bacillus sp. (in: Bacteria)
+      1  Bacillus sp. (in: Bacteria)
+      1  Bacillus sp. (in: Bacteria)
+      1  Bacillus sp. (in: Bacteria)
+      1  Bacillus sp. (in: Bacteria)
+      1  Bacillus sp. (in: Bacteria)
+      1  Bacillus sp. (in: Bacteria)
+      1  Bacillus sp. (in: Bacteria)
+      1  Bacillus sp. (in: Bacteria)
+      1  Bacillus sp. (in: Bacteria)
+      1  Bacillus sp. (in: Bacteria)
+      1  Bacillus sp. (in: Bacteria)
+      1  Bacillus sp. (in: Bacteria)
+      1  Bacillus sp. (in: Bacteria)
+      1  Bacillus sp. (in: Bacteria)
+      1  Bacillus sp. KBS0812
+      1  Bacillus sp. LPPA 971
+      1  Bacillus sp. MZ035G
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium
+      1  bacterium Ellin328
+      1  bacterium Ellin328
+      1  bacterium Ellin371
+      1  bacterium Ellin371
+      1  bacterium Ellin5032
+      1  bacterium Ellin5032
+      1  bacterium Ellin504
+      1  bacterium Ellin5095
+      1  bacterium Ellin5095
+      1  bacterium Ellin511
+      1  bacterium Ellin516
+      1  bacterium Ellin518
+      1  bacterium Ellin5241
+      1  bacterium Ellin5241
+      1  bacterium Ellin5289
+      1  bacterium Ellin5289
+      1  bacterium Ellin6055
+      1  bacterium Ellin6055
+      1  bacterium Ellin6099
+      1  bacterium Ellin6115
+      1  bacterium Ellin6505
+      1  bacterium Ellin6506
+      1  bacterium Ellin6506
+      1  bacterium Ellin6510
+      1  bacterium Ellin6510
+      1  bacterium Ellin6517;bacterium Ellin6557
+      1  bacterium Ellin6523
+      1  bacterium Ellin6547
+      1  bacterium Ellin6554
+      1  bacterium Ellin6554
+      1  bacterium Ellin6554
+      1  bacterium Ellin6554
+      1  bacterium Ellin6561
+      1  bacterium Ellin6561
+      1  bacterium Ellin6561
+      1  bacterium Ellin6561
+      1  bacterium Ellin6561
+      1  bacterium Ellin7504
+      1  bacterium Ellin7505
+      1  bacterium Ellin7505
+      1  bacterium Ellin7505
+      1  bacterium Ellin7505
+      1  bacterium Ellin7505
+      1  bacterium Ellin7505
+      1  bacterium Ellin7505
+      1  bacterium Ellin7505
+      1  bacterium Ellin7522
+      1  bacterium Ellin7529
+      1  bacterium Ellin7529
+      1  bacterium Ellin7529
+      1  bacterium Ellin7544
+      1  bacterium K-5b10
+      1  bacterium MI-12
+      1  bacterium PE03-6G1
+      1  bacterium SCGC AAA018-C6
+      1  bacterium SCGC AAA018-I12
+      1  bacterium YC-ZSS-LKJ199
+      1  bacterium YO-33
+      1  Bacteroidetes bacterium SCGC AAA027-N15
+      1  Blastococcus aggregatus
+      1  Blastococcus sp.
+      1  Blastococcus sp.
+      1  Blastococcus sp.
+      1  Blastococcus sp.
+      1  Blastococcus sp. URHD0003
+      1  Bosea sp. F3-2
+      1  Bradyrhizobium centrosematis
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium elkanii
+      1  Bradyrhizobium jicamae
+      1  Bradyrhizobium ottawaense
+      1  Bradyrhizobium sp.
+      1  Bradyrhizobium sp.
+      1  Bradyrhizobium sp.
+      1  Bradyrhizobium sp.
+      1  Bradyrhizobium sp.
+      1  Bradyrhizobium sp.
+      1  Bradyrhizobium sp.
+      1  Bradyrhizobium sp.
+      1  Bradyrhizobium sp.
+      1  Bradyrhizobium sp.
+      1  Bradyrhizobium sp.
+      1  Bradyrhizobium sp.
+      1  Bradyrhizobium sp.
+      1  Bradyrhizobium sp.
+      1  Bradyrhizobium sp.
+      1  Bradyrhizobium sp.
+      1  Bradyrhizobium sp.
+      1  Bradyrhizobium sp.
+      1  Bradyrhizobium sp.
+      1  Bradyrhizobium sp.
+      1  Bradyrhizobium sp.
+      1  Bradyrhizobium sp.
+      1  Bradyrhizobium sp.
+      1  Bradyrhizobium sp.
+      1  Bradyrhizobium sp.
+      1  Bradyrhizobium sp.
+      1  Bradyrhizobium sp.
+      1  Bradyrhizobium sp.
+      1  Bradyrhizobium sp.
+      1  Bradyrhizobium sp.
+      1  Bradyrhizobium sp.
+      1  Bradyrhizobium sp.
+      1  Bradyrhizobium sp. 2 39S1MB
+      1  Bradyrhizobium sp. KBS0727
+      1  Bradyrhizobium sp. URHC0015
+      1  Bradyrhizobium sp. URHC0015
+      1  Burkholderia sp.
+      1  Burkholderia sp.
+      1  Burkholderia sp.
+      1  Burkholderia sp.
+      1  Burkholderia sp. BB5e
+      1  Burkholderia sp. BB5e
+      1  Burkholderia sp. HBS3-3_Pa
+      1  Burkholderia sp. UR 2-07
+      1  Candidatus Fonsibacter ubiquis
+      1  Candidatus Solibacter usitatus
+      1  Candidatus Solibacter usitatus
+      1  Cellulomonas denverensis
+      1  Cellvibrio gandavensis
+      1  Chamaesiphon subglobosus PCC 7430
+      1  Chitinophagaceae bacterium StRD705
+      1  Chitinophaga sp. 37C7
+      1  Chitinophaga sp. RDB-195
+      1  Chryseobacterium indoltheticum
+      1  Clostridium estertheticum subsp. estertheticum
+      1  Clostridium estertheticum subsp. estertheticum
+      1  Clostridium estertheticum subsp. estertheticum
+      1  Clostridium estertheticum subsp. estertheticum
+      1  coccoid cyanobacterium CMT-2FBIN-NPC27
+      1  Cystobacter sp. S236
+      1  Dactylosporangium fulvum
+      1  Diaminobutyricimonas sp.
+      1  Dongia sp. URHE0060
+      1  Dyella sp.
+      1  Dyella sp.
+      1  Dyella sp.
+      1  Dyella sp.
+      1  Dyella sp. DHOA06
+      1  Dyella sp. DHOA06
+      1  Dyella sp. DHOA06
+      1  Dyella sp. DHOA06
+      1  Enterobacter sp. LU1
+      1  Escherichia coli
+      1  Escherichia coli
+      1  Fibroporia radiculosa
+      1  Flavihumibacter sp.
+      1  Flavisolibacter sp.
+      1  Flavitalea antarctica
+      1  Flavobacterium riviphilum
+      1  Flavobacterium sp.
+      1  Flavobacterium sp.
+      1  Glabratella patelliformis
+      1  Granulicella acidiphila
+      1  Granulicella paludicola
+      1  Granulicella paludicola
+      1  Herbiconiux sp.
+      1  Hyphomicrobium sp.
+      1  Hyphomicrobium sp.
+      1  Hyphomicrobium sp. Pd-E-(r)-e-D-5(2)
+      1  Inquilinus sp. HRRK142
+      1  Kibdelosporangium sp.
+      1  Klebsiella aerogenes
+      1  Klebsiella variicola
+      1  Ktedonobacteraceae bacterium brp13
+      1  Lentzea guizhouensis
+      1  Lentzea guizhouensis
+      1  Luteibacter rhizovicinus
+      1  Luteitalea pratensis
+      1  Lysinibacillus macroides
+      1  Lysobacter sp.
+      1  Lysobacter sp.
+      1  Lysobacter sp.
+      1  Lysobacter sp.
+      1  Massilia glaciei
+      1  Massilia sp. BRM22
+      1  Mesorhizobium sp.
+      1  Mesorhizobium sp.
+      1  Mesorhizobium sp.
+      1  Mesorhizobium sp.
+      1  Methanomassiliicoccus sp. 138
+      1  Methylocystis sp.
+      1  Methylotenera versatilis
+      1  Microbacteriaceae bacterium
+      1  Microcoleus vaginatus ACT688
+      1  Microcoleus vaginatus ACT688
+      1  Microcoleus vaginatus HS025
+      1  Microcystis flos-aquae NRERC-207
+      1  Micromonospora globbae
+      1  Micromonospora sp.
+      1  Micromonospora sp. LS287
+      1  Microvirga sp.
+      1  Microvirga sp.
+      1  Mucilaginibacter ginsenosidivorax
+      1  Mucilaginibacter sp. S20-104
+      1  Mycobacterium avium subsp. hominissuis
+      1  Mycobacterium cookii
+      1  Mycobacterium simiae
+      1  Mycobacterium sp.
+      1  Mycobacterium sp.
+      1  Mycobacterium sp.
+      1  Mycobacterium sp. 01-632
+      1  Mycobacterium sp. 01-632
+      1  Mycobacterium sp. 01-632
+      1  Mycobacterium sp. L2107
+      1  Myxococcus macrosporus DSM 14697
+      1  Nakamurella sp.
+      1  Nitrosospira sp. PM2
+      1  Nocardioides albus
+      1  Nocardioides phosphati
+      1  Nocardioides sp.
+      1  Novosphingobium sp.
+      1  Opitutus sp. VeCb1
+      1  Oryzihumus sp. 746G135
+      1  Oryzihumus sp. 746G135
+      1  Paenibacillus sp. 27-9
+      1  Paenibacillus sp. 27-9
+      1  Paenibacillus sp. 27-9
+      1  Paenibacillus sp. 27-9
+      1  Paraburkholderia sp.
+      1  Pedobacter sp.
+      1  Phenylobacterium sp.
+      1  Phenylobacterium sp.
+      1  Phreatobacter stygius
+      1  Pinnularia sp. U-strain
+      1  Pinus elliottii
+      1  Planctomycetales bacterium Ellin7224
+      1  Proteobacteria
+      1  Proteobacteria
+      1  Proteobacteria
+      1  Proteobacteria
+      1  Proteobacteria
+      1  Proteobacteria
+      1  Proteobacteria
+      1  Proteobacteria
+      1  Pseudarthrobacter sp.
+      1  Pseudarthrobacter sp.
+      1  Pseudomonas frederiksbergensis
+      1  Pseudomonas graminis
+      1  Pseudomonas sp.
+      1  Pseudomonas sp.
+      1  Pseudorhodoplanes sinuspersici
+      1  Pseudoxanthomonas gei
+      1  Ralstonia solanacearum
+      1  Ralstonia solanacearum
+      1  Ralstonia solanacearum
+      1  Ralstonia solanacearum
+      1  Ralstonia solanacearum
+      1  Ralstonia solanacearum
+      1  Ralstonia solanacearum
+      1  Ralstonia solanacearum
+      1  Ralstonia solanacearum
+      1  Ralstonia solanacearum
+      1  Ralstonia solanacearum
+      1  Ralstonia solanacearum
+      1  Ralstonia solanacearum
+      1  Ralstonia solanacearum
+      1  Ralstonia solanacearum
+      1  Ralstonia solanacearum
+      1  Ralstonia solanacearum
+      1  Ralstonia solanacearum
+      1  Ralstonia solanacearum
+      1  Ralstonia solanacearum
+      1  Ralstonia solanacearum
+      1  Ralstonia solanacearum
+      1  Ralstonia solanacearum
+      1  Ralstonia solanacearum
+      1  Ralstonia solanacearum
+      1  Ralstonia solanacearum
+      1  Ralstonia solanacearum
+      1  Ralstonia solanacearum
+      1  Ralstonia solanacearum
+      1  Ralstonia solanacearum
+      1  Ralstonia solanacearum
+      1  Ralstonia solanacearum
+      1  Ralstonia solanacearum
+      1  Ralstonia solanacearum
+      1  Ralstonia solanacearum
+      1  Ralstonia solanacearum
+      1  Ralstonia solanacearum
+      1  Ralstonia solanacearum
+      1  Ralstonia solanacearum
+      1  Ralstonia solanacearum
+      1  Reyranella soli
+      1  Reyranella sp.
+      1  Rhizobacter profundi
+      1  Rhizobacter sp.
+      1  Rhizobiales bacterium
+      1  Rhizobiales bacterium URHE0042
+      1  Rhizobiales bacterium URHE0042
+      1  Rhizobiales bacterium YIM 77505
+      1  Rhizomicrobium sp. URHE0053
+      1  Rhizorhabdus dicambivorans
+      1  Rhodanobacter sp. PAMC 26558
+      1  Rhodopila globiformis
+      1  Rickettsiella sp. RKTSLLA_T3222;Rickettsiella sp. RKTSLLA_T3229
+      1  Schlesneria paludicola
+      1  soil bacterium Slfm-S3F-M1LLLSSL-3
+      1  Solirubrobacter sp.
+      1  Sphingomonas sp.
+      1  Sphingomonas sp. AE3
+      1  Sphingomonas wittichii
+      1  Staphylococcus aureus
+      1  Streptomyces corchorusii
+      1  Streptomyces sp.
+      1  Streptoverticillium reticulum
+      1  Telmatobacter bradus
+      1  Terracidiphilus gabretensis
+      1  uncultured Acidimicrobiia bacterium
+      1  uncultured Acidobacteriaceae bacterium
+      1  uncultured actinobacterium
+      1  uncultured actinobacterium
+      1  uncultured actinobacterium
+      1  uncultured actinobacterium
+      1  uncultured actinobacterium
+      1  uncultured actinobacterium
+      1  uncultured actinobacterium
+      1  uncultured actinobacterium
+      1  uncultured actinobacterium
+      1  uncultured actinobacterium
+      1  uncultured Alphaproteobacteria bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured bacterium
+      1  uncultured Bacteroidetes bacterium
+      1  uncultured Bacteroidetes bacterium
+      1  uncultured Burkholderia sp.
+      1  uncultured Gemmatimonas sp.
+      1  unidentified
+      1  unidentified
+      1  unidentified
+      1  unidentified
+      1  unidentified
+      1  unidentified
+      1  unidentified
+      1  unidentified
+      1  unidentified
+      1  unidentified
+      1  unidentified
+      1  unidentified
+      1  unidentified
+      1  unidentified
+      1  unidentified
+      1  unidentified
+      1  unidentified
+      1  unidentified
+      1  unidentified
+      1  unidentified
+      1  unidentified
+      1  Variovorax sp. Z0-YC6806
+      1  Vigna unguiculata
+      2  Acetobacteraceae bacterium
+      2  Acidobacteriaceae bacterium KBS89
+      2  Actinomadura sp.
+      2  Bacillus sp. (in: Bacteria)
+      2  bacterium
+      2  bacterium
+      2  bacterium
+      2  bacterium
+      2  bacterium
+      2  bacterium
+      2  bacterium
+      2  bacterium
+      2  bacterium
+      2  bacterium
+      2  bacterium
+      2  bacterium
+      2  bacterium
+      2  bacterium
+      2  bacterium
+      2  bacterium
+      2  bacterium
+      2  bacterium
+      2  bacterium
+      2  bacterium
+      2  bacterium
+      2  bacterium
+      2  bacterium
+      2  bacterium
+      2  bacterium
+      2  bacterium
+      2  bacterium
+      2  bacterium
+      2  Bradyrhizobium elkanii
+      2  Bradyrhizobium elkanii
+      2  Bradyrhizobium elkanii
+      2  Bradyrhizobium elkanii
+      2  Bradyrhizobium elkanii
+      2  Bradyrhizobium sp.
+      2  Ralstonia solanacearum
+      2  Ralstonia solanacearum
+      2  Ralstonia solanacearum
+      2  Ralstonia solanacearum
+      2  Ralstonia solanacearum
+      2  Ralstonia solanacearum
+      2  Ralstonia solanacearum
+      2  Ralstonia solanacearum
+      2  Ralstonia solanacearum
+      2  Ralstonia solanacearum
+      2  Ralstonia solanacearum
+      2  Ralstonia solanacearum
+      2  Ralstonia solanacearum
+      2  Ralstonia solanacearum
+      2  Ralstonia solanacearum
+      2  Ralstonia solanacearum
+      2  uncultured bacterium
+      2  uncultured bacterium
+      2  uncultured bacterium
+      2  uncultured bacterium
+      2  uncultured bacterium
+      2  uncultured bacterium
+      2  uncultured bacterium
+      2  uncultured bacterium
+      2  uncultured bacterium
+      2  uncultured bacterium
+      3  bacterium
+      3  bacterium
+      3  bacterium
+      3  bacterium
+      3  bacterium
+      3  bacterium
+      3  bacterium
+      3  Bradyrhizobium elkanii
+      3  Ralstonia solanacearum
+      3  Ralstonia solanacearum
+      3  Ralstonia solanacearum
+      3  Ralstonia solanacearum
+      3  uncultured bacterium
+      4  bacterium
+      4  bacterium
+      4  bacterium
+      4  Ralstonia solanacearum
+      4  Ralstonia solanacearum
+      4  Ralstonia solanacearum
+      5  bacterium
+      5  Ralstonia solanacearum
+      6  Ralstonia solanacearum

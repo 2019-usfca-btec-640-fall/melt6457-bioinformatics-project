@@ -1,3 +1,11 @@
+###############################################################################
+# Script to run dada
+#
+# Written by Naupaka Zimmerman
+# November 13th, 2019
+# kmelton@dons.usfca.edu
+###############################################################################
+
 # Be sure to install these packages before running this script
 # They can be installed either with the intall.packages() function
 # or with the 'Packages' pane in RStudio
@@ -37,7 +45,7 @@ library("phyloseq")
 # Accessed October 19, 2017
 
 # set the base path for our input data files
-path <- "/data/subsampled-fastq"
+path <- "/data/subsampled-fastq/"
 
 # Sort ensures samples are in order
 filenames_forward_reads <- sort(list.files(path, pattern = ".fastq"))
@@ -53,7 +61,7 @@ plotQualityProfile(filenames_forward_reads[1:6])
 
 # Place filtered files in filtered/ subdirectory
 # note this will fail if the directory doesn't exist
-filter_path <- file.path("/data", "filtered")
+filter_path <- file.path("/home", "Melton_Kory", "filtered")
 filtered_reads_path <- file.path(filter_path,
                                  paste0(sample_names,
                                         "_filt.fastq"))
@@ -69,7 +77,7 @@ filtered_output <- filterAndTrim(fwd = filenames_forward_reads,
                                  truncQ = 2, # cut off if quality gets this low
                                  rm.phix = TRUE,
                                  compress = TRUE,
-                                 multithread = TRUE)
+                                 multithread = FALSE)
 
 # produce nicely-formatted markdown table of read counts
 # before/after trimming
@@ -78,11 +86,11 @@ kable(filtered_output,
                     "Reads Out"))
 
 # get paths of all files that made it through trimming
-filtered_reads_path <- list.files("/data/filtered", full.names = TRUE)
+filtered_reads_path <- list.files(filter_path, full.names = TRUE)
 
 # this build error models from each of the samples
 errors_forward_reads <- learnErrors(filtered_reads_path,
-                                    multithread = TRUE)
+                                    multithread = FALSE)
 
 # quick check to see if error models match data
 # (black lines match black points) and are generally decresing left to right
@@ -94,10 +102,15 @@ dereplicated_forward_reads <- derepFastq(filtered_reads_path,
                                          verbose = TRUE)
 
 # get names of all files that made it through trimming
-filenames_filtered_reads <- list.files("/data/filtered")
+filenames_filtered_reads <- list.files(filter_path)
 
 # Extract sample names, assuming filenames have format: SAMPLENAME.fastq
 sample_names <- sapply(strsplit(filenames_filtered_reads, "\\."), `[`, 1)
+
+# change sample names to match metadata
+sample_names <- gsub(pattern = "_16S_R1_filt",
+                     replacement = "",
+                     sample_names)
 
 # Name the derep-class objects by the sample names
 names(dereplicated_forward_reads) <- sample_names
@@ -106,7 +119,7 @@ names(dereplicated_forward_reads) <- sample_names
 # https://benjjneb.github.io/dada2
 dada_forward_reads <- dada(dereplicated_forward_reads,
                            err = errors_forward_reads,
-                           multithread = TRUE)
+                           multithread = FALSE)
 
 # check dada results
 dada_forward_reads
@@ -122,7 +135,7 @@ hist(nchar(getSequences(sequence_table)),
 # Check for and remove chimeras
 sequence_table_nochim <- removeBimeraDenovo(sequence_table,
                                             method = "consensus",
-                                            multithread = TRUE,
+                                            multithread = FALSE,
                                             verbose = TRUE)
 
 # What percent of our reads are non-chimeric?
@@ -154,7 +167,7 @@ sequence_table_nochim <-
 # made up of known sequences
 taxa <- assignTaxonomy(sequence_table_nochim,
                        "data/training/rdp_train_set_16.fa.gz",
-                       multithread = TRUE,
+                       multithread = FALSE,
                        tryRC = TRUE) # also check with seq reverse compliments
 
 # show the results of the taxonomy assignment

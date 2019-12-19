@@ -1,5 +1,11 @@
-## Function downloads the metadata for various sequencing data products and
-## downloads the raw data files
+###############################################################################
+## Function downloads the metadata for various sequencing data #
+## products and downloads the raw data files ##
+##
+## Used by Kory Melton (written by NEON)
+## November 16th, 2019
+## kmelton@dons.usfca.edu
+###############################################################################
 
 # nolint start
 downloadRawSequenceData <- function(dpid = "",
